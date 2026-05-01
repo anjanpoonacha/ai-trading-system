@@ -34,6 +34,10 @@ export interface ChartToolInput {
   cvdCustomTF?: boolean;      // default true for panel 2
   cvdResolution?: string;     // default "30S"
 
+  // Date range
+  /** End date for the chart (YYYY-MM-DD). Fetches enough bars to reach this date, then trims. Default: latest available. */
+  toDate?: string;
+
   // Output
   savePath?: string;          // folder or full path. Default: /tmp/charts/
 
@@ -48,6 +52,7 @@ export interface ChartToolInput {
 export interface ChartResult {
   symbol: string;
   path: string;
+  image?: Buffer;
   ok: boolean;
   error?: string;
 }
@@ -55,6 +60,48 @@ export interface ChartResult {
 export interface ChartToolOutput {
   results: ChartResult[];
   stats: { total: number; ok: number; failed: number; totalMs: number; avgMs: number };
+}
+
+/**
+ * Calculate how many bars to request to cover history back to a target date.
+ * Overshoots by 20% to account for holidays/weekends.
+ */
+function barsNeededForDate(toDate: string, timeframe: string, desiredBars: number): number {
+  const targetTs = new Date(toDate).getTime();
+  const nowTs = Date.now();
+  const diffMs = nowTs - targetTs;
+
+  if (diffMs <= 0) return desiredBars; // future or today — use default
+
+  const diffDays = diffMs / (1000 * 60 * 60 * 24);
+
+  let barsFromNow: number;
+  switch (timeframe) {
+    case "1D": barsFromNow = Math.ceil(diffDays * 5 / 7); break; // trading days ~5/7
+    case "1W": barsFromNow = Math.ceil(diffDays / 7); break;
+    case "1M": barsFromNow = Math.ceil(diffDays / 30); break;
+    default: {
+      // Intraday: timeframe is in minutes
+      const minutes = parseInt(timeframe) || 1;
+      const tradingMinutesPerDay = 375; // NSE: 9:15 - 15:30
+      barsFromNow = Math.ceil((diffDays * 5 / 7) * tradingMinutesPerDay / minutes);
+      break;
+    }
+  }
+
+  // We need: bars from now to toDate + the desired chart bars before toDate
+  const total = barsFromNow + desiredBars;
+  return Math.ceil(total * 1.2); // 20% overshoot for safety
+}
+
+/**
+ * Trim bars to only include data up to a target date.
+ */
+function trimBarsToDate(bars: { t: number }[], toDateStr: string): void {
+  const targetTs = Math.floor(new Date(toDateStr + "T23:59:59Z").getTime() / 1000);
+  // Find the last bar at or before targetTs and remove everything after
+  const cutIdx = bars.findIndex((b) => b.t > targetTs);
+  if (cutIdx > 0) bars.splice(cutIdx);
 }
 
 function resolveSavePath(folder: string | undefined, symbol: string, timeframe: string, lastBarTs: number): string {
@@ -96,6 +143,7 @@ export async function handleChart(fetcher: Fetcher, input: ChartToolInput): Prom
     cvdAnchor = "12M",
     cvdCustomTF,
     cvdResolution = "30S",
+    toDate,
     savePath,
     width = 1200,
     height = 1000,
@@ -104,14 +152,18 @@ export async function handleChart(fetcher: Fetcher, input: ChartToolInput): Prom
     panelWeights = [76, 24],
   } = input;
 
+  // If toDate specified, calculate how many bars to fetch to cover the range
+  const fetchBars1 = toDate ? barsNeededForDate(toDate, timeframe, barCount) : barCount;
+  const fetchBars2 = toDate ? barsNeededForDate(toDate, cvdTimeframe, cvdBars) : cvdBars;
+
   const chart = getChartClient();
   const results: ChartResult[] = [];
   const t0 = performance.now();
 
   // Setup batch: dual sessions with persistent studies
   await fetcher.setupBatch([
-    { timeframe, count: barCount, cvdConfig: { anchorPeriod: cvdAnchor, useCustomTimeframe: false } },
-    { timeframe: cvdTimeframe, count: cvdBars, cvdConfig: { anchorPeriod: cvdAnchor, useCustomTimeframe: cvdCustomTF ?? true, timeframe: cvdResolution } },
+    { timeframe, count: fetchBars1, cvdConfig: { anchorPeriod: cvdAnchor, useCustomTimeframe: false } },
+    { timeframe: cvdTimeframe, count: fetchBars2, cvdConfig: { anchorPeriod: cvdAnchor, useCustomTimeframe: cvdCustomTF ?? true, timeframe: cvdResolution } },
   ]);
 
   // Ensure output dir exists
@@ -125,8 +177,21 @@ export async function handleChart(fetcher: Fetcher, input: ChartToolInput): Prom
 
       const bars1: ChartBar[] = r.panels[0].bars.map((b) => ({ t: b.t, o: b.o, h: b.h, l: b.l, c: b.c, v: b.v }));
       const bars2: ChartBar[] = r.panels[1].bars.map((b) => ({ t: b.t, o: b.o, h: b.h, l: b.l, c: b.c, v: b.v }));
-      const cvd1 = filterSentinels(r.panels[0].cvd);
-      const cvd2 = filterSentinels(r.panels[1].cvd);
+      let cvd1 = filterSentinels(r.panels[0].cvd);
+      let cvd2 = filterSentinels(r.panels[1].cvd);
+
+      // Trim to toDate if specified
+      if (toDate) {
+        trimBarsToDate(bars1, toDate);
+        trimBarsToDate(bars2, toDate);
+        trimBarsToDate(cvd1, toDate);
+        trimBarsToDate(cvd2, toDate);
+        // Keep only last N bars (the chart window)
+        if (bars1.length > barCount) bars1.splice(0, bars1.length - barCount);
+        if (bars2.length > cvdBars) bars2.splice(0, bars2.length - cvdBars);
+        if (cvd1.length > barCount) cvd1 = cvd1.slice(-barCount);
+        if (cvd2.length > cvdBars) cvd2 = cvd2.slice(-cvdBars);
+      }
 
       const panel1: PanelRequest = {
         bars: bars1,
@@ -163,7 +228,7 @@ export async function handleChart(fetcher: Fetcher, input: ChartToolInput): Prom
       const outPath = resolveSavePath(savePath, symbol, timeframe, lastBarTs);
       await Bun.write(outPath, image);
 
-      results.push({ symbol, path: outPath, ok: true });
+      results.push({ symbol, path: outPath, image, ok: true });
     } catch (err: any) {
       results.push({ symbol, path: "", ok: false, error: err.message });
     }

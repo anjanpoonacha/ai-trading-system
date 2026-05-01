@@ -84,6 +84,7 @@ server.tool(
     cvdAnchor: z.string().optional().describe("CVD anchor/reset period. Default: '12M'"),
     cvdCustomTF: z.boolean().optional().describe("Use custom timeframe for bottom CVD. Default: true"),
     cvdResolution: z.string().optional().describe("CVD custom timeframe resolution. Default: '30S'"),
+    toDate: z.string().optional().describe("End date for chart (YYYY-MM-DD). Shows chart as of this date. Default: latest available."),
     savePath: z.string().optional().describe("Save folder. Default: /tmp/charts/. Files named {SYMBOL}-{TF}-{YYYY-MM-DD}.png"),
     width: z.number().optional().describe("Image width in px. Default: 1200"),
     height: z.number().optional().describe("Image height in px. Default: 1000"),
@@ -93,14 +94,36 @@ server.tool(
   },
   async (input) => {
     try {
+      const MAX_INLINE = 5;
       const output = await handleChart(fetcher, input);
       const okResults = output.results.filter((r) => r.ok);
-      const text = [
-        `${output.stats.ok}/${output.stats.total} charts generated in ${(output.stats.totalMs / 1000).toFixed(1)}s (${output.stats.avgMs}ms/chart)`,
-        ...okResults.map((r) => r.path),
-        ...(output.stats.failed > 0 ? [`Failed: ${output.results.filter((r) => !r.ok).map((r) => `${r.symbol}: ${r.error}`).join(", ")}`] : []),
+      const failedResults = output.results.filter((r) => !r.ok);
+
+      const content: Array<{ type: string; text?: string; data?: string; mimeType?: string }> = [];
+
+      // Summary text
+      const summary = [
+        `${output.stats.ok}/${output.stats.total} charts | ${(output.stats.totalMs / 1000).toFixed(1)}s | ${output.stats.avgMs}ms/chart`,
+        ...(failedResults.length > 0 ? [`Failed: ${failedResults.map((r) => `${r.symbol}: ${r.error}`).join(", ")}`] : []),
       ].join("\n");
-      return { content: [{ type: "text", text }] };
+      content.push({ type: "text", text: summary });
+
+      // Inline images: all if ≤5, otherwise just the first
+      const inlineCount = okResults.length <= MAX_INLINE ? okResults.length : 1;
+      for (let i = 0; i < inlineCount; i++) {
+        if (okResults[i].image) {
+          content.push({ type: "image", data: okResults[i].image!.toString("base64"), mimeType: "image/png" });
+        }
+      }
+
+      // File paths for the rest
+      if (okResults.length > MAX_INLINE) {
+        content.push({ type: "text", text: okResults.map((r) => r.path).join("\n") });
+      } else {
+        content.push({ type: "text", text: okResults.map((r) => r.path).join("\n") });
+      }
+
+      return { content };
     } catch (err: any) {
       return { content: [{ type: "text", text: `Error: ${err.message}` }], isError: true };
     }
