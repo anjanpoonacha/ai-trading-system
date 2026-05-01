@@ -1,0 +1,31 @@
+{
+  "name": "tradingview-mcp",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/server.ts",
+    "test": "bun test",
+    "test:protocol": "bun src/connection/protocol.ts",
+    "test:websocket": "bun src/connection/websocket.ts",
+    "test:auth": "bun src/connection/auth.ts",
+    "test:fetcher": "bun src/services/fetcher.ts",
+    "test:compute": "bun test src/services/compute.test.ts",
+    "test:scan": "bun src/tools/scan.ts",
+    "test:data": "bun src/tools/data.ts",
+    "test:chart:protocol": "bun src/chart/protocol.ts",
+    "test:chart:renderer": "node --import tsx src/chart/renderer.ts",
+    "test:chart:worker": "node --import tsx src/chart/worker.ts",
+    "test:chart:client": "bun src/chart/client.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "lightweight-charts": "5.2.0",
+    "jsdom": "^25.0.0",
+    "canvas": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/jsdom": "^21.1.7",
+    "tsx": "^4.19.0"
+  }
+}
