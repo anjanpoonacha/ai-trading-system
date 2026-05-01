@@ -1,0 +1,20 @@
+{
+  "symbol": "BAJAJHIND",
+  "date": null,
+  "timeframe": "weekly",
+  "label": "good_entry",
+  "sub_label": "wbp_earnings_shock",
+  "confidence": "strong",
+  "notes": "Inverse head & shoulders on weekly, WBP on daily. Earnings shock created pullback to 20 SMA. Trigger bars formed, entry at ~12 INR.",
+  "trp_pct": null,
+  "base_candles": null,
+  "outcome": "worked",
+  "outcome_pct": null,
+  "outcome_duration_days": null,
+  "outcome_notes": "WBP + earnings shock entry worked. Inverse H&S weekly pattern confirmed.",
+  "source": "course_example",
+  "image_quality": "course_clip",
+  "needs_fresh_screenshot": true,
+  "video_id": "QVQitfBsvz8",
+  "clip_file": "QVQitfBsvz8_0030.mp4"
+}

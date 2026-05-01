@@ -1,0 +1,13 @@
+{
+  "name": "nse-trading-system",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "xlsx": "^0.18.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

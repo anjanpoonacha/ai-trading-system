@@ -1,0 +1,326 @@
+[
+  {
+    "timestamp": "00:00",
+    "quote": "this is zeroa that is a broker in India it is this platform of zeroda where you can have a look at the watch list here",
+    "what_is_shown": "Zerodha broker platform interface with watch list panel",
+    "why_needed": "Viewer needs to see the actual platform layout and watch list feature to understand the context",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_01_0000.png",
+    "description": "Based on the image, the audio statement is not understandable. The screen displays a video player application with a lecture titled \"TYPES OF ORDERS\" from a technical analysis course. The Zerodha trading platform, a watchlist, or any specific stock information mentioned in the audio is not visible.",
+    "critical": true
+  },
+  {
+    "timestamp": "00:31",
+    "quote": "here you see the last traded prices you see this the price is fluctuating these are the last traded prices",
+    "what_is_shown": "LTP (last traded price) column showing real-time price changes",
+    "why_needed": "Specific price display and its fluctuation cannot be adequately conveyed verbally",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_02_0031.png",
+    "description": "On the left side of the screen, a watchlist displays several stocks, including TCS, AMBUJACEM, CRAFTSMAN, and HDFCBANK. Next to each stock name, the last traded price is shown in a large font (e.g., TCS at 3446.20, HDFCBANK at 1608.30). The daily price change and percentage, along with green up-arrows and a red down-arrow, visually represent the price fluctuations the speaker is describing.",
+    "critical": true
+  },
+  {
+    "timestamp": "01:04",
+    "quote": "here there is two option NSE and BC in India NSE is more liquid always so click on nsse",
+    "what_is_shown": "Exchange selection dropdown menu showing NSE and BSE options",
+    "why_needed": "Viewer must see the UI elements and menu structure to follow the order placement workflow",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_03_0104.png",
+    "description": "In the buy order window for the stock AMBUJACEM, the user is presented with a choice between two exchanges. The options are BSE (misspoken as BC) at a price of \u20b9341.05 and NSE, also at \u20b9341.05. The speaker advises selecting NSE, which is the currently selected exchange as indicated in the window's header \"Buy AMBUJACEM NSE\".",
+    "critical": true
+  },
+  {
+    "timestamp": "01:35",
+    "quote": "here you have to enter your quantity let's say say you want to buy 150 quantity so enter 150 and here uh you can enter the price at which you want to buy let's say you want to buy 335",
+    "what_is_shown": "Order entry form with quantity and price input fields populated with values",
+    "why_needed": "Visual demonstration of where to input these values is essential for following the order placement process",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_04_0135.png",
+    "description": "The screen displays a \"Buy AMBUJACEM\" order window where the \"Qty.\" field is already filled with \"150\", as mentioned by the speaker. The mouse cursor is hovering over the \"Price\" field, which currently shows \"341.4\", indicating this is the input box for the desired purchase price the speaker is about to specify. The order type is set to \"Longterm CNC\" and \"Limit\".",
+    "critical": true
+  },
+  {
+    "timestamp": "02:07",
+    "quote": "now there are two options as you can see market and limit",
+    "what_is_shown": "Market and Limit order toggle/selection buttons",
+    "why_needed": "Viewer must see the UI buttons to understand the two order type options available",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_05_0207.png",
+    "description": "On the screen, a buy order window for the stock AMBUJACEM is open. Within this window, two radio buttons are clearly labeled \"Market\" and \"Limit,\" directly corresponding to the options mentioned. The cursor is hovering near these two choices, with the \"Limit\" option currently selected.",
+    "critical": true
+  },
+  {
+    "timestamp": "02:41",
+    "quote": "you see the price is 34.8 right now for uja cement 341 34.8",
+    "what_is_shown": "Current price display for Ambuja Cement showing 341-348 range",
+    "why_needed": "Specific numerical price levels referenced without full context require visual confirmation",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_06_0241.png",
+    "description": "Based on the image provided, there is nothing on the screen to make the speaker's statement understandable. The slide is a generic presentation titled \"TYPES OF ORDERS\" and provides a text definition for a \"Limit Order.\" There are no stock charts, tickers, price levels, or any mention of \"uja cement\" visible.",
+    "critical": true
+  },
+  {
+    "timestamp": "03:13",
+    "quote": "if you look at the market depth of ambuja cement this is the market depth here you see on the right hand side all the sellers all the selling orders the best selling orders are visible on the right hand side",
+    "what_is_shown": "Market depth panel with bid (left) and ask/offer (right) sides showing seller orders",
+    "why_needed": "Market depth layout with seller orders on right side is a visual concept that requires screen reference",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_07_0313.png",
+    "description": "The speaker incorrectly identifies the screen as showing \"market depth.\" The screen actually displays the \"Orders\" page, which lists the user's personal open and executed orders, including an open buy order for AMBUJACEM. There is no market depth window or a list of general market sell orders visible, contradicting the speaker's statement.",
+    "critical": true
+  },
+  {
+    "timestamp": "03:44",
+    "quote": "the price is 34.855917",
+    "what_is_shown": "Specific price level in market depth display",
+    "why_needed": "Exact numerical price values visible only on screen",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_08_0344.png",
+    "description": "The statement is not understandable as the number 34.855917 does not appear anywhere on the screen. The trading interface displays information for the stock AMBUJACEM, where all relevant prices are in the 300s. For example, the day's high is 343.85, the average price is 338.59, and the last traded price (LTP) is 340.65.",
+    "critical": true
+  },
+  {
+    "timestamp": "05:29",
+    "quote": "so if I want to sell any of these let's say let's look at Craftsman so I click on options here Craftsman I have 243 quantity at this price and the current price is here 3449",
+    "what_is_shown": "Open positions/trades list showing Craftsman stock with 243 quantity at specific price 3449",
+    "why_needed": "Viewer must see the portfolio/positions panel and specific numerical values displayed",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_09_0529.png",
+    "description": "The screen displays the stock \"CRAFTSMAN\" in a watchlist on the left, showing a quantity of 243 shares and a current price of 3449.05. The main \"Holdings\" table also lists CRAFTSMAN, confirming the quantity of 243 shares and providing additional details like the average cost (3,254.98) and last traded price (3,452.00).",
+    "critical": true
+  },
+  {
+    "timestamp": "06:01",
+    "quote": "let's say out of that I want to sell 20 quantities",
+    "what_is_shown": "Quantity modification interface showing reduction from 243 to 20 shares",
+    "why_needed": "The UI interaction for changing quantity quantities is demonstrated on screen",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_10_0601.png",
+    "description": "The screen shows a sell order window for the stock CRAFTSMAN. The user holds 243 shares, and the \"Qty.\" field is pre-filled with this total amount. The statement \"sell 20 quantities\" refers to changing this pre-filled quantity of 243 to a smaller, partial amount before placing the order.",
+    "critical": true
+  },
+  {
+    "timestamp": "06:33",
+    "quote": "if you click on Craftsman's Market depth here on the left hand side we have the best buyers available best orders available so the best order is now at 34491",
+    "what_is_shown": "Market depth panel for Craftsman showing buy orders (bid side) on left at 34491",
+    "why_needed": "Specific price levels and market depth layout require visual reference",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_11_0633.png",
+    "description": "The screen displays the market depth for the stock \"CRAFTSMAN\" on the left-hand side. Under the \"BID\" column, which represents buyers, the top and best bid price is shown as 3449.05. The speaker slightly misreads this value as \"3449.1\" while referring to the best available buyer's order.",
+    "critical": true
+  },
+  {
+    "timestamp": "07:44",
+    "quote": "let's look at HDFC bank and let's click on Market depth so you see on this right hand side you see these are the ltps last traded price and see they are constantly changing",
+    "what_is_shown": "HDFC bank market depth panel with fluctuating LTP values",
+    "why_needed": "Real-time price changes and market depth interface need to be visible",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_12_0744.png",
+    "description": "The provided image does not show the elements described in the audio. The screen displays a video player loading a lesson titled \"08 Market Auction Mechanism.\" There is no view of a market depth window, HDFC bank stock, or any last traded prices (LTPs).",
+    "critical": true
+  },
+  {
+    "timestamp": "08:15",
+    "quote": "Focus here there are few other important uh things that you can understand here which is for first is open on this particular day HDFC opened at 1613 it made a low of 159 2.10 on today it made a high of 16188 5 and this is the previous close it means yesterday it closed at 16142",
+    "what_is_shown": "OHLC data and previous close values displayed on screen (Open, High, Low, Close, Previous Close)",
+    "why_needed": "Specific numerical values for Open, High, Low, Close require visual reference on the platform",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_13_0815.png",
+    "description": "The video playback displays a stock data table for HDFCBANK. This table clearly shows the day's open price (1,613.00), high (1,618.85), low (1,592.10), and the previous day's close (1,614.20). These are the exact figures being read aloud by the speaker.",
+    "critical": true
+  },
+  {
+    "timestamp": "08:45",
+    "quote": "here is the volume today up till now these many shares have been traded this is the number of shares that have been traded today till now and then we have the lower circuit limit and the upper circuit limit if the price goes up and hits 17756 then beyond that trading is not done that is the maximum price for today that can be hit similarly this is the lower circuit",
+    "what_is_shown": "Volume data and upper/lower circuit limit values (17756 and corresponding lower limit)",
+    "why_needed": "Specific numerical data points and their location on the interface require screen visibility",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_14_0845.png",
+    "description": "The screen displays a market data window for the NIFTY 50 index. This window shows the day's trading \"Volume\" and lists the \"Upper Ckt\" (circuit) limit as 17,756.75 and the \"Lower Ckt\" limit. The speaker is directly referencing these displayed values, specifically rounding the upper circuit to 17,756 while explaining its function as the maximum possible price for the day.",
+    "critical": true
+  },
+  {
+    "timestamp": "10:54",
+    "quote": "let's come back to the broker platform let's click on the market depth of HDFC bank now you see here uh this is the ltp the last traded price which is fluctuating and here on the left hand side we see the bid prices bid orders and bid quantities on the right hand side which is red we see the ask prices orders and the quantities",
+    "what_is_shown": "Market depth layout with bid column (left), LTP (center), ask/offer column (right in red)",
+    "why_needed": "The spatial layout of bid vs ask columns and color coding is essential visual information",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_15_1054.png",
+    "description": "The screen displays a presentation slide titled \"MARKET AUCTION\" that defines the concept of market depth. It explains that market depth shows the best available buying and selling prices, along with orders and quantities. This slide provides the conceptual framework for the speaker's subsequent description of a live market depth window, although no actual stock data, prices, or broker platform is shown.",
+    "critical": true
+  },
+  {
+    "timestamp": "11:24",
+    "quote": "the best buying price available right now is 16 05.15 and there are six orders and this many quantities",
+    "what_is_shown": "Best bid price of 1605.15 with order count and quantity data in market depth",
+    "why_needed": "Specific price level and associated order/quantity data visible only on screen",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_16_1124.png",
+    "description": "The speaker is looking at the market depth table for HDFCBANK, which displays columns for BID (price), ORDERS, and QTY. Although the speaker misreads the data, their statement is understandable because they are referencing a specific row in this table. They point to the bid price of 1605.15, for which the table shows 1 order, not six.",
+    "critical": true
+  },
+  {
+    "timestamp": "11:55",
+    "quote": "the best seller available to me is at this level 16440 right and we have the number of orders and the quantities which are available to be sold at this particular",
+    "what_is_shown": "Best ask price of 16440 with order count and quantities in market depth",
+    "why_needed": "Specific offer price level and associated data require visual reference",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_17_1155.png",
+    "description": "The statement is based on the market depth for HDFCBANK, but the speaker misspeaks the price. The screen shows the best offer (seller) price is 1604.90, with 3 orders and a quantity of 109 shares available to be sold, not \"16440\".",
+    "critical": true
+  },
+  {
+    "timestamp": "15:33-16:05",
+    "quote": "looking at charts you have to try to spot significant tops and bottoms... let's look at the weekly chart of hom motop currently the price is at this particular level now you just have to look on the left hand side",
+    "what_is_shown": "Weekly chart of HOM (Hom motop) stock with price action showing historical tops and bottoms",
+    "why_needed": "Viewer must see the actual chart to identify where the significant reversal points are located that the speaker is referencing",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_18_1533.png",
+    "description": "The screen displays a presentation slide titled \"SUPPORT & RESISTANCE.\" A bullet point directly states the concept the speaker is introducing: \"Looking at charts, try to spot significant tops and bottoms, from where the price has reversed.\" The slide is purely informational and does not show the stock chart, price levels, or any annotations the speaker begins to reference.",
+    "critical": true
+  },
+  {
+    "timestamp": "16:05-16:38",
+    "quote": "there is a significant top here you see this is a significant top... I've drawn a line here horizontal Ray here to connect these two points",
+    "what_is_shown": "TradingView chart with speaker drawing horizontal resistance lines connecting multiple tops",
+    "why_needed": "Viewer must see the specific price levels and the drawn lines to understand what constitutes 'significant tops' and how to draw resistance zones",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_19_1605.png",
+    "description": "The weekly candlestick chart for HERO MOTOCORP LTD shows two prominent price peaks (\"significant tops\") around mid-2018 and early 2021, both reaching a similar resistance level near the 3300 price mark. Although the speaker mentions drawing a horizontal ray to connect these two points, no such line is actually present on the chart, indicating they are describing the tops they are about to connect.",
+    "critical": true
+  },
+  {
+    "timestamp": "16:38-17:10",
+    "quote": "if you look at the bottom uh this becomes my support I'm drawing a line here... look at the bodies of the candles and try to draw a line",
+    "what_is_shown": "Chart with support lines being drawn at bottoms, showing candle body alignment",
+    "why_needed": "Viewer must see exactly where support lines are drawn relative to candle bodies to understand the proper technique",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_20_1638.png",
+    "description": "On the weekly candlestick chart for HERO MOTOCORP LTD, a horizontal green line is being drawn at the 3336.25 price level. This line connects two major price peaks from late 2017 and late 2020, demonstrating the drawing of a key level based on candle formations. Although the speaker refers to this as a \"support\" at the \"bottom,\" the visual action shows the drawing of a *resistance* line connecting the tops.",
+    "critical": true
+  },
+  {
+    "timestamp": "17:43-18:13",
+    "quote": "you can identify this particular level as your resistance as well from where the price has reacted reversed multiple times",
+    "what_is_shown": "Chart showing additional resistance level with multiple price rejections visible",
+    "why_needed": "Viewer needs to see the visual pattern of price rejections at the specific level being identified",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_21_1743.png",
+    "description": "On the weekly stock chart for HERO MOTOCORP LTD, a horizontal green line is drawn at the price level of 3379.65. This line clearly marks a resistance zone, as the price is shown to have peaked and reversed downwards from this level multiple times, specifically around late 2017 and again in mid-2021.",
+    "critical": true
+  },
+  {
+    "timestamp": "18:13-18:48",
+    "quote": "let's look at another chart for an example we are on the chart of bhel weekly chart... there is one level here not so significant... there is another support here",
+    "what_is_shown": "Weekly chart of BHEL stock with marked support and resistance levels",
+    "why_needed": "Viewer must see the BHEL chart with identified support/resistance zones to understand the example",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_22_1813.png",
+    "description": "Although the speaker mistakenly says \"bhel,\" the screen displays the weekly (\"1W\") stock chart for HERO MOTOCORP LTD. The statement is understandable as there are horizontal green lines drawn on the chart, including a resistance level at 2780.40 and a clear support level at 2155.50, which the price has previously bounced from.",
+    "critical": true
+  },
+  {
+    "timestamp": "18:48-19:18",
+    "quote": "the price is currently trading at a support which you can see here this becomes my two rejection... there are three rejections from the same level",
+    "what_is_shown": "BHEL chart showing price touching same support level multiple times",
+    "why_needed": "Viewer must visually count the rejections from the support level to understand why it's significant",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_23_1848.png",
+    "description": "On the weekly stock chart for Bharti Airtel Ltd, a green horizontal line is drawn at the 762.30 price level, acting as a support zone. The yellow cursor highlights a prior peak at this level, and the price action to the right shows two subsequent bounces off this same line. The most recent candles are currently testing this support level for a third time, illustrating the \"three rejections\" the speaker refers to.",
+    "critical": true
+  },
+  {
+    "timestamp": "19:49",
+    "quote": "when the stock hits this are this level of 390 zones then the market participants may feel that okay the price may not deserve to go below this level",
+    "what_is_shown": "Chart with specific price level marked showing the 390 support zone",
+    "why_needed": "Without seeing the chart, the specific price level reference (390) cannot be verified or understood in context",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_24_1949.png",
+    "description": "On the weekly stock chart for Bharti Airtel Ltd, a horizontal green line is drawn at the 392.45 price level, which the speaker refers to as the \"390 zones.\" This line marks a significant historical support level where the price bottomed out and reversed upwards sharply in mid-2020. This strong past bounce makes it understandable why market participants might view this level as a floor for the stock price.",
+    "critical": true
+  },
+  {
+    "timestamp": "21:23-21:54",
+    "quote": "we are on the weekly chart of Reliance Industries weekly chart of Reliance Industries and we are currently here let's look at the top first... this becomes my resistance Zone",
+    "what_is_shown": "Weekly chart of Reliance Industries with current price and resistance zone marked",
+    "why_needed": "Viewer must see where Reliance is currently trading and where the resistance zone is located",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_25_2123.png",
+    "description": "The speaker's statement is not understandable from the image, as the screen does not show a stock chart for Reliance Industries. Instead, it displays a presentation slide titled \"SUPPORT & RESISTANCE.\" This slide provides the theoretical definitions for the concepts of tops (resistance) and bottoms (support) that the speaker is beginning to describe.",
+    "critical": true
+  },
+  {
+    "timestamp": "21:54-22:27",
+    "quote": "if you look at the bottom I can Mark out this particular bottom here which becomes my support then I have another support here if I zoom out the chart a bit I have another support here and I have another support here as well",
+    "what_is_shown": "Reliance chart zoomed out showing multiple support levels drawn",
+    "why_needed": "Viewer must see all the marked support levels and their locations to understand the multi-level support structure",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_26_2154.png",
+    "description": "The screen displays a weekly candlestick chart for RELIANCE INDS, which shows numerous price bottoms (troughs) over several years, such as the major low in March 2020. These visible bottoms are the potential support levels the speaker is describing. While the speaker discusses marking support, the only annotation currently on the chart is a horizontal green resistance line drawn at the top of the recent price range, near the 2755.30 level.",
+    "critical": true
+  },
+  {
+    "timestamp": "22:27-22:59",
+    "quote": "we are on the chart of baj Finance weekly chart the stock is trading here let's look at the top this becomes my resistance let's look at the bottom this becomes my support",
+    "what_is_shown": "Weekly chart of Bajaj Finance with identified resistance and support levels",
+    "why_needed": "Viewer needs to see the Bajaj Finance chart with marked levels to follow the example",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_27_2227.png",
+    "description": "The speaker incorrectly identifies the stock as \"Bajaj Finance\" when the chart clearly shows \"RELIANCE INDS\" on a weekly (\"1W\") timeframe. However, the statement is understandable because horizontal green lines are drawn on the chart, marking a clear resistance level at the top (around 2784.55) and a support level for the recent trading range at the bottom (around 2241.45), visually demonstrating the concepts mentioned.",
+    "critical": true
+  },
+  {
+    "timestamp": "22:59",
+    "quote": "this also becomes my support then we have this support as well look at this here also it got reversed here also again it got reversed",
+    "what_is_shown": "Bajaj Finance chart showing multiple support levels with price reversals",
+    "why_needed": "Viewer must see the visual evidence of price reversals at each support level",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_28_2259.png",
+    "description": "On the weekly candlestick chart for Bajaj Finance Ltd (BAJFINAN), the price is shown dropping to the ~5450 level and subsequently bouncing upwards on two separate occasions (around mid-2022 and early 2023). The speaker refers to these two bounces as instances where the price \"got reversed,\" establishing this price area as a significant support level.",
+    "critical": true
+  },
+  {
+    "timestamp": "22:59",
+    "quote": "then we have the chart of Vio the stock is trading here now in this case we have a support here immediate support rejection has happened two times",
+    "what_is_shown": "Weekly chart of Vio (Voltas/similar stock) showing immediate support with marked rejections",
+    "why_needed": "Viewer must see the Vio chart and the specific support level with rejection points",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_29_2259.png",
+    "description": "The speaker incorrectly identifies the stock as \"Vio\" when the chart clearly shows \"BAJAJ FINANCE LTD\". The statement about \"immediate support rejection has happened two times\" is not supported by any drawn lines or annotations, but could be an interpretation of the price bouncing from the ~5450-5850 price zone in mid-2022 and again in early 2023.",
+    "critical": true
+  },
+  {
+    "timestamp": "23:32",
+    "quote": "resistance we have a resistance here uh then we have a resistance uh there is a minor resistance here as well",
+    "what_is_shown": "Multiple resistance levels marked on JSW Steel chart at specific price points with rejection candles",
+    "why_needed": "Viewer must see exact locations of these resistance zones to understand which price levels are being referenced",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_30_2332.png",
+    "description": "On the weekly candlestick chart for WIPRO LTD, the speaker is identifying key price levels. These are visually represented by an orange flag marker near the all-time high (around \u20b9715.00) and a horizontal line drawn at \u20b9575.20, both indicating potential resistance. A third horizontal line is drawn at a support level of \u20b9374.55.",
+    "critical": true
+  },
+  {
+    "timestamp": "23:45",
+    "quote": "if I zoom out the chart a little bit this becomes my significant support as well",
+    "what_is_shown": "Chart zoomed out showing a previous resistance level now acting as support",
+    "why_needed": "Zooming action changes chart view; viewer must see the zoomed perspective to understand the support level's significance",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_31_2345.png",
+    "description": "On the weekly stock chart for WIPRO LTD, a horizontal green line is drawn at the 444.00 price level. This level, highlighted by the cursor, acted as price resistance in early 2021. After the price broke above it, it later returned to this same level in mid-2022, which then acted as a \"significant support,\" illustrating a classic resistance-turned-support pattern.",
+    "critical": true
+  },
+  {
+    "timestamp": "24:03",
+    "quote": "this was a resistance Zone earlier I'm marking it out this was a resistance zone so now the stock is reversing from that zone as you can see",
+    "what_is_shown": "JSW Steel chart with resistance zone drawn/marked and price reversing from that level",
+    "why_needed": "Specific zone location and reversal point only visible on screen; marking action requires visual reference",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_32_2403.png",
+    "description": "On the weekly stock chart for JSW STEEL LTD, a horizontal dashed line is drawn across the historical peaks near the 800 price level, marking a resistance zone. The most recent price action shows the stock rising to this line and then turning down, with the latest candle being red and highlighted by a yellow dot, visually confirming the speaker's point about a reversal from resistance.",
+    "critical": true
+  },
+  {
+    "timestamp": "24:20",
+    "quote": "this continues to be my resistance zone I'll just draw a line to keep my charts clean this becomes my support",
+    "what_is_shown": "Horizontal line being drawn on chart marking resistance, and support level being identified below",
+    "why_needed": "Drawing action and specific price level placement shown on screen; cannot be understood from words alone",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_33_2420.png",
+    "description": "On the weekly chart for JSW STEEL LTD, a clear trading range is defined by two horizontal green lines. The upper line at the 758.95 price level acts as the \"resistance zone,\" which the stock has repeatedly failed to break above. The lower line at 518.30 marks the \"support\" level, where the price has previously bounced, with the cursor highlighting a recent low near this area.",
+    "critical": true
+  },
+  {
+    "timestamp": "24:36",
+    "quote": "let me identify a few areas so these are some important areas that I can identify as my supports and resistances",
+    "what_is_shown": "Multiple support and resistance zones marked/highlighted on the zoomed out chart",
+    "why_needed": "Viewer must see which specific areas are being identified as significant support/resistance zones",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_34_2436.png",
+    "description": "On the weekly candlestick chart for JSW STEEL LTD, several horizontal green lines are drawn at key price levels such as 758.95, 513.55, and 391.60. These lines align with historical price peaks (resistance) and troughs (support), visually representing the \"important areas\" the speaker is identifying.",
+    "critical": true
+  },
+  {
+    "timestamp": "25:08",
+    "quote": "use this tool horizontal Ray uh click on this and click on horizontal Ray alter plus J",
+    "what_is_shown": "TradingView tools menu showing horizontal ray tool selection and keyboard shortcut demonstration",
+    "why_needed": "Tool location in interface and how to access it only visible on screen; workflow demo requires visual demonstration",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_35_2508.png",
+    "description": "On the candlestick chart for JSW STEEL LTD, the user's cursor, highlighted by a yellow circle, is positioned at the 243.40 price level. This indicates the starting point where a new \"Horizontal Ray\" is about to be drawn, joining several other green horizontal lines that already mark key support and resistance levels on the chart. The speaker is demonstrating how to use this specific drawing tool, which is found in the toolbar on the left.",
+    "critical": true
+  },
+  {
+    "timestamp": "25:41",
+    "quote": "so on your screen I have shown you a diagram where you can see quite a few Candlestick patterns",
+    "what_is_shown": "Diagram showing multiple candlestick patterns (hammers, engulfing, doji, etc.)",
+    "why_needed": "Diagram with pattern examples explicitly required for viewer to see the patterns being referenced",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-2_36_2541.png",
+    "description": "The screen displays a large diagram illustrating numerous candlestick patterns, making the speaker's statement understandable. The patterns are organized into labeled categories: \"NEUTRAL\" (Doji, Spinning Top), \"BULLISH\" (Hammer, Bullish Engulfing, Three White Soldiers), and \"BEARISH\" (Shooting Star, Bearish Engulfing, Three Black Crows). The charts are generic examples and do not show a specific stock, price levels, or indicator values.",
+    "critical": true
+  }
+]

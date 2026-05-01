@@ -1,0 +1,20 @@
+{
+  "symbol": "USHAMART",
+  "date": null,
+  "timeframe": "weekly",
+  "label": "good_base",
+  "sub_label": "stage_2_breakout",
+  "confidence": "strong",
+  "notes": "Clean Stage 2. Breakout of ₹31.80 resistance with huge volumes. Weekly chart shows clear structure break.",
+  "trp_pct": null,
+  "base_candles": null,
+  "outcome": "worked",
+  "outcome_pct": null,
+  "outcome_duration_days": null,
+  "outcome_notes": "Successful Stage 2 breakout with volume confirmation",
+  "source": "course_example",
+  "image_quality": "course_clip",
+  "needs_fresh_screenshot": true,
+  "video_id": "MBONI9t-ziQ",
+  "clip_file": "MBONI9t-ziQ_0000_0100.mp4"
+}

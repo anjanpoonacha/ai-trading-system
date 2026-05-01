@@ -1,0 +1,20 @@
+{
+  "symbol": "SHYAMMETL",
+  "date": null,
+  "timeframe": "weekly",
+  "label": "good_base",
+  "sub_label": "stage_transition",
+  "confidence": "strong",
+  "notes": "Stage 4→1→2 breakout. Base ₹250-₹300, breakout >₹400 with volume. Earnings gap wake-up call → pullback to 20/50 DMA → trigger ~₹177.50.",
+  "trp_pct": 3.3,
+  "base_candles": null,
+  "outcome": "worked",
+  "outcome_pct": 24,
+  "outcome_duration_days": null,
+  "outcome_notes": "Exits: 17% (2R) → 20% exit | 24% move, TRP 3.3 → 40% exit | Close below 50 DMA → final 40%. Rounding top visible before final exit.",
+  "source": "course_example",
+  "image_quality": "course_clip",
+  "needs_fresh_screenshot": true,
+  "video_id": "aTv2pNEEN_Q",
+  "clip_file": "aTv2pNEEN_Q_0000.mp4"
+}

@@ -1,0 +1,407 @@
+[
+  {
+    "timestamp": "02:34",
+    "file": "ta-1.txt",
+    "quote": "look at this this is a chart of Astral limited",
+    "screenshot": "ta-1_0234.png",
+    "description": "The screen displays a financial chart explicitly labeled \"ASTRAL LTD \u00b7 1D \u00b7 NSE\" in the top-left corner. The main panel shows the stock's price history as a blue line graph against a time axis, with price levels (e.g., 1924.20) on the right. Below the price chart are common technical indicators, including \"Volume\" and \"ATRP\".",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "06:21",
+    "file": "ta-1.txt",
+    "quote": "trend line here like this okay",
+    "screenshot": "ta-1_0621.png",
+    "description": "On the daily stock chart for METROPOLIS HEALTHC, the speaker's cursor points to a horizontal orange line drawn across the chart. This line marks a key resistance level at approximately 1400, connecting the price peaks from late January and mid-May 2023. The price is later shown breaking out above this level in June.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "06:52",
+    "file": "ta-1.txt",
+    "quote": "on the top left you have to change the color theme and make it dark",
+    "screenshot": "ta-1_0652.png",
+    "description": "The screen displays a candlestick chart for METROPOLIS HEALTHC (closing at 1468.60 INR) in a dark-themed trading interface. A \"Settings\" window is open over the chart, where under the \"General\" tab, the \"THEME\" section shows the \"Dark\" option is currently selected and highlighted. This directly visualizes the action described in the instruction.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "07:24",
+    "file": "ta-1.txt",
+    "quote": "here we have the bar style so by default you will have the candles what we are going to use for our trading system is this Holo candles so you can just select Holo candles here and this is this is how it appears",
+    "screenshot": "ta-1_0724.png",
+    "description": "The screen displays a daily stock chart for Metropolis Healthcare (METROPOLIS HEALTHC) on the NSE. The statement is understandable because the chart is presented in the \"Holo Candles\" style the speaker is introducing. This is evident as the green (up) candles are hollow outlines, while the red (down) candles are filled, directly illustrating the appearance the speaker describes.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "08:27",
+    "file": "ta-1.txt",
+    "quote": "you go to the settings and here you have option options to select the moving averages that you want to display you have an option to display four moving averages on the chart okay so go to puts uh the first moving average is the 50 day moving 50 simple moving average then we will apply 200 okay then we have the 10 moving average and then we have the 20 moving average so you can make the same colors for 50 we use white opacity 75 for 200 we use this purple opacity again 80 85%",
+    "screenshot": "ta-1_0827.png",
+    "description": "On the METROPOLIS HEALTHC stock chart, the \"MA Ribbon\" indicator's settings window is open to the \"Inputs\" tab. The settings show four Simple Moving Averages (SMA) with the exact periods mentioned in the audio: 50, 200, 10, and 20. The color swatches next to the 50-period (white) and 200-period (purple) MAs directly correspond to the colors the speaker is assigning.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "09:30",
+    "file": "ta-1.txt",
+    "quote": "go to style there are similar settings you just have to keep them as it is or you can just make the same settings as you did in the inputs in this visibility keep everything as it is and then click on here defaults and click on save as default",
+    "screenshot": "ta-1_0930.png",
+    "description": "On the stock chart for Metropolis Healthcare (METROPC), the settings window for the \"MA Ribbon\" indicator is open. The window shows the \"Visibility\" tab is currently selected, while the \"Style\" tab and a \"Defaults\" button are also clearly visible. These elements directly correspond to the speaker's instructions to navigate the settings tabs and then save the configuration as a default.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "10:00",
+    "file": "ta-1.txt",
+    "quote": "now there is one more indicator that we apply and that's a custom indicator so you don't find that indicator on your trading view so you have to go to your resources folder of the course and here we are on the resources folder of the course and here you can see two indicators",
+    "screenshot": "ta-1_1000.png",
+    "description": "The screen displays a Google Drive folder titled \"CTC Resources > 1. TradingView Indicators,\" which is the \"resources folder\" the speaker refers to. Within this folder, two files representing the custom indicators are visible: \"1. True Range Indicator.txt\" and \"4. Champion Trader Volume + TRP.txt\". The latter file is highlighted, indicating it is the subject of the current action.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "10:32",
+    "file": "ta-1.txt",
+    "quote": "I'll just show you by applying the champion Trader Volume Plus trp indicator because this is the conclusive indicator",
+    "screenshot": "ta-1_1032.png",
+    "description": "The screen displays a Google Drive folder named \"1. TradingView Indicators\" containing several text files. The speaker's statement is understandable because the list includes a file named \"4. Champion Trader Volume + TRP.txt,\" which is the specific indicator they mention they are about to use. No stock charts, prices, or applied indicators are visible.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "11:03",
+    "file": "ta-1.txt",
+    "quote": "here you will find pine editor click on Pine editor then you have to click on open then you have to click on new indicator here you have to remove everything and paste it",
+    "screenshot": "ta-1_1103.png",
+    "description": "This image displays a TradingView chart for METROPOLIS HEALTHC, priced at 1466.75 INR. The \"Pine Editor\" tab is open at the bottom, showing code for a \"Champion Trader Volume\" indicator. The user's instructions are visually supported by a black box highlighting the \"Open\" button, which is located just above the code editor, indicating the next step in the workflow.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "11:34",
+    "file": "ta-1.txt",
+    "quote": "if you are in trading in the Indian market you have to keep this sticked",
+    "screenshot": "ta-1_1134.png",
+    "description": "The screen displays a daily chart for the Indian stock METROPOLIS HEALTHC on the NSE. In the \"Indicators, Metrics & Strategies\" window, the user has searched for \"cham\" and the cursor is hovering over a custom script named \"Champion Trader Volume.\" The speaker's statement refers to this specific indicator, suggesting it is an essential tool for trading in the Indian market.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "12:06",
+    "file": "ta-1.txt",
+    "quote": "the first value here is the current volume the volume on the bar where I put my cursor okay the second is the 30 days average volume",
+    "screenshot": "ta-1_1206.png",
+    "description": "On the Metropolis Healthc (METROPC) chart, a white box over the volume indicator at the bottom right displays the values \"1.11\" and \"0.98\". The open \"Champion Trader Indicator\" settings window confirms the \"Volume MA Length\" is set to 30. This visually demonstrates the speaker's point that 1.11 (million) is the current bar's volume and 0.98 (million) is the 30-day average volume.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "13:09",
+    "file": "ta-1.txt",
+    "quote": "it also shows us the uh sector it is belonging to the health services and then it shows the industry",
+    "screenshot": "ta-1_1309.png",
+    "description": "On the stock chart for METROPOLIS HEALTHC, the bottom indicator pane displays text labels in the lower-right area. These labels explicitly state the stock's sector as \"Health Services\" and its industry as \"Medical/Nursing Services,\" which is precisely what the speaker is describing.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "13:42",
+    "file": "ta-1.txt",
+    "quote": "right click on the scale here and there will be an option called logarithmic",
+    "screenshot": "ta-1_1342.png",
+    "description": "The screen displays a daily candlestick chart for METROPOLIS HEALTHC (NSE: METROPC), with the price at 1464.10 INR. The statement refers to the vertical price axis on the right side of the chart, which is currently a standard linear scale showing values from 1150.00 to 1525.00. Right-clicking this scale is the common procedure in charting platforms to change its properties, such as switching to a logarithmic view for better analysis of percentage-based price moves.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "14:15",
+    "file": "ta-1.txt",
+    "quote": "go to settings and go to symbol and make the settings the way I've done you can use the same colors if you want go to status line and do these settings go to scales",
+    "screenshot": "ta-1_1415.png",
+    "description": "On the daily stock chart for METROPOLIS HEALTHC (METROPC), a right-click context menu is open, with the cursor highlighting the \"Settings...\" option at the bottom. This is the necessary first step to access the \"Symbol,\" \"Status line,\" and \"Scales\" configuration panels mentioned in the audio instructions. The current price is 1464.75, and an MA Ribbon indicator is active on the chart.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "15:15",
+    "file": "ta-1.txt",
+    "quote": "on the left hand side you see all the different tools and drawing tools that you can use so these are the tools and here you'll also see the shortcuts",
+    "screenshot": "ta-1_1515.png",
+    "description": "On the stock chart for METROPOLIS HEALTHC (METROPC), a vertical toolbar is visible along the far left edge of the screen. This toolbar contains a series of icons representing various drawing and analysis functions, such as trend lines, geometric shapes, and text tools. This is the visual reference for the speaker's statement about the location of the available tools.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "15:47",
+    "file": "ta-1.txt",
+    "quote": "if you want to use the tool very frequently you can just click on the star button here and it appears into this drawing toolbar",
+    "screenshot": "ta-1_1547.png",
+    "description": "On the stock chart for METROPOLIS HEALTHC (METROPC), a main vertical drawing toolbar is visible on the left, and a separate, populated horizontal \"favorites\" toolbar appears at the top of the chart area. This favorites toolbar is the direct result of the action the speaker describes: clicking a star icon next to a tool in the main menu to add it as a shortcut for frequent use. The chart shows the price at 1462.00 with an active MA Ribbon indicator.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "16:19",
+    "file": "ta-1.txt",
+    "quote": "you applied a trend line here like this okay now you have to double click on this and go to visibility",
+    "screenshot": "ta-1_1619.png",
+    "description": "On the stock chart for METROPOLIS HEALTHC, a horizontal dashed trend line has been drawn at the 1444.40 price level. The crosshair cursor is positioned directly on this newly drawn line, indicating it is the selected object the speaker is referring to when instructing to \"double click on this\" to access its settings.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "16:51",
+    "file": "ta-1.txt",
+    "quote": "now if I open the weekly chart you see the line is visible here on the weekly chart as well",
+    "screenshot": "ta-1_1651.png",
+    "description": "On the daily candlestick chart for Metropolis Healthcare (METROPC), a horizontal orange line is drawn at the 1387.65 price level, marking a key resistance point from January 2023. The speaker is referring to this specific drawn line, explaining that the trading platform's drawing tools ensure such annotations persist and are visible even when the chart's timeframe is switched from daily to weekly.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "17:21",
+    "file": "ta-1.txt",
+    "quote": "I use this one number three the first one here click on that and you will see three layouts getting opened",
+    "screenshot": "ta-1_1721.png",
+    "description": "The screen shows a trading platform with a three-chart layout for the stock METROPOLIS HEALTHC, which is the direct result of the action described by the speaker. The three panes display the stock's price action on different timeframes: weekly (1W), daily (1D), and 15-minute (15), with the current price at 1462.00. The first animated crop explicitly shows the cursor selecting this specific three-pane layout from the toolbar menu, making the statement understandable.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "17:53",
+    "file": "ta-1.txt",
+    "quote": "on the weekly chart if I want to go here if I want to look at this particular What's Happening Here on the daily chart so just click on this",
+    "screenshot": "ta-1_1753.png",
+    "description": "The screen displays a 15-minute candlestick chart for METROPOLIS HEALTHC, with the price at 1462.80. The speaker's statement about switching to a \"weekly\" or \"daily\" chart is made understandable by the visible timeframe selection buttons (\"15m\", \"75m\", \"D\", \"W\", \"M\") at the top of the screen. They are referring to clicking on these buttons to change the chart's view from the current 15-minute interval.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "18:53",
+    "file": "ta-1.txt",
+    "quote": "go to inputs here here you can select the time frame as daily 50 200 and and here for the 100 we will use the green color",
+    "screenshot": "ta-1_1853.png",
+    "description": "On the METROPOLIS HEALTHC stock chart, the \"MA Ribbon\" indicator's \"Inputs\" settings are open, showing enabled moving averages with lengths of 50 and 200. The speaker's instruction refers to the disabled 100-period MA (\"MA \u21163\"), which currently has an orange color swatch that they are about to change to green.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "21:00",
+    "file": "ta-1.txt",
+    "quote": "just click on the plus button here at this particular level and click on ADD alert",
+    "screenshot": "ta-1_2100.png",
+    "description": "On the daily stock chart for METROPOLIS HEALTHC, the mouse cursor is hovering over a small gray plus (+) button located on the price scale. This button is positioned precisely at the price level of 1478.70, which is a recent high. In this trading interface, clicking the plus button at a specific price is the standard action to \"ADD alert\" for that level.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "21:32",
+    "file": "ta-1.txt",
+    "quote": "double click on this alert here and here you can customize the alert name message trigger and you can customize the notifications",
+    "screenshot": "ta-1_2132.png",
+    "description": "On the stock chart for METROPOLIS HEALTHC, an alert is visible as a dashed line at the 1480.70 price level. A large \"Edit Alert on METROPOLIS\" window is open, showing the \"Notifications\" tab with various customizable options like \"Show pop-up\" and \"Play sound\" selected, directly illustrating the process the speaker describes.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "22:02",
+    "file": "ta-1.txt",
+    "quote": "Fibonacci risk reward tool we do not use the Fibonacci tool for Fibonacci analysis we use it for risk we use it for our trade setup so it's this one Trend based FIB FIB extension",
+    "screenshot": "ta-1_2202.png",
+    "description": "On the candlestick chart for METROPOLIS HEALTHC (METROPC), the speaker's cursor points to a candle around August 24, 2023, near the 1350 price level. This action identifies the specific point on the chart where they are about to apply the \"Trend based FIB extension\" tool. The statement clarifies that this tool will be used to structure a trade setup and manage risk, not for traditional Fibonacci analysis.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "22:02",
+    "file": "ta-1.txt",
+    "quote": "let's say I bought the stock here so I'll just click here let's say my stop loss is here so I just click here and again I bring it back and click here towards my Enterprise",
+    "screenshot": "ta-1_2202.png",
+    "description": "On the stock chart for Metropolis Healthcare (METROPC), the user's cursor, a small blue dot, is positioned over a red candlestick from mid-August. This action visually represents the hypothetical \"buy\" point the speaker is narrating. The statement describes the process of using a trading tool by clicking on the chart to define an entry point and a stop-loss level.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "22:34",
+    "file": "ta-1.txt",
+    "quote": "this is the entry price this minus one the red line is your stop loss and then this is your two risk R multiple two three R multiple Target five R multiple 7 and 15",
+    "screenshot": "ta-1_2234.png",
+    "description": "On the stock chart for METROPOLIS HEALTHC (METROPC), a blue horizontal line with a crosshair marks the entry price at 1463.25, while a red horizontal line at 1396.40 indicates the stop loss. The speaker is verbally describing how to set profit targets at various risk/reward multiples (2R, 3R, etc.) based on the risk established between these two visible price levels.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "23:36",
+    "file": "ta-1.txt",
+    "quote": "this is your stop-loss price and moving it up and down you can see the risk reward here is changing the r multiple is changing so here you are getting a three R",
+    "screenshot": "ta-1_2336.png",
+    "description": "On the Metropolis Healthcare (METROPC) stock chart, a \"Long Position\" tool is used to visualize a trade setup. The tool's red area indicates the risk, with the stop-loss price set at 1396.40, while the green area shows the potential profit, with the target set at 1680.00 (a line labeled \"3\"). The ratio of the potential profit to the potential risk from the entry price (~1463.60) is approximately 3, which the speaker refers to as a \"three R\" multiple.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "24:07",
+    "file": "ta-1.txt",
+    "quote": "here you will get the number of quantities that you should purchase you can go to style and remove the compact stats view if you want to just have a look at all the meanings",
+    "screenshot": "ta-1_2407.png",
+    "description": "On the Metropolis Healthcare (METROPC) stock chart, a \"Long Position\" planning tool is active, showing a potential trade with an entry, stop-loss (1401.05), and target. The tool displays a compact statistics box containing the risk/reward ratio (2.02) and a calculated purchase quantity of 3566 shares, which is the \"number of quantities\" the speaker is referring to. The speaker is explaining that the tool's settings can be changed to show a more detailed, non-compact view of these statistics.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "25:09",
+    "file": "ta-1.txt",
+    "quote": "you can copy the link if you just click on copy link you will get a web address",
+    "screenshot": "ta-1_2509.png",
+    "description": "This screen displays a stock chart for METROPOLIS HEALTHC (METROPC) on a trading platform, showing a potential long trade setup with entry, stop-loss, and target levels. In the top-right corner, a blue \"Publish\" button is visible. The speaker is explaining that clicking this button will allow the user to share their chart analysis by generating a web link.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "27:45",
+    "file": "ta-1.txt",
+    "quote": "now have a look at this particular box here on the top left when you click on this box you can type the name of the stock",
+    "screenshot": "ta-1_2745.png",
+    "description": "On the TradingView interface, a weekly candlestick chart for HDFC BANK (ticker: HDFCBAN) is displayed, with the current price at 1607.90. A close-up crop and a cursor highlight the symbol search box in the top-left corner, which currently contains \"HDFCBAN\". This visual focus makes it clear that this is the exact box the speaker is referring to for typing in a stock name.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "28:17",
+    "file": "ta-1.txt",
+    "quote": "this one so you just have to click on this Arrow here and this box will open up",
+    "screenshot": "ta-1_2817.png",
+    "description": "The speaker is explaining that clicking the current stock symbol, \"HDFCBAN\", in the top-left corner of the screen opens the \"Symbol Search\" dialog box. This box is currently visible, overlaid on the weekly price chart of HDFC BANK, and shows a search for \"HDFC\" with a list of related financial instruments.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "29:20",
+    "file": "ta-1.txt",
+    "quote": "click on this particular field and click on D one day so now you are on the daily chart of HDFC Bank lastly I like to show this thing to you uh look at this here box here this is how you can change the type of the chart",
+    "screenshot": "ta-1_2920.png",
+    "description": "The screen displays a weekly (\"1W\") candlestick chart for HDFC BANK, with the current price at 1609.20. The mouse cursor is hovering over the chart type selection icon (represented by two candlesticks). This icon is located next to the time interval options, where \"D\" for a daily chart is visible, making the speaker's instructions to change the time frame and chart type easy to follow.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "29:52",
+    "file": "ta-1.txt",
+    "quote": "click on the bar style here and click on line you see there are many many types of charts so there is candle there is line",
+    "screenshot": "ta-1_2952.png",
+    "description": "On a candlestick chart for HDFC BANK, a chart style menu is open, displaying various options. The \"Candles\" option is currently selected (highlighted in blue), and the cursor is hovering over the \"Line\" option, visually demonstrating the speaker's instruction to change the chart type.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "30:24",
+    "file": "ta-1.txt",
+    "quote": "the horizontal axis the bottom horizontal axis this one this represents the time interval you can see the months June July August September and the vertical axis represents the priz levels",
+    "screenshot": "ta-1_3024.png",
+    "description": "The screen shows a line chart for HDFC BANK stock, where the bottom horizontal axis is explicitly labeled with months (\"Jun\", \"Jul\", \"Aug\", \"Sep\", etc.), and a red arrow is drawn along it, indicating the time interval. The right vertical axis is a scale of price levels in INR (e.g., 1620.00, 1660.00, 1700.00), visually confirming the speaker's explanation of the chart's axes.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "30:56",
+    "file": "ta-1.txt",
+    "quote": "on 21st November 2022 where my cursor is right now you look at this at where my cursor is look at the right side the PRI price closed at 1595",
+    "screenshot": "ta-1_3056.png",
+    "description": "The screen displays a daily line chart for HDFC BANK, with the speaker's cursor highlighting a point on the graph corresponding to the date \"Tue 22 Nov '22\". A price label on the right axis reads \"1595.65\" and the main ticker in the top-left shows \"1595.00\", visually confirming the speaker's reference to a price of 1595.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "34:04",
+    "file": "ta-1.txt",
+    "quote": "look at this body of the red candle and look at the body of the green candle this is the body",
+    "screenshot": "ta-1_3404.png",
+    "description": "The screen displays a diagram explaining candlestick charts, featuring a red and a green candlestick side-by-side. To make the speaker's statement understandable, the rectangular part of each candle is explicitly bracketed with a curly brace and labeled with the word \"Body,\" visually identifying the component being discussed.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "34:36",
+    "file": "ta-1.txt",
+    "quote": "the day opened here here at the bottom of the body and closed higher at the top of the body",
+    "screenshot": "ta-1_3436.png",
+    "description": "The slide displays a diagram explaining candlestick charts, with a prominent green candlestick shown. An accompanying bullet point states, \"Body shows Open & Close.\" This text, combined with the convention that a green candle's body represents a price increase, makes it clear that the bottom of the green rectangle is the open price and the top is the higher close price, as the speaker describes.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "35:08",
+    "file": "ta-1.txt",
+    "quote": "the price opened here at a high point the top of the body and closed at the bottom of the body lower",
+    "screenshot": "ta-1_3508.png",
+    "description": "The slide explains candlestick construction, showing a red (bearish) candle next to an annotated green (bullish) candle. The speaker's statement describes the red candle, where the price opens at the top of the body and closes lower at the bottom. This is understood by contrasting it with the labeled green candle, which shows the close price is higher than the open price.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "35:39",
+    "file": "ta-1.txt",
+    "quote": "this is the highest point during that day the top of the week is the highest price level and the lowest part of the week is the lowest price",
+    "screenshot": "ta-1_3539.png",
+    "description": "The slide displays a diagram explaining candlestick charts, with a green candlestick explicitly labeled. An annotation points from the top of the upper wick to the word \"High,\" visually demonstrating the speaker's point about the highest price. This concept is reinforced by the bullet point text, \"Wicks show High & Low.\"",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "38:40",
+    "file": "ta-1.txt",
+    "quote": "look at the top left box that I have marked when I put my cursor on a candle you can look at ohlc Open high low and close",
+    "screenshot": "ta-1_3840.png",
+    "description": "On the HDFC BANK daily candlestick chart, the cursor is placed over the large green candle for November 11, 2022. This action populates the data line in the top-left corner with that candle's specific OHLC (Open, High, Low, Close) values. The displayed data reads: O1545.00, H1637.00, L1538.00, and C1611.15.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "39:10",
+    "file": "ta-1.txt",
+    "quote": "I have drawn a line using horizontal Ray so I'm using this tool click on trend line tools and click on horizontal Ray",
+    "screenshot": "ta-1_3910.png",
+    "description": "On the daily candlestick chart for HDFC BANK, a green horizontal ray is drawn at the 1545.00 price level, originating from the low of the November 11, 2022 candle. The cursor is positioned at the line's starting point, and the vertical toolbar on the left, which contains drawing tools like the \"Horizontal Ray,\" is visible, confirming the speaker's action.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "39:44",
+    "file": "ta-1.txt",
+    "quote": "the bottom of the week shows the low so during this particular day HDFC bank went to a lowest price of 1538 then the top of the week shows the high",
+    "screenshot": "ta-1_3944.png",
+    "description": "On the daily candlestick chart for HDFC BANK, a horizontal green line is drawn at the 1538.00 price level, originating from the bottom wick of a large teal candle from November 11, 2022. A yellow dot highlights this point, visually confirming the speaker's statement that the stock's lowest price (\"low\") on that particular day was 1538.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "40:16",
+    "file": "ta-1.txt",
+    "quote": "there is another thing look at this box now now when I put my cursor on a particular candle now this box represents uh 86.4 represents how higher this candle has closed",
+    "screenshot": "ta-1_4016.png",
+    "description": "On the HDFC BANK daily candlestick chart, the cursor is placed over the large bullish candle from November 11, 2022. This action displays the candle's data in the information panel at the top of the screen. This panel shows the day's price change as `+86.40 (+5.67%)`, which is the \"86.4\" value the speaker is referencing.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "41:49",
+    "file": "ta-1.txt",
+    "quote": "now look at this big red candle let's try to interpret what has happened since this is a red candle",
+    "screenshot": "ta-1_4149.png",
+    "description": "On the weekly candlestick chart for HDFC BANK, the speaker is referring to the large red candle from late October 2021, which is highlighted by the mouse cursor. This candle represents a significant bearish reversal, marking a sharp price drop from the stock's peak price of over 1680. The speaker is about to analyze this key price action that initiated a downtrend.",
+    "critical": true,
+    "skipped_reason": null
+  },
+  {
+    "timestamp": "42:20",
+    "file": "ta-1.txt",
+    "quote": "there is no upper Wick it means that the stock it means that the top of the body is the high",
+    "screenshot": "ta-1_4220.png",
+    "description": "On the weekly candlestick chart for HDFC BANK, the cursor points to a large red candle from late October 2021. This specific candle has no visible upper wick, visually demonstrating the speaker's point that its opening price (the top of a red candle's body) was also the highest price for that period.",
+    "critical": true,
+    "skipped_reason": null
+  }
+]

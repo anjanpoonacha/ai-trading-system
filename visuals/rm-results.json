@@ -1,0 +1,242 @@
+[
+  {
+    "timestamp": "09:30",
+    "quote": "Now let's look at this particular sheet where we understood that if you have a combination of your ARR and win rate as such where your ARR is one and the win rate is 50%, then you are at break even.",
+    "what_is_shown": "Excel/calculation table showing ARR=1, Win Rate=50%, Result=Break Even with 120 trades example",
+    "visual_description": "The screen displays a presentation slide titled \"THINK RISK FIRST, REWARD NEXT.\" It features a table comparing two traders, Jim and Tom, who have identical capital (₹5,00,000), number of trades (120), and return percentage (40%). A cursor highlights their differing \"Risk % Per Trade\" (1% for Jim vs 5% for Tom). In the final second, a new row appears in the table asking, \"What if 10 consecutive trades fail?\".",
+    "status": "critical",
+    "_file": "rm-1.txt",
+    "_vid_id": "eCZkzzbY8dk",
+    "clip_file": "eCZkzzbY8dk_570s.mp4"
+  },
+  {
+    "timestamp": "03:00-03:30",
+    "quote": "Now let me show you an interesting table. Look at this table. If your average, this is your average loss, this column is your average gain, this represents your ARR... And this column represents the win rate which is required to break even.",
+    "what_is_shown": "Reference table with columns: Average Loss, Average Gain, ARR, Break-Even Win Rate, with multiple rows showing different ARR values (1, 2, 0.5, etc.) and corresponding break-even win rates",
+    "visual_description": "The video transitions from a presentation slide titled \"LOSSES\" to a new slide displaying a table. This table contains four columns: \"Avg Loss,\" \"Avg Gain,\" \"R:R,\" and \"Win Rate Required to Break Even,\" with various percentage scenarios listed in the rows below. As the speaker describes the table's structure, the cursor moves across the screen to point at each corresponding column header. No stock charts or specific financial instruments are visible.",
+    "status": "critical",
+    "_file": "rm-1.txt",
+    "_vid_id": "eCZkzzbY8dk",
+    "clip_file": "eCZkzzbY8dk_180s.mp4"
+  },
+  {
+    "timestamp": "05:00-06:30",
+    "quote": "Let's say this is trade number one and this is trade number two. Now you see in trade number one, the entry price is 100, stop loss is 95 and the target is 105. The second trade, the entry price is 100, stop loss is 95, but the target is now 200.",
+    "what_is_shown": "Visual comparison of two trades with entry at 100, stop loss at 95, and targets at 105 vs 200 respectively",
+    "visual_description": "The screen shows a static presentation slide titled \"STOP LOSS\" with five bullet points explaining the concept. One bullet point provides a hypothetical trade example: buying HDFC stock at a price of 1000 and setting a stop loss (SL) at 950. No charts, indicators, patterns, or cursor movements are visible on the plain white slide, which also features a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" in the bottom-right corner.",
+    "status": "critical",
+    "_file": "rm-1.txt",
+    "_vid_id": "eCZkzzbY8dk",
+    "clip_file": "eCZkzzbY8dk_300s.mp4"
+  },
+  {
+    "timestamp": "12:00-12:30",
+    "quote": "I have marked orange the intensity metrics, which is RPT percent and the number of trades. So these are the intensity metrics. The yellow marked are the expectancy metrics.",
+    "what_is_shown": "A table with orange-highlighted intensity metrics (RPT percent, number of trades) and yellow-highlighted expectancy metrics",
+    "visual_description": "The screen displays a slide titled \"THINK RISK FIRST, REWARD NEXT\" with a table comparing two traders, Jim and Tom. As the speaker identifies \"intensity metrics,\" the \"Risk % Per Trade\" row and the \"NO. OF TRADES\" value are highlighted in orange. Following this, as \"expectancy metrics\" are mentioned, the \"Return %\" row is highlighted in yellow. The cursor, a blue circle, moves from the title down to the \"NO. OF TRADES\" section during the narration.",
+    "status": "critical",
+    "_file": "rm-1.txt",
+    "_vid_id": "eCZkzzbY8dk",
+    "clip_file": "eCZkzzbY8dk_720s.mp4"
+  },
+  {
+    "timestamp": "12:30-01:00",
+    "quote": "if let's say RPT percent, let's say from 1% if I make it 1.5%, you see now I'm making a return of 36% which has increased",
+    "what_is_shown": "Table cells showing RPT percent values changing from 1% to 1.5% with corresponding return values updating to 36%",
+    "visual_description": "The screen switches from a presentation slide titled \"POSITION SIZING\" to a trading calculator spreadsheet. The cursor highlights the input field for \"RPT %,\" which has a value of \"1.00%,\" and changes it to \"1.5%.\" As this value is updated, the \"Return on Capital %\" field automatically recalculates, increasing from \"24.00%\" to \"36.00%.\"",
+    "status": "critical",
+    "_file": "rm-1.txt",
+    "_vid_id": "eCZkzzbY8dk",
+    "clip_file": "eCZkzzbY8dk_750s.mp4"
+  },
+  {
+    "timestamp": "01:00-01:30",
+    "quote": "At 120 trades, I'm making a return of 24%. If I increase the number of trades, you see if I make it 140, the returns go up to 28%",
+    "what_is_shown": "Table cells showing number of trades changing from 120 to 140 with return values updating from 24% to 28%",
+    "visual_description": "The screen displays a static presentation slide titled \"RISK MANAGEMENT.\" The slide contains two bullet points emphasizing that a great risk manager will survive in the market, even with poor analysis, while a great analyst with poor risk management will not. There are no stock charts, price levels, indicators, or cursor movements visible on the screen.",
+    "status": "critical",
+    "_file": "rm-1.txt",
+    "_vid_id": "eCZkzzbY8dk",
+    "clip_file": "eCZkzzbY8dk_60s.mp4"
+  },
+  {
+    "timestamp": "01:30-02:00",
+    "quote": "if you increase your RPT from 1% to let's say 1.5%, you see the losses have magnified from 24% to 36%",
+    "what_is_shown": "Table showing RPT percent increasing from 1% to 1.5% with loss values changing from 24% to 36% in negative expectancy scenario",
+    "visual_description": "The screen displays a static presentation slide titled \"RISK MANAGEMENT\" in bold, black text. Below the title, three bullet points discuss the importance of risk management for survival in the stock market. No charts, stock data, annotations, or cursor movements are visible; the screen only contains the text of the slide and a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" in the bottom right corner.",
+    "status": "critical",
+    "_file": "rm-1.txt",
+    "_vid_id": "eCZkzzbY8dk",
+    "clip_file": "eCZkzzbY8dk_90s.mp4"
+  },
+  {
+    "timestamp": "02:00-02:30",
+    "quote": "if I increase my number of trades from 120 to 150, now the return goes the the loss is increased from 25% to 30%",
+    "what_is_shown": "Table cells showing number of trades changing from 120 to 150 with loss percentage increasing from 25% to 30%",
+    "visual_description": "The screen shows a presentation slide titled \"LOSSES\" in bold, black font. A first bullet point appears, stating that trading involves probabilities, not certainty. A second bullet point is then added, explaining that even with good analysis, traders will have losing trades and must accept losses. The \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" logo is visible in the bottom right corner throughout the clip.",
+    "status": "critical",
+    "_file": "rm-1.txt",
+    "_vid_id": "eCZkzzbY8dk",
+    "clip_file": "eCZkzzbY8dk_120s.mp4"
+  },
+  {
+    "timestamp": "10:00-10:30",
+    "quote": "Here is how the OR matrix looks for a trader with moderate risk appetite. This is an OR matrix with a trader with moderate risk appetite.",
+    "what_is_shown": "OR matrix table/chart showing market stance categories and corresponding MOR percentages",
+    "visual_description": "The screen shows a presentation slide titled \"OR MATRIX\" with several bullet points. A table, the OR Matrix, appears, correlating a \"Moderate\" risk appetite with four market stances: Very Strong, Strong, Moderate, and Weak. For each stance, the table provides corresponding percentage values for \"MOR\" (Maximum Open Risk) and \"RPT\" (Risk Per Trade). A teal circular cursor moves to highlight the text introducing this newly displayed table.",
+    "status": "critical",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc",
+    "clip_file": "E9HsDhA6Fqc_600s.mp4"
+  },
+  {
+    "timestamp": "10:30",
+    "quote": "Now, we should classify the market conditions into market stance. Very strong, strong, moderate or weak.",
+    "what_is_shown": "OR matrix with market stance columns (Very strong, strong, moderate, weak) and corresponding MOR values",
+    "visual_description": "A presentation slide titled \"OR MATRIX\" displays a table correlating a 'Moderate' risk appetite with market stances: 'Very Strong', 'Strong', 'Moderate', and 'Weak'. The table contains percentage values for 'MOR' and 'RPT' indicators under each condition. As the speaker lists these market stances, a light blue circular cursor moves from a summary bullet point to the corresponding column headers in the table, finally resting on 'Weak'.",
+    "status": "critical",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc",
+    "clip_file": "E9HsDhA6Fqc_630s.mp4"
+  },
+  {
+    "timestamp": "11:00",
+    "quote": "For example, let's say today the market stance is strong. As on today, the market conditions are such or the market conditions have been strong. So I would say that the market stance is strong and my MOR is 4%.",
+    "what_is_shown": "OR matrix row showing 'strong' market stance with MOR value of 4%",
+    "visual_description": "The screen displays a presentation slide titled \"OR MATRIX\" with a table showing MOR and RPT percentages based on market stance. For a trader with \"Moderate\" risk appetite, a \"Strong\" market stance corresponds to an MOR of 4% and an RPT of 1.00%, which the speaker directly references. A small, circular blue cursor appears and moves horizontally below the percentage values in the table.",
+    "status": "critical",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc",
+    "clip_file": "E9HsDhA6Fqc_660s.mp4"
+  },
+  {
+    "timestamp": "05:00",
+    "quote": "Here is the OR matrix for conservative appetite and aggressive appetite",
+    "what_is_shown": "OR matrix table with conservative and aggressive risk appetite rows/columns showing specific numbers for different market conditions",
+    "visual_description": "The screen shows a static presentation slide with a white background. The slide is titled \"OPEN RISK\" in large, bold, black font. Below the title, a single bullet point reads: \"Generally, investors talk about EXPOSURE. It means what % of their AV is invested in the market.\" A logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is positioned in the bottom-right corner. No charts, stocks, or cursor movements are visible.",
+    "status": "critical",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc",
+    "clip_file": "E9HsDhA6Fqc_300s.mp4"
+  },
+  {
+    "timestamp": "06:30",
+    "quote": "I've gone into the website called thecalculatorsite.com. I've gone into finance and clicked on compound interest calculator. Now here it is.",
+    "what_is_shown": "Browser window showing thecalculatorsite.com compound interest calculator interface",
+    "visual_description": "The screen displays a presentation slide with the title \"OPEN RISK\". The slide features several bullet points defining financial terms such as EXPOSURE and TOTAL OPEN RISK (TOR). Although the speaker describes navigating to a website, the visual remains static on this slide. A light blue circular cursor is visible near the last bullet point and moves slightly, causing a right-pointing arrow to appear, indicating a transition.",
+    "status": "critical",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc",
+    "clip_file": "E9HsDhA6Fqc_390s.mp4"
+  },
+  {
+    "timestamp": "07:30",
+    "quote": "Now let's look at the table. So your initial capital was 10 lakhs. In the first year, you made a profit of 2 lakh. And then your capital at the end of one year becomes 12 lakhs",
+    "what_is_shown": "Compound interest calculation table showing year-by-year breakdown with initial capital, profit, and ending capital columns",
+    "visual_description": "The screen displays a static presentation slide titled \"OPEN RISK.\" The slide contains bullet points defining financial concepts such as EXPOSURE, TOTAL OPEN RISK (TOR), and provides a formula for calculating the Open Risk (OR) of a single trade. No stock charts, price levels, or cursor movements are shown; the visual content does not change and does not depict the table being described by the speaker. A logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is visible in the bottom-right corner.",
+    "status": "critical",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc",
+    "clip_file": "E9HsDhA6Fqc_450s.mp4"
+  },
+  {
+    "timestamp": "09:00",
+    "quote": "You can pause the video and have a look at the calculation",
+    "what_is_shown": "Full compound interest calculation table/results from the calculator",
+    "visual_description": "A presentation slide titled \"OPEN RISK\" is displayed, featuring bullet points that define Total Open Risk (TOR) and provide formulas for its calculation. No stock chart, prices, or indicators are visible on the screen. A small, circular cyan cursor rests below the final line of text, moves slightly, and then disappears as the slide fades to black.",
+    "status": "critical",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc",
+    "clip_file": "E9HsDhA6Fqc_540s.mp4"
+  },
+  {
+    "timestamp": "01:32",
+    "quote": "Let me show you. It will be more than 36%.",
+    "what_is_shown": "Table showing 3% monthly compounding calculation for 12 months with running capital amounts",
+    "visual_description": "The screen shows a static presentation slide with a white background titled \"IMPORTANCE OF MARKET CONDITIONS\" in bold, black text. Below the title are four bullet points discussing how market conditions affect trading results, mentioning concepts like win rate and bull/bear markets. In the bottom right corner, a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is displayed. There are no charts, stock data, indicators, or cursor movements visible.",
+    "status": "critical",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc",
+    "clip_file": "E9HsDhA6Fqc_92s.mp4"
+  },
+  {
+    "timestamp": "02:05",
+    "quote": "Now have a look at this particular table. Now let's look at this particular column.",
+    "what_is_shown": "Comparison table showing compounding vs non-compounding returns at different percentages (6% quarterly = 24% vs 26%, 22% quarterly = 88% vs 122%)",
+    "visual_description": "The screen displays a table titled \"QUARTERLY COMPOUNDING\" that illustrates the growth of a 100,000 capital investment over four quarters with a 10% return per quarter. The table shows the ending balance growing from 110,000 in the first quarter to 146,410 in the final quarter. As the speaker talks, the cursor first gestures toward the entire table and then moves down the \"Ending Balance\" column to highlight the compounded values.",
+    "status": "critical",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc",
+    "clip_file": "E9HsDhA6Fqc_125s.mp4"
+  },
+  {
+    "timestamp": "03:41",
+    "quote": "Here is another table to just uh show you the power of compounding in the long term.",
+    "what_is_shown": "Table showing CAGR scenarios (20% and 26%) with capital growth multiples over 10 and 20 year periods",
+    "visual_description": "The screen displays a presentation slide titled \"IMPORTANCE OF MARKET CONDITIONS.\" The slide contains six bullet points discussing how trading results are affected by changing market conditions, referencing concepts like win rate, ARR, and bull versus bear markets. The bottom-right corner shows a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB,\" and no charts, stock data, or cursor activity are visible.",
+    "status": "critical",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc",
+    "clip_file": "E9HsDhA6Fqc_221s.mp4"
+  },
+  {
+    "timestamp": "07:04",
+    "quote": "This is the formula.",
+    "what_is_shown": "Position size calculation formula for determining trade quantity",
+    "visual_description": "The screen displays a presentation slide titled \"OPEN RISK\" with several bullet points explaining trading risk concepts. As the speaker says, \"This is the formula,\" a turquoise circular cursor moves from the term \"OR\" to highlight the equation presented on the slide. The formula shown is: \"OR of a trade = Open Quantity x (Entry Price - Current Stop Loss)\".",
+    "status": "critical",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc",
+    "clip_file": "E9HsDhA6Fqc_424s.mp4"
+  },
+  {
+    "timestamp": "10:27",
+    "quote": "So here is the table. Now let me put in the minimum figures that we just uh talked about.",
+    "what_is_shown": "Table with minimum metrics (RPT 0.5%, ARR 3, 120 trades/year, 35% win rate) and calculated 31% yearly return",
+    "visual_description": "The screen displays a slide titled \"OR MATRIX\" containing bullet points and a table that correlates a \"Moderate\" risk appetite with \"Market Stance\" conditions (\"Very Strong\", \"Strong\", \"Moderate\", \"Weak\"). The table shows corresponding percentage values for \"MOR\" (Maximum Open Risk) and \"RPT\" (Risk Per Trade). A blue circular cursor moves from below the table up to the \"Moderate\" column, highlighting the MOR value of \"2%\".",
+    "status": "critical",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc",
+    "clip_file": "E9HsDhA6Fqc_627s.mp4"
+  },
+  {
+    "timestamp": "11:05",
+    "quote": "Now with four quarters, okay, with four quarters, uh with compounding, the return annual return comes to 31.1% and not 28%",
+    "what_is_shown": "Quarterly calculation breakdown showing 7% quarterly return compounding to 31.1% annual return",
+    "visual_description": "The screen displays a static presentation slide titled \"OR MATRIX,\" which is unrelated to the speaker's audio on compounding returns. The slide contains bullet points and a table that defines MOR and RPT percentages for a \"Moderate\" risk appetite across various market stances (Very Strong, Strong, Moderate, Weak). During the clip, a small teal circular cursor below the table moves slightly to the right.",
+    "status": "critical",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc",
+    "clip_file": "E9HsDhA6Fqc_665s.mp4"
+  },
+  {
+    "timestamp": "11:40",
+    "quote": "For example, let's start with this... Your return comes to 36%... Your return comes to 57.4%... Now you are making 94% return.",
+    "what_is_shown": "Table showing progressive metrics adjustments with corresponding ROI changes (36%, 57.4%, 94%, 136%)",
+    "visual_description": "The screen displays a static presentation slide titled \"OR MATRIX,\" featuring a table that outlines risk parameters (MOR and RPT) based on different market stances (Very Strong, Strong, etc.). A blue circular cursor remains stationary, highlighting the \"4%\" value under the \"Strong\" column. No stock charts, price levels, or trading indicators are visible, and the on-screen content is unrelated to the speaker's audio about compounding returns.",
+    "status": "critical",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc",
+    "clip_file": "E9HsDhA6Fqc_700s.mp4"
+  },
+  {
+    "timestamp": "01:00",
+    "quote": "So it's all about about this mathematics, how you put on your risk management metrics... you're making 460% returns.",
+    "what_is_shown": "Table showing aggressive trading scenario with 45 trades/quarter, 45% win rate, 0.9% RPT, ARR 4 yielding 460% returns",
+    "visual_description": "The screen displays a static presentation slide titled \"IMPORTANCE OF MARKET CONDITIONS.\" The slide's bullet points explain that stock market results are inconsistent and that expectancy metrics (EMs) like win rate and ARR fluctuate based on how favorable market conditions are. There are no charts, stock data, indicators, or cursor movements shown.",
+    "status": "critical",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc",
+    "clip_file": "E9HsDhA6Fqc_60s.mp4"
+  },
+  {
+    "timestamp": "01:30",
+    "quote": "So this is trader number A who is trading with a with an ARR of one and a win rate of 50%.",
+    "what_is_shown": "Comparison table showing Trader A (ARR=1, Win rate=50%, 0% return) vs Trader B (ARR=3, Win rate=25%, 0% return)",
+    "visual_description": "The screen displays a presentation slide titled \"IMPORTANCE OF MARKET CONDITIONS.\" It lists four bullet points explaining how market conditions affect trading results and consistency. During the clip, the mouse cursor moves from the end of the first bullet point down to the center of the slide, briefly highlighting a faint watermark. A logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is consistently visible in the bottom-right corner.",
+    "status": "critical",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc",
+    "clip_file": "E9HsDhA6Fqc_90s.mp4"
+  }
+]

@@ -1,0 +1,905 @@
+{
+  "dr-1.txt": [
+    {
+      "timestamp": "00:00",
+      "quote": "this is the video",
+      "what_is_shown": "TradingView chart or course interface being referenced",
+      "why_needed": "Speaker references 'this video' without describing what content or chart is displayed"
+    },
+    {
+      "timestamp": "03:30",
+      "quote": "you have to spend 5 to 20 minutes maximum to glance through the charts of your open positions. So the stocks that you are holding, you can just quickly go through the charts of these stocks.",
+      "what_is_shown": "Demonstration of opening TradingView and navigating through multiple stock charts of open positions",
+      "why_needed": "The speaker is describing a workflow of 'glancing through charts' but doesn't specify which stocks or what to look for - the viewer needs to see the actual process of switching between charts and what constitutes a proper 'glance'"
+    },
+    {
+      "timestamp": "04:00",
+      "quote": "However, if you get any alert during the first 10, 20 minutes of the market open, in that case, definitely you may have to spend some more time to monitor what is happening with that particular stock.",
+      "what_is_shown": "Example of an alert notification appearing and the subsequent chart analysis process",
+      "why_needed": "The speaker references 'monitoring what is happening' without describing what specific chart patterns or price action to look for - visual demonstration is needed to show what 'monitoring' looks like"
+    },
+    {
+      "timestamp": "05:30",
+      "quote": "So let's say you have entered 50% during the market hours. Okay. Now, 50% is supposed to be entered at the close. So obviously during the last 30 minutes, just open up the chart of that stock. If it is sustaining about the trigger level and it requires to be entered fully",
+      "what_is_shown": "Chart showing a stock sustaining above a trigger level during the last 30 minutes of trading",
+      "why_needed": "The speaker mentions 'sustaining above the trigger level' but doesn't specify what this looks like visually or how to identify the trigger level on the chart"
+    },
+    {
+      "timestamp": "08:30",
+      "quote": "The next step is to run the scanners. We are going to run two scanners, PVC scan and NPC scan.",
+      "what_is_shown": "Demonstration of running the PVC and NPC scanners, showing the scanner interface and results",
+      "why_needed": "The speaker names the scanners but doesn't describe how to access them, what settings to use, or what the output looks like - this is a tool workflow that requires visual demonstration"
+    },
+    {
+      "timestamp": "09:00",
+      "quote": "After running the scans, you have to update the watch lists. Now, we will create four watch lists. Watch lists can be created on trading view as well as on market out. So, the first one is watch list, the second one is skipped trades, the third one is open positions and the fourth one is closed positions. Within the watch list, we have three more sections here, ready, near and away.",
+      "what_is_shown": "TradingView or MarketOut interface showing the creation and organization of multiple watchlists with their subsections",
+      "why_needed": "The speaker describes a complex watchlist structure with multiple levels but doesn't explain how to physically create or organize these in the platform - the viewer needs to see the actual interface and folder structure"
+    },
+    {
+      "timestamp": "09:30",
+      "quote": "Then we have to set alerts for entries and exits. Now, this is the preparation that we do for the next day.",
+      "what_is_shown": "Demonstration of setting up entry and exit alerts in TradingView, showing the alert creation interface and parameters",
+      "why_needed": "The speaker mentions setting alerts but doesn't describe the process, what levels to set them at, or how to configure the alert settings - this is a tool workflow requiring visual demonstration"
+    },
+    {
+      "timestamp": "13:30",
+      "quote": "Now, if you open championjournal.com, you will have some four or five pages like this, dashboard, trades, positions, summary, funds, symbols and feed.",
+      "what_is_shown": "The championjournal.com interface showing the navigation menu with pages: dashboard, trades, positions, summary, funds, symbols, and feed",
+      "why_needed": "Speaker is referring to 'pages like this' without naming all of them clearly, and the visual layout of the platform interface is being demonstrated"
+    },
+    {
+      "timestamp": "13:30",
+      "quote": "This is how the dashboard appears, the first page. And there are some important metrics that you can see like position manager metrics, the open trades are five, exposure is 75% right now. My total open risk is 1.95% right now. This is my account value, this is my starting account value adjusted, and this is my capital deployed.",
+      "what_is_shown": "The dashboard page of championjournal.com showing specific metrics: open trades (5), exposure (75%), total open risk (1.95%), account value, starting account value adjusted, and capital deployed with their visual layout",
+      "why_needed": "Speaker is pointing to specific metrics on screen saying 'this is' without verbally identifying which number corresponds to which metric - viewer must see the labeled fields"
+    },
+    {
+      "timestamp": "14:00",
+      "quote": "Then you have the equity curve here. You can switch the view from net profit and R percent. Then you have R distribution curve here.",
+      "what_is_shown": "The equity curve graph and R distribution curve on the dashboard, along with the view switching controls between net profit and R percent",
+      "why_needed": "Speaker refers to charts as 'here' without describing their appearance or exact location on the dashboard"
+    },
+    {
+      "timestamp": "14:00",
+      "quote": "to know the meaning of these terms, you can just click on the help button and all the meanings, all the uh definitions will come here.",
+      "what_is_shown": "The help button location on the interface and the definitions popup/panel that appears when clicked",
+      "why_needed": "Speaker demonstrates clicking a button and showing where definitions appear without describing the button's location or appearance"
+    },
+    {
+      "timestamp": "14:30",
+      "quote": "And also you get to see all the important trade level metrics here. Okay? Once you enter the entry price, quantity, stop loss, trade name, date and everything. And then you also record your exits here. So you see all the trade level metrics here.",
+      "what_is_shown": "The trades page showing the list of trades with columns for trade level metrics including stop loss percent, position size percent, RPT, gain percent, return on capital deployed, etc.",
+      "why_needed": "Speaker repeatedly says 'here' to indicate where metrics appear without describing the table structure or column layout"
+    },
+    {
+      "timestamp": "14:30",
+      "quote": "To add a new trade, you can just click on plus trade button and then from here you can add a new trade.",
+      "what_is_shown": "The location of the 'plus trade' button and the new trade entry form that appears",
+      "why_needed": "Speaker demonstrates clicking a button and showing a form without describing where the button is located on the page"
+    },
+    {
+      "timestamp": "15:00",
+      "quote": "Similarly, if you click on any trade here, let's let me just click on FCT. So if you click on this trade, you get all the details of the trade.",
+      "what_is_shown": "The process of clicking on a specific trade (FCT) in the trades list and the trade details view that opens, showing entry/exit details and chart upload area",
+      "why_needed": "Speaker is demonstrating a click interaction and the resulting detail view without describing the visual layout or navigation flow"
+    },
+    {
+      "timestamp": "15:30",
+      "quote": "In the position step, this is a very important page, positions manager. So here you see the current positions that are open. The stocks that you are that are open positions for you. So there are five trades open and for each trade you see all the metrics here.",
+      "what_is_shown": "The positions manager page showing 5 open positions with metrics for each trade including exposure and open risk percentages",
+      "why_needed": "Speaker refers to 'here' and 'this page' while showing specific open positions and their metrics without describing the table layout"
+    },
+    {
+      "timestamp": "15:30",
+      "quote": "And then you also see what is the exposure of each trade and what is the open risk of each trade. What is the open risk percent? And then here you get to see total open risk percent. Total open risk percent. It's a total of all the open risk.",
+      "what_is_shown": "The exposure and open risk columns for individual trades, plus the total open risk percent summary field on the positions manager page",
+      "why_needed": "Speaker points to specific columns and summary fields saying 'here' without describing where these values are displayed"
+    },
+    {
+      "timestamp": "15:30",
+      "quote": "And then you can also modify your stop losses from here. Let's say this trade become risk free trade. So you can just click on this and click on break even stop loss and update it and then this trade becomes your risk free trade and the open risk will become zero.",
+      "what_is_shown": "The stop loss modification interface, showing how to click on a trade and select 'break even stop loss' option, and the resulting change in open risk to zero",
+      "why_needed": "Speaker demonstrates a multi-step workflow (clicking, selecting option, seeing result) without describing the menu structure or button locations"
+    },
+    {
+      "timestamp": "16:00",
+      "quote": "For example, in the prior trade here, Kotak Bank or Karnataka Bank has seen that current stop loss is equal to the entry price. So stop loss is raised to cost. Okay. So you see open risk became zero.",
+      "what_is_shown": "A specific trade (Karnataka Bank) showing current stop loss equal to entry price and open risk at zero",
+      "why_needed": "Speaker points to a specific trade row and its values without describing which row or how the values are displayed"
+    },
+    {
+      "timestamp": "16:00",
+      "quote": "Then you have the summary page. This is the overall account level metrics for monthly, quarterly and yearly, however you want to see. So here you have metrics like win rate, average RPT, average loss, ARR, average holding period, profit for each period, return percentage.",
+      "what_is_shown": "The summary page showing account level metrics in a table or grid format with time period options (monthly, quarterly, yearly) and various performance metrics",
+      "why_needed": "Speaker refers to 'this' and 'here' while showing a metrics dashboard without describing the layout or how to switch between time periods"
+    },
+    {
+      "timestamp": "16:30",
+      "quote": "If you want to hide any metric, you can go to the settings and you can hide some metrics if you want. You can auto size it, you can reset it.",
+      "what_is_shown": "The settings menu/button on the summary page and the options for hiding metrics, auto-sizing, and resetting",
+      "why_needed": "Speaker demonstrates accessing settings and using options without describing where the settings control is located or what the options interface looks like"
+    },
+    {
+      "timestamp": "16:30",
+      "quote": "Then you have funds here where you can add and add capital and withdraw capital. Whenever you do that, you have to record that here. So deposit or withdrawal is here.",
+      "what_is_shown": "The funds page interface showing where to record deposits and withdrawals",
+      "why_needed": "Speaker repeatedly says 'here' to indicate interface elements without describing the form or button layout"
+    },
+    {
+      "timestamp": "16:30",
+      "quote": "Then you have got feed which displays all the recent which displays all the recent activities that you are doing inside the journal.",
+      "what_is_shown": "The feed page showing a chronological list of recent activities (notes, chart uploads, entries, exits) in the journal",
+      "why_needed": "Speaker refers to a page showing activities without describing how the activity feed is structured or displayed"
+    },
+    {
+      "timestamp": "09:33",
+      "quote": "And then I can move stocks the way I want and keep them in whichever section I want.",
+      "what_is_shown": "Demonstration of dragging and dropping stocks between the 'away', 'near', and 'ready' sections in TradingView watchlist interface",
+      "why_needed": "The speaker is demonstrating the physical action of moving stocks between sections but doesn't describe the specific UI interaction or where to click/drag"
+    },
+    {
+      "timestamp": "10:49",
+      "quote": "So when the stock made this PPC here, it would have come into your PPC scan.",
+      "what_is_shown": "Specific candle on Caplin Point chart where a PPC (Pocket Pivot Candle) formed",
+      "why_needed": "Speaker uses 'this PPC here' without identifying which specific candle or date, requiring visual reference to understand the exact point being discussed"
+    },
+    {
+      "timestamp": "11:26",
+      "quote": "Then the stock made this breakout attempt here, right? So now this is on this day",
+      "what_is_shown": "Specific candle/day on Caplin Point chart showing the breakout attempt",
+      "why_needed": "Speaker references 'this breakout attempt here' and 'this day' without stating the date or describing the price action pattern verbally"
+    },
+    {
+      "timestamp": "11:26",
+      "quote": "Then the stock pulled back and you see on this candle we had uh congestion, two days of congestion. So on this red candle",
+      "what_is_shown": "Specific red candle on Caplin Point chart showing the pullback and congestion pattern",
+      "why_needed": "Multiple references to 'this candle' and 'this red candle' without identifying which specific candles or dates are being discussed"
+    },
+    {
+      "timestamp": "11:59",
+      "quote": "Now there is a new trigger level that you can find here. Okay, this becomes the new trigger level.",
+      "what_is_shown": "Specific price level on the chart being identified as the new trigger point",
+      "why_needed": "Speaker says 'here' and 'this becomes' without stating the actual price level or describing how to identify it"
+    },
+    {
+      "timestamp": "12:38",
+      "quote": "So on this PPC, the stock would have come, maybe you could have put put this stock to the away list. Then somewhere here, you put the stock to the near list. And then here as the stock starts to make this trigger bars",
+      "what_is_shown": "Multiple specific points on a different stock chart showing progression from PPC to trigger bars",
+      "why_needed": "Multiple uses of 'this', 'here', and 'somewhere here' without identifying specific candles, dates, or the stock name being analyzed"
+    },
+    {
+      "timestamp": "14:24",
+      "quote": "Here I could identify trigger levels, right? So when I when I was here, when I was here, then I would have set an alert at this level.",
+      "what_is_shown": "Specific price level on chart where alert should be set, and the exact candle position being referenced",
+      "why_needed": "Speaker uses 'here' three times and 'this level' without stating the actual price or describing the chart pattern that defines the trigger level"
+    },
+    {
+      "timestamp": "14:24",
+      "quote": "Then the alert would not have triggered and then again the stock made another couple of trigger bars. Now I would have set a new trigger here.",
+      "what_is_shown": "New trigger bars on the chart and the new price level for setting an alert",
+      "why_needed": "References 'another couple of trigger bars' and 'here' without identifying which specific candles or price level"
+    },
+    {
+      "timestamp": "14:57",
+      "quote": "You can also set alert using the lines. So if you have drawn a line like this, you can click on the line here and click on this plus button",
+      "what_is_shown": "TradingView interface showing a drawn line on the chart and the location of the plus button for setting alerts",
+      "why_needed": "Demonstrates clicking on specific UI elements ('the line here', 'this plus button') without describing their exact location or appearance"
+    },
+    {
+      "timestamp": "00:00",
+      "quote": "So this is the stock that we're going to be looking at today",
+      "what_is_shown": "A specific stock chart displayed on TradingView",
+      "why_needed": "The speaker doesn't name the stock, only refers to 'this stock' visible on screen"
+    },
+    {
+      "timestamp": "00:05",
+      "quote": "You can see here we have a nice consolidation pattern forming",
+      "what_is_shown": "A consolidation pattern on the chart with specific price levels and timeframe",
+      "why_needed": "The pattern's structure, duration, and price range are not verbally described"
+    },
+    {
+      "timestamp": "00:15",
+      "quote": "Notice how it's respecting this level right here",
+      "what_is_shown": "A specific support or resistance level on the chart",
+      "why_needed": "The exact price level being referenced is not stated, only pointed to visually"
+    },
+    {
+      "timestamp": "00:25",
+      "quote": "And if we look at the volume down here",
+      "what_is_shown": "Volume indicator panel below the price chart",
+      "why_needed": "The specific volume pattern or values being analyzed are not described verbally"
+    },
+    {
+      "timestamp": "00:35",
+      "quote": "This is where I would place my entry",
+      "what_is_shown": "A specific price point or zone marked on the chart for entry",
+      "why_needed": "The exact entry price or criteria are not stated, only shown visually"
+    },
+    {
+      "timestamp": "00:45",
+      "quote": "And then my stop would go right below here",
+      "what_is_shown": "A specific price level below current price for stop loss placement",
+      "why_needed": "The exact stop loss price is not mentioned, only indicated visually on the chart"
+    },
+    {
+      "timestamp": "30:30",
+      "quote": "this stock, let's say it was in my near list or in my ready list and suddenly I saw a huge fall come and then stock has clearly, you know, uh broken the base and made a weak structure",
+      "what_is_shown": "A specific stock chart showing a significant price decline, a broken base level, and weak price structure",
+      "why_needed": "The speaker references 'this stock' and describes a visual pattern (huge fall, broken base, weak structure) without naming the stock or describing specific price levels verbally"
+    },
+    {
+      "timestamp": "32:30",
+      "quote": "let's say this is the stock Caplin point and the setup triggered here. You did not take the trade. So, you put the stock into the skipped trades watch list. You can mark an arrow like this to mention that on this candle the entry was triggered",
+      "what_is_shown": "Caplin Point chart with a specific candle where entry triggered, and demonstration of marking an arrow on that candle",
+      "why_needed": "While the stock is named, the speaker is demonstrating the physical act of marking arrows on the chart without describing which specific candle or price level"
+    },
+    {
+      "timestamp": "32:30",
+      "quote": "If you want to be more precise, then you can also use the uh trend based Fibonacci tool to mark your entry, average entry and the stop loss something like this",
+      "what_is_shown": "Demonstration of using the Fibonacci tool on the chart to mark entry, average entry, and stop loss levels",
+      "why_needed": "The speaker is showing how to use a specific tool and where to place markings with 'something like this' - a visual demonstration that cannot be understood from words alone"
+    },
+    {
+      "timestamp": "33:00",
+      "quote": "let's say here the stock got extended and if there is an exit trigger here, as per the method, then you mark it that okay, here 20% exit is triggered",
+      "what_is_shown": "Specific point on the Caplin Point chart showing extension and where to mark the 20% exit trigger",
+      "why_needed": "Speaker uses 'here' multiple times to reference specific locations on the chart without stating price levels or dates"
+    },
+    {
+      "timestamp": "34:30",
+      "quote": "coming to the example of this stock, let's say you bought the stock here, okay?",
+      "what_is_shown": "A specific stock chart with a particular entry point being indicated",
+      "why_needed": "Speaker references 'this stock' and 'here' without naming the stock or describing the entry point verbally"
+    },
+    {
+      "timestamp": "34:30",
+      "quote": "you obviously have to set an alert for the stop loss, okay? So, you have you will place an alert for stop loss here",
+      "what_is_shown": "Specific stop loss level on the chart where alert should be placed",
+      "why_needed": "Speaker says 'here' to indicate stop loss location without stating the actual price level"
+    },
+    {
+      "timestamp": "35:00",
+      "quote": "let's say uh the stock made this big move here, okay? So, in that case, so this is a PPC coming at the extension. So, mark the midpoint here",
+      "what_is_shown": "Chart showing a large price move, PPC pattern at extension, and where to mark the midpoint",
+      "why_needed": "Multiple uses of 'this' and 'here' to reference visual elements without describing specific price levels or pattern characteristics verbally"
+    },
+    {
+      "timestamp": "35:00",
+      "quote": "now when you are on this day, you will set an alert here at the midpoint because this is now your trailing stop loss. And then when on the next day, you have the small candle. So, on this day, after the close, you will place an alert here",
+      "what_is_shown": "Specific days/candles on the chart and exact locations for placing alerts",
+      "why_needed": "Speaker references 'this day', 'here', 'the next day', 'this day' without stating dates or price levels - requires seeing the specific candles being discussed"
+    },
+    {
+      "timestamp": "35:30",
+      "quote": "maybe after this exit, after you made after the stock got extended like this, then you placed an then you should place let's say this is your entry price, then you should place an alert somewhere above the entry price",
+      "what_is_shown": "Chart showing the exit point, extension pattern, entry price level, and where to place alert above entry",
+      "why_needed": "Multiple visual references ('this exit', 'extended like this', 'this is your entry price') without stating actual price values"
+    },
+    {
+      "timestamp": "38:00",
+      "quote": "So, let me go to my chart template and you can copy the same settings for yours. So, let's go to the daily. Okay? So, now you have to create a new chart template with the exact settings. So, do all the settings that I've done. Add these four indicators",
+      "what_is_shown": "MarketInOut chart template settings screen showing specific configuration options and four indicators to add",
+      "why_needed": "Speaker instructs to copy settings and add indicators while looking at the screen, but doesn't verbally list all the specific settings or which four indicators"
+    },
+    {
+      "timestamp": "38:30",
+      "quote": "Then let's say you're adding SMA, so you find SMA here. Then write here 50 and click on add",
+      "what_is_shown": "MarketInOut interface showing where to find SMA indicator and where to enter the value 50",
+      "why_needed": "Speaker uses 'here' twice to indicate specific locations in the interface without describing the navigation path verbally"
+    },
+    {
+      "timestamp": "38:30",
+      "quote": "So, all the indicators will be added here. And then do all these settings as I've done",
+      "what_is_shown": "Location where indicators appear and the complete list of settings to configure",
+      "why_needed": "Speaker references 'here' and 'all these settings' without verbally listing what those settings are"
+    },
+    {
+      "timestamp": "38:30",
+      "quote": "This is how you have to do the setting",
+      "what_is_shown": "Weekly chart template settings screen in MarketInOut",
+      "why_needed": "Speaker refers to visible settings with 'this is how' without describing them verbally"
+    },
+    {
+      "timestamp": "40:30",
+      "quote": "Then you can go to the overview tab and click on charts. Now this is where it becomes really interesting. So, on the charts, once you click on charts, I'm just zooming out zooming out a bit",
+      "what_is_shown": "MarketInOut interface showing the overview tab, charts view, and zoom controls",
+      "why_needed": "Speaker is demonstrating navigation and zoom functionality in the interface without describing where these controls are located"
+    },
+    {
+      "timestamp": "41:00",
+      "quote": "So, on the top, you have all these settings. So, do it exactly the way I've done",
+      "what_is_shown": "Top toolbar of MarketInOut charts view showing various settings and configuration options",
+      "why_needed": "Speaker references 'all these settings' and 'the way I've done' without verbally describing what those settings are"
+    },
+    {
+      "timestamp": "41:00",
+      "quote": "Then you can experiment with different sizes. I have done what suits me. Big size and zoom, I'm using this X2",
+      "what_is_shown": "Size and zoom controls in MarketInOut interface, with X2 zoom setting selected",
+      "why_needed": "Speaker references 'this X2' and shows size options without describing where these controls are or what other options exist"
+    },
+    {
+      "timestamp": "41:30",
+      "quote": "for example, this stock Hindustan Zinc, here we have the weekly chart, here we have the daily chart",
+      "what_is_shown": "Split screen showing Hindustan Zinc weekly chart on left and daily chart on right",
+      "why_needed": "Speaker uses 'here' twice to indicate which side shows which timeframe, requiring visual confirmation of the layout"
+    },
+    {
+      "timestamp": "41:30",
+      "quote": "And if I click out or if I click on the chart once again, the chart goes again",
+      "what_is_shown": "Demonstration of clicking to expand/collapse chart view in MarketInOut",
+      "why_needed": "Speaker is demonstrating a click interaction and its visual result without fully describing what 'goes again' means"
+    },
+    {
+      "timestamp": "42:00",
+      "quote": "I'll just click on the name here and then you see, I have this option to add the stock to my watch list",
+      "what_is_shown": "MarketInOut interface showing where to click on stock name and the watchlist menu that appears",
+      "why_needed": "Speaker uses 'here' and 'this option' to reference specific UI elements without describing their location verbally"
+    },
+    {
+      "timestamp": "42:00",
+      "quote": "To access the watch list, you can just on the left hand side, you have this watch list panel. You can just click on there",
+      "what_is_shown": "Left sidebar of MarketInOut showing the watchlist panel location",
+      "why_needed": "While the speaker mentions 'left hand side', they use 'this watch list panel' and 'there' requiring visual identification of the specific panel among potentially multiple left-side options"
+    },
+    {
+      "timestamp": "40:27",
+      "quote": "So, I have run the PPC scan here... go to edit screen... you have this screener here... this is all the formula that I have written it down... This is your turnover. This is your liquidity criteria.",
+      "what_is_shown": "MarketInOut scanner interface showing the edit screen with formula fields and specific liquidity/turnover criteria settings",
+      "why_needed": "Speaker references 'this screener', 'this thing', 'this is your turnover', 'this is your liquidity criteria' without stating what specific fields or values are being pointed to on screen"
+    },
+    {
+      "timestamp": "41:00",
+      "quote": "you can modify this liquidity criteria by just modifying the figure... Just write it down here and then click on save the screen",
+      "what_is_shown": "Specific field/location in the scanner where the liquidity number can be edited",
+      "why_needed": "Speaker says 'write it down here' without identifying which field or where exactly to input the value"
+    },
+    {
+      "timestamp": "42:00",
+      "quote": "Now in the charts... there is an option here called show and hide. Next bars... when I click on show, see, uh this this orange line shows me the 1st December... When I click on show next bars... when I click on hide next bars",
+      "what_is_shown": "Chart interface showing the 'show/hide next bars' button location and the orange line marking December 1st, plus the visual difference between showing and hiding future bars",
+      "why_needed": "Speaker demonstrates clicking buttons and references 'this orange line' and visual changes that occur, but doesn't describe where the buttons are located or what the chart looks like in each state"
+    },
+    {
+      "timestamp": "42:30",
+      "quote": "you can have a look at this uh on top you have the basic material six... this is the industry, agriculture inputs within basic materials, one stock from this... if you look at basic material steel, there are three stocks from steel industry, one, two, and three",
+      "what_is_shown": "Scanner results interface showing sector/industry breakdown with counts and the specific stocks listed under each category",
+      "why_needed": "Speaker references 'on top', 'this is the industry', and counts stocks 'one, two, and three' while pointing to specific areas of the interface that aren't verbally described"
+    },
+    {
+      "timestamp": "45:30",
+      "quote": "this stock, look at this Chalet. This stock, have a look at this daily chart here. It's a nice base forming, right? It's a nice rounding base forming, good PPCs in the base. And today also it's a PPC... this stock is making a breakout attempt.",
+      "what_is_shown": "Daily chart of Chalet stock showing the rounding base pattern, PPC candles within the base, and the current breakout attempt",
+      "why_needed": "While the stock name is mentioned, the speaker relies on visual demonstration of the base pattern, PPC locations, and breakout attempt without describing specific price levels, timeframes, or pattern dimensions"
+    },
+    {
+      "timestamp": "46:00",
+      "quote": "I can click on the name of the stock and just click on the watch list near, create a new watch list here and then add the stock",
+      "what_is_shown": "MarketInOut interface showing where to click the stock name and the watchlist menu/dropdown options",
+      "why_needed": "Speaker demonstrates clicking through a workflow ('click on the name', 'click on the watch list near', 'create a new watch list here') without describing the interface layout or menu structure"
+    },
+    {
+      "timestamp": "50:00",
+      "quote": "like this, Shilpa Med, look at this stock. Let me zoom it in. You see a perfect base forming, it's a breakout attempt, then it has pulled back and now it's contracting and you can identify trigger level here.",
+      "what_is_shown": "Shilpa Med chart showing the base pattern, breakout attempt, pullback, current contraction, and the specific trigger level location",
+      "why_needed": "Speaker says 'look at this', 'you see', 'here' while zooming and pointing to specific chart features without stating price levels or exact pattern measurements"
+    },
+    {
+      "timestamp": "50:30",
+      "quote": "you can see now in this stock, there are PPCs forming here as well as here",
+      "what_is_shown": "Shilpa Med chart with specific candles/locations marked where PPCs formed earlier in the pattern",
+      "why_needed": "Speaker points to multiple locations on the chart saying 'here as well as here' without identifying the dates or price levels of these PPC candles"
+    },
+    {
+      "timestamp": "54:00",
+      "quote": "Now here is an example. So this is how you can start 1st December 2023. Six open positions, 77% exposure, 2.2% is my TOR.",
+      "what_is_shown": "A visual example of a trading diary entry showing the format and structure of how to record daily trading information",
+      "why_needed": "The speaker says 'here is an example' and 'this is how you can start', indicating they are showing a specific visual example on screen. Without seeing the actual diary entry format, listeners cannot understand the proper structure and layout being demonstrated."
+    },
+    {
+      "timestamp": "54:30",
+      "quote": "These are the notes. Here's an example. This is just an example.",
+      "what_is_shown": "A visual display of sample diary notes demonstrating the writing style, level of detail, and personal reflection format",
+      "why_needed": "The speaker repeatedly emphasizes 'here's an example' and 'this is just an example' while reading from what appears to be a displayed diary entry. The visual example is necessary to show learners the actual format, tone, and structure of effective diary notes, which cannot be fully conveyed through audio alone."
+    },
+    {
+      "timestamp": "62:00",
+      "quote": "So let's say the index is moving like this on the upside. And this is how the 10 moving average looks like. And this is how the 20 moving average looks like.",
+      "what_is_shown": "Speaker is drawing a diagram showing price movement above two moving averages (10 and 20 SMA) with both moving averages sloping upward",
+      "why_needed": "The speaker is drawing visual representations without describing the specific positioning or angles - viewer must see the diagram to understand the ideal market structure"
+    },
+    {
+      "timestamp": "62:30",
+      "quote": "What happens is the stock price moves like this and then it transitions and starts going down. So this is the 10 moving average. And then this becomes the 20. Like this.",
+      "what_is_shown": "Speaker is drawing how price transitions from uptrend to downtrend, showing the moving averages crossing over and both sloping downward",
+      "why_needed": "The speaker uses demonstrative words 'like this' multiple times while drawing, without verbally describing the specific pattern or crossover mechanics"
+    },
+    {
+      "timestamp": "63:00",
+      "quote": "So as I said, the best environment to be trading is this. This is the best environment to be trading in. You see, price is floating above the 10 and the 20. This orange line is the 10 and the green line is the 20.",
+      "what_is_shown": "The speaker references 'this' environment on the chart without stating the specific time period or date range being shown",
+      "why_needed": "The word 'this' refers to a specific visual section of the chart that must be seen to understand which market period exemplifies the ideal conditions"
+    },
+    {
+      "timestamp": "63:30",
+      "quote": "So here it is, like the environment that we had post COVID. Okay, this was the COVID fall. After COVID fall, we had a fantastic environment.",
+      "what_is_shown": "Nifty 500 chart showing the COVID crash period and the subsequent uptrend with specific visual characteristics",
+      "why_needed": "While the speaker mentions 'post COVID', the exact chart location, price levels, and visual pattern characteristics are only visible on screen"
+    },
+    {
+      "timestamp": "64:00",
+      "quote": "And you can see similar thing after the COVID fall, the market went into a smooth, smooth, favorable state. And then here we saw the first close. We saw the first breakdown of the 10 and the 20 on this candle.",
+      "what_is_shown": "Weekly chart of Nifty 500 showing a specific candle where price first closed below both the 10 and 20 week moving averages",
+      "why_needed": "The speaker points to 'this candle' without stating the date or price level - viewer must see which specific candle is being referenced"
+    },
+    {
+      "timestamp": "64:30",
+      "quote": "You see this crossover here. Uh the moving average crossover, the 10 went below the 20. And with that, we also need a breakdown of the support. So as the stock as as there was a crossover here, now we are waiting for the breakdown. And for the breakdown, you can mark this previous low as the support.",
+      "what_is_shown": "Specific point on weekly chart showing MA crossover and a previous swing low that serves as support level",
+      "why_needed": "Multiple uses of 'here' and 'this' without stating dates or price levels - the exact location of the crossover and support level are only visible on screen"
+    },
+    {
+      "timestamp": "65:00",
+      "quote": "Now you see on the daily chart here, we are at the top of that 2021 market. This was the top here. So what happened was the price was staying above the 10 and the 20 and for the first time it closed below both these averages here.",
+      "what_is_shown": "Daily chart showing the 2021 market top and the specific candle where price first closed below both moving averages",
+      "why_needed": "Speaker uses 'here' multiple times to point at specific chart locations without stating exact dates or price levels"
+    },
+    {
+      "timestamp": "65:30",
+      "quote": "And then, you see, the moving averages crossed over here. You see this moving average crossover and then you're waiting for a breakdown of the support. And you can say previous swing low was this. This was the previous swing low. This was the support and the support got broken down here",
+      "what_is_shown": "Specific locations on daily chart showing MA crossover point, previous swing low level, and the candle where support broke down",
+      "why_needed": "Multiple instances of 'here' and 'this' pointing to specific chart features without verbal description of dates, price levels, or exact positioning"
+    },
+    {
+      "timestamp": "65:30",
+      "quote": "And you can also see the distortion in the chart. You see how the chart looked all the way up and suddenly you see this happening",
+      "what_is_shown": "Visual comparison between the smooth uptrend pattern and the sudden change in price action structure",
+      "why_needed": "The 'distortion' and what 'this' refers to are visual patterns that must be seen - the speaker doesn't describe what specifically changed in the price action"
+    },
+    {
+      "timestamp": "66:30",
+      "quote": "You see the stock, you see the price, the index started to go down here with both the moving averages sloping down. Again, it produced a small upswing. Now as it produced a small upswing, you may attempt a few trades here, try to try to build your positions, but again with this price action here, it clearly shot back down.",
+      "what_is_shown": "Specific sections of the chart showing downtrend, a small upswing rally, and subsequent rejection with gap down",
+      "why_needed": "Multiple uses of 'here' and 'this price action' without describing the specific time periods, price levels, or exact candle patterns being referenced"
+    },
+    {
+      "timestamp": "67:00",
+      "quote": "The moving average started to slope up, price started to behave well. Immediately it again gave back down with this gap down candle and things started to turn weak",
+      "what_is_shown": "Specific gap down candle that signaled market weakness after a brief improvement",
+      "why_needed": "The speaker references 'this gap down candle' without stating when it occurred or at what price level - must be visible on screen"
+    },
+    {
+      "timestamp": "67:30",
+      "quote": "And then again, it produces an upswing here, you see? How the stock starts to slope up and moving average starts to slope up. That's where you can build your positions.",
+      "what_is_shown": "A specific chart showing a stock's upswing with moving averages sloping upward, indicating the exact entry point being referenced",
+      "why_needed": "The speaker uses 'here' and 'this' to reference specific visual points on the chart without naming the stock or describing the exact price levels or timeframe where the pattern occurs"
+    },
+    {
+      "timestamp": "67:30",
+      "quote": "your goal is to get the most aggressive at the start of this swing, at the start of this swing. Only then you will be able to take advantage of this whole up move.",
+      "what_is_shown": "The chart showing the beginning point of the swing and the subsequent 'whole up move' being referenced",
+      "why_needed": "The speaker references 'this swing' and 'this whole up move' without verbally identifying where the swing starts or how large the move is - these are only visible on screen"
+    },
+    {
+      "timestamp": "68:00",
+      "quote": "you have to build in a lot of positions here, you have to get, you have to try to get aggressive here right away. Only then you'll be able to take advantage of this move.",
+      "what_is_shown": "Specific location on the chart where positions should be built and the subsequent move that can be captured",
+      "why_needed": "Multiple uses of 'here' and 'this move' without describing the actual price level, pattern, or stock being shown"
+    },
+    {
+      "timestamp": "68:00",
+      "quote": "And then again it slopes up and then there are problems start happening here. It closes down here, again shoots back up.",
+      "what_is_shown": "Multiple specific points on the chart marked by 'here' without verbal description of price levels or dates"
+    },
+    {
+      "timestamp": "68:30",
+      "quote": "Again it slopes up. But then here it clearly closes below the 10 and the 20 and and both these moving averages cross over, support is broken down here, everything is weak once again",
+      "what_is_shown": "Chart showing the moving average crossover, the specific candle closing below both MAs, and the support level breakdown",
+      "why_needed": "While the speaker mentions '10 and 20' moving averages, the specific candle, exact support level, and crossover point are referenced with 'here' and only visible on screen"
+    },
+    {
+      "timestamp": "68:30",
+      "quote": "Again it slopes up, you try to get in and it moves up. Again it goes down, you have to get out of the market. This is clear weakness in the market.",
+      "what_is_shown": "Chart showing the subsequent slope up, entry point, move up, then the decline indicating weakness",
+      "why_needed": "The speaker describes a sequence of price action using 'it' without identifying specific levels or timeframes - the pattern is only visible on the chart"
+    },
+    {
+      "timestamp": "68:30",
+      "quote": "And out, out, you're still out, you're still out, you're still out, it slopes down, everything is weak, everything is weak. Now it starts to slope up once again.",
+      "what_is_shown": "Extended period on the chart showing continued weakness and downward slope, followed by the point where it starts sloping up again",
+      "why_needed": "The duration of staying out and the specific point where the slope changes are referenced without verbal description of timeframe or price levels"
+    },
+    {
+      "timestamp": "69:00",
+      "quote": "Wait for it. Try to build some positions. And it is bouncing off very nice. Build aggressively positions. Go aggressive. Slowly, slowly build, build, build and it's moving up, up, up.",
+      "what_is_shown": "Chart showing the bounce point, the progression of the upward move, and where to build positions",
+      "why_needed": "The speaker describes a process of building positions during a bounce without identifying the specific price levels, support zones, or the stock being analyzed"
+    },
+    {
+      "timestamp": "73:00",
+      "quote": "And suddenly from the last week you are seeing a lot of stopping structures form, a lot of bases getting broken down, a lot of NPC started to form. And a lot of stocks are having choppy topping structures like this.",
+      "what_is_shown": "Chart examples showing topping structures, broken bases, and choppy price action patterns",
+      "why_needed": "The speaker says 'like this' while presumably pointing to or drawing chart patterns, but doesn't verbally describe what these topping structures or choppy patterns look like"
+    },
+    {
+      "timestamp": "73:30",
+      "quote": "Let's say look at this. This let's say is this is the index chart. Okay, this is the chart of the index. And this is the Okay. So let's say this is the 10 day moving average and this is the 20 day moving average.",
+      "what_is_shown": "Index chart being drawn or displayed with 10-day and 20-day moving averages marked",
+      "why_needed": "Speaker is drawing or pointing to a chart and identifying specific moving average lines visually without describing their position or relationship"
+    },
+    {
+      "timestamp": "73:30-74:00",
+      "quote": "Now, once again, the index is making a an upswing here. Okay? Now, right now the index chart is weak. Okay? It's a weak stock. It's a weak chart because it's sloping down and trending down.",
+      "what_is_shown": "Chart showing downtrend followed by an upswing at a specific location marked as 'here'",
+      "why_needed": "Speaker references 'here' for where the upswing occurs and describes chart slope visually without stating price levels or timeframes"
+    },
+    {
+      "timestamp": "74:30",
+      "quote": "But suddenly here, you start to see something changing in your watch list... So now you can see that the watch list is an early indication of the market reversal. Okay? The watch list is the early indication of the market reversal. And it allows you to position yourself at the bottom here, at the bottom of the index uh chart.",
+      "what_is_shown": "Specific point on the chart marked as 'here' showing where the reversal signal appears and where to position at the bottom",
+      "why_needed": "Speaker references 'here' twice to point to specific locations on the chart without describing their position relative to the overall structure"
+    },
+    {
+      "timestamp": "75:00-75:30",
+      "quote": "So, let's say you are in a up market. You are the index chart is going up. It's a healthy strong market. Now, the index chart is something like this. It has it has been moving, it is making an upswing and it's been there for five, six days, it's making a good upswing. Now, suddenly you in your watch list, you start to see that a lot of stocks are have structures like this.",
+      "what_is_shown": "Chart showing uptrend pattern and then specific stock structures being drawn or pointed to",
+      "why_needed": "Speaker says 'like this' twice while drawing or showing chart patterns without verbally describing what these structures look like"
+    },
+    {
+      "timestamp": "75:30",
+      "quote": "You are just you are not getting any good entry setups right now. You are finding very few, you are finding no stocks or very few stocks that are somewhere here. Okay, you are seeing most of the stocks are here.",
+      "what_is_shown": "Chart with two different zones marked - one showing good entry points and another showing extended positions",
+      "why_needed": "Speaker uses 'here' twice to point to different locations on the chart representing different stock positions without describing where these zones are"
+    },
+    {
+      "timestamp": "76:00",
+      "quote": "It means that this is not a good time to buy because there is a chance that the market may make a pull back here because a lot of stocks have got extended. So even though you are in a bull strong market, the watch list is telling you that it is not a good time to buy. It is a strong market, but it's not a good time to buy. And then when the market pulls back like this, then you will start to see that these structures after the breakout, they may again be coming back within the base or they'll be forming a totally new structure like this.",
+      "what_is_shown": "Chart showing pullback location and two different structure formations - one returning to base and one forming new structure",
+      "why_needed": "Speaker says 'here' and 'like this' twice while showing specific chart patterns and pullback locations without verbally describing what these structures look like or where they occur"
+    }
+  ],
+  "dr-2.txt": [
+    {
+      "timestamp": "14:30",
+      "quote": "I'll give you a scanner. It will be a big mover scanner. So you just run that scan over a particular period and you get big movers for a particular period",
+      "what_is_shown": "The big mover scanner interface, how to run it, and the resulting list of stocks",
+      "why_needed": "The speaker references giving a scanner and running it, but doesn't describe the specific steps, settings, or what the scanner interface looks like - the viewer needs to see the actual tool being demonstrated"
+    },
+    {
+      "timestamp": "14:30",
+      "quote": "you look at all the stocks that have moved big and analyze that their charts on trading view. You can mark your entries and exits on that chart. You can use a function that's there on trading view. The function's name is bar replay.",
+      "what_is_shown": "TradingView interface showing how to access and use the bar replay function, and demonstration of marking entries/exits on charts",
+      "why_needed": "While the speaker names the 'bar replay' function, they don't explain where to find it in TradingView or how to activate it - this is a tool demonstration that requires visual guidance"
+    },
+    {
+      "timestamp": "15:00",
+      "quote": "Using that function, you can play the bar live one by one. You can simulate simulate the market. Basically, it just looks like as if you are live in the market and you can just do bar by bar analysis.",
+      "what_is_shown": "Active demonstration of the bar replay function in action, showing bars appearing one by one on a chart",
+      "why_needed": "The speaker describes what bar replay does but the viewer needs to see it in action to understand how it simulates live market conditions and how to use it for analysis"
+    }
+  ],
+  "dr-3.txt": [
+    {
+      "timestamp": "06:38",
+      "quote": "So this is the scanner that I've run for the Indian market. And I've run the scanner and you see the list of stocks, okay? I can sort the list using the name. Okay? And I can sort the list using the sector.",
+      "what_is_shown": "The marketinout.com scanner interface showing a list of stocks with sorting options by name and sector",
+      "why_needed": "The speaker is demonstrating specific interface elements and sorting functionality that cannot be understood without seeing the actual scanner screen and how the sorting works"
+    },
+    {
+      "timestamp": "07:09",
+      "quote": "Now, apart from the list of stocks, if you click on this and click on charts here, you get ready-made charts here. Look at this. All the stocks you get the charts, just like this.",
+      "what_is_shown": "The chart view feature in marketinout showing multiple stock charts displayed simultaneously on screen",
+      "why_needed": "The speaker is demonstrating a specific feature ('click on this and click on charts') and showing the resulting chart display layout, which requires visual reference to understand the interface navigation and output"
+    },
+    {
+      "timestamp": "07:40",
+      "quote": "Now here you can zoom in and zoom out as well. Like if I click on size here, make it smaller, then it becomes a smaller chart. If I want to zoom out a bit, I I reduce the zoom.",
+      "what_is_shown": "The zoom and size controls in the chart interface, demonstrating how charts resize when these controls are adjusted",
+      "why_needed": "The speaker is clicking specific controls ('click on size here') and showing the visual result of resizing charts, which cannot be understood without seeing the interface elements and their effects"
+    },
+    {
+      "timestamp": "08:10",
+      "quote": "If I want to change the time frame, you can just click on the daily, weekly, monthly. You click on the chart, it will expand also. And here also you can click on the time frames, monthly and the weekly, okay?",
+      "what_is_shown": "The timeframe selection controls and chart expansion functionality in the marketinout interface",
+      "why_needed": "The speaker is demonstrating specific clickable elements for timeframe changes and chart expansion without describing their exact location or appearance"
+    },
+    {
+      "timestamp": "08:41",
+      "quote": "Now, again, this feature was not there earlier. I recommended this feature to them and they happily implemented this. And this helps a lot. If you are a new trader, you may not be familiar with the names of the stocks and the industry which they belong to. So now you just look at the chart, Crompton, it's from the consumer cyclical, furniture fixtures industry.",
+      "what_is_shown": "The visual display of sector and industry information on individual stock charts",
+      "why_needed": "The speaker is pointing to specific visual elements on a chart showing how sector/industry information is displayed, which requires seeing the actual chart layout"
+    },
+    {
+      "timestamp": "09:42",
+      "quote": "bracket, just write the date. Let's say I want to run the scan on 22nd of September. So I'll click on I'll write 09 that is the month, September, 22, that's the date and the year 2023. And I'll click on run.",
+      "what_is_shown": "The edit screen interface showing where to input the ADHIST command with date parameters",
+      "why_needed": "The speaker is demonstrating where to type the command and how the interface looks when entering the backdated scan parameters, requiring visual reference to the input fields"
+    },
+    {
+      "timestamp": "09:42",
+      "quote": "So now this scanner will run as if the date is 22nd of September. So it will run the scan on this particular date. If I click on chart here, now you see this line has come. So it means that the scanner has run on this particular date.",
+      "what_is_shown": "Stock charts with a vertical line indicating the backdated scan date of September 22nd",
+      "why_needed": "The speaker is pointing to a specific visual indicator ('this line has come') on the charts that shows the backdated scan execution, which cannot be understood without seeing the line on the charts"
+    },
+    {
+      "timestamp": "11:35",
+      "quote": "stock chart, okay? Click on stock chart here. We are going to click create some templates. So click on stock chart, then click on my chart templates.",
+      "what_is_shown": "The marketinout navigation menu showing the path: market in out > stock chart > my chart templates",
+      "why_needed": "The speaker is demonstrating specific navigation steps through menu items without describing the menu structure or location of these options"
+    },
+    {
+      "timestamp": "11:35",
+      "quote": "Now as you can see, I have created three templates, daily, weekly and monthly. You are supposed to do the same. So you can click on new chart template and do the settings. Write all of do the settings like this. Just name it daily and make all the settings like this. Tick where I have ticked.",
+      "what_is_shown": "The chart template creation interface showing all the specific settings, checkboxes, and configuration options that need to be replicated",
+      "why_needed": "The speaker instructs to replicate settings ('do the settings like this', 'Tick where I have ticked') without verbally describing what those settings are, requiring visual reference to the configuration screen"
+    },
+    {
+      "timestamp": "12:06",
+      "quote": "So just click on add 50, add 20, add 200 and all of them should appear here. And you can look at the chart here. It appears like this.",
+      "what_is_shown": "The moving average configuration interface and the resulting chart showing how the 20, 50, and 200 moving averages appear visually",
+      "why_needed": "The speaker is showing where to add moving averages and how they display on the chart ('appears like this') without describing the visual appearance or interface layout"
+    },
+    {
+      "timestamp": "12:37",
+      "quote": "And then click on save template. Okay? Again go to my chart template. Again create new chart template and then you have to create the weekly template. So make all the settings the way I've done.",
+      "what_is_shown": "The weekly template settings screen showing all configuration options that need to be replicated",
+      "why_needed": "The speaker instructs to replicate settings ('make all the settings the way I've done') without verbally describing what those specific settings are"
+    },
+    {
+      "timestamp": "12:37",
+      "quote": "Again go to my chart template, click on monthly, uh sorry. Go to my chart template, click on new chart template and then uh make all the settings the way I've done and create the monthly template. Make sure that do not you do not mess up with these settings. Just do the settings as the way I've done it so that things are consistent.",
+      "what_is_shown": "The monthly template settings screen showing all configuration options that need to be exactly replicated",
+      "why_needed": "The speaker emphasizes replicating exact settings ('do the settings as the way I've done it') without verbally describing what those settings are, requiring visual reference"
+    },
+    {
+      "timestamp": "13:39",
+      "quote": "So here is how it will look like. So these are the conditions, this is how the conditions will look like.",
+      "what_is_shown": "The actual scanner conditions/code displayed in the interface that needs to be copied from the text file",
+      "why_needed": "The speaker references 'these are the conditions' and 'this is how the conditions will look like' without describing what the conditions actually are or what format they're in - the viewer must see the screen to understand what they're looking for"
+    },
+    {
+      "timestamp": "14:10",
+      "quote": "So you have to create each scanner like this and then you you can look at the list of your scanners by going to the my stock screen.",
+      "what_is_shown": "The navigation path and location of 'my stock screen' in the interface",
+      "why_needed": "The speaker says 'going to the my stock screen' but doesn't describe where this is located or how to navigate to it - visual demonstration is required"
+    },
+    {
+      "timestamp": "14:41",
+      "quote": "You click on this, go to charts, you get ready made charts here. Okay. Now based on your preference screen size, you can adjust. You can make it a a smaller chart like this and use double charts like this",
+      "what_is_shown": "The chart layout options and how to adjust chart sizes, including the double chart view configuration",
+      "why_needed": "The speaker uses 'this' and 'like this' multiple times without describing what buttons to click or what the different chart size options look like"
+    },
+    {
+      "timestamp": "15:12",
+      "quote": "And here are the templates. If you click on the weekly, now all the charts will be the weekly time frame.",
+      "what_is_shown": "The location and appearance of the template selection interface showing daily/weekly/monthly options",
+      "why_needed": "The speaker says 'here are the templates' without describing where they are located or what they look like in the interface"
+    }
+  ],
+  "dr-4.txt": [
+    {
+      "timestamp": "04:03",
+      "quote": "So if you go to your scan, here I have opened the India setup scan. So whatever your setup scan is, you can just click on edit screen. And here I have mentioned 20 crores as the turnover for my Indian setup scan.",
+      "what_is_shown": "The MarketInOut scanner interface showing the 'edit screen' option and the specific liquidity filter field where '20 crores' turnover value is entered",
+      "why_needed": "The speaker is demonstrating how to access and modify scanner settings in a specific platform interface. Without seeing the screen, viewers cannot locate the 'edit screen' button or identify where the turnover value field is located in the scanner configuration."
+    },
+    {
+      "timestamp": "06:21",
+      "quote": "So as you can see, I have created this watch list here, India watch list. I'll just zoom it in. You can see India shortlist is the name of my watch list and there I have made three sections. Ready, the next is near, and the third section is away.",
+      "what_is_shown": "TradingView watchlist interface showing a watchlist named 'India shortlist' with three distinct sections labeled 'Ready', 'Near', and 'Away'",
+      "why_needed": "The speaker is showing the actual watchlist structure and organization in TradingView. Without seeing the screen, viewers cannot understand how the three-section system appears visually or how to replicate this organizational structure."
+    },
+    {
+      "timestamp": "07:05",
+      "quote": "So you can also create three sections. You can just right click on this and create add a section and that's how the section gets added.",
+      "what_is_shown": "Right-click context menu in TradingView watchlist showing the 'add a section' option and the process of creating new sections",
+      "why_needed": "This is a step-by-step demonstration of a specific software workflow. Without seeing where to right-click and what menu options appear, viewers cannot replicate the process of adding sections to their watchlist."
+    },
+    {
+      "timestamp": "09:26",
+      "quote": "So if I click on if I look at this stock in the ready section, so these are the stocks which are ready for trigger. So let's say this is the trigger bar, the previous one.",
+      "what_is_shown": "A chart showing a specific stock with a candle marked as the trigger bar, demonstrating what a 'ready for trigger' setup looks like",
+      "why_needed": "The speaker references 'this stock' and 'this is the trigger bar' without naming the stock or describing the pattern characteristics. The visual identification of which specific candle is the trigger bar is essential to understanding the concept."
+    },
+    {
+      "timestamp": "09:26",
+      "quote": "Then in the near section, let's say we have something like RBL Bank here. So here you see the stock I'll just explain this. Uh the stock has uh given this good volume pickup here. It it hits its previous stop here. And now the stock seems ready for a breakout.",
+      "what_is_shown": "RBL Bank chart showing a specific volume pickup bar, a previous resistance level being hit, and the current price structure near breakout",
+      "why_needed": "While the stock name is mentioned, the speaker points to specific visual elements ('this good volume pickup here', 'hits its previous stop here') without stating exact price levels or dates. The visual context is needed to identify which candle shows volume pickup and where the previous resistance level is."
+    },
+    {
+      "timestamp": "10:19",
+      "quote": "But if the stock pulls back like this, okay, and then we have the our trigger bar here forming, that's where you would be looking to enter. So this stock is put in the near section because now we are awaiting for a pullback. The stock has this wake up call here, right? This is the wake up call for the stock",
+      "what_is_shown": "RBL Bank chart with visual indication of where a potential pullback would occur, where the trigger bar would form, and which specific candle represents the 'wake up call'",
+      "why_needed": "The speaker uses demonstrative language ('like this', 'here', 'this wake up call here') to point to specific areas and candles on the chart without describing their exact location, price levels, or pattern characteristics verbally."
+    },
+    {
+      "timestamp": "10:48",
+      "quote": "And then from the away section, let's say we pick up this stock from the Indian market here. So this is how the stock is now. What we are doing here is we are waiting for a wake up call or something that is interesting. So right now the good base is in the progress. You look at the stock, the stock is making the first base here. Okay? It's making the first base here.",
+      "what_is_shown": "An unnamed stock chart from the 'Away' section showing a base formation in progress, with the specific area of the base visually indicated",
+      "why_needed": "The speaker does not name the stock and repeatedly uses 'this stock', 'here', and 'this is how the stock is now' while pointing to visual elements. Without seeing the chart, viewers cannot identify which stock is being discussed or what the base pattern looks like."
+    },
+    {
+      "timestamp": "12:20",
+      "quote": "So just to summarize once more, the shortlist scan is a very important scan. Uh it just finds out the contracted candle every day in healthy stocks. All you have to do is look at the charts and put good stocks, great stocks into the shortlist, okay? And classify them into either ready, near or away. So we talked that let's say the stock is in a stage one here, it broke out of the stage one and it's forming up, starts forming a good base here.",
+      "what_is_shown": "A chart example showing stage 1 consolidation, the breakout point from stage 1, and the beginning of a new base formation",
+      "why_needed": "The speaker uses 'here' multiple times to point to specific areas on a chart (stage 1 location, breakout point, base formation area) without describing the price levels, timeframe, or pattern characteristics that define these stages."
+    },
+    {
+      "timestamp": "13:02",
+      "quote": "Okay? And here we put it in the away section. Okay? Once the stock gives some confirmation like this, breaks out here of this mini base, we put it into into the near section. Then as the stock, let's say pulls back and it produces a trigger bar here, then we will put it into the ready section",
+      "what_is_shown": "A chart showing the progression of a stock through three stages: initial base (away section), mini base breakout (near section), and pullback with trigger bar formation (ready section), with each stage visually marked",
+      "why_needed": "The speaker uses 'here' and 'like this' repeatedly to point to specific chart locations and patterns without verbally describing what constitutes the mini base, where exactly the breakout occurs, or which candle is the trigger bar. The visual demonstration is essential to understanding the classification criteria."
+    }
+  ],
+  "dr-5.txt": [
+    {
+      "timestamp": "01:36",
+      "quote": "So, in this watch list, we will have great stocks that are building great bases or potential setups.",
+      "what_is_shown": "TradingView interface showing the 'short list' watchlist structure and examples of stocks with bases or potential setups",
+      "why_needed": "The speaker references 'this watch list' without naming it verbally at this point, and viewers need to see the TradingView interface to understand the watchlist organization being discussed"
+    },
+    {
+      "timestamp": "02:06",
+      "quote": "We know that we have three sections within this watch list, ready, near, and away.",
+      "what_is_shown": "TradingView watchlist showing the three sections: 'ready', 'near', and 'away' with stocks organized into these categories",
+      "why_needed": "While the speaker names the three sections, viewers need to see how these sections are visually organized within TradingView to understand the practical implementation of this categorization system"
+    }
+  ],
+  "dr-6.txt": [
+    {
+      "timestamp": "01:58",
+      "quote": "So I'll just draw a diagram of how it looks and then we will also look at the charts. So let's say the index is moving like this on the upside. And this is how the 10 moving average looks like. And this is how the 20 moving average looks like.",
+      "what_is_shown": "Hand-drawn diagram showing price movement above two moving averages (10 and 20 SMA) with both moving averages sloping upward",
+      "why_needed": "The speaker is drawing a visual representation in real-time without describing the specific angles, spacing, or relationships between the lines - the viewer must see the diagram to understand the ideal configuration"
+    },
+    {
+      "timestamp": "03:40",
+      "quote": "What happens is the stock price moves like this and then it transitions and starts going down. So this is the 10 moving average. And then this becomes the 20. Like this. Okay? So that's how the price starts going down. And then it continues like this.",
+      "what_is_shown": "Hand-drawn diagram showing price transitioning from uptrend to downtrend with moving averages crossing over and sloping downward",
+      "why_needed": "The speaker uses 'like this' repeatedly while drawing, without verbally describing the transition pattern, crossover point, or downward trajectory - visual is essential"
+    },
+    {
+      "timestamp": "04:48",
+      "quote": "So as I said, the best environment to be trading is this. This is the best environment to be trading in. You see, price is floating above the 10 and the 20. This orange line is the 10 and the green line is the 20.",
+      "what_is_shown": "Specific segment of Nifty 500 chart demonstrating ideal trading conditions with price above both moving averages",
+      "why_needed": "Speaker says 'this' and 'this environment' without specifying the time period or exact price levels being referenced"
+    },
+    {
+      "timestamp": "05:20",
+      "quote": "And this is the best environment where you will see you will be making easy trades, high risk reward, high win rate. Fantastic money will be made in this environment. All of this. Okay?",
+      "what_is_shown": "Extended view of the same favorable market period on Nifty 500 chart",
+      "why_needed": "Speaker refers to 'all of this' without defining the duration or specific characteristics of the period being highlighted"
+    },
+    {
+      "timestamp": "06:40",
+      "quote": "And you can see similar things after the COVID fall, the market went into a smooth, smooth, favorable state. And then here we saw the first close. We saw the first breakdown of the 10 and the 20 on this candle.",
+      "what_is_shown": "Weekly chart of Nifty 500 showing post-COVID recovery period and specific candle where price first closed below both moving averages",
+      "why_needed": "Speaker references 'here' and 'this candle' without stating the date or price level of the breakdown"
+    },
+    {
+      "timestamp": "07:15",
+      "quote": "And with that, we also need a breakdown of the support. So as the stock as as there was a crossover here, now we are waiting for the breakdown. And for the breakdown, you can mark this previous low as the support. And as the stock broke below that support, we say that okay, we have the clear signal, market weakened.",
+      "what_is_shown": "Weekly chart showing moving average crossover point, previous swing low support level, and the candle where support was broken",
+      "why_needed": "Multiple visual references ('here', 'this previous low', 'that support') without stating specific price levels or dates"
+    },
+    {
+      "timestamp": "08:24",
+      "quote": "Now you see on the daily chart here, we are at the top of that 2021 market. This was the top here. So what happened was the price was staying above the 10 and the 20 and for the first time it closed below both these averages here. That was the signal, a weakening signal. And then, you see, the moving average is crossed over here. You see this moving average crossover and then you're waiting for a breakdown of the support. And you can say previous swing low was this. This was the previous swing low. This was the support. And the support got broken down here",
+      "what_is_shown": "Daily chart of Nifty 500 showing 2021 market top, first close below MAs, MA crossover point, previous swing low support level, and breakdown candle",
+      "why_needed": "Multiple sequential visual references ('here', 'this', 'this was') pointing to specific candles and levels without stating dates or prices"
+    },
+    {
+      "timestamp": "09:00",
+      "quote": "And you can also see the distortion in the chart. You see how the chart looked all the way up and suddenly you see this happening",
+      "what_is_shown": "Visual comparison of smooth uptrend pattern versus choppy/volatile price action showing market character change",
+      "why_needed": "Speaker refers to visual 'distortion' and 'this happening' without describing what the distortion looks like"
+    },
+    {
+      "timestamp": "10:47",
+      "quote": "You see the stock, you see the price, the index started to go down here with both the moving averages sloping down. Again, it produced a small upswing. Now as it produced a small upswing, you may attempt a few trades here, try to try to build your positions, but again with this price action here, it clearly shot back down.",
+      "what_is_shown": "Specific downtrend segment followed by a counter-trend rally and subsequent rejection on the daily chart",
+      "why_needed": "Multiple 'here' references and 'this price action' without specifying which candles or time periods are being discussed"
+    },
+    {
+      "timestamp": "11:22",
+      "quote": "And then again, a small upswing. The moving average started to slope up. Price started to behave well. Immediately it again gave back down with this gap down candle and things started to turn weak",
+      "what_is_shown": "Another counter-trend rally attempt followed by a specific gap-down candle that signaled weakness",
+      "why_needed": "References 'this gap down candle' without stating when it occurred or at what price level"
+    },
+    {
+      "timestamp": "12:07",
+      "quote": "Then again, there is this downtrend here, no trading, no trading, no trading, very, very conservative, very, very conservative. And then again, it produces an upswing here, you see? How the stock starts to slope up and moving averages start to slope up. That's where you can build your positions.",
+      "what_is_shown": "Extended downtrend period followed by the beginning of a new uptrend where MAs start sloping upward",
+      "why_needed": "References 'this downtrend here' and 'here' for the upswing without specifying time periods or price levels"
+    },
+    {
+      "timestamp": "14:00",
+      "quote": "And then again it slopes up and then there there are problems start happening here. It closes down here. Again shoots back up. Again it slopes up. But then here it's clearly closes below the 10 and the 20 and the and both these moving averages cross over. Support is broken down here.",
+      "what_is_shown": "Sequence showing uptrend, weakness signals, close below MAs, MA crossover, and support breakdown on specific candles",
+      "why_needed": "Multiple 'here' references pointing to different candles and events without stating which specific candles or dates"
+    },
+    {
+      "timestamp": "14:40",
+      "quote": "And out, out, you are still out, you are still out, you are still out. It slopes down. Everything is weak, everything is weak. Now it starts to slope up once again. It's moving up. Wait for it. Try to build some positions. And it is bouncing off very nice. Build aggressively positions.",
+      "what_is_shown": "Extended weak period followed by the start of a new uptrend with price and MAs beginning to slope upward",
+      "why_needed": "References to when to stay out and when to start building positions based on visual chart patterns without stating specific time periods or price levels"
+    },
+    {
+      "timestamp": "15:15",
+      "quote": "You can do the same thing in any index chart and just look at how the recent price action is and based on that what has happened in the past",
+      "what_is_shown": "An index chart (likely Nifty or similar) showing recent price action relative to 10 and 20 period moving averages, with visual examples of uptrends and breakdowns",
+      "why_needed": "The speaker references 'this' chart and 'recent price action' without naming the specific index or describing the exact pattern being shown. The viewer needs to see the visual example of what constitutes 'strong uptrend' vs 'breakdown of the 10 and 20' on the actual chart displayed."
+    }
+  ],
+  "dr-7.txt": [
+    {
+      "timestamp": "02:41",
+      "quote": "Now, let me show you the setup tracker sheet. So, this is the setup tracker sheet.",
+      "what_is_shown": "The actual setup tracker sheet/spreadsheet interface with columns for dates, stock symbols, industries, sectors, and color-coded performance indicators",
+      "why_needed": "The speaker is demonstrating the physical layout and structure of the sheet which cannot be understood from verbal description alone"
+    },
+    {
+      "timestamp": "03:11",
+      "quote": "You have to put in the names of the stocks that that are triggering the setups. Let's say it's HDFC, IOC. I'm just putting random names right now.",
+      "what_is_shown": "The speaker typing stock symbols into specific cells of the spreadsheet, showing where and how to enter data",
+      "why_needed": "Demonstrates the exact data entry process and cell locations in the spreadsheet interface"
+    },
+    {
+      "timestamp": "03:41",
+      "quote": "If either of the industry or the sector is not coming or it is missing, you can just put it in the sheet number two. Just go towards the bottom of the sheet. Okay. And just add new stocks here.",
+      "what_is_shown": "Navigation to a second sheet tab at the bottom of the spreadsheet and the specific area where new stock data should be added",
+      "why_needed": "The location of 'sheet number two' and where to add stocks cannot be understood without seeing the spreadsheet interface"
+    },
+    {
+      "timestamp": "04:41",
+      "quote": "For example, let's say just assume Century Tex has made 2R target. It has hit 2R. Make it green. Let's say PCBL has failed. You make it orange. Make it red.",
+      "what_is_shown": "The speaker applying color formatting (green, red/orange) to specific cells containing stock names in the spreadsheet",
+      "why_needed": "Demonstrates the visual color-coding system and how to apply it to specific cells"
+    },
+    {
+      "timestamp": "05:11",
+      "quote": "So now you have to also see what is the R multiple that they have hit. Let's say Century Tex has hit 2R. This has also hit 2R and after a few days, the Century Tex has gone on to hit 5R. So now update it to five.",
+      "what_is_shown": "The speaker updating numerical values in specific cells of the spreadsheet, showing where R multiples are recorded",
+      "why_needed": "Shows the exact location and method for updating R multiple values in the sheet"
+    },
+    {
+      "timestamp": "06:41",
+      "quote": "So I'll just show you. I have entered the setups here. I have updated these greens and the reds and the R multiples. And then you have to write down the market stance according to the factors.",
+      "what_is_shown": "A completed section of the spreadsheet showing entered setups with color coding and a specific area where market stance is recorded",
+      "why_needed": "Demonstrates what a properly filled-out section looks like and where to record market stance"
+    },
+    {
+      "timestamp": "07:11",
+      "quote": "Like this. You have to do this every day. And then you can simply uh insert the bottom thick bottom border and close the day.",
+      "what_is_shown": "The speaker applying a thick bottom border to a row in the spreadsheet to visually separate daily entries",
+      "why_needed": "Shows the specific formatting technique used to demarcate daily entries in the sheet"
+    },
+    {
+      "timestamp": "07:41",
+      "quote": "So you can just select these stocks like this for a particular day. Just copy them like using control C and just paste them in the trading view watch list.",
+      "what_is_shown": "The speaker selecting cells in the spreadsheet, copying them, then switching to TradingView interface and pasting into a watchlist",
+      "why_needed": "Demonstrates the multi-step workflow between the spreadsheet and TradingView that cannot be understood verbally"
+    },
+    {
+      "timestamp": "07:41",
+      "quote": "So create a I mean, in the setups watch list, click on the plus button, add a stock button and just paste this simply just paste it and just press enter and you will see that these stocks will come inside the watch list.",
+      "what_is_shown": "The TradingView interface showing the plus button, add stock button, and the paste/enter process to add multiple stocks to a watchlist",
+      "why_needed": "The specific UI elements and workflow in TradingView cannot be understood without seeing the interface"
+    }
+  ],
+  "dr-8.txt": [
+    {
+      "timestamp": "00:30",
+      "quote": "You can find this document inside the Champions Club Telegram group. Go to the new members resources topic. And there you will find the link to this particular document.",
+      "what_is_shown": "The document/framework being referenced, likely visible on screen showing the structure of the performance review template",
+      "why_needed": "The speaker references 'this document' and 'this particular document' without describing its contents or structure. Viewers need to see what document format/template is being discussed to understand what they're looking for in Telegram."
+    },
+    {
+      "timestamp": "01:00",
+      "quote": "In this video, let's have a look at the points. Let's let's have a look at all the framework that I have prepared for you",
+      "what_is_shown": "The performance review framework document displayed on screen showing the categories and structure",
+      "why_needed": "Speaker says 'let's have a look' indicating they're about to show something visual. While they read through the points verbally afterward, this moment indicates the document is being displayed for the first time."
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+[
+  {
+    "index": 0,
+    "timestamp": "01:36",
+    "quote": "this is the candle which you can clearly see which has the biggest range",
+    "what_is_shown": "Ultratech Cement weekly chart with the largest range candle highlighted",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_0136.png",
+    "description": "The provided image does not show a stock chart or a specific candle as described by the speaker. Instead, it is a presentation slide titled \"PIVOTAL CANDLES\" that defines the concept of \"True Range\" as the size of a candle (High - Low) plus the change from the previous close. This slide provides the theoretical context for the speaker's statement about a candle having the \"biggest range,\" even though the visual example is not present in this frame.",
+    "critical": true
+  },
+  {
+    "index": 1,
+    "timestamp": "02:08",
+    "quote": "the white line is the 50 candles average so from the average which is 7% this current candle has a range of 18%",
+    "what_is_shown": "True range indicator applied to chart showing 50-candle average line and current candle's range value",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_0208.png",
+    "description": "On the weekly stock chart for ULTRATECH CEMENT, a grey arrow points to a large green candle from early February 2021. In the bottom pane, an indicator labeled \"TRP\" shows this candle's value is 17.93 (rounded to 18% by the speaker). The white line, representing the average, is at the level of 7.01 (rounded to 7%).",
+    "critical": true
+  },
+  {
+    "index": 2,
+    "timestamp": "02:42",
+    "quote": "you see the three candles here 1 2 3 you look at the range the ranges are above the average for all the three candles",
+    "what_is_shown": "Three specific candles on chart with ranges visibly above the average line",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_0242.png",
+    "description": "On the weekly candlestick chart for ULTRATECH CEMENT, a grey arrow points to a small red candle from late May 2021, which is the first of a group of three small candles. Below the price chart, a TRP (True Range) indicator displays each candle's range as a vertical bar, with a white line representing the average range. The speaker is asking the viewer to compare the height of the three TRP bars corresponding to the highlighted candles against this white average line.",
+    "critical": true
+  },
+  {
+    "index": 3,
+    "timestamp": "03:14",
+    "quote": "this particular candle here this green candle look at the range here the range is pretty big",
+    "what_is_shown": "Specific green candle on the Ultratech chart with large range",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_0314.png",
+    "description": "On the weekly candlestick chart for ULTRATECH CEMENT, a grey arrow points to a large green candle from early 2021. This candle's range is visually much larger than the surrounding candles, spanning from a low near the 5700 price level to a high around 6500. The corresponding volume bar below is also significantly taller than its neighbors, highlighting the strong buying pressure during that week.",
+    "critical": true
+  },
+  {
+    "index": 4,
+    "timestamp": "04:48",
+    "quote": "this white line here represents the average volume so on this particular candle how many shares were traded 6.5 million shares were traded",
+    "what_is_shown": "Volume indicator with average volume line and specific candle's volume bar comparison",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_0448.png",
+    "description": "On the weekly chart for ULTRATECH CEMENT, a vertical dotted line selects a large green candle from February 2021, which is also marked by an arrow with a yellow circle. The volume indicator's legend at the top left of its panel displays the volume for this specific candle as \"6.517M,\" which the speaker rounds to 6.5 million. An orange line (referred to as white by the speaker) running through the volume bars represents the average volume.",
+    "critical": true
+  },
+  {
+    "index": 5,
+    "timestamp": "05:50",
+    "quote": "look at the three red candles here the ranges uh were going up you can see and the volumes are also increasing",
+    "what_is_shown": "Three specific red candles showing progression of ranges and volumes above average",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_0550.png",
+    "description": "On the ULTRATECH CEMENT weekly chart, a grey arrow points to the third of three consecutive red candles in early 2022, which shows a significant price drop. The size (range) of these three red candles visibly increases from left to right. Directly below in the volume pane, the corresponding red volume bars also show a clear, progressive increase in height, matching the speaker's observation.",
+    "critical": true
+  },
+  {
+    "index": 6,
+    "timestamp": "06:22",
+    "quote": "look at these candles here two three Candles now here the range if you look at the range it is at the average",
+    "what_is_shown": "Specific group of 2-3 candles with ranges at average level but high volume bars",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_0622.png",
+    "description": "This is a weekly candlestick chart for ULTRATECH CEMENT (ULTRACEM). The speaker refers to a large green candle from October 2020, indicated by the first grey arrow and the user's cursor on the indicator below. The cursor points to the corresponding bar on the \"TRP\" (True Range) indicator, showing its value is at the same level as the white moving average line, visually confirming the statement that \"the range... is at the average.\"",
+    "critical": true
+  },
+  {
+    "index": 7,
+    "timestamp": "06:54",
+    "quote": "because of the covid fall in March 2020 the range got expanded you see the range got expanded so when the range got so so much expanded the average line also rose up",
+    "what_is_shown": "Chart showing March 2020 COVID crash period with visibly expanded candle ranges and rising average line",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_0654.png",
+    "description": "On the weekly chart for ULTRATECH CEMENT, a sharp price drop in March 2020 (the \"covid fall\") coincides with a large spike in the bottom \"TRP\" (True Range) indicator, visually representing the \"range got expanded.\" Following this spike, the white moving average line on the TRP indicator trends upward, demonstrating that \"the average line also rose up.\"",
+    "critical": true
+  },
+  {
+    "index": 8,
+    "timestamp": "07:25",
+    "quote": "if you look at these two candles the red and the green I think both of these candles are pivotal candles",
+    "what_is_shown": "Specific red and green candles identified as pivotal on the chart",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_0725.png",
+    "description": "On the weekly candlestick chart for Ultratech Cement (ULTRACE), a large grey arrow and a yellow dot highlight a red candle followed by a large green candle around January 2021. This bullish engulfing pattern, where the green candle's body completely covers the previous red one, signifies a strong upward continuation, making them \"pivotal\" candles in the uptrend.",
+    "critical": true
+  },
+  {
+    "index": 9,
+    "timestamp": "10:02",
+    "quote": "this candle here very big pivotal candle you see the range is pretty solid and the volume is also solid",
+    "what_is_shown": "Infosis weekly chart with specific large pivotal candle highlighted with high range and volume",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_1002.png",
+    "description": "On the weekly stock chart for Infosys (INFY), a grey arrow points to a large, bullish candle from the week of July 13, 2020, which breaks out from a prior consolidation period. Directly below this candle, the volume indicator shows a massive green bar, the highest on the chart by a significant margin, visually confirming the speaker's observation of a \"solid\" price range and \"solid\" volume.",
+    "critical": true
+  },
+  {
+    "index": 10,
+    "timestamp": "10:34",
+    "quote": "look at this particular candle now I can see that the range is greater than the average but there are no good volumes",
+    "what_is_shown": "Specific candle with above-average range but low volume bars visible on indicator",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_1034.png",
+    "description": "On the weekly stock chart for INFOSYS LTD (INFY), a grey arrow points to a large green candlestick from approximately October 2020, indicating a wide price range for that period. Directly below this candle, the corresponding green bar in the \"Volume\" indicator is not exceptionally high and is close to the white moving average line. This visual evidence supports the speaker's statement that the large candle range was not accompanied by \"good volumes.\"",
+    "critical": true
+  },
+  {
+    "index": 11,
+    "timestamp": "10:34",
+    "quote": "if you mark the midpoint of its range you see the the the candle has closed below the midpoints",
+    "what_is_shown": "Candle on Infosis chart with visible midpoint marking and close position relative to midpoint",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_1034.png",
+    "description": "On the weekly candlestick chart for INFOSYS LTD (INFY), two grey arrows point to large green candles from mid-2020 and late-2020. An orange horizontal line is drawn at the approximate midpoint of the first highlighted candle's body. Although the speaker claims the candles closed below their midpoints, the chart actually shows these specific bullish candles closed near their highs, well above the marked midpoint.",
+    "critical": true
+  },
+  {
+    "index": 12,
+    "timestamp": "11:38",
+    "quote": "you see there is a big gap here so it has moved down by 10% from the previous close",
+    "what_is_shown": "Specific candle showing visible gap from previous candle's close on the chart",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_1138.png",
+    "description": "On the weekly stock chart for Infosys Ltd (INFY), a vertical dotted line and a yellow crosshair highlight a large red candlestick for the week of April 18, 2022, which has a significant gap down from the previous candle's close. The information bar at the top of the screen quantifies this drop, showing the price change as \"-159.65 (-9.33%)\", which corroborates the speaker's statement about a nearly 10% decline.",
+    "critical": true
+  },
+  {
+    "index": 13,
+    "timestamp": "12:45-13:16",
+    "quote": "we are on the weekly chart of infosis and I have marked a resistance Zone here as you can see and in the month of July 2020 this resistance got broken out",
+    "what_is_shown": "Weekly chart of Infosys with marked resistance zone and breakout in July 2020",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_1245.png",
+    "description": "The screen does not show the stock chart of Infosis mentioned by the speaker. Instead, it displays a title card with the logo \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" in blue text on a grey background. No charts, price levels, or technical analysis annotations are visible.",
+    "critical": true
+  },
+  {
+    "index": 14,
+    "timestamp": "13:47-14:20",
+    "quote": "look at this particular candle here which broke out this is a clearcut positive pivotal candle you look at the range here sorry look at the volume here first a standout volume clearly visible and look at the range the range is also very big",
+    "what_is_shown": "Specific candle with visible volume and range comparison to average",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_1347.png",
+    "description": "There is a mismatch between the audio and the provided image. The image displays a text slide defining the term \"Breakout,\" while the audio describes a specific stock chart with a breakout candle and its corresponding volume. The visual elements (a chart, candles, volume indicator) mentioned in the audio are not present in the given image.",
+    "critical": true
+  },
+  {
+    "index": 15,
+    "timestamp": "14:54-15:26",
+    "quote": "look at the weekly chart of lus labs and I have marked a support here and on this particular candle we see a breakdown of the support",
+    "what_is_shown": "Weekly chart of LUS Labs with marked support level and breakdown candle",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_1454.png",
+    "description": "The speaker's statement cannot be understood from the image, as the screen does not show a stock chart. Instead, it displays a text slide defining a \"Breakout\" while the video lesson titled \"15 Breakdown\" is loading within the \"Windows Player\" application. No chart, stock name, or support breakdown is visible.",
+    "critical": true
+  },
+  {
+    "index": 16,
+    "timestamp": "15:58-16:28",
+    "quote": "this particular candle is a negative pivotal candle look at the volume above average the range is also higher than the average look at a close the close is below the midpoint of its own range",
+    "what_is_shown": "Specific candle with volume visualization and price close position within candle range",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_1558.png",
+    "description": "Based on the provided image and quote, there is a mismatch. The image is a text slide defining the term \"Breakdown\" in stock trading. It does not show a candlestick chart, volume indicators, or any specific stock data, so the speaker's analysis of a \"negative pivotal candle\" with its volume and range cannot be understood from this visual.",
+    "critical": true
+  },
+  {
+    "index": 17,
+    "timestamp": "18:37-19:08",
+    "quote": "we are on the daily chart daily chart of BDL bat Dynamics limited so go to indicators go to technicals and search for moving average ma a ribbon m a ribbon plot this one now go to the settings",
+    "what_is_shown": "TradingView interface with indicators menu, search function, and MA Ribbon indicator",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_1837.png",
+    "description": "The screen displays a presentation slide titled \"MOVING AVERAGES,\" which explains the use of 50 DMA and 200 DMA as indicators. This slide provides the theoretical context for the speaker's subsequent instructions on how to add a \"moving average\" indicator to a chart. No stock chart, price levels, or specific stock names are visible.",
+    "critical": true
+  },
+  {
+    "index": 18,
+    "timestamp": "19:08-19:39",
+    "quote": "on the time frame select one day do not forget this on the time frame you must select one day because we want to plot 50 day and the 200 day moving average then you have to take the first and the second one and remove the third and the fourth one",
+    "what_is_shown": "Settings panel with time frame dropdown and MA Ribbon configuration options showing multiple MA selections",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_1908.png",
+    "description": "On the stock chart for BHARAT DYNAMICS LTD (BDL), the \"MA Ribbon\" indicator settings are open. A dropdown menu shows \"1 day\" highlighted in blue, indicating its selection as the timeframe. Correspondingly, the settings show \"MA \u21161\" (length 50) and \"MA \u21162\" (length 200) are checked, while \"MA \u21163\" and \"MA \u21164\" are unchecked, visually demonstrating the setup of the 50-day and 200-day moving averages.",
+    "critical": true
+  },
+  {
+    "index": 19,
+    "timestamp": "19:39-20:10",
+    "quote": "I'll select white color with a 75% opacity and for the 200 day moving average I'll prefer the purple color with with an 80% of opacity and I'll click on okay okay before clicking on okay go to style and look at this you can remove the third and the fourth",
+    "what_is_shown": "Color picker interface and style settings panel for moving averages",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_1939.png",
+    "description": "On the candlestick chart for BHARAT DYNAMICS LTD (BDL), the \"MA Ribbon\" indicator settings window is open. The user is adjusting the style for the 200-day moving average (MA \u21162), selecting a purple color with the opacity slider visible at 87%. The settings also show the 50-day moving average (MA \u21161) is white, and the third and fourth moving averages are disabled (unchecked), which corresponds to the speaker's instructions.",
+    "critical": true
+  },
+  {
+    "index": 20,
+    "timestamp": "20:10-20:41",
+    "quote": "you also see the values on the top left side which is 93 and 850 respectively so it means that if you look at the closing prices of the previous 50 candles previous 50 days and take out an average the average comes to 93",
+    "what_is_shown": "Chart with two moving average lines and numerical values displayed (93 for 50-day MA, 850 for 200-day MA)",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_2010.png",
+    "description": "On the 1-day stock chart for BHARAT DYNAMICS LTD, the \"MA Ribbon\" indicator in the top-left corner shows values of 903.09 and 850.09. The speaker misspeaks \"903.09\" as \"93\" while explaining that this value represents the 50-day moving average. These two values correspond to the white and purple moving average lines plotted over the price candles.",
+    "critical": true
+  },
+  {
+    "index": 21,
+    "timestamp": "21:12-21:43",
+    "quote": "if you go to the weekly chart you see the candles have now turned into the weekly candles each candle represents one week but the values are the same because the averages are based on the calculation on the daily chart and this line represents the 200 day sorry the white line represents again the 50-day moving average not the 50 we moving average it represents the 50-day moving average and the purple line shows the 200 day moving average so the values you see it will be the same the white value is 93 latest and the purple value is 850",
+    "what_is_shown": "Weekly chart view with same moving average lines and values visible",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_2112.png",
+    "description": "The weekly (\"1W\") stock chart for BHARAT DYNAMICS LTD shows an \"MA Ribbon\" indicator with two moving average lines, one white/light and one purple. The indicator's legend in the top-left corner explicitly displays the values \"903.05\" and \"850.08\", directly confirming the speaker's quoted values of 903 and 850 for these lines.",
+    "critical": true
+  },
+  {
+    "index": 22,
+    "timestamp": "22:13-23:16",
+    "quote": "the first is ascending triangle pattern here you see a horizontal resistance where you will see the price getting reversed more than two times at least and then you see higher lows you look at the lows here the lows are higher and higher so you see at least two higher lows and you can draw you can connect those lows and form a line like this so that creates an triangle pattern",
+    "what_is_shown": "Chart showing ascending triangle pattern with horizontal resistance line and ascending trendline connecting higher lows",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_2213.png",
+    "description": "The provided image is a presentation slide with the title \"CHART PATTERNS\" and three introductory bullet points about their use in trading. Contrary to the speaker's description, there is no stock chart, ascending triangle pattern, or any drawn lines illustrating resistance or higher lows. The screen contains only text.",
+    "critical": true
+  },
+  {
+    "index": 23,
+    "timestamp": "23:47-24:17",
+    "quote": "ultimately this horizontal resistance is broken out we say that the ascending triangle pattern has broken out the stock has broken out of the ascending triangle pattern on the upside and then there is an anticipation that the stock will charge higher",
+    "what_is_shown": "Breakout point of ascending triangle pattern with price action moving above resistance",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_2347.png",
+    "description": "The image displays a chart explicitly labeled \"ASCENDING TRIANGLE PATTERN,\" which is formed by a horizontal resistance line and an ascending support line. A yellow circle with an arrow highlights the \"breakout\" point where the green price line moves above the horizontal resistance. After the breakout, the price line is drawn continuing its upward trajectory, visually representing the anticipation that the \"stock will charge higher.\"",
+    "critical": true
+  },
+  {
+    "index": 24,
+    "timestamp": "24:48",
+    "quote": "this pattern breaks down on the downside",
+    "what_is_shown": "Descending triangle pattern with horizontal support and slanting trendline, showing downside breakout",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_2448.png",
+    "description": "The image displays a diagram of a \"Descending Triangle Pattern,\" which is drawn with a flat horizontal support line and a descending resistance line. The statement is illustrated by the red price line breaking below this horizontal support, an event explicitly highlighted by a small blue circle. After this breakdown, the price line is shown continuing its move lower, confirming the \"downside\" break.",
+    "critical": true
+  },
+  {
+    "index": 25,
+    "timestamp": "25:22",
+    "quote": "symmetrical triangle pattern wherein on both ends there are slanting trend lines",
+    "what_is_shown": "Symmetrical triangle with lower highs and higher lows converging, showing breakout direction",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_2522.png",
+    "description": "The speaker incorrectly describes the pattern shown on the screen. The image displays a candlestick chart with a \"Descending Triangle Pattern\" explicitly labeled and drawn, which is characterized by a horizontal support line and a descending (slanting) resistance line. The speaker's description of a \"symmetrical triangle\" with two slanting trendlines does not match the visual evidence presented.",
+    "critical": true
+  },
+  {
+    "index": 26,
+    "timestamp": "25:52",
+    "quote": "double bottom pattern you see the stock comes down hits this particular level",
+    "what_is_shown": "Double bottom with two support rejections at same level and neckline resistance",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_2552.png",
+    "description": "The statement is not understandable from the image, as the screen explicitly illustrates and labels a \"SYMMETRICAL TRIANGLE PATTERN.\" The chart shows a price consolidating between a descending upper trendline and an ascending lower trendline. This visual information directly contradicts the speaker's description of a \"double bottom pattern.\"",
+    "critical": true
+  },
+  {
+    "index": 27,
+    "timestamp": "26:23",
+    "quote": "triple bottom pattern first second and third bottom getting form",
+    "what_is_shown": "Triple bottom with three rejections of same support level and neckline breakout",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_2623.png",
+    "description": "On the `#ESH2@CME` candlestick chart, the price drops to a support zone (highlighted by a blue rectangle around the 4275.00-4290.00 price level) three distinct times. The first and third of these lows are explicitly marked with circles labeled \"1\" and \"3\", respectively, illustrating the \"first, second, and third bottom\" the speaker is identifying. A \"W\" shape is drawn over the pattern, with the peak between the bottoms labeled \"2\".",
+    "critical": true
+  },
+  {
+    "index": 28,
+    "timestamp": "26:54",
+    "quote": "you can see that the second bottom does not touch the support",
+    "what_is_shown": "Triple bottom with imperfect second bottom not reaching same level as first and third",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_2654.png",
+    "description": "The candlestick chart illustrates a \"Triple Bottom\" pattern with a thick black horizontal support line drawn near the price level of 3. The chart explicitly labels the \"1st bottom,\" \"2nd bottom,\" and \"3rd bottom\" with circles. The candlestick low of the circled \"2nd bottom\" is visibly higher than the support line, while the 1st and 3rd bottoms touch or nearly touch it.",
+    "critical": true
+  },
+  {
+    "index": 29,
+    "timestamp": "27:26",
+    "quote": "double top pattern the stock makes two tops of the same resistance you can see a big M letter M getting formed",
+    "what_is_shown": "Double top with M-shape formation and neckline support breakdown",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_2726.png",
+    "description": "The image displays a candlestick chart explicitly titled \"DOUBLE TOP PATTERN,\" which illustrates the concept. The price action forms two distinct peaks, labeled \"Top 1\" and \"Top 2,\" at an identical \"Resistance Zone\" around the 20,400 price level. This movement, rising to the first top, dipping to a \"Support\" line, rising again to the second top, and then falling, clearly outlines the shape of a large letter 'M' as described.",
+    "critical": true
+  },
+  {
+    "index": 30,
+    "timestamp": "27:57",
+    "quote": "triple top pattern we see three tops getting formed you can see 1 two and three",
+    "what_is_shown": "Triple top with three resistance rejections and neckline breakdown",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_2757.png",
+    "description": "The image displays a candlestick chart with the title \"TRIPLE TOP PATTERN\" at the top left. A specific price formation is highlighted, showing three distinct peaks at a similar resistance level, which are explicitly labeled with the numbers \"1\", \"2\", and \"3\". A horizontal line is drawn across the top of these peaks, visually defining the resistance area of the pattern being described.",
+    "critical": true
+  },
+  {
+    "index": 31,
+    "timestamp": "28:29",
+    "quote": "rounding bottom pattern the stock is forming a rounding bottom it is curving itself out",
+    "what_is_shown": "Rounding bottom curved formation with neckline resistance and breakout",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_2829.png",
+    "description": "The chart for the New Zealand Dollar/Canadian Dollar displays a large, blue U-shaped line drawn under the price candles from September to November, which is explicitly labeled \"Rounding Bottom Pattern.\" This curve visually traces the price action as it gradually shifts from a downtrend to an uptrend, bottoming out near the 0.82500 level. The annotation directly confirms the speaker's identification of the pattern being formed.",
+    "critical": true
+  },
+  {
+    "index": 32,
+    "timestamp": "29:00",
+    "quote": "cup and handle pattern you see this round cup and then you see this handle here getting formed",
+    "what_is_shown": "Cup and handle pattern with rounded cup shape and handle driftdown on right side",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_2900.png",
+    "description": "The image displays a candlestick chart titled \"CUP AND HANDLE PATTERN.\" A large, U-shaped curve is drawn under the price action from approximately March to July and is explicitly labeled \"Cup.\" Immediately following this, a smaller, downward-sloping consolidation pattern is outlined and labeled \"Handle,\" visually corresponding to the two parts of the pattern mentioned.",
+    "critical": true
+  },
+  {
+    "index": 33,
+    "timestamp": "29:32",
+    "quote": "rounding top creates a curve at the top this is a curve at the top",
+    "what_is_shown": "Rounding top curved formation with neckline support and breakdown",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_2932.png",
+    "description": "On the daily chart for the British Pound/U.S. Dollar, a large, blue, inverted U-shaped curve is drawn over the price action from mid-2009 to early 2010. This curve visually defines the \"Rounding Top Pattern\" by tracing the gradual price reversal from a peak near the 1.72000 level. The chart is explicitly titled \"ROUNDING TOP PATTERN,\" directly corresponding to the speaker's statement.",
+    "critical": true
+  },
+  {
+    "index": 34,
+    "timestamp": "30:04",
+    "quote": "Head and Shoulders pattern in this pattern we have the left shoulder then there is a head and then we have a right shoulder the head is always higher than both the shoulders",
+    "what_is_shown": "Head and Shoulders pattern with three peaks, head higher than shoulders, and neckline",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3004.png",
+    "description": "The image, titled \"HEAD & SHOULDERS PATTERN,\" displays a line graph forming three distinct peaks. The central and highest peak is labeled \"Head,\" while the two smaller peaks on either side are labeled \"Shoulder.\" This diagram visually confirms the speaker's statement that the head is higher than both shoulders.",
+    "critical": true
+  },
+  {
+    "index": 35,
+    "timestamp": "30:35",
+    "quote": "here is a practical example you see this is the left shoulder then we have the head here and then we have the right shoulder here",
+    "what_is_shown": "Specific Head and Shoulders chart example with labeled shoulder and head peaks",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3035.png",
+    "description": "The screen displays a candlestick chart titled \"HEAD & SHOULDERS PATTERN.\" Three distinct peaks in the price action are explicitly labeled from left to right as \"Shoulder,\" \"Head,\" and \"Shoulder,\" directly corresponding to the components the speaker is identifying. A horizontal line, known as the neckline, is drawn connecting the lows between these three peaks.",
+    "critical": true
+  },
+  {
+    "index": 36,
+    "timestamp": "31:07",
+    "quote": "inverse Head and Shoulders pattern we have two shoulders you can see the shoulder number one and then we see shoulder number two and in the middle we see the head which is clearly lower than both the shoulders",
+    "what_is_shown": "Inverse Head and Shoulders with head valley lower than shoulder peaks and neckline",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3107.png",
+    "description": "The image displays a candlestick chart titled \"INVERSE HEAD & SHOULDERS PATTERN\" with key formations explicitly labeled. Annotations point to a left \"Shoulder\" (a price trough around 9.0), a lower central \"Head\" (a trough near 8.5), and a right \"Shoulder\" (another trough around 9.0). A horizontal \"Neckline\" is drawn at the 10.0 price level, visually confirming the structure described by the speaker.",
+    "critical": true
+  },
+  {
+    "index": 37,
+    "timestamp": "31:38",
+    "quote": "you see a left shoulder here then you see a head here and then you see a right shoulder here",
+    "what_is_shown": "Specific inverse Head and Shoulders chart example with neckline breakout",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3138.png",
+    "description": "On the British Pound / Canadian Dollar chart, an \"Inverse Head and Shoulders Pattern\" is explicitly labeled. The three key troughs of this pattern are marked with an \"L\" for the left shoulder, an \"H\" for the lower head, and an \"R\" for the right shoulder, making the speaker's description easy to follow. A dotted horizontal \"neckline\" is drawn across the peaks of the formation, further defining the pattern.",
+    "critical": true
+  },
+  {
+    "index": 38,
+    "timestamp": "34:12",
+    "quote": "here is the first chart we can see an inverse Head and Shoulders pattern you see the left shoulder the Deep head and the right shoulder",
+    "what_is_shown": "Inverse Head and Shoulders pattern on actual chart with breakout candle",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3412.png",
+    "description": "On the weekly stock chart for AEGIS LOGISTICS, an inverse head and shoulders pattern is explicitly drawn with three orange curved lines, highlighting the left shoulder, a deeper head, and the right shoulder between late 2021 and mid-2022. A yellow horizontal line at approximately the 250.00 price level marks the pattern's neckline. A yellow circle with a pointer also highlights the low of the left shoulder.",
+    "critical": true
+  },
+  {
+    "index": 39,
+    "timestamp": "34:43",
+    "quote": "on this chart we have a rounding top pattern you see the rounding top then we have the neckline here",
+    "what_is_shown": "Rounding top pattern on chart with neckline and breakdown",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3443.png",
+    "description": "On the daily chart for ANGEL ONE LTD, the price action from September to December 2022 forms a pattern that the speaker identifies as a \"rounding top\" with a \"neckline.\" This is visually represented by a horizontal resistance line drawn near 1650.00 and an upward-sloping support trendline (the \"neckline\") that is broken to the downside in late November, a point highlighted by the yellow cursor. Following this breakdown, the price enters a steep downtrend.",
+    "critical": true
+  },
+  {
+    "index": 40,
+    "timestamp": "34:43",
+    "quote": "here we see an ascending triangle pattern you see the resistance which is a horizontal line and then you see the slanting trend line",
+    "what_is_shown": "Ascending triangle with horizontal resistance and slanting trendline connecting higher lows",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3443.png",
+    "description": "On the daily chart for ANGEL ONE LTD, an ascending triangle pattern is highlighted with two yellow lines between September and December 2022. A horizontal line is drawn at the resistance level of approximately 1650 INR, while an upward-slanting trendline connects the rising lows, forming the support. The price action is shown breaking down below this slanting support line in December 2022.",
+    "critical": true
+  },
+  {
+    "index": 41,
+    "timestamp": "34:43",
+    "quote": "here we see a symmetrical triangle pattern we see higher lows and lower highs getting formed and finally the price is squeezed here at the end of the pattern",
+    "what_is_shown": "Symmetrical triangle with converging trendlines and compression point",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3443.png",
+    "description": "On the daily chart for ANGEL ONE LTD, a symmetrical triangle pattern is drawn with two converging orange trendlines, one connecting lower highs and the other connecting higher lows between September and December 2022. The price candles are shown getting progressively narrower or \"squeezed\" within this pattern. A yellow cursor points to the area where the price breaks down below the lower trendline, marking the end of the formation.",
+    "critical": true
+  },
+  {
+    "index": 42,
+    "timestamp": "35:13",
+    "quote": "breakout here we see Head and Shoulders pattern you see the left shoulder then the head and then the right shoulder again you will sometimes see variations like here you see two shoulders",
+    "what_is_shown": "Head and Shoulders pattern with labeled left shoulder, head, right shoulder, and neckline with breakdown candle",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3513.png",
+    "description": "On the stock chart for ANGEL ONE LTD, an orange triangle is drawn around the price action from November 2021 to March 2022. The speaker identifies a pattern within this triangle as a head and shoulders variation, with a price dip in November (left shoulder), a lower dip in December (head), and two subsequent higher dips in January and February (the \"two shoulders\"). The \"breakout\" is the sharp upward price move in March 2022 that follows this formation.",
+    "critical": true
+  },
+  {
+    "index": 43,
+    "timestamp": "35:13",
+    "quote": "here we have a symmetrical triangle pattern uh lower highs and higher lows being connected finally the price breaks down of this pattern",
+    "what_is_shown": "Symmetrical triangle with lower highs and higher lows trend lines, breakout candle",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3513.png",
+    "description": "On the daily chart for ANGEL ONE LTD, a symmetrical triangle pattern is drawn with two orange trendlines, connecting a series of lower highs and higher lows from approximately November 2021 to March 2022. Contrary to the speaker's statement about a \"break down,\" the chart clearly shows the price breaking *out* above the upper trendline of the triangle, followed by a significant upward rally.",
+    "critical": true
+  },
+  {
+    "index": 44,
+    "timestamp": "35:47",
+    "quote": "here we have a double bottom as I said when we have double bottoms it is not necessary that every time we see exact support levels being reversed twice here there is this the second bottom is slightly higher than the first bottom",
+    "what_is_shown": "Double bottom pattern with two bottoms at different price levels and neckline",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3547.png",
+    "description": "On the daily chart for Apollo Hospitals, the price forms a double bottom pattern after breaking down from a large symmetrical triangle. The first bottom occurs in May 2022 around the \u20b93500 price level. The second bottom forms in late June/early July 2022 at a visibly higher price, around the \u20b93700 level, illustrating the speaker's point.",
+    "critical": true
+  },
+  {
+    "index": 45,
+    "timestamp": "35:47",
+    "quote": "here we have two head and shoulders pattern the first Head and Shoulder is here there is this neckline and there is this breakdown",
+    "what_is_shown": "First Head and Shoulders pattern with neckline and breakdown location on chart",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3547.png",
+    "description": "On the daily chart for APOLLO HOSPITALS, the speaker identifies the large symmetrical triangle pattern, drawn with orange trendlines from November 2021 to April 2022, as a head and shoulders pattern. The lower upward-sloping trendline is referred to as the \"neckline,\" which the cursor is pointing to. A \"breakdown\" is visible in late April 2022, where the price falls sharply below this neckline from approximately the 4700 level.",
+    "critical": true
+  },
+  {
+    "index": 46,
+    "timestamp": "36:19",
+    "quote": "formed another Head and Shoulders pattern you can clearly see the shoulders and the middle head and then again it broke down",
+    "what_is_shown": "Second Head and Shoulders pattern on same chart with shoulders, head, neckline, and breakdown",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3619.png",
+    "description": "On the daily chart for ASIAN PAINTS LTD, a bearish Head and Shoulders pattern is explicitly drawn with yellow arcs over the price peaks and a horizontal line for the neckline around the 3000 INR level. The \"breakdown\" is clearly visible as the price candles fall sharply below this neckline after the formation of the right shoulder around May 2022.",
+    "critical": true
+  },
+  {
+    "index": 47,
+    "timestamp": "36:19",
+    "quote": "here we have a third Head and Shoulders pattern here on the same chart look at this head sorry shoulder the middle head and the right shoulder then we have the neckline and then the stock broke down of the neckline",
+    "what_is_shown": "Third Head and Shoulders pattern with shoulders, head, neckline, and breakdown point",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3619.png",
+    "description": "On the Asian Paints Ltd. chart, a head and shoulders pattern is highlighted with yellow curved lines over the price peaks from approximately February to May 2022. An orange horizontal line drawn around the 3000 INR level serves as the neckline. A small yellow arrow points to the candlestick where the price breaks down below this neckline, confirming the pattern described.",
+    "critical": true
+  },
+  {
+    "index": 48,
+    "timestamp": "36:49",
+    "quote": "here we see an ascending triangle pattern the resistance is the horizontal Al line here and then we have higher lows being connected through a sling trend line",
+    "what_is_shown": "Ascending triangle with horizontal resistance line and ascending support trend line",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3649.png",
+    "description": "The speaker's statement is incorrect, as the chart does not show the pattern they describe. The chart for ASIAN PAINTS LTD has orange arcs highlighting a bearish Head and Shoulders pattern, with a horizontal orange line at approximately \u20b93100 acting as the support neckline. The speaker misidentifies this setup as an ascending triangle and incorrectly refers to the horizontal line as resistance and a non-existent rising trendline.",
+    "critical": true
+  },
+  {
+    "index": 49,
+    "timestamp": "36:49",
+    "quote": "here we have again an ascending triangle pattern similar thing",
+    "what_is_shown": "Second ascending triangle pattern with horizontal resistance and ascending lows",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3649.png",
+    "description": "On the ASIAN PAINTS LTD chart, the speaker refers to a pattern from November-December 2022, which, despite being misidentified as an \"ascending triangle,\" is visually drawn as a Head and Shoulders pattern. This bearish pattern is marked with three orange arcs for the peaks and a horizontal support line (neckline) around the 3060 price level. The phrase \"again... similar thing\" is understandable because an almost identical Head and Shoulders pattern is also highlighted on the chart from February-May 2022.",
+    "critical": true
+  },
+  {
+    "index": 50,
+    "timestamp": "37:21",
+    "quote": "here we have an inverse Head and Shoulders now here is a variation here you see the pattern is you know it's it seems like the pattern is tilting downwards but yes it is inverse Head and Shoulders pattern you see it is the shoulder then we have the head and then we have the right shoulder as marked by the uh curves that I have drawn",
+    "what_is_shown": "Inverse Head and Shoulders pattern with drawn curves marking shoulders and head, tilted formation",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3721.png",
+    "description": "On the candlestick chart for BAJAJ HLDG & INVES, three yellow U-shaped curves highlight an inverse Head and Shoulders pattern that formed between May and July 2022. The pattern is tilted, with a downward-sloping yellow line acting as the neckline above the left shoulder, a lower head (bottoming near 4180 INR), and the right shoulder. Following the pattern's completion, the price breaks above the neckline and trends significantly upward.",
+    "critical": true
+  },
+  {
+    "index": 51,
+    "timestamp": "37:52",
+    "quote": "on this particular chart we have a rounding top and also see we see some kind of an Head and Shoulders formation many times we'll see rounding tops and head and shoulders together so this is a rounding top pattern we have a neck line and then the stop broke out broke down of this NE neckline",
+    "what_is_shown": "Rounding top pattern with Head and Shoulders overlay, neckline, and breakdown location",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3752.png",
+    "description": "On the daily chart for BAJAJ FINANCE LTD, a yellow curved line is drawn over the price action from August to November 2022, illustrating the \"rounding top\" pattern mentioned. A horizontal yellow line is drawn near the 7100-7200 price level, representing the \"neckline.\" The speaker's statement is supported by the visual evidence of the price candles breaking down below this neckline in November 2022.",
+    "critical": true
+  },
+  {
+    "index": 52,
+    "timestamp": "37:52",
+    "quote": "here we have inverse Head and Shoulders pattern again A variation of this pattern we see the left shoulder we see the head the head is you know appearing like this and then we see the right shoulder and finally the stock breaks out of the pattern the neckline",
+    "what_is_shown": "Inverse Head and Shoulders pattern variation with shoulder-head-shoulder positioning and neckline",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3752.png",
+    "description": "The speaker is describing an inverse Head and Shoulders pattern, but the prominent yellow annotation on the Bajaj Finance Ltd. chart actually shows a bearish Rounding Top pattern from August to November 2022. The speaker is likely referring to the un-annotated price action from late 2022 to February 2023, where a low, a lower low, and a higher low form before the price moves up, which could be interpreted as the bullish pattern they describe.",
+    "critical": true
+  },
+  {
+    "index": 53,
+    "timestamp": "38:23",
+    "quote": "here we have double top again just like double bottom we may not not see exact reversals reversals of the same levels in this case the second top was a little higher than the first top but finally the neckline got broken down",
+    "what_is_shown": "Double top pattern with two peaks at different price levels and neckline",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3823.png",
+    "description": "Although the speaker mentions a \"double top\" with a \"neckline broken down,\" the chart for BALAJI AMINES LTD actually shows the opposite: a bullish consolidation pattern (an inverse head and shoulders or VCP) is drawn with orange lines. This pattern features a horizontal resistance \"neckline\" at approximately \u20b9880, which the price breaks *out* of to the upside, as indicated by the yellow arrow, before continuing its strong uptrend.",
+    "critical": true
+  },
+  {
+    "index": 54,
+    "timestamp": "38:54",
+    "quote": "here we have Century ply again we have a double top formation clearcut two rejections of the same level and then the stock breaks down of this NE line when you see a double top you see an M formation the letter M is formed printed on the chart",
+    "what_is_shown": "Double top pattern forming M shape with two resistance rejections and breakdown",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3854.png",
+    "description": "The screen displays a candlestick chart for CENTURYPLY LTD, where a double top pattern, resembling the letter 'M', is highlighted with two horizontal orange lines. The top line marks the two peaks (rejections) at a resistance level near 350.00 INR, and the bottom line indicates the \"neckline\" around 280.00 INR. The chart clearly shows the price breaking down below this neckline after the second peak, which is indicated by a yellow cursor.",
+    "critical": true
+  },
+  {
+    "index": 55,
+    "timestamp": "38:54",
+    "quote": "here we have a symmetrical triangle beautiful perfect looking symmetrical triangle the lower highs and the higher lows being connected and then it gives a bullish breakout of this particular pattern",
+    "what_is_shown": "Symmetrical triangle with lower highs and higher lows converging, bullish breakout candle",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3854.png",
+    "description": "The speaker's statement is not supported by the visual evidence on the screen. The chart for CENTURYPLY LTD does not show a symmetrical triangle; instead, two horizontal orange lines highlight a double top reversal pattern with resistance near 350 INR and support near 285 INR. Following this pattern, the price breaks down below the support level in a bearish move, which contradicts the speaker's claim of a \"bullish breakout.\"",
+    "critical": true
+  },
+  {
+    "index": 56,
+    "timestamp": "39:26",
+    "quote": "here we have a rounding bottom formation on this particular chart and many times you'll see rounding bottom appear along with the cup and handle pattern so in this case you see the right handle the small right handle here and there's a breakup",
+    "what_is_shown": "Rounding bottom with small handle on right side and breakout point",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3926.png",
+    "description": "On the weekly chart for HOUSING & URBAN, a large orange curve is drawn to outline a \"rounding bottom\" or \"cup\" formation spanning from mid-2021 to late 2022. A horizontal orange line at the ~40.10 price level marks the pattern's neckline, and the price action shows a small pullback forming the \"handle\" before a \"breakup\" above this resistance level. The breakout is accompanied by a significant increase in volume, visible in the bar chart at the bottom.",
+    "critical": true
+  },
+  {
+    "index": 57,
+    "timestamp": "39:26",
+    "quote": "here we have a rounding top and I've drawn two neck lines here the first one is here the second neckline is this support here both the neck lines were broken",
+    "what_is_shown": "Rounding top with two drawn necklines at different levels, both broken",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3926.png",
+    "description": "The speaker incorrectly identifies a \"rounding bottom\" pattern on the HOUSING & URBAN (HUDCO) chart as a \"rounding top.\" The two lines they refer to are the orange curved line forming the U-shaped base of the pattern from mid-2021 to late 2022, and the horizontal orange line at the ~40.10 resistance level. The chart actually shows the price breaking *upward* through the horizontal neckline in late 2022, which is a bullish breakout, contradicting the speaker's bearish interpretation.",
+    "critical": true
+  },
+  {
+    "index": 58,
+    "timestamp": "39:58",
+    "quote": "here we have triple top formation there are three tops of the same resistance on this chart and then we have a neckline getting formed here which is a support and finally the stock breaks down of the neckline",
+    "what_is_shown": "Triple top pattern with three resistance peaks and neckline support level",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3958.png",
+    "description": "On the Indraprastha Gas chart, a horizontal channel is drawn with orange lines, marking resistance near the 390 level and support near the 330 level. The speaker incorrectly identifies the multiple price rejections at the upper resistance line as a \"triple top\" and the lower support line as the \"neckline.\" The speaker then falsely claims a \"breakdown\" occurs, when the chart actually shows the price breaking *out* above the resistance after August 2022.",
+    "critical": true
+  },
+  {
+    "index": 59,
+    "timestamp": "39:58",
+    "quote": "here we have a triple bottom you can see one two and three bottoms again the third bottom is not touching the exact support but it's okay this is a variation so triple top triple bottom formation is a bullish price action for the stock the stock broke out of this pattern with this particular big red candle sorry big green candle",
+    "what_is_shown": "Triple bottom with three bottom points at varying levels and breakout candle color/position",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_3958.png",
+    "description": "On the weekly chart for INDRAPRASTHA GAS, two horizontal orange lines define a trading range between approximately 325.50 and 385.00. The speaker points to three distinct price lows near the bottom support line between May and August 2022, identifying this as a \"triple bottom\" pattern. This formation is followed by a large green candlestick that breaks out above the upper orange resistance line, confirming the speaker's analysis.",
+    "critical": true
+  },
+  {
+    "index": 60,
+    "timestamp": "40:28",
+    "quote": "here we have a rounding bottom formation and again you can see a small handle forming on the right hand side of this pattern so it is a rounding bottom and also a cup and handle C Le formation",
+    "what_is_shown": "Rounding bottom with cup shape and small handle on right side",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_4028.png",
+    "description": "On the weekly stock chart for KIRLOSKAR FERROUS IND LTD, an orange U-shaped line is drawn to illustrate a \"rounding bottom\" or \"cup\" pattern from late 2021 to late 2022. A horizontal orange line at the ~285.00 INR level marks the pattern's neckline or resistance. The subsequent brief price consolidation just below this line, which the speaker calls the \"handle,\" completes the \"cup and handle\" formation before the price breaks out, as highlighted by the yellow cursor.",
+    "critical": true
+  },
+  {
+    "index": 61,
+    "timestamp": "40:28",
+    "quote": "here we have a descending triangle pattern with a bullish breakout we have a support being connected by connect which is a horizontal line here and then we have lower highs getting formed and finally at the right hand side there is this breakout of this pattern which is a bullish breakout for the stock",
+    "what_is_shown": "Descending triangle with horizontal support and descending resistance, bullish breakout location",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_4028.png",
+    "description": "On the weekly chart for KIRLOSKAR FERROUS IND LTD, a hand-drawn orange pattern shows a horizontal resistance line at approximately 285.00 INR and a curved support line below it, forming a rounding bottom or cup shape. A small yellow arrow points to the candlestick in late 2022 that breaks above this horizontal resistance, representing the bullish breakout mentioned. Following this breakout, the price is shown to have continued on a strong uptrend.",
+    "critical": true
+  },
+  {
+    "index": 62,
+    "timestamp": "40:58",
+    "quote": "here again we have the same thing here is the chart of U which is a weekly chart which shows The Head and Shoulders pattern you can see it is the left shoulder the center is the head and then we have the right shoulder this forms the neckline and here we have a breakdown of this pattern this shows the double bottom as well you see the first bottom and the second bottom here further it also shows you rounding bottom kind of a formation",
+    "what_is_shown": "Weekly chart with Head and Shoulders pattern, double bottom, and rounding bottom formations overlaid",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_4058.png",
+    "description": "This is a weekly candlestick chart for NATCO PHARMA LTD on the NSE. A large Head and Shoulders pattern is visible, with the head peaking in mid-2021, and an orange horizontal line drawn at the 785.00 level acts as the neckline. The price is shown breaking down below this neckline in mid-2022, which visually corresponds to the speaker's description of a pattern breakdown.",
+    "critical": true
+  },
+  {
+    "index": 63,
+    "timestamp": "41:30",
+    "quote": "here is a very beautiful double bottom pattern you see the first bottom and then you see the second bottom which is clear and then the stock broke out of this particular neckline at this particular candle",
+    "what_is_shown": "Double bottom pattern with two distinct bottoms and neckline breakout candle",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_4130.png",
+    "description": "On the weekly chart for SAKAR HEALTHCARE L, a double bottom pattern is shown with two distinct lows in 2019-2020. An orange horizontal line is drawn at the resistance level (neckline) of approximately 71.00 INR. The speaker's statement is explained by the large green candlestick in July 2020 that breaks decisively above this orange neckline, signaling a bullish breakout.",
+    "critical": true
+  },
+  {
+    "index": 64,
+    "timestamp": "42:00",
+    "quote": "here we have a rounding bottom formation and then we have a small handle formed here and then the stock broke out of this handle on the upside so I mean this is a rounding bottom plus a cup and handle this is a cup and handle you see this is a cup and the handle is Big here you see this is a handle on the right hand side the stock broke out of this handle on this particular candle",
+    "what_is_shown": "Cup and handle pattern with rounding cup, large handle on right side, and breakout candle",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_4200.png",
+    "description": "This stock chart for VIP INDUSTRIES displays a \"cup and handle\" pattern, visually represented by orange lines tracing a large rounding bottom (the cup) from late 2021 to early 2022, followed by a smaller consolidation (the handle). A yellow circle highlights the large green candlestick in late March 2022, which signifies the price breaking out above the handle's downward-sloping trendline.",
+    "critical": true
+  },
+  {
+    "index": 65,
+    "timestamp": "42:32",
+    "quote": "this is a rounding top and you can also call it it also looks like an Head and Shoulders pattern with two shoulders on the right side so overall this is a topping pattern rounding top and head and shoulders and this is a neckline the stock broke down of its neckline bearish price action",
+    "what_is_shown": "Rounding top with two shoulders formation and neckline, breakdown point",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_4232.png",
+    "description": "This is a weekly candlestick chart for WOCKHARDT on the NSE, showing a topping formation from late 2020 to late 2021 that resembles both a \"rounding top\" and a \"Head and Shoulders\" pattern. A horizontal orange line is drawn at approximately the 390.00 price level, acting as the \"neckline\" for this pattern. A yellow arrow points to where the price broke down below this neckline in early 2022, initiating a significant bearish trend.",
+    "critical": true
+  },
+  {
+    "index": 66,
+    "timestamp": "42:32",
+    "quote": "again this is a very clear Head and Shoulders pattern the first is the left shoulder then we have the head then we have the right shoulder here on the right hand side we have a neckline and there is a breakdown of this particular C of this particular pattern on this particular candle",
+    "what_is_shown": "Clear Head and Shoulders pattern with labeled shoulders, head, neckline, and breakdown candle",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-3_4232.png",
+    "description": "This is a weekly stock chart for WOCKHARDT (NSE) showing a \"Head and Shoulders\" pattern that formed in 2021. A horizontal orange line is drawn at approximately 390.00 INR, marking the pattern's neckline. A yellow arrow points to a large red candle in late 2021, which represents the price breaking down below this neckline, confirming the pattern as described by the speaker.",
+    "critical": true
+  }
+]

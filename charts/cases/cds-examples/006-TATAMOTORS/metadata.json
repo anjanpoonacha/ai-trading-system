@@ -1,0 +1,20 @@
+{
+  "symbol": "TATAMOTORS",
+  "date": null,
+  "timeframe": "weekly",
+  "label": "good_base",
+  "sub_label": "first_base_stage2",
+  "confidence": "moderate",
+  "notes": "Clean Stage 2, first base within Stage 2. Failed breakout → earnings next day → DO NOT TRADE. Post-earnings gap → pullback to 20 DMA → contraction → trigger. Small base: quick entry needed.",
+  "trp_pct": 2,
+  "base_candles": null,
+  "outcome": "worked",
+  "outcome_pct": 21,
+  "outcome_duration_days": null,
+  "outcome_notes": "13% (2R) → 20% exit | 15% move, TRP 2% (7x) → soft stops | 21% (great) → 40% exit | Close below 20 DMA after 90+ days → final 40%.",
+  "source": "course_example",
+  "image_quality": "course_clip",
+  "needs_fresh_screenshot": true,
+  "video_id": "aTv2pNEEN_Q",
+  "clip_file": "aTv2pNEEN_Q_1400.mp4"
+}

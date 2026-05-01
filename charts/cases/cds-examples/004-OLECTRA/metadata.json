@@ -1,0 +1,20 @@
+{
+  "symbol": "OLECTRA",
+  "date": null,
+  "timeframe": "weekly",
+  "label": "good_base",
+  "sub_label": "stage_1b",
+  "confidence": "strong",
+  "notes": "Stage 4 → Stage 1 (large green candle, massive volume). Daily: V-V structure ₹155-₹175, earnings gap → pullback to 20 DMA → trigger. TRP 4.3%.",
+  "trp_pct": 4.3,
+  "base_candles": null,
+  "outcome": "worked",
+  "outcome_pct": 57,
+  "outcome_duration_days": null,
+  "outcome_notes": "57% move, TRP 4.8 (great) → 40% exit | Extreme extension: 60% exit | Final 20% on low break. Rounding structure on lower timeframe = weakness.",
+  "source": "course_example",
+  "image_quality": "course_clip",
+  "needs_fresh_screenshot": true,
+  "video_id": "aTv2pNEEN_Q",
+  "clip_file": "aTv2pNEEN_Q_0430.mp4"
+}

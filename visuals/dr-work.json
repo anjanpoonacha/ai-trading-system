@@ -1,0 +1,834 @@
+[
+  {
+    "timestamp": "13:30-14:30",
+    "quote": "This is how the dashboard appears... position manager metrics, the open trades are five, exposure is 75% right now. My total open risk is 1.95%... equity curve... R distribution curve",
+    "what_is_shown": "championjournal.com dashboard interface with metrics, equity curve, R distribution curve visualization",
+    "why_needed": "Specific dashboard layout, metric values, and chart visualizations cannot be understood from text alone; viewer must see the actual interface design",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "14:30-15:00",
+    "quote": "trades page... you get a list of all the trades... trade level metrics here... stop loss percent, position size percent, RPT, gain percent... all these are trade level metrics which you will see here",
+    "what_is_shown": "Trade list page with columns and rows of trade data showing all listed metrics",
+    "why_needed": "The table layout, column arrangement, and how metrics are displayed visually is essential to understand the page structure",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "15:00-15:30",
+    "quote": "if you click on FCT... you get all the details of the trade... you can upload all the charts here",
+    "what_is_shown": "Trade details page showing entry/exit information and chart upload interface",
+    "why_needed": "Viewer must see where to click, what fields appear, and where charts are uploaded in the interface",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "15:30-16:00",
+    "quote": "positions manager... five trades open and for each trade you see all the metrics here... exposure of each trade... open risk... you can also modify your stop losses from here... click on this and click on break even stop loss",
+    "what_is_shown": "Positions manager page with open trades listed, metrics columns, and interactive stop loss modification controls",
+    "why_needed": "Specific button locations, clickable elements, and interface layout must be visible to understand the workflow",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "16:00-16:30",
+    "quote": "summary page... metrics like win rate, average RPT, average loss, ARR, average holding period, profit for each period, return percentage",
+    "what_is_shown": "Summary page displaying period-based metrics in table format",
+    "why_needed": "How metrics are organized and displayed by period (monthly/quarterly/yearly) requires visual reference",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "16:30-17:00",
+    "quote": "funds here where you can add and add capital and withdraw capital... deposit or withdrawal is here... feed which displays all the recent activities... sorted by the time",
+    "what_is_shown": "Funds page and activity feed interface showing deposit/withdrawal records and recent activity log",
+    "why_needed": "Page layout and how records are organized in the feed requires visual reference",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "08:20",
+    "quote": "strong stocks forming strong bases",
+    "what_is_shown": "TradingView chart showing Caplin Point stock with base formation pattern",
+    "why_needed": "Visual pattern recognition of 'strong base' is subjective and requires seeing the actual chart structure to understand what qualifies",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "09:33",
+    "quote": "I can create more section, three sections, right? The first is away. Then it it can be, sorry, it can be near and then it can be ready.",
+    "what_is_shown": "TradingView watch list interface with three subsections being created and labeled (Away, Near, Ready)",
+    "why_needed": "Demonstrates the actual UI workflow for creating watch list sections; text alone cannot convey the interface interaction steps",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "10:49",
+    "quote": "when the stock made this PPC here, it would have come into your PPC scan. So when you see the chart here, you may put the chart here and on this candle on this day",
+    "what_is_shown": "Caplin Point chart with specific candlestick marked as the PPC (Point of Primary Concern)",
+    "why_needed": "The specific candle location and PPC pattern are only identifiable visually on the chart; 'this candle' is undefined without the visual reference",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "11:26",
+    "quote": "Then the stock pulled back and you see on this candle we had uh congestion, two days of congestion. So on this red candle, you can put this chart to your ready list",
+    "what_is_shown": "Caplin Point chart showing pullback and congestion pattern with red candles",
+    "why_needed": "The specific pullback structure, congestion area, and red candles are marked on screen; speaker references 'this candle' without naming price levels",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "11:59",
+    "quote": "on this candle the setup is partially triggered and then on this candle the setup is fully triggered",
+    "what_is_shown": "Caplin Point chart with trigger levels and entry candles marked",
+    "why_needed": "Distinguishing between 'partial' and 'full' trigger requires seeing the exact price action and trigger levels on the chart",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "12:38",
+    "quote": "So on this PPC, the stock would have come, maybe you could have put put this stock to the away list. Then somewhere here, you put the stock to the near list. And then here as the stock starts to make this trigger bars, you put the stock to the ready list.",
+    "what_is_shown": "Second chart example showing PPC location, near-list stage, and trigger bar formation",
+    "why_needed": "Multiple undefined 'this' and 'here' references require visual chart markers to identify the specific price/time locations",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "14:24",
+    "quote": "Just click on the plus button here at this level and you can click on add an alert. Okay? Then the alert would not have triggered and then again the stock made another couple of trigger bars. Now I would have set a new trigger here.",
+    "what_is_shown": "TradingView alert-setting interface with plus button, and chart showing multiple trigger levels being set",
+    "why_needed": "The UI workflow for setting alerts and the multiple trigger levels on the chart are only understandable through visual demonstration",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "14:57",
+    "quote": "You can also set alert using the lines. So if you have drawn a line like this, you can click on the line here and click on this plus button",
+    "what_is_shown": "TradingView interface showing how to click on a drawn line and access the alert feature via plus button",
+    "why_needed": "The exact UI elements and their locations cannot be conveyed through text alone; requires seeing the clickable interface",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "32:30",
+    "quote": "You can mark an arrow like this to mention that on this candle the entry was triggered. If you want to be more precise, then you can also use the uh trend based Fibonacci tool to mark your entry, average entry and the stop loss something like this.",
+    "what_is_shown": "Chart with Caplin Point stock showing marked entry point, Fibonacci tool applied, entry/average entry/stop loss levels marked on the chart",
+    "why_needed": "Specific visual demonstration of how to mark entries and use Fibonacci tool - exact placement and appearance required",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "32:30-33:00",
+    "quote": "here the stock got extended and if there is an exit trigger here, as per the method, then you mark it that okay, here 20% exit is triggered.",
+    "what_is_shown": "Chart showing extended price movement with marked 20% exit level/trigger point on the candle",
+    "why_needed": "Visual location of exit trigger on chart cannot be communicated verbally without seeing specific price action",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "34:30-35:00",
+    "quote": "Let's say you bought the stock here, okay? Now, overall this, okay, once you have bought the stock... So, mark the midpoint here.",
+    "what_is_shown": "Chart showing entry point, subsequent big move/extension, and marked midpoint (trailing stop loss level)",
+    "why_needed": "Specific visual reference points on chart needed to understand where entry was and where midpoint is marked",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "35:00",
+    "quote": "on this day, after the close, you will place an alert here for the next day because now this low of the day becomes your trailing stop loss.",
+    "what_is_shown": "Chart showing small candle with its low marked as new trailing stop loss level",
+    "why_needed": "Specific price level (low of the day) only visible on screen - cannot be communicated verbally",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "38:00-38:30",
+    "quote": "Add these four indicators. How to add? You can click on the indicator here. Then let's say you're adding SMA, so you find SMA here. Then write here 50 and click on add. Then write 200, click on add.",
+    "what_is_shown": "MarketInOut platform chart template setup screen showing indicator addition interface, field inputs, and buttons",
+    "why_needed": "Step-by-step workflow on the platform interface requires visual demonstration of where to click and what fields to fill",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "39:00-39:30",
+    "quote": "you should go to the resources folder of the of the course and there I've given you the conditions that you the formula that you need to paste here for each scanner. So, you have to create all the scanners here... write down the name of the scanner here. So, for example, we are creating PPC scan.",
+    "what_is_shown": "MarketInOut formula screener interface showing where to enter scanner name and paste formula",
+    "why_needed": "Interface elements and exact location of input fields on screen required to complete setup",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "40:00-40:30",
+    "quote": "Now here, based on the formula that we have entered, you will get a list of all the stocks that have made a PPC today. So, we have got some 20 stocks here... Now here you have the name, you have the industry, you have the sector. So, always click on this sector and sort it using sector.",
+    "what_is_shown": "MarketInOut overview tab showing list of stocks with columns (name, industry, sector, exchange, market cap, price, % change, volume) and sector sorting interface",
+    "why_needed": "Specific column layout and interface elements required to understand where to click for sorting",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "40:30-41:00",
+    "quote": "Then you can go to the overview tab and click on charts. Now this is where it becomes really interesting... Now I get all the charts of these stocks just like that... on the top, you have all these settings. So, do it exactly the way I've done. You can click on the daily and the weekly. Turn on the combined periods.",
+    "what_is_shown": "MarketInOut charts view with multiple stock charts displayed in grid, settings buttons for daily/weekly/combined periods toggle at top",
+    "why_needed": "Visual layout of charts interface and location of settings controls required to replicate the setup",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "41:00-41:30",
+    "quote": "By turning on the combined periods, on the left hand side, you will have the weekly chart by default and on the right hand side, you will have the daily chart... this stock Hindustan Zinc, here we have the weekly chart, here we have the daily chart.",
+    "what_is_shown": "Combined periods view showing Hindustan Zinc with weekly chart on left and daily chart on right side by side",
+    "why_needed": "Spatial layout of combined periods display essential to understand the feature",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "42:00-42:30",
+    "quote": "For example, I like this stock Vedanta. Okay, I want to add it to a watch list. So, what I what I'll do is I'll just click on the name here and then you see, I have this option to add the stock to my watch list. Click on add and click on the select the watch list.",
+    "what_is_shown": "MarketInOut chart grid interface showing click action on stock name 'Vedanta' and resulting menu/dialog to add to watch list",
+    "why_needed": "Specific UI interaction and menu location required to complete this task",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "42:30",
+    "quote": "The dotted lines here. The dotted lines represent the day on which the earnings were announced.",
+    "what_is_shown": "Chart showing dotted vertical lines marking earnings announcement dates",
+    "why_needed": "Visual chart element must be seen to understand earnings indicator markings",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "40:27",
+    "quote": "I have run the PPC scan here. Uh this is for the Indian market. So, go to edit screen.",
+    "what_is_shown": "MarketInOut scanner interface with PPC scan results and edit screen option",
+    "why_needed": "Viewer must see the actual scanner interface, formula editor, and how to access the edit screen to understand the workflow",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "40:27-41:00",
+    "quote": "This is your turnover. This is your liquidity criteria.",
+    "what_is_shown": "Scanner formula with labeled sections for turnover and liquidity criteria values",
+    "why_needed": "Specific formula fields and their locations on screen must be visible to identify what to modify",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "41:30-42:00",
+    "quote": "I have right now I have just turned off the combined period and made the charge chart huge. I just wanted to show you the daily chart, that's why.",
+    "what_is_shown": "Chart display showing daily timeframe with combined period turned off",
+    "why_needed": "Viewer needs to see the chart configuration and layout changes being made",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "42:00",
+    "quote": "there is an option here called show and hide. Next bars, show and hide. So here, when I click on show, see, uh this this orange line shows me the 1st December.",
+    "what_is_shown": "Chart with orange line marking December 1st date on x-axis and show/hide next bars buttons",
+    "why_needed": "The location and function of show/hide buttons and the orange date marker line must be visible on screen",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "42:00-42:30",
+    "quote": "when I click on show next bars, so you will see the next few bars as well. But when I click on hide next bars, then the next bar will be hidden",
+    "what_is_shown": "Chart bars appearing and disappearing with toggle of show/hide next bars function",
+    "why_needed": "Visual demonstration of how chart appearance changes with this function is essential",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "42:30",
+    "quote": "you have the basic material six, it means there are six stocks in the scan that are coming from the basic material. And this is the industry, agriculture inputs within basic materials, one stock from this.",
+    "what_is_shown": "Scanner results breakdown by sector/industry with numerical counts displayed",
+    "why_needed": "The sector and industry categorization breakdown on screen must be visible to understand the results",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "45:30",
+    "quote": "this stock, look at this Chalet. This stock, have a look at this daily chart here. It's a nice base forming, right? It's a nice rounding base forming, good PPCs in the base.",
+    "what_is_shown": "Specific stock chart showing rounding base pattern with PPCs marked",
+    "why_needed": "The actual chart pattern of the stock being referenced must be visible to understand what a 'rounding base' with 'good PPCs' looks like",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "45:30",
+    "quote": "Now this stock is making a breakout attempt. Okay, so I can put this stock into my near list.",
+    "what_is_shown": "Chart showing breakout attempt with price action near resistance level",
+    "why_needed": "The breakout pattern and chart formation must be visible to justify putting stock in watch list",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "46:00",
+    "quote": "I can click on the name of the stock and just click on the watch list near, create a new watch list here",
+    "what_is_shown": "Watch list interface with stock name and menu options to add to 'near' list",
+    "why_needed": "The location and function of watch list buttons and menu options must be visible",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "48:00-48:30",
+    "quote": "Let's say this is the base. This is your setup and then it's pulling back and here you have some contraction, three three days of contraction, right?",
+    "what_is_shown": "Chart with labeled base formation, pullback, and three-day contraction period",
+    "why_needed": "The specific chart pattern with base, pullback, and contraction zones must be visually identified",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "48:30",
+    "quote": "if the price breaks above this level, you have supposed to buy the stock",
+    "what_is_shown": "Chart with drawn resistance/trigger level that price breaks above",
+    "why_needed": "The exact price level and breakout point must be visible on screen to understand the entry trigger",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "50:00",
+    "quote": "You see all the charts on the daily chart, you will see contraction or congestion forming. So this scan will give out these sorts of stocks where there is congestion or contraction forming.",
+    "what_is_shown": "TradingView charts displaying daily and weekly views side-by-side with visible contraction/congestion patterns",
+    "why_needed": "The speaker references specific chart patterns ('contraction or congestion') that must be visually identified on screen; pattern characteristics cannot be adequately conveyed by verbal description alone",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "50:15",
+    "quote": "You see a perfect base forming, it's a breakout attempt, then it has pulled back and now it's contracting and you can identify trigger level here.",
+    "what_is_shown": "Shilpa Med stock chart zoomed in showing base formation, breakout attempt, pullback, contraction, and marked trigger level",
+    "why_needed": "Multiple price action phases are being referenced without verbal specification of price levels or exact chart locations; viewer must see the visual sequence to understand the setup",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "50:30",
+    "quote": "So you can see now in this stock, there are PPCs forming here as well as here.",
+    "what_is_shown": "Shilpa Med chart with PPC (Perfect Pullback Continuation) patterns marked at two specific locations",
+    "why_needed": "Speaker uses spatial references ('here as well as here') without naming specific price levels or timeframes; visual markers on chart are essential",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "61:00-61:30",
+    "quote": "I plot the plot two moving averages, that is the 10 and the 20 on the daily and the weekly charts. The best environment is...when the 10 simple moving average floats above the 20 simple moving average and the price floats above both these moving averages and both these moving averages are sloping up. So I'll just draw a diagram of how it looks and then we'll also look at the charts.",
+    "what_is_shown": "Diagram showing price above 10 SMA above 20 SMA with both moving averages sloping upward",
+    "why_needed": "Speaker describes a visual diagram they are drawing to illustrate the optimal moving average configuration, which requires seeing the specific positioning and slopes",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "62:00-62:30",
+    "quote": "The 10 SMA crosses below 20 SMA...And finally, we have this 10 and the 20 SMA sloping downwards...the stock price moves like this and then it transitions and starts going down. So this is the 10 moving average. And then this becomes the 20.",
+    "what_is_shown": "Diagram showing moving average crossover with 10 SMA crossing below 20 SMA and both sloping downward; price action transitioning from uptrend to downtrend",
+    "why_needed": "Speaker is describing visual diagrams of weak signals but the specific positioning and slopes of moving averages cannot be understood from text alone",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "63:00",
+    "quote": "So here we are on the daily chart of Nifty 500...You see, price is floating above the 10 and the 20. This orange line is the 10 and the green line is the 20. Okay?...this is the best environment where you'll see you will be making easy trades",
+    "what_is_shown": "Nifty 500 daily chart with price above orange 10 SMA and green 20 SMA, both moving averages sloping upward",
+    "why_needed": "Speaker references specific chart with color-coded moving averages (orange and green) showing price position relative to them; viewer must see the actual chart to understand the configuration",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "63:30",
+    "quote": "the environment that we had post COVID... the price was staying above the 10 and the 20",
+    "what_is_shown": "Chart showing post-COVID price action with 10 and 20 period moving averages positioned above price",
+    "why_needed": "Viewer must see the specific price relationship to the moving averages to understand the 'healthy environment' being described",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "64:00",
+    "quote": "on the weekly chart... the white line is the 10, the orange line is the 20... the market went into a smooth, smooth, favorable state... the first close... first breakdown",
+    "what_is_shown": "Weekly chart with 10 and 20 moving averages identified by color, showing post-COVID uptrend and the specific candle where breakdown occurs",
+    "why_needed": "Without seeing the chart, viewer cannot identify which candle represents the first breakdown or understand the moving average positioning",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "64:30",
+    "quote": "You see this crossover here... the 10 went below the 20... mark this previous low as the support... the stock broke below that support",
+    "what_is_shown": "Weekly chart showing moving average crossover, previous low support level marked, and price breaking below that support",
+    "why_needed": "Specific chart patterns and support level locations are only visible on screen; cannot be adequately conveyed verbally",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "65:00",
+    "quote": "on the daily chart here, we are at the top of that 2021 market... the price was staying above the 10 and the 20 and for the first time it closed below both these averages here",
+    "what_is_shown": "Daily chart showing 2021 market top and the specific candle closing below both moving averages",
+    "why_needed": "Viewer must identify the exact location and candle formation to understand the weakening signal timing",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "65:30",
+    "quote": "You see this moving average crossover... the previous swing low was this... the support got broken down here... You see how the chart looked all the way up and suddenly you see this happening",
+    "what_is_shown": "Daily chart displaying moving average crossover, marked swing low support level, breakdown point, and visual chart distortion",
+    "why_needed": "Multiple specific price levels and chart pattern transitions must be visible; 'distortion' in chart is purely visual and cannot be described adequately in words",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "66:30",
+    "quote": "You see the price, the index started to go down here... produced a small upswing... the price action here... it clearly shot back down... the market was horrible for the next few weeks... a small upswing... gap down candle",
+    "what_is_shown": "Ongoing daily chart showing downtrend, minor upswings, failed recoveries, and gap down candle formations",
+    "why_needed": "Specific price movements, candle formations, and gaps are referenced without numerical values; visual reference is essential",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "67:30",
+    "quote": "it produces an upswing here, you see? How the stock starts to slope up and moving average starts to slope up... at the start of this swing",
+    "what_is_shown": "Chart section showing beginning of an upswing with moving averages turning upward",
+    "why_needed": "The 'start of this swing' position on the chart is critical for understanding entry strategy; visual timing reference necessary",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "68:00",
+    "quote": "it slopes up and then there are problems start happening here... closes down here... shoots back up... slopes up... clearly closes below the 10 and the 20... cross over... support is broken down here",
+    "what_is_shown": "Chart showing multiple failed upswing attempts with candle closures, moving average crossovers, and support breakdown points",
+    "why_needed": "Sequence of specific candle actions and support/resistance interactions requires visual reference to track",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "68:30",
+    "quote": "out of the market... slopes down, everything is weak... starts to slope up once again... bouncing off very nice... Build aggressively positions... moving up, up, up... this is a healthy market",
+    "what_is_shown": "Chart progression from downtrend through reversal signals into healthy uptrend with clear moving average slopes",
+    "why_needed": "Viewer must see the visual transition points and moving average behavior to recognize market character change",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "73:00",
+    "quote": "a lot of stocks are having choppy topping structures like this",
+    "what_is_shown": "Visual examples of choppy topping structures on stock charts",
+    "why_needed": "The speaker references specific chart patterns without naming them verbally - viewers need to see what 'choppy topping structures' look like",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "73:30",
+    "quote": "this is the 10 day moving average and this is the 20 day moving average. Now, once again, the index is making a an upswing here",
+    "what_is_shown": "Index chart with 10-day and 20-day moving averages plotted, showing an upswing",
+    "why_needed": "Speaker describes chart elements and movements that require visual reference to understand the market scenario being discussed",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "75:00-75:30",
+    "quote": "a lot of stocks are have structures like this. Okay, a lot of stocks are trading here",
+    "what_is_shown": "Visual representation of extended stock structures/patterns in the watch list context",
+    "why_needed": "Speaker uses vague positional references ('like this', 'here', 'there') to describe stock structures that only make sense when shown visually on charts",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "76:00",
+    "quote": "you are seeing most of the stocks are here. It means that this is not a good time to buy",
+    "what_is_shown": "Watch list with multiple stocks displayed in extended positions on charts",
+    "why_needed": "Speaker references specific positioning of multiple stocks on charts without verbal description of what those positions look like",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "76:30",
+    "quote": "these structures after the breakout, they may again be coming back within the base or they'll be forming a totally new structure like this",
+    "what_is_shown": "Chart patterns showing post-breakout pullbacks and new base formations",
+    "why_needed": "Speaker describes chart pattern movements and formations that require visual examples to understand the specific structures referenced",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s"
+  },
+  {
+    "timestamp": "14:30-15:00",
+    "quote": "You can mark your entries and exits on that chart. You can use a function that's there on TradingView. The function's name is bar replay.",
+    "what_is_shown": "TradingView interface with bar replay function location and how to access it",
+    "why_needed": "Viewer needs to see where the bar replay function is located in TradingView to replicate the workflow",
+    "_file": "dr-2.txt",
+    "_vid_id": "EEjTQcSekwA"
+  },
+  {
+    "timestamp": "15:00",
+    "quote": "Using that function, you can play the bar live one by one...mark your entries and exits the way I have done in my uh setup examples.",
+    "what_is_shown": "Setup examples with marked entries and exits on historical charts",
+    "why_needed": "Without seeing the actual chart examples, viewers cannot understand the proper way to mark entries and exits",
+    "_file": "dr-2.txt",
+    "_vid_id": "EEjTQcSekwA"
+  },
+  {
+    "timestamp": "01:03",
+    "quote": "You can mark your entries and exits on that chart",
+    "what_is_shown": "TradingView chart with entry and exit marks drawn on it",
+    "why_needed": "Without seeing the chart, viewer cannot understand what marked entries/exits look like or where they are positioned",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "01:34",
+    "quote": "using that function, bar replay to study historical charts and mark your exits, mark your entries and exits the way I have done in my uh setup examples",
+    "what_is_shown": "TradingView bar replay function being used and marked entry/exit examples on charts",
+    "why_needed": "Viewer must see the bar replay feature in action and actual marked examples to understand the workflow",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "06:38",
+    "quote": "I've run the scanner and you see the list of stocks",
+    "what_is_shown": "MarketInOut scanner results showing filtered stock list",
+    "why_needed": "Specific scanner output display is needed to understand what results look like",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "06:38",
+    "quote": "when you click on sector here, it the stocks get sorted by sector and then within that it gets sorted using the industry",
+    "what_is_shown": "MarketInOut interface with sector sorting functionality being demonstrated",
+    "why_needed": "Viewer must see the sorting UI and results to understand this feature",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "07:09",
+    "quote": "if you click on this and click on charts here, you get ready-made charts here. Look at this. All the stocks you get the charts, just like this",
+    "what_is_shown": "MarketInOut charts display for multiple stocks",
+    "why_needed": "Specific chart layout and presentation cannot be described adequately without seeing the interface",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "07:40",
+    "quote": "You just get all the charts like this. Now here you can zoom in and zoom out as well",
+    "what_is_shown": "MarketInOut chart zoom controls and functionality",
+    "why_needed": "Viewer must see the zoom controls and their effect on chart display",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "08:10",
+    "quote": "If I want to change the time frame, you can just click on the daily, weekly, monthly",
+    "what_is_shown": "MarketInOut timeframe selection buttons and chart updates",
+    "why_needed": "Specific UI location and functionality of timeframe controls must be visible",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "08:41",
+    "quote": "you get the sectors and the industries printed here. Look at this, Fluorocam, it's from the basic material sector and the industry is specialty chemical",
+    "what_is_shown": "Specific stock chart with sector and industry labels displayed",
+    "why_needed": "Viewer must see where and how sector/industry information appears on the charts",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "09:11",
+    "quote": "Crompton, it's from the consumer cyclical, furniture fixtures industry",
+    "what_is_shown": "Specific stock chart with sector and industry information labeled",
+    "why_needed": "Example requires seeing the actual chart display with labels",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "09:42",
+    "quote": "if I go to edit screen, if I want to run the scan on a previous particular date, so I can just click on edit screen and there is a command here",
+    "what_is_shown": "MarketInOut edit screen interface and backdated scan command input",
+    "why_needed": "Viewer must see where the edit screen is located and how the interface looks",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "09:42",
+    "quote": "I'll write 09 that is the month, September, 22, that's the date and the year 2023",
+    "what_is_shown": "MarketInOut date input field with example date being typed",
+    "why_needed": "Specific input field location and format must be visible to understand the workflow",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "10:13",
+    "quote": "now you see this line has come. So it means that the scanner has run on this particular date",
+    "what_is_shown": "MarketInOut chart with indicator line showing backdated scan result",
+    "why_needed": "Viewer must see the specific visual indicator that appears when backdated scan runs",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "11:35",
+    "quote": "Click on stock chart here. We are going to click create some templates. So click on stock chart, then click on my chart templates. Now as you can see, I have created three templates, daily, weekly and monthly.",
+    "what_is_shown": "MarketInOut interface showing the 'my chart templates' section with three existing templates (daily, weekly, monthly) visible",
+    "why_needed": "Viewer needs to see the exact location of buttons and the layout of existing templates to replicate the setup",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "12:06",
+    "quote": "So just click on add 50, add 20, add 200 and all of them should appear here. And you can look at the chart here. It appears like this.",
+    "what_is_shown": "Chart template settings interface showing the moving average inputs and the resulting chart with 20, 50 moving averages displayed",
+    "why_needed": "Speaker references 'here' and 'like this' without describing visual appearance - viewer must see how the indicators appear on the chart",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "13:08-13:39",
+    "quote": "Now here, uh what you have to do is you have to go to the course resources folder... So in this particular thing, just paste one scanner's condition... These are the conditions, this is how the conditions will look like.",
+    "what_is_shown": "Formula screener interface showing where to paste scanner conditions and the format/layout of the condition fields",
+    "why_needed": "Speaker says 'paste here' and 'look like' without specifying where the paste field is or what the interface looks like",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "14:10-14:41",
+    "quote": "So you can look at the list of your scanners by going to the my stock screen... Then all you have to do is run the scanner from the list. Let's say I run this scanner. So I get a list of these stocks.",
+    "what_is_shown": "Results list from scanner showing stocks with columns for symbols, industries, sectors, exchange, market cap, last price, change, percentage change, and volume",
+    "why_needed": "Speaker references 'this scanner' and 'these stocks' without naming them - viewer needs to see the actual results and columns",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "14:41-15:12",
+    "quote": "You click on this, go to charts, you get ready made charts here... Now based on your preference screen size, you can adjust. You can make it a a smaller chart like this... I generally stay between 2x and 1:1. That's my spot.",
+    "what_is_shown": "Multi-chart view with adjustable chart sizes and zoom levels (2x, 1:1 ratios) and template selector buttons showing daily/weekly/monthly options",
+    "why_needed": "Speaker demonstrates screen size adjustments and zoom preferences without specifying exact settings - viewer must see the interface options and current setup",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "15:12",
+    "quote": "If you click on the weekly, now all the charts will be the weekly time frame. Click on monthly, now these will be the monthly charts. You click on daily, these will be the daily charts.",
+    "what_is_shown": "Template selector interface with daily/weekly/monthly buttons and the resulting chart timeframe changes when each is clicked",
+    "why_needed": "Speaker references clicking buttons and resulting chart changes without describing the button locations or visual changes",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII"
+  },
+  {
+    "timestamp": "03:00",
+    "quote": "here I have opened the India setup scan. So whatever your setup scan is, you can just click on edit screen and here I have mentioned 20 crores as the turnover",
+    "what_is_shown": "TradingView scan interface with India setup scan open, edit screen visible, turnover parameter set to 20 crores",
+    "why_needed": "Viewer needs to see the actual scan interface and where/how to input liquidity parameters to replicate the setup",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc"
+  },
+  {
+    "timestamp": "04:00",
+    "quote": "If the stock is very very uh if the stock has moved much away from the 20 SMA or the 50 SMA on the upside, then I call those stocks extended",
+    "what_is_shown": "Chart showing stock price far above 20 SMA and 50 SMA, demonstrating what 'extended' looks like visually",
+    "why_needed": "The definition of 'extended' is subjective; viewer must see visual example to understand the threshold",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc"
+  },
+  {
+    "timestamp": "04:30",
+    "quote": "I have created this watch list here, India watch list. I'll just zoom it in. You can see India short list is the name of my watch list and there I have made three sections",
+    "what_is_shown": "TradingView watchlist panel showing 'India short list' with three sections visible",
+    "why_needed": "Viewer must see how to create and structure a watchlist with sections in TradingView",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc"
+  },
+  {
+    "timestamp": "05:00",
+    "quote": "You can just right click on this and create add a section and that's how the section gets added",
+    "what_is_shown": "Right-click context menu on watchlist showing 'add section' option",
+    "why_needed": "Workflow demonstration - viewer needs to see the menu interaction to replicate",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc"
+  },
+  {
+    "timestamp": "07:30",
+    "quote": "let's say this is the trigger bar, the previous one. Okay? So these kinds of stocks should be in the ready section.",
+    "what_is_shown": "Chart showing a specific candle labeled as trigger bar in ready section stock",
+    "why_needed": "Without seeing the chart, viewer cannot identify what constitutes a trigger bar",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc"
+  },
+  {
+    "timestamp": "08:00",
+    "quote": "the stock has uh given this good volume pickup here. It it hits its previous stop here. And now the stock seems ready for a breakout",
+    "what_is_shown": "RBL Bank chart showing volume pickup area and previous resistance/stop level",
+    "why_needed": "Specific price levels and volume characteristics are only visible on the chart",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc"
+  },
+  {
+    "timestamp": "08:00-08:30",
+    "quote": "if the stock pulls back like this, okay, and then we have the our trigger bar here forming, that's where we would be looking to enter",
+    "what_is_shown": "RBL Bank chart with pullback pattern and trigger bar formation marked",
+    "why_needed": "The pullback pattern and trigger bar location are chart-specific visual references",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc"
+  },
+  {
+    "timestamp": "08:30",
+    "quote": "The stock has this wake up call here, right? This is the wake up call for the stock and now the stock is nearing the end of the base",
+    "what_is_shown": "RBL Bank chart showing the 'wake up call' breakout confirmation point",
+    "why_needed": "The wake up call is a specific chart pattern that must be seen to be recognized",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc"
+  },
+  {
+    "timestamp": "08:30",
+    "quote": "let's say we pick up this stock from the Indian market here. So this is how the stock is now",
+    "what_is_shown": "Chart of a stock in away section showing early base formation, stage two structure",
+    "why_needed": "Viewer must see the chart to understand what stage two and early base formation looks like",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc"
+  },
+  {
+    "timestamp": "09:00",
+    "quote": "the stock is making the first base here. Okay? It's making the first base here, fresh stage two. And now we are waiting for the stock to break out",
+    "what_is_shown": "Chart showing base formation pattern and stage two structure",
+    "why_needed": "Visual identification of 'first base' and 'stage two' patterns requires seeing the chart",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc"
+  },
+  {
+    "timestamp": "10:00",
+    "quote": "let's say the stock is in a stage one here, it broke out of the stage one and it's forming up starts forming a good base here",
+    "what_is_shown": "Chart showing stage one breakout and subsequent base formation pattern",
+    "why_needed": "Stage one and base formation patterns are visual chart patterns that cannot be adequately described verbally",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc"
+  },
+  {
+    "timestamp": "10:00",
+    "quote": "breaks out here of this mini base, we put it into into the near section. Then as the stock, let's say pulls back and it produces a trigger bar here",
+    "what_is_shown": "Chart progression showing mini base breakout and subsequent pullback with trigger bar",
+    "why_needed": "Multiple chart pattern points being referenced require visual confirmation",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc"
+  },
+  {
+    "timestamp": "11:00",
+    "quote": "you'll find this sheet in the resources folder",
+    "what_is_shown": "Setup tracker sheet document/template",
+    "why_needed": "Viewer needs to see where and what the sheet looks like to locate it",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc"
+  },
+  {
+    "timestamp": "11:30",
+    "quote": "a particular sector...a few stocks from a particular industry are showing PPCs",
+    "what_is_shown": "Sector/industry groupings and examples of stocks with PPC patterns in scanner results",
+    "why_needed": "Specific sector examples and PPC patterns are only identifiable on screen",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc"
+  },
+  {
+    "timestamp": "12:30",
+    "quote": "I'm looking at only top 200 liquid stocks...the top 200",
+    "what_is_shown": "Scanner filter settings showing top 200 stocks by volume parameter",
+    "why_needed": "Viewer needs to see how to configure the scanner to filter top 200 liquid stocks",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc"
+  },
+  {
+    "timestamp": "13:00",
+    "quote": "insert or save all these scans in the market in out...according to the routine, you have to execute these scans",
+    "what_is_shown": "Scanner interface, save workflow, and market/in/out scan locations",
+    "why_needed": "The specific steps and locations for saving scans in the scanner tool require visual demonstration",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc"
+  },
+  {
+    "timestamp": "01:25-02:32",
+    "quote": "So I plot the plot two moving averages, that is the 10 and the 20 on the daily and the weekly charts. The best environment is...when the 10 simple moving average floats above the 20 simple moving average and the price floats above both these moving averages and both these moving averages are sloping up.",
+    "what_is_shown": "TradingView chart with 10 and 20 SMAs plotted, showing price above both MAs with both MAs sloping upward",
+    "why_needed": "The visual relationship between price and the two moving averages is essential to understand the optimal trading environment; text description alone is insufficient to grasp the positioning",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo"
+  },
+  {
+    "timestamp": "04:18-05:20",
+    "quote": "So here we are on the daily chart of Nifty 500...the best environment to be trading is this...You see, price is floating above the 10 and the 20. This orange line is the 10 and the green line is the 20.",
+    "what_is_shown": "Live TradingView daily chart of Nifty 500 with 10 SMA (orange) and 20 SMA (green) displayed, price above both",
+    "why_needed": "The speaker references specific colors and positioning on the chart without naming exact price levels; visual confirmation is necessary to understand the setup",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo"
+  },
+  {
+    "timestamp": "06:00-06:40",
+    "quote": "For most amount of time, so it was a healthy environment...The same thing you can notice on the weekly chart...And on the weekly chart you can enable that 100 day moving average...So the white line is the 10, the orange line is the 20.",
+    "what_is_shown": "Weekly chart of Nifty 500 post-COVID showing extended period with price and SMAs in optimal configuration; different moving average colors displayed",
+    "why_needed": "The speaker demonstrates a historical strong market environment across extended timeframe; the visual pattern comparison across daily and weekly is critical to understanding the concept",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo"
+  },
+  {
+    "timestamp": "06:40-07:15",
+    "quote": "And you can see similar things after the COVID fall, the market went into a smooth, smooth, favorable state. And then here we saw the first close. We saw the first breakdown of the 10 and the 20 on this candle. That was the signal of the market weakening from the weekly perspective. Then we saw a crossover. You see this crossover here.",
+    "what_is_shown": "Weekly chart showing specific candle where price closes below both 10 and 20 SMAs, and the subsequent moving average crossover point",
+    "why_needed": "The exact location of the weakness signal candle and crossover point cannot be precisely identified from text alone; visual reference is essential",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo"
+  },
+  {
+    "timestamp": "07:15-07:49",
+    "quote": "And for the breakdown, you can mark this previous low as the support. And as the stock broke below that support, we say that okay, we have the clear signal, market weakened...you see? Uh the the 20 going, the 10 going below the 20 and both are sloping down and the stock and the price is moving down.",
+    "what_is_shown": "Weekly chart with support level marked at previous swing low, showing price breaking below it and moving averages crossing/sloping downward",
+    "why_needed": "The support level location and the visual pattern of the breakdown cannot be determined from description alone; chart display is mandatory",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo"
+  },
+  {
+    "timestamp": "08:24-09:00",
+    "quote": "Now you see on the daily chart here, we are at the top of that 2021 market. This was the top here. So what happened was the price was staying above the 10 and the 20 and for the first time it closed below both these averages here...And then, you see, the moving average is crossed over here...And you can say previous swing low was this. This was the previous swing low...And the support got broken down here",
+    "what_is_shown": "Daily chart of Nifty 500 showing 2021 top, first close below both SMAs, moving average crossover, previous swing low support level, and support breakdown",
+    "why_needed": "Multiple specific price action events are referenced by position on chart; without visual reference, viewer cannot identify these critical turning points",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo"
+  },
+  {
+    "timestamp": "09:00",
+    "quote": "You can also see the distortion in the chart. You see how the chart looked all the way up and suddenly you see this happening",
+    "what_is_shown": "Daily chart displaying the visual shift from uptrend structure to distorted/weakening price action pattern",
+    "why_needed": "The 'distortion' is a visual pattern concept that cannot be conveyed through words alone; chart display is essential to recognize the change in market character",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo"
+  },
+  {
+    "timestamp": "10:47-11:22",
+    "quote": "You see the stock, you see the price, the index started to go down here with both the moving averages sloping down. Again, it produced a small upswing...with this price action here, it clearly shot back down...And then you see the market was horrible for the next few weeks...And then again, a small upswing. The moving average started to slope up. Price started to behave well...with this gap down candle",
+    "what_is_shown": "Daily chart showing multiple transition periods with downtrending SMAs, failed upswings, gap down candle, and weak price action patterns",
+    "why_needed": "The series of specific price action events and their locations cannot be identified from text; visual reference is required to recognize each trading phase",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo"
+  },
+  {
+    "timestamp": "12:07-12:47",
+    "quote": "Then again, there is this downtrend here, no trading, no trading, no trading...And then again, it produces an upswing here, you see? How the stock starts to slope up and moving averages start to slope up. That's where you can build your positions.",
+    "what_is_shown": "Daily chart showing extended downtrend period followed by new upswing with price and moving averages both sloping upward",
+    "why_needed": "The exact location of the transition point from downtrend to new upswing cannot be identified from words alone; visual chart reference is necessary",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo"
+  },
+  {
+    "timestamp": "14:00",
+    "quote": "And then again it slopes up and then there there are problems start happening here. It closes down here. Again shoots back up. Again it slopes up. But then here it's clearly closes below the 10 and the 20",
+    "what_is_shown": "TradingView chart with price action, 10 and 20 moving averages, specific candles closing below/above these levels",
+    "why_needed": "Speaker references specific chart movements and moving average crossovers without naming the stock or providing exact price levels - viewer must see the visual pattern to understand the described trading signals",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo"
+  },
+  {
+    "timestamp": "14:40",
+    "quote": "It slopes down. Everything is weak, everything is weak. Now it starts to slope up once again. It's moving up. Wait for it. Try to build some positions. And it is bouncing off very nice.",
+    "what_is_shown": "Price action on chart showing downtrend transitioning to uptrend with bounce pattern",
+    "why_needed": "Speaker describes price movements and bounce patterns without specific price levels or stock names - the visual confirmation on screen is essential for understanding the trading setup being referenced",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo"
+  },
+  {
+    "timestamp": "15:15",
+    "quote": "whenever you see a breakdown of the 10 and the 20, you start getting weak signals",
+    "what_is_shown": "Chart displaying 10 and 20 moving average lines and their crossover/breakdown points",
+    "why_needed": "Technical indicator positions and crossover points are only visible on the chart; speaker uses 'the 10 and the 20' without naming specific levels",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo"
+  }
+]

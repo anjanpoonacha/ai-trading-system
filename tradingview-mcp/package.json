@@ -2,6 +2,8 @@
   "name": "tradingview-mcp",
   "version": "0.1.0",
   "type": "module",
+
+  
   "scripts": {
     "start": "bun src/server.ts",
     "test": "bun test",

@@ -1,0 +1,802 @@
+[
+  {
+    "timestamp": "04:10-04:40",
+    "quote": "the stock is in a stage two it's forming a good base here... we see a sort of a mini wakeup call here then we see a good Red Bar and then the stock starts to form these two trigger bars",
+    "what_is_shown": "Tata Investment chart showing stage two formation, base structure, mini wakeup call, red bar, and trigger bars",
+    "visual_description": "A daily candlestick chart for TATA INVESTMENT (TATAINVE) shows the stock in an uptrend and consolidating sideways in a base pattern between roughly ₹2400 and ₹2600 from late July onwards. The chart includes moving averages and a volume indicator, with annotations for events like earnings ('E') and dividends ('D') visible. The cursor remains stationary near the ₹1900 price level and the mid-July timeframe, not pointing to any specific candle.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_250s.mp4"
+  },
+  {
+    "timestamp": "04:40-05:12",
+    "quote": "I'm just drawing a line like this okay on these two bars... on the 15 minute chart I have drawn this line the same line look at the structure here",
+    "what_is_shown": "TrendLine drawn across trigger bars on daily chart and same line replicated on 15-minute chart",
+    "visual_description": "This clip displays a daily candlestick chart for TATA INVESTMENT (TATAINVEST) on the NSE, which includes an MA Ribbon indicator. The view begins focused on 2023 price action before rapidly zooming out to show a wider range dating back to mid-2021. During the zoom-out, the cursor moves from the right side of the screen toward the center, but no lines or annotations are drawn.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_280s.mp4"
+  },
+  {
+    "timestamp": "05:12-05:45",
+    "quote": "on 15th of September the there was a breakout of this structure which triggered our entry so maybe you entered here at this place",
+    "what_is_shown": "Specific breakout point on September 15th with entry level marked",
+    "visual_description": "This clip shows a 15-minute candlestick chart for TATA INVESTMENT (TATAINVE) on the TradingView platform. A yellow horizontal resistance line is drawn at approximately the 2498 price level, defining a consolidation range from September 12th to 14th. The cursor moves from the middle of this range to the right, implicitly highlighting the large green candle on September 15th that represents the breakout above the drawn resistance. Two moving averages are plotted on the price chart, and a volume indicator is visible at the bottom.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_312s.mp4"
+  },
+  {
+    "timestamp": "06:17-06:50",
+    "quote": "this is the swing low right this is the swing low so this can be used as your stop loss then the next swing low is here",
+    "what_is_shown": "Multiple swing low levels marked on 15-minute chart used as stop-loss reference points",
+    "visual_description": "On a 15-minute candlestick chart for TATAINVEST (NSE), a \"Long Position\" tool is active, showing a stop-loss set at a recent swing low of 2459.90. The yellow dot cursor points to this specific swing low, which aligns with the bottom of the tool's red zone. The cursor then moves left to indicate the next, lower swing low around the 2444.90 price level. An annotation for \"0.5%\" risk is visible near the entry point of the trade setup.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_377s.mp4"
+  },
+  {
+    "timestamp": "07:54-08:24",
+    "quote": "let's say I play my stop somewhere at this level that's a good level 2% 2447... let's just go to the daily chart once this is the daily chart here we triggered the half entry and then this was again a trigger bar",
+    "what_is_shown": "Stop loss level plotted on 15-minute chart, then daily chart showing trigger bar and subsequent price action",
+    "visual_description": "On a 75-minute candlestick chart for TATA INVEST, the cursor hovers near a horizontal support line at the 2447.45 price level, which is also close to the take-profit target of an active \"Short Position\" tool. The user then moves the cursor to the top-left corner and clicks the \"D\" button in the timeframe selection menu. The chart view immediately switches from the 75-minute interval to the Daily (1D) timeframe for the same stock.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_474s.mp4"
+  },
+  {
+    "timestamp": "08:55-09:29",
+    "quote": "as the stock shows this strength starts to go above the previous High here you can this is your pyramiding opportunity... I raised my risk to 1% so I'll buy so many quantities that my risk becomes 1%",
+    "what_is_shown": "Price movement above previous highs, new pyramid entry point, and revised stop loss placement (2455)",
+    "visual_description": "The screen displays a 15-minute candlestick chart for TATAINVEST on the NSE, showing price action from mid-September 2023. A \"Long Position\" tool is active, illustrating a trade setup with an entry near 2486, a stop loss at 2464.50, and a target at 2508.45 as the price breaks a previous high marked by an orange line. The cursor, a small yellow circle, hovers near the stop-loss level of this drawn trade throughout the clip.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_535s.mp4"
+  },
+  {
+    "timestamp": "10:00-11:01",
+    "quote": "the new entry price comes at 2513... let's see the revised stop loss I'm raising it to 2457",
+    "what_is_shown": "Pyramid calculator input showing entry price 2513, initial stop 2447, revised stop 2457, quantities 985 initial and 769 additional shares",
+    "visual_description": "The screen initially shows a TradingView candlestick chart for TATAINVEST with a \"Long Position\" tool active, indicating an entry at 2497 and a stop-loss at 2447. After the user closes the tool's settings window, the view switches to a \"Pyramid Calculator\" in a Microsoft Excel spreadsheet. This spreadsheet displays the initial trade details (Entry Price 2497, SL 2447) and is prepared for the input of a new \"Entry Price\" and \"Revised SL\" in the \"SCALE IN\" section.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_600s.mp4"
+  },
+  {
+    "timestamp": "11:32",
+    "quote": "your stop loss is somewhere here which is 1.82%",
+    "what_is_shown": "Final stop loss percentage and level displayed on chart after pyramid position adjustment",
+    "visual_description": "The screen shows an Excel spreadsheet titled \"Pyramid Calculation.xlsx,\" which is a position-sizing calculator for trading. The sheet displays data for \"Current Trade,\" \"Pyramid,\" and \"Combined Trade\" for both LONG and SHORT positions, showing values like Entry Price, SL, and Quantity. During the clip, the cursor moves from the \"Risk\" cell (B14) in the LONG column to the \"Revised SL\" cell (C10) in the SHORT column, which contains the value 1005.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_692s.mp4"
+  },
+  {
+    "timestamp": "13:05",
+    "quote": "look at the strong chart it's in a stage two it's forming this base here right here you can see the mini base breakout",
+    "what_is_shown": "Punjab National Bank daily chart showing stage two structure, base formation, and mini base breakout pattern",
+    "visual_description": "This clip shows a daily candlestick chart for Punjab National Bank (PNB) with moving average ribbon indicators. The speaker identifies the stock as being in a \"Stage 2\" uptrend. The user then zooms into the chart from September to November 2023 and uses the cursor to trace a consolidation pattern, which the speaker calls a \"mini base,\" that formed between roughly ₹72 and ₹78 before pointing to the subsequent upward \"breakout.\"",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_785s.mp4"
+  },
+  {
+    "timestamp": "13:05",
+    "quote": "look at this this area very good area right at the 10 right at the 20 and the 50",
+    "what_is_shown": "Moving averages (10, 20, 50) and price convergence area with volume contraction visible on chart",
+    "visual_description": "This clip displays a daily candlestick chart for Punjab National Bank (PNB) with a moving average ribbon indicator. As the speaker identifies a support area, the cursor points to a price pullback in October 2023. The cursor then moves to highlight how the price bounced off the green (likely 10/20-period) and white (50-period) moving average lines before the trend continued upward. A numerical annotation, \"8634083916\", is also visible on the chart.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_785s.mp4"
+  },
+  {
+    "timestamp": "13:37",
+    "quote": "if you go to the 15-minute chart you can see this right this is the area that I'm talking about",
+    "what_is_shown": "15-minute chart showing resistance area and previous entry reconfirmation",
+    "visual_description": "The screen shows a daily candlestick chart for Punjab National Bank (PNB) on the NSE, with the price at ₹80.15. Two moving averages (green and white) and a volume indicator are visible, along with a horizontal yellow line drawn as support/resistance around the ₹78 level. The cursor remains stationary, highlighting a consolidation of small candles in late November where the price pulled back to the moving averages before moving higher.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_817s.mp4"
+  },
+  {
+    "timestamp": "14:10",
+    "quote": "let's say this is your first entry and uh you placed your stop loss here fine and this becomes your second entry pyramid opportunity",
+    "what_is_shown": "Daily chart with marked first entry point, stop loss level, and second pyramid entry location",
+    "visual_description": "On the daily candlestick chart for PUNJAB NATL BANK (PNB), the cursor first points below a red candle near the 75.90 price level, illustrating a stop-loss placement. It then moves up to a large green breakout candle that has crossed a hand-drawn horizontal resistance line, identifying this as a second entry or \"pyramid opportunity.\" The chart includes an MA Ribbon indicator and a custom volume indicator at the bottom.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_850s.mp4"
+  },
+  {
+    "timestamp": "15:11",
+    "quote": "here is the setup and here is another setup you can just look at it as an independent independent setup right",
+    "what_is_shown": "Two distinct chart setups marked on daily chart for pyramiding comparison",
+    "visual_description": "On the screen is a daily candlestick chart for Punjab National Bank (PNB) on the NSE, which has several hand-drawn technical patterns, including two small flag formations. As the speaker mentions \"another setup,\" the cursor points to the recent breakout from the second flag pattern, which occurred around the 82.00 price level. The cursor then proceeds to draw a curved blue arrow originating from this breakout, illustrating an anticipated upward price trajectory.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_911s.mp4"
+  },
+  {
+    "timestamp": "16:16",
+    "quote": "look at this beautiful structure kind of a VI bottom structure the stock had a mini base breakout",
+    "what_is_shown": "Alo Industries daily chart showing V-shaped bottom structure and mini base breakout",
+    "visual_description": "The screen shows a daily candlestick chart for Alok Industries Ltd (ALOKINDS) on the NSE, with price action from March to December. Several moving average lines are plotted, and although the speaker mentions a \"V-bottom structure\" and a \"mini base breakout,\" no such patterns are drawn on the chart. The cursor remains relatively still over the price action around October.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_976s.mp4"
+  },
+  {
+    "timestamp": "16:47",
+    "quote": "here is the 15-minute chart and this is the trigger bar and yeah on this date you can see that the stock uh multiple times it breached the trigger bars high",
+    "what_is_shown": "15-minute chart showing trigger bar and multiple breach attempts",
+    "visual_description": "The screen displays a 15-minute candlestick chart for Alok Industries Ltd (ALOKINDS), focusing on early December. An orange horizontal line is drawn at approximately the 20.15 price level, marking the high of a \"trigger bar\" on December 1st. The cursor first highlights this trigger bar and then moves to a later green candlestick on December 4th, showing where the price breached that level. The chart also includes moving average lines and a volume indicator at the bottom.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_1007s.mp4"
+  },
+  {
+    "timestamp": "17:20",
+    "quote": "so if the entry price is here we getting a stop loss of around 3.8%",
+    "what_is_shown": "Entry price and stop loss level marked on 15-minute chart with calculated risk percentage",
+    "visual_description": "On the 15-minute candlestick chart for ALOKINDS LTD, the user activates the \"Short Position\" tool from an entry price of ₹20.15, marked by an orange horizontal line. The cursor drags the take-profit target downwards to measure a potential price drop. A pop-up annotation box appears, showing the measured drop as a percentage, which momentarily displays \"-0.75 (-3.71%)\", corresponding to the speaker's \"3.8%\" figure.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_1040s.mp4"
+  },
+  {
+    "timestamp": "17:51",
+    "quote": "look at this second candle here on the 15-minute chart this this one another pyramiding opportunity",
+    "what_is_shown": "15-minute chart with specific candle highlighted as pyramiding opportunity",
+    "visual_description": "The screen shows a 15-minute candlestick chart for ALOK INDUSTRIES LTD (NSE), with the price at 20.45. A large white arrow points towards a prominent green breakout candle that occurred on December 6th, which the cursor hovers over. The chart includes two moving averages (with the MA Ribbon at 20.08), volume indicators at the bottom, and two horizontal orange lines marking previous price levels. As the speaker talks, the chart advances by a few candles, showing a slight price pullback after the breakout.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_1071s.mp4"
+  },
+  {
+    "timestamp": "18:22",
+    "quote": "if you go to the daily chart these are the candles that we are talking about so all these candles are good trigger bars",
+    "what_is_shown": "Daily chart with multiple candles highlighted as trigger bars and pyramiding locations",
+    "visual_description": "This clip shows a 15-minute candlestick chart for Alok Industries Ltd (ALOKINDS) on the NSE, with the price trading around ₹20.80. The chart includes moving averages, volume bars, and two large grey arrows pointing to bullish breakout candles. Throughout the clip, the cursor remains fixed as a yellow dot on a recent green candlestick, highlighting it as the \"pyramiding opportunity\" being discussed.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_1102s.mp4"
+  },
+  {
+    "timestamp": "18:53",
+    "quote": "maybe your entry price would have been around 21 and the stop loss is uh is somewhere at 20",
+    "what_is_shown": "Chart showing entry price level at 21 and stop loss level at 20 with position management",
+    "visual_description": "This clip shows a 15-minute candlestick chart for Alok Industries Ltd (ALOKINDS). The cursor first points to a green candle near the 21.00 price level, indicating a potential entry point. It then moves down to a horizontal line drawn at the 20.00 price level, representing a stop-loss. Finally, a red measurement tool appears, quantifying the distance between the entry and stop-loss levels. The chart also features a moving average ribbon, volume indicators, and large grey arrows pointing to previous candles.",
+    "status": "critical",
+    "_file": "adv-1.txt",
+    "_vid_id": "uaN2cIjWKn4",
+    "clip_file": "uaN2cIjWKn4_1133s.mp4"
+  },
+  {
+    "timestamp": "02:39",
+    "quote": "running our scans preparing our short list maintaining our tracker sheets",
+    "what_is_shown": "Scanner interface, shortlist generation, tracker sheet examples",
+    "visual_description": "The screen displays a static presentation slide with a white background titled \"INTRODUCTION.\" The slide features a bulleted list under the heading \"The Essentials,\" which includes points like \"Sticking to the setup,\" \"Journaling,\" and \"Other Routine.\" No stock charts, prices, or indicators are visible; the screen consists only of text and a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB.\" Towards the end of the clip, a circular cyan cursor appears on the right side of the screen.",
+    "status": "critical",
+    "_file": "adv-2.txt",
+    "_vid_id": "c67XfEerUfk",
+    "clip_file": "c67XfEerUfk_159s.mp4"
+  },
+  {
+    "timestamp": "05:14",
+    "quote": "you go there you'll find a list of all your open trades and there you can just you just have an option to modify your stop-loss",
+    "what_is_shown": "Position manager page in the trading journal showing open trades list and stop-loss modification interface",
+    "visual_description": "The screen displays a static presentation slide with a white background. The main title is \"MARGIN TRADING / LEVERAGE\" in bold, black text. Below the title are two bullet points outlining an aggressive trading strategy, including the concept of raising stops to cost to make trades risk-free. No charts, stock data, or cursor movements are visible.",
+    "status": "critical",
+    "_file": "adv-2.txt",
+    "_vid_id": "c67XfEerUfk",
+    "clip_file": "c67XfEerUfk_314s.mp4"
+  },
+  {
+    "timestamp": "05:47",
+    "quote": "you'll see that that the open risk of that trade will become zero in your Journal you'll see that happening live",
+    "what_is_shown": "Position manager showing open risk value changing to zero after stop-loss modification",
+    "visual_description": "The screen displays a static presentation slide with a white background. The slide is titled \"MARGIN TRADING / LEVERAGE\" in bold, black text. Below the title, two bullet points describe a trading strategy, including the process of raising stops to cost to make trades risk-free. No charts, stock tickers, or cursor movements are visible; a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is present in the bottom right corner.",
+    "status": "critical",
+    "_file": "adv-2.txt",
+    "_vid_id": "c67XfEerUfk",
+    "clip_file": "c67XfEerUfk_347s.mp4"
+  },
+  {
+    "timestamp": "09:28",
+    "quote": "each lot consists of an amount of around 6 to 8 lakhs okay so to buy a stock worth 6 to 8 lakhs you will just need around one one and half lakhs of margin",
+    "what_is_shown": "Futures contract specifications showing lot size, margin requirement, and leverage calculation examples",
+    "visual_description": "The screen displays a static presentation slide with a white background. The title \"MARGIN TRADING\" is in bold, black text at the top left. Below the title, a bullet point explains one of three ways to get leverage in India is by \"Trading in futures.\" In the bottom right corner, a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is visible. There are no charts, stock tickers, or cursor movements during this clip.",
+    "status": "critical",
+    "_file": "adv-2.txt",
+    "_vid_id": "c67XfEerUfk",
+    "clip_file": "c67XfEerUfk_568s.mp4"
+  },
+  {
+    "timestamp": "11:04",
+    "quote": "the broker is giving you MTF facility on that particular stock with a limit of 7030 it means 70%",
+    "what_is_shown": "MTF facility details screen showing 70/30 ratio and how funds are allocated",
+    "visual_description": "The screen displays a static presentation slide titled \"MARGIN TRADING\" in bold, black text. Below the title, a bulleted list explains that in India, you can get leverage in three ways, with two sub-points listed: \"Trading in futures\" and \"MTF.\" The slide remains completely unchanged throughout the clip, with no cursor movement or annotations added. A logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is visible in the bottom-right corner.",
+    "status": "critical",
+    "_file": "adv-2.txt",
+    "_vid_id": "c67XfEerUfk",
+    "clip_file": "c67XfEerUfk_664s.mp4"
+  },
+  {
+    "timestamp": "11:37",
+    "quote": "not all the stocks are covered by MTF facility every broker has its own list of stocks",
+    "what_is_shown": "Broker's MTF-eligible stock list or documentation",
+    "visual_description": "The screen displays a static presentation slide titled \"MARGIN TRADING.\" A bulleted list explains that leverage in India can be obtained in three ways, with sub-points for \"Trading in futures\" and \"MTF.\" There are no stock charts, price data, indicators, or cursor movements visible on screen. A logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is present in the bottom-right corner.",
+    "status": "critical",
+    "_file": "adv-2.txt",
+    "_vid_id": "c67XfEerUfk",
+    "clip_file": "c67XfEerUfk_697s.mp4"
+  },
+  {
+    "timestamp": "12:09",
+    "quote": "if you go to a resources folder you'll get a document called Brokers best brokers or something like that and there you will have uh the links",
+    "what_is_shown": "Resources folder with broker links document",
+    "visual_description": "The screen displays a static presentation slide titled \"MARGIN TRADING\". The slide lists two ways to get leverage in India: \"Trading in futures\" and \"MTF\". The cursor remains stationary over a watermark in the center-right of the screen, and a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is visible in the bottom-right corner. No stock charts, price data, or indicators are shown.",
+    "status": "critical",
+    "_file": "adv-2.txt",
+    "_vid_id": "c67XfEerUfk",
+    "clip_file": "c67XfEerUfk_729s.mp4"
+  },
+  {
+    "timestamp": "16:19-17:21",
+    "quote": "we can use the 15-minute time frame to find good structures and have tight stop losses we'll talk about that when we discuss a few examples on how to use the 15- minute time frame to identify good structures and good entry points",
+    "what_is_shown": "15-minute chart examples showing entry structures and stop loss placements",
+    "visual_description": "This clip shows two consecutive presentation slides on a white background. The first slide, titled \"MARGIN TRADING,\" lists methods for obtaining leverage in India. It then transitions to a second slide simply titled \"LIVE ENTRY.\" No stock charts, price data, indicators, or cursor movements are visible at any point.",
+    "status": "critical",
+    "_file": "adv-2.txt",
+    "_vid_id": "c67XfEerUfk",
+    "clip_file": "c67XfEerUfk_979s.mp4"
+  },
+  {
+    "timestamp": "03:40",
+    "quote": "we are on the chart of data power this is the daily chart first let's go to the weekly chart",
+    "what_is_shown": "Weekly chart of Data Power stock showing stage one breakout and base formation",
+    "visual_description": "The screen initially displays a daily (1D) candlestick chart for TATA POWER CO LTD on the NSE, showing price action from March to December with moving average and volume indicators. An annotation on the chart reads \"DISCRETION Entries using LTF\". The user moves the cursor to the top menu, clicks the \"1D\" timeframe selector, and chooses \"1W\" from the dropdown. The chart then updates to a weekly view, displaying a longer timeframe from late 2021 to early 2024.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_220s.mp4"
+  },
+  {
+    "timestamp": "04:11",
+    "quote": "you can mark this level here as well that's I think this would be a proper mini base breakout level",
+    "what_is_shown": "Specific price level on daily chart where mini base breakout occurred with previous low marked",
+    "visual_description": "The screen displays a daily candlestick chart for Tata Power (TATA POWER CO LTD), with the price around ₹264.45. The cursor moves to a recent price high and draws a horizontal dashed line at approximately ₹264.10, marking the top of a small consolidation pattern. This area is already annotated with other dashed lines, a curved line forming a small base, and text that reads \"DISCRETION\". Moving averages and a volume chart are also visible.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_251s.mp4"
+  },
+  {
+    "timestamp": "04:42",
+    "quote": "let's have a look at this so this is how the lower time frame was appearing on that day this is how it was appearing and I think the day the day closed here okay this is how it was appearing",
+    "what_is_shown": "Intraday lower timeframe candles showing price action for that specific day",
+    "visual_description": "The screen initially displays a daily candlestick chart for Tata Power (TATAPOWER) on November 21st, with a price range marked by dotted lines as a \"mini base\". The view then shifts back in time on the same daily chart to show the price action around October 17th. As the speaker talks, the cursor moves to the center of this older chart view, gesturing towards a period of sideways consolidation within a marked price channel.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_282s.mp4"
+  },
+  {
+    "timestamp": "05:14",
+    "quote": "you can spot a clean resistance like this and since you have got some huge volume expansions on this particular day and this area is clearly plotted",
+    "what_is_shown": "Resistance level marked on chart with volume expansion visualization",
+    "visual_description": "This clip shows a candlestick chart for TATA POWER CO LTD on TradingView. The cursor moves to highlight a resistance level from March 22nd, around the 362.35 price point, which the speaker calls a \"clean resistance.\" Below the price chart, a volume indicator displays several large green bars, corresponding to the \"huge volume expansions\" mentioned, with the largest volumes appearing on the most recent trading days.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_314s.mp4"
+  },
+  {
+    "timestamp": "05:47",
+    "quote": "so I just marked this entry here this is your entry point here",
+    "what_is_shown": "Specific entry point marked on the daily chart with corresponding candle",
+    "visual_description": "This is a daily candlestick chart for Tata Power Co Ltd (TATAPOWER) on the TradingView platform. A horizontal orange line is drawn at a resistance level of approximately 262.05, with the price currently consolidating below it near 258.55. As the speaker mentions the \"entry point,\" the cursor points to the large green breakout candle from November 28th before moving slightly to the right, indicating where the next candle will form. The chart also includes moving averages and a volume indicator at the bottom.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_347s.mp4"
+  },
+  {
+    "timestamp": "06:17",
+    "quote": "you can see a long breakout area Okay and then it broke out and there was this fantastic move that followed",
+    "what_is_shown": "Lower timeframe breakout area with volume expansion and subsequent price movement",
+    "visual_description": "On a candlestick chart for TATA POWER, the cursor highlights a horizontal orange resistance line drawn at the ₹363.10 price level, which the speaker calls a \"long breakout area.\" The cursor then moves to the right to show where the price broke above this line, tracing the subsequent sharp upward rally towards the ₹380 level. The clip ends with the chart zooming out to display a wider date range.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_377s.mp4"
+  },
+  {
+    "timestamp": "06:48",
+    "quote": "we are here on the daily chart of uh policy Bazar have a look at this chart let's go to the weekly chart",
+    "what_is_shown": "Weekly chart of PolicyBazaar showing stage four and volume transition patterns",
+    "visual_description": "The clip begins on a daily candlestick chart for PB Fintech Ltd (Policy Bazar) on the TradingView platform, showing price action from March 2022 to June 2023 with moving average and volume indicators. The speaker's cursor moves from the center of the chart to the time frame selector at the top. The view is then switched from the daily (\"D\") to the weekly (\"1W\") chart, which re-renders to show the stock's performance on a weekly basis, displaying a more pronounced downtrend and subsequent recovery since late 2021.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_408s.mp4"
+  },
+  {
+    "timestamp": "07:18",
+    "quote": "you have this base here look at the ppcs within the base and then the earnings come up here",
+    "what_is_shown": "Daily chart showing base formation, point and figure chart patterns (ppcs), and earnings gap",
+    "visual_description": "This daily candlestick chart for PB Fintech Ltd (POLICYBZR) shows the price trading around ₹601.75. The cursor first highlights the recent tight consolidation of small candlesticks (PPCs) forming a \"base\" pattern. It then moves left to point at a red \"E\" annotation above the candles from late May, indicating a past earnings report. The chart also displays volume bars at the bottom and several moving average lines.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_438s.mp4"
+  },
+  {
+    "timestamp": "07:48",
+    "quote": "so on on this day you can see the lower time frame what happened was this so this was not a meaningful confirmation right on the 10-minute chart",
+    "what_is_shown": "10-minute timeframe candles on June 1st showing initial breakout attempt and price action",
+    "visual_description": "This clip displays a 10-minute candlestick chart for PB FINTECH LTD (POLICYBZ) on the NSE, with the price around ₹607. A prominent downward-sloping blue trendline acts as resistance, which the price has just pierced with the first candle of the day. The cursor hovers over this breakout candle, which is also testing a horizontal resistance line drawn at the recent high near 607. The chart includes moving averages and a volume pane below.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_468s.mp4"
+  },
+  {
+    "timestamp": "08:21",
+    "quote": "let me extend this line and now here you see huge volume expansion huge huge volume expansion stock attempts a breakout comes back down",
+    "what_is_shown": "Lower timeframe chart with extended reference line showing multiple volume expansion areas and failed breakout attempts",
+    "visual_description": "The screen displays a candlestick chart for PB FINTECH LTD, with a descending purple trend line drawn across price peaks, acting as resistance. The cursor moves along this trend line, highlighting a recent candle that attempted to break out above it but was rejected. Below the main chart, the volume indicator shows an exceptionally large green bar, which the speaker describes as a \"huge volume expansion\" coinciding with the failed breakout.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_501s.mp4"
+  },
+  {
+    "timestamp": "08:51",
+    "quote": "now you can see some congestion happening contraction happening contraction contraction and this candle this is a strong green candle",
+    "what_is_shown": "Lower timeframe candles showing congestion and contraction pattern with specific strong green candle highlighted",
+    "visual_description": "The screen displays a 75-minute candlestick chart for PB Fintech Ltd (POLICYBZR) on the TradingView platform, with the price around ₹600. A purple descending trendline is drawn across price peaks, and two moving average lines are visible on the chart. As the speaker mentions \"contraction,\" the cursor moves over a series of small-bodied candles, indicating price consolidation. The clip ends with the cursor near the most recent large green candle, which corresponds to a significant volume spike shown in the indicator panel below.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_531s.mp4"
+  },
+  {
+    "timestamp": "09:21",
+    "quote": "this is a pre breakout entry if you buy here an early entry using the lower time frame",
+    "what_is_shown": "TradingView chart showing specific price levels labeled as 'pre breakout entry' point and 'lower time frame' entry point with volume spikes and candles",
+    "visual_description": "This clip displays a candlestick chart for PVR-FINTECH-LTD on the TradingView platform, showing the price consolidating below a drawn horizontal resistance line at 607.05. The price action is above the moving average ribbon, and the current price hovers around 606.30. The cursor moves to point at a recent strong green candle that formed after a pullback, which the speaker identifies as the \"pre-breakout entry\" point.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_561s.mp4"
+  },
+  {
+    "timestamp": "09:21",
+    "quote": "you had this crazy volume spikes and then again a pullback and then again a confirmation that this down swing is coming to an end with this green positive candle",
+    "what_is_shown": "Chart showing volume spike pattern, pullback, and green confirmation candle with volume indicator visible",
+    "visual_description": "This clip displays a 75-minute candlestick chart for PB FINTECH LTD, showing moving average ribbons and a volume indicator. A horizontal resistance line is drawn at 607.05. As the speaker narrates, the cursor first points to a large green volume spike at the bottom right, then traces a price pullback from the recent high, and finally settles on a large green candle that formed near the 602 price level, confirming the end of the short-term downswing.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_561s.mp4"
+  },
+  {
+    "timestamp": "09:52",
+    "quote": "you could manage to take an entry here or you can even do a 50/50 you can buy some here and then some here",
+    "what_is_shown": "Chart with two marked entry points showing price levels where partial position can be taken",
+    "visual_description": "The screen displays a stock chart for PB FINTECH LTD, which has experienced a sharp price breakout from the ₹605.45 level, accompanied by a massive volume spike. Annotations on the chart include two horizontal lines at ₹605.45 and ₹612.75, with an upward-pointing green arrow drawn between them. As the speaker discusses a \"50/50\" entry strategy, the cursor moves from the pullback area near the upper line (₹612.75) down to the initial breakout point near the lower line (₹605.45), illustrating where to buy portions of a position.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_592s.mp4"
+  },
+  {
+    "timestamp": "13:33-14:03",
+    "quote": "you will see a lot of PSU banking stocks forming large VV structures forming great setups clean moves... Yuko Bank Union Bank Central Bank Jammu and Kashmir Bank iob all these stocks were having similar structures",
+    "what_is_shown": "Multiple stock charts (Yuko Bank, Union Bank, Central Bank, Jammu & Kashmir Bank, IOB) from July-August 2023 period showing identical V-V pattern structures",
+    "visual_description": "The screen displays a static presentation slide titled \"DISCRETION IN POSITION SIZING.\" The slide explains that raising position size on solid setups can increase returns, with one method listed as \"Buy more of a stock than your normal size. (Raise RPT).\" Despite the speaker mentioning various banking stocks and chart patterns, no charts, prices, or indicators are shown; only the text-based slide is visible throughout the clip. A faint, static cursor icon appears over the word \"Buy\" in the final bullet point.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_813s.mp4"
+  },
+  {
+    "timestamp": "14:03",
+    "quote": "when it comes to the US market you will see in the month of October November 2024 lot of banking stocks were setting up the very same way all the charts were very very identical",
+    "what_is_shown": "Multiple US banking stock charts from October-November 2024 showing identical setup patterns",
+    "visual_description": "The screen displays a static presentation slide titled \"DISCRETION IN POSITION SIZING.\" The slide explains that raising position size in solid setups can increase returns and lists one method as buying more of a stock than the normal size. No stock charts, prices, indicators, or cursor movements are visible, only informational text and a \"CHAMPIONS CLUB\" logo in the bottom-right corner.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_843s.mp4"
+  },
+  {
+    "timestamp": "19:48",
+    "quote": "let's say the stock is making this base and you could buy a stock here let's say you bought a stock here with this move here okay now when the stock breaks out you are not supposed to think about pyramiding after it has broken out of the base however you can pyramid within the base if the stock again produces another setup here if it if it makes a pullback and a contraction here and produces another move here starts moving up here like this then you can pamit here",
+    "what_is_shown": "Diagram showing a base formation with multiple pullbacks and entry points within the base, demonstrating where pyramiding is allowed vs. not allowed relative to breakout zone",
+    "visual_description": "The video shows a presentation slide titled \"PYRAMIDING\" with three bullet points defining the concept. A circular cursor appears on the right, and then two new bullet points are added to the list as the speaker explains them. These new points state, \"Do not pyramid out of the base\" and \"You can pyramid even after a partial exit as long as the stock is within the base.\"",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1188s.mp4"
+  },
+  {
+    "timestamp": "20:18",
+    "quote": "if you draw the line here you can see that sometimes the stock is slightly above the breakout Point that's okay that's okay but understand the logic here we do not want to be pyramiding substantially about the breakout Zone",
+    "what_is_shown": "A horizontal line drawn at the breakout point on a chart showing the relationship between price action and the breakout zone",
+    "visual_description": "On a presentation slide titled \"PYRAMIDING,\" the speaker uses a drawing tool to add a horizontal line across the recent peaks of a hand-sketched stock chart. This line establishes a resistance level, which the speaker refers to as the \"breakout Point.\" The chart pattern shows the price moving sideways in a base and then slightly poking above the newly drawn line, illustrating the \"breakout Zone\" being discussed.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1218s.mp4"
+  },
+  {
+    "timestamp": "20:48",
+    "quote": "let's say you bought a stock here you bought a stock here and the stock moves like this and again you are getting opportunity now suppose let's say the stock got extended here and you made an exit here you made a partial exit here okay and now here the stock is making another opportunity to enter by making this nice setup and a good show of strength so you can pyamid here as well",
+    "what_is_shown": "Diagram showing price movement with entry point, extended move, partial exit point, and subsequent pyramiding opportunity",
+    "visual_description": "On a presentation slide titled \"PYRAMIDING,\" the speaker uses the cursor to illustrate a trading concept on a hand-drawn line chart. The cursor first traces the chart's general upward movement, then points to a high peak to signify an exit. The speaker then draws a small downward tick from that peak to represent a partial exit, followed by a small upward tick to indicate a new opportunity to buy. The chart is purely illustrative, showing no specific stock names, price levels, or indicators.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1248s.mp4"
+  },
+  {
+    "timestamp": "22:52",
+    "quote": "suppose you bought your stock here okay and then stock mod like this and again comes back here almost at the same level again makes a congestion trigger level again breaks and again you have this opportunity to buy here now you decide to Pyramid so first buy your stop loss was somewhere here and second byy is also very very near to your first buy so again the stop loss you will not have this option to raise your stop loss",
+    "what_is_shown": "Diagram showing price action with congestion, trigger level, breakout, and two buy entries close together with stop loss placement",
+    "visual_description": "The screen transitions from a presentation slide on \"Pyramiding\" to a daily stock chart of SUNPHARMA. The speaker uses the cursor to illustrate a trade, tracing a price move from an initial \"buy\" point, then drawing a horizontal red line at a resistance level around 930, labeling it a \"congestion trigger level.\" After showing a breakout, the speaker discusses a second \"pyramid\" buy and annotates the chart with a red \"SL\" (stop loss) below the first entry point.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1372s.mp4"
+  },
+  {
+    "timestamp": "23:22",
+    "quote": "let's say you've got a nice deeper structure and and let's say this is your this is where you are buying it for the first time and this is your base here okay sorry make it like this now you got this breakout attempt and once more you got this nice pull back and a contraction and you are giving this opportunity here once again so this is your pyramiding opportunity",
+    "what_is_shown": "Diagram showing deeper structure with base, breakout attempt, pullback, contraction, and second pyramiding opportunity with adjusted stop loss",
+    "visual_description": "On a presentation slide titled \"PYRAMIDING,\" a hand-drawn line chart illustrates a stock price pattern. This pattern shows an initial base, a breakout to a new high, and a subsequent pullback to form a second, higher base, which is marked with two short horizontal lines. As the speaker describes this chart, the cursor appears and underlines the text \"you are pyramiding near the entry price:\" at the bottom of the slide.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1402s.mp4"
+  },
+  {
+    "timestamp": "24:54",
+    "quote": "If You observe this chart if I zoom it out you can see that the stock was clearly in a stage two it broke below the 50 DM just for a few days here but it then never broke below it for the whole stage to move and then the stock suddenly breaks below and sustains below the 50 D that represents the change in character of the stock and then here I'm not interested in the stock",
+    "what_is_shown": "TradingView daily chart of Klein Point with 50-day moving average, showing stage two structure, brief dip below 50 DMA, and subsequent breakdown below it",
+    "visual_description": "A daily candlestick chart for Caplin Point Lab Ltd. (CAPLIPOINT) is shown, displaying a strong uptrend from mid-2023 followed by a recent breakdown. The chart includes several moving averages, notably a white line (the 50 DMA mentioned by the speaker) and a purple line, with a volume indicator at the bottom. An annotation \"869.4083916\" is visible near the July 2023 price action. The cursor moves from around October 2023 to February 2024, highlighting where the price first respected and then decisively broke below the white moving average line.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1494s.mp4"
+  },
+  {
+    "timestamp": "25:25",
+    "quote": "look at the reversal here and look at the volumes that come up with this candle amazing volume so this is something significant happening in the stock accumulation is happening so if now we can see the structure here this becomes your breakout mini base breakout level and the stock broke out of mini base stock also turned around",
+    "what_is_shown": "TradingView chart showing volume spike on a specific candle during reversal, mini base formation, and breakout structure",
+    "visual_description": "This clip displays a daily candlestick chart for Caplin Point Lab Ltd (CAPLIPOINT) on the TradingView platform. The cursor highlights a large green breakout candle that has just moved above a green rectangular box, which annotates a consolidation or \"mini base\" area around the ₹1,340 price level. The corresponding volume bar for this breakout candle, visible in the lower panel, is exceptionally high, which the speaker refers to as \"amazing volume\" indicating significant accumulation.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1525s.mp4"
+  },
+  {
+    "timestamp": "25:55",
+    "quote": "this is the first pullback if you see there is a congestion here there is a contraction as well but the stock is not even hit the 20 of the 50 dma so there's no sufficient pullback we use these the moving averages as the anchor points for pullbacks right so in this case the stock has not pulled to those averages but the stock has made good trans",
+    "what_is_shown": "TradingView chart showing pullback that stops short of 20 DMA and 50 DMA, with congestion and contraction zones marked",
+    "visual_description": "This is a 1-day candlestick chart for Caplin Point Lab Ltd (CAPLIPOINT) on the NSE, showing prices between approximately ₹800 and ₹1,500. The chart includes 20-day (green), 50-day (white), and a longer-term (purple) moving average indicators. A green horizontal line is drawn at the ₹1,400 resistance level, and the crosshair cursor highlights the price consolidation period from April to early June 2024. The cursor points to this area to show that the price did not pull back to the moving averages during the consolidation.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1555s.mp4"
+  },
+  {
+    "timestamp": "26:26",
+    "quote": "then the stock produces PPC here now sometimes Traders can even buy the stock here as it breaks above this particular chanle is possible and it's it's a valid entry as well no problems it's just that you made a little compromise with the last step that is the contraction or conjestion then the stock hits the 20 DM but again there's no proper contraction oranization and then the stock produces PPC here",
+    "what_is_shown": "TradingView chart showing potential entry point when stock breaks above a channel, followed by subsequent pullback, congestion formation, and four-bar contraction pattern",
+    "visual_description": "This clip displays a daily candlestick chart for Caplin Point Lab Ltd. (CAPLIPOINT), featuring moving averages and a volume indicator. A horizontal green line is drawn near the 1,380 price level, marking a resistance level that was broken in mid-June 2024. As the speaker discusses a potential entry, the cursor moves from the initial breakout candle to the more recent price consolidation in mid-July, highlighting the small-bodied candles just above the former resistance.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1586s.mp4"
+  },
+  {
+    "timestamp": "26:26",
+    "quote": "I'll mark this candle as your entry point maybe your average entry price will be somewhere here 1477 let me Mark it this is your average ENT price okay I'll just write 1477 is your entry",
+    "what_is_shown": "TradingView chart with entry candle highlighted and price level annotation at 1477",
+    "visual_description": "On a daily candlestick chart for Caplin Point Lab Ltd. (CAPLIPOINT), the user's cursor moves to the right side of the chart. The user selects the horizontal line tool and draws a new line at the 1477 price level, corresponding to a recent price area. They then add a text annotation to this new line, which reads \"1477 is your entry\".",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1586s.mp4"
+  },
+  {
+    "timestamp": "26:58",
+    "quote": "the stop loss may be somewhere here this may be a stop loss",
+    "what_is_shown": "Specific price level on chart where stop loss is placed",
+    "visual_description": "This clip displays a daily candlestick chart for Caplin Point Lab Ltd. (CAPLIPO) on the NSE, with an entry price already annotated with a horizontal green line at 1477. As the speaker discusses setting a stop loss, the cursor moves to the toolbar to select a line drawing tool. The cursor then returns to the chart, poised as a crosshair with a pencil icon, and hovers near the 1378 price level to mark the potential stop loss below a recent swing low.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1618s.mp4"
+  },
+  {
+    "timestamp": "27:29",
+    "quote": "you have made your first entry here",
+    "what_is_shown": "Marked entry point on the chart with candles showing the entry location",
+    "visual_description": "This clip shows a daily candlestick chart for Granules India Ltd. (GRANULES) on the TradingView platform. The chart features moving averages, volume, and two horizontal green lines marking a support/pivot level around 1,400 and a resistance level near 1,570. A smaller white trendline highlights a recent consolidation pattern with a price label at \"1477,\" and the crosshair cursor moves from the pivot line toward an earlier red candle.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1649s.mp4"
+  },
+  {
+    "timestamp": "27:29",
+    "quote": "you see the ppcs and everything it's so great",
+    "what_is_shown": "Previous price/support levels visible on chart structure",
+    "visual_description": "On the screen is a 1-day candlestick chart for Gland Pharma Ltd (GARLPOI) on TradingView, showing a price breakout. The chart is annotated with a green resistance line near ₹1,579.30 and a small pennant pattern (which the speaker calls a \"PPC\") formed by dotted white lines around the ₹1,477 price level. As the price breaks out of this pattern and rallies, the crosshair cursor remains stationary in the lower portion of the chart near the ₹1,324.15 price level, highlighting the period just before a prior up-move. An MA ribbon and volume indicators are also displayed.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1649s.mp4"
+  },
+  {
+    "timestamp": "27:29",
+    "quote": "with this candle with this candle you have a gap up",
+    "what_is_shown": "Specific candle formation showing the gap up pattern",
+    "visual_description": "On the screen is a daily candlestick chart for GARLIPOINT LAB LTD on the NSE. The chart features moving averages, horizontal support and resistance lines, and a price annotation of \"1477\" on a previous candle. As the speaker says \"you have a gap up,\" a new, large green daily candle appears on the far right, showing the price gapping up from the previous close (around ₹1530) to open above the top resistance line near ₹1590. The crosshair cursor remains stationary below the price action around the ₹1304 level.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1649s.mp4"
+  },
+  {
+    "timestamp": "28:33",
+    "quote": "the earlier your stop loss was here now if you have this swing low so now you have this option to place your stop loss here at this swing low",
+    "what_is_shown": "Chart showing previous stop loss level and new swing low level for adjusted stop loss",
+    "visual_description": "This clip displays a daily candlestick chart for Caplin Point Lab Ltd (CAPLIPOINT). As the speaker discusses adjusting a stop-loss, the cursor first highlights a previous swing low from mid-July, near the 1477 price level. The cursor then moves to a more recent and higher swing low in mid-August, near 1465, demonstrating the new potential placement for a trailing stop-loss as the stock's price has risen.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1713s.mp4"
+  },
+  {
+    "timestamp": "28:33",
+    "quote": "you could raise your stop by 3%",
+    "what_is_shown": "Visual representation of the 3% distance between old and new stop loss levels on chart",
+    "visual_description": "This clip shows a daily candlestick chart for Caplin Point Lab Ltd (CAPLIPOINT) on TradingView, with the price at 1,546.90. The chart features several indicators, including moving averages and volume, as well as manually drawn support/resistance lines. The cursor moves from a previously marked pivot point at 1477 down and to the right, tracing along an upward-sloping moving average line that is acting as dynamic support for the recent price action.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1713s.mp4"
+  },
+  {
+    "timestamp": "31:08",
+    "quote": "this is your combined trade okay and now if you see if the stock hits your stop loss",
+    "what_is_shown": "Calculator/spreadsheet showing combined trade metrics, quantities, position sizes, and stop loss calculations",
+    "visual_description": "An Excel spreadsheet shows a trading calculator for a stock named \"caplipoint,\" divided into \"Current Trade,\" \"PYRAMID,\" and \"Combined Trade\" sections. As the speaker says \"this is your combined trade,\" the cursor moves from the \"PYRAMID\" section to highlight the \"Combined Trade\" title in cell A19. The cursor then moves down through the combined metrics, which include a \"Total Qty\" of 562, an \"Avg Price\" of 1495.4, and an \"SL%\" of 3.0%.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1868s.mp4"
+  },
+  {
+    "timestamp": "31:38",
+    "quote": "let's just think that uh this was your average exit price for the stock you managed to exit the entire stock at this average price",
+    "what_is_shown": "Calculator display showing average exit price (2033) and resulting profit/loss calculations",
+    "visual_description": "The screen first shows an Excel spreadsheet with trade calculations for \"Combined Trade,\" \"PYRAMID,\" and an initial position. It then switches to a daily candlestick chart for CAPLIN POINT LAB LTD (CAPLIPOINT) on a trading platform. The chart shows a \"Long Position\" tool with an entry price around 1,477, with horizontal lines marking support and resistance. As the clip progresses, the chart advances a few days, and the stock price gaps up significantly past 1,600.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1898s.mp4"
+  },
+  {
+    "timestamp": "32:08",
+    "quote": "so I'm writing average exit price is 2033 just to see the calculation of gains so in this trade I'm making a profit of 3 lak 300,000",
+    "what_is_shown": "Calculator rows showing profit figures (330,000) and account change percentage (6%)",
+    "visual_description": "The screen shows an Excel spreadsheet for tracking a trade, with sections labeled \"PYRAMID\" and \"COMBINED TRADE\". The speaker enters the value \"2033\" into the yellow-highlighted \"Exit Price\" cell (B27). This action causes the \"P&L\" (Profit & Loss) cell (B28) to automatically update to \"302104\", which the speaker references as their profit. The cursor then moves to an empty cell to the right.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1928s.mp4"
+  },
+  {
+    "timestamp": "32:38",
+    "quote": "so you see the quantity becomes 440",
+    "what_is_shown": "Calculator field showing the quantity calculation result of 440",
+    "visual_description": "In a Microsoft Excel spreadsheet analyzing a \"caplipoint\" trade, the user changes the \"Revised Risk %\" in cell B13 from 0.50% to 1.00%. This action automatically updates the calculated \"Qty (auto)\" in the cell below (B14), changing the value from 162 to 440. The cursor moves from the risk cell to the newly updated quantity cell. The spreadsheet includes sections for \"Current Trade,\" \"PYRAMID,\" and \"Combined Trade,\" with key input cells highlighted in yellow.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_1958s.mp4"
+  },
+  {
+    "timestamp": "34:11",
+    "quote": "without ping it's uh 28920 I'm just wring The Profit figes okay not account change now now with pyramiding if I taking a 0 5% risk it's 162 and now I'm making 395,000 and with 1 person ping it's 440 now I'm making 5 l 79,000",
+    "what_is_shown": "Calculator comparison rows showing different scenarios with profit figures (28920, 395000, 579000)",
+    "visual_description": "The screen shows a Microsoft Excel spreadsheet titled \"PYRAMID\" that calculates trade profitability. The user types \"289200\" into cell F21, mirroring the \"P&L\" (Profit & Loss) value of 289,200 shown in cell B17 for a \"No Pyramid\" scenario. The spreadsheet also displays profit figures for \"Moderate\" (0.50% risk) and \"Aggressive\" (1% risk) pyramiding scenarios, with calculated profits of 302,104 and 438,880, respectively, although the speaker's narrated figures differ slightly.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2051s.mp4"
+  },
+  {
+    "timestamp": "34:41",
+    "quote": "you are only supposed to touch this yellow figures not the white figures",
+    "what_is_shown": "Calculator spreadsheet with yellow and white colored cells/fields",
+    "visual_description": "The screen shows a Microsoft Excel spreadsheet functioning as a trading calculator for a position in \"caplipoint.\" The user changes the value in the yellow-highlighted \"Revised Risk %\" cell (B13) from 1.00% to 0.80%. This input automatically causes the calculated \"Qty (auto)\" in the adjacent cell (B14) to update from 440 to 329. The speaker clarifies that users are only supposed to edit the figures in the yellow-highlighted cells.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2081s.mp4"
+  },
+  {
+    "timestamp": "34:41",
+    "quote": "manual quantity means if this is the auto calculation so once you put once you change the risk to 0.8 it says that you have to buy this much but then actually how much you buy that is supposed to be entered here",
+    "what_is_shown": "Calculator showing auto-calculated quantity field and separate manual quantity entry field",
+    "visual_description": "The screen shows a stock trading calculator in Microsoft Excel for a position in \"caplipoint\". The cursor is in the \"PYRAMID\" section, where the user changes the \"Revised Risk %\" (cell B13) from 1.00% to 0.80%. As a result of this input, the formula-driven \"Qty (auto)\" field (cell B14) automatically updates from 440 to 329. The speaker then highlights the difference between this automatic calculation and the \"Manual Qty\" field below it.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2081s.mp4"
+  },
+  {
+    "timestamp": "35:45",
+    "quote": "see here as the stock was making this up swing then it made a congestion here 3day congestion and then again it gapped up",
+    "what_is_shown": "Chart showing upswing, 3-day congestion pattern, and gap-up breakout on LS Engineering daily chart",
+    "visual_description": "The screen shows a daily candlestick chart for Caplin Point Lab Ltd on a trading platform. As the speaker talks, the cursor first indicates an upward price swing in August, then moves to highlight a three-day consolidation pattern (\"congestion\") that formed just above the 1600 price level. The chart then zooms in as the cursor points to a subsequent large green candle that gapped up significantly from that congestion area. The chart also features several moving averages and horizontal support/resistance lines.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2145s.mp4"
+  },
+  {
+    "timestamp": "36:16",
+    "quote": "when you go to the lower time frame you'll see some crazy volumes coming in",
+    "what_is_shown": "Lower timeframe chart of the same stock showing volume spike at breakout",
+    "visual_description": "This clip displays a daily candlestick chart for Caplin Point Lab Ltd. (CAPLIPOINT) on the TradingView platform, showing the price trading around 1,848. The chart features several drawn horizontal lines indicating support and resistance, notably a breakout above a key level around 1,600. The white dot cursor moves over the price consolidation that occurred in early September after a strong upward move in late August, which is accompanied by significant spikes on the volume indicator at the bottom.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2176s.mp4"
+  },
+  {
+    "timestamp": "36:48",
+    "quote": "this is the base on the daily chart we can see that the stock attempted a mini base breakout here with this candle... hit the 20... this candle came which was the first signal to buy",
+    "what_is_shown": "LS Engineering daily chart showing mini base, attempt breakout, pullback to 20-day MA, and trigger candle",
+    "visual_description": "This is a daily candlestick chart for Lloyds Engineering Works Ltd (LLOYDSENG), showing a \"mini base\" pattern with a horizontal resistance line drawn at approximately ₹21. The speaker's cursor first points to a green candle from early May that attempted to break this resistance. The cursor then moves to a large green candle in mid-May that bounced off the 20-day moving average (green line), which the speaker identifies as the \"first signal to buy\".",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2208s.mp4"
+  },
+  {
+    "timestamp": "37:20",
+    "quote": "this is your trigger level here this is a contracted bar this is your trigger level",
+    "what_is_shown": "Specific candle on chart marked as trigger level and contracted bar",
+    "visual_description": "This clip shows a daily candlestick chart for LLOYDSENGG WORK LTD (NSE: LLOYDS) on the TradingView platform, with the price consolidating around ₹21.90. The cursor highlights a small red \"contracted bar\" from mid-May that is resting on a green moving average line. The speaker identifies the high of this specific candle as the \"trigger level\" for a potential trade. The chart also features a horizontal line near ₹21.10 and a volume indicator at the bottom.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2240s.mp4"
+  },
+  {
+    "timestamp": "37:50",
+    "quote": "let's say you bought this stock here with a 0.5% risk and this is your stop loss okay now when you're coming here you're able to also revise your stop loss here... maybe somewhere here",
+    "what_is_shown": "Chart with stop loss levels marked at specific price points/chart locations",
+    "visual_description": "This clip displays a daily candlestick chart for the stock LLOYDS ENGG WORK. ETP, which has several indicators including two moving averages and drawn horizontal resistance lines. The cursor first points to a hypothetical entry point on a large green candle in mid-April (marked with a small green arrow) and then moves just below it to indicate an initial stop loss. The cursor then moves to the right, pointing to a higher price level below the recent consolidation around ₹22.10, demonstrating how a trader would revise their stop loss upwards.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2270s.mp4"
+  },
+  {
+    "timestamp": "38:53",
+    "quote": "I would wait for this candle okay this candle when this came I would buy the stock maybe somewhere here or maybe even after the breakout slightly above the breakout level",
+    "what_is_shown": "Specific candle formation and breakout level on chart",
+    "visual_description": "A daily candlestick chart for LLOYDSENGG WORK LTP on TradingView shows the price trading around ₹22.80. A horizontal resistance line is drawn at approximately ₹20.50, which the price has recently broken above. The speaker's cursor is a static crosshair pointing to the large green breakout candle from Thursday, 18th May, which they refer to as a potential entry point for a trade.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2333s.mp4"
+  },
+  {
+    "timestamp": "39:23",
+    "quote": "after the breakout move the stock again pulled back and hit the 50 moving average again made a big candle... this is your third pyramiding opportunity",
+    "what_is_shown": "Chart showing pullback to 50-MA, large volume candle, and identified pyramiding opportunity point",
+    "visual_description": "This is a daily candlestick chart for LLOYDSENGG WORK LTD (LLOYDS) on a TradingView interface, showing prices from late 2022 to July 2023. As the cursor moves from late June to early July 2023, the price is shown pulling back to the 50-day moving average (the white line) around the ₹32.15 level. A large green bullish candle then forms on July 3rd, bouncing strongly off this moving average, which the speaker identifies as a buying opportunity. The chart also contains drawn resistance lines, blue arrows marking previous entries, and a volume indicator at the bottom.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2363s.mp4"
+  },
+  {
+    "timestamp": "39:55",
+    "quote": "you bought the stock for the first time here you spotted the setup here itself and you bought it here this was an ideal entry this was a little early entry",
+    "what_is_shown": "Chart with two different entry points marked - early entry vs ideal entry",
+    "visual_description": "A candlestick chart for LLOYDS ENGG WORK LTD (LLOYDS) is shown with moving averages and volume indicators. As the speaker talks, the cursor moves to illustrate different entry points on the chart. The cursor first highlights a bounce off the white moving average around late May, which the speaker calls the \"ideal entry,\" then moves left to a point in early May, which is described as an \"early entry.\" Small blue upward-pointing arrows are visible below the candlesticks at these locations.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2395s.mp4"
+  },
+  {
+    "timestamp": "42:37-43:08",
+    "quote": "you bought a stock here the stock finally broke out of this base it's moving like this and then suddenly it gets extended and it gets extended very crazy...big big green candle crazy big candle big PPC",
+    "what_is_shown": "Chart showing stock breaking out of base, moving upward with extended movements, and large green candles (PPC formations)",
+    "visual_description": "The screen shows a presentation slide titled \"STOP LOSS\" with a white background. It lists three stop-loss methods: Standard, Conservative, and Aggressive. A light blue circular cursor moves around the text, starting near \"Standard Stop,\" moving down to \"Aggressive Stop,\" and then back up. No stock charts, candles, or price data are visible on the slide.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2557s.mp4"
+  },
+  {
+    "timestamp": "43:08-43:39",
+    "quote": "this would be the top for the stock...you decide to make an exit right at the close...the midpoint to break on the next day",
+    "what_is_shown": "Chart showing a peak/top formation, midpoint levels, and where exit decisions are being made relative to candle structure",
+    "visual_description": "On a white digital whiteboard titled \"EXITS,\" a hand-drawn line chart depicts a sharp upward price movement. The speaker's cursor points to the peak of this chart, which is described as the stock's top. The cursor then draws a small, rectangular candle-like shape at this peak, illustrating the price action for a day where a trader might exit the position at the close.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2588s.mp4"
+  },
+  {
+    "timestamp": "43:39-44:10",
+    "quote": "another big PPC okay...this is an extreme extreme extreme extension...another big candle",
+    "what_is_shown": "Chart showing multiple consecutive large candles and extreme price extensions at different levels",
+    "visual_description": "On a digital whiteboard, a hand-drawn line chart illustrates a sharp uptrend. As the speaker discusses an \"extreme extension,\" the cursor draws a second candlestick outline directly on top of a large one at the chart's peak. The word \"EXITS\" is annotated in the top-left corner, and a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is in the bottom-right. No specific stock names, prices, or indicator values are displayed.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2619s.mp4"
+  },
+  {
+    "timestamp": "44:10-44:41",
+    "quote": "you bought here and then the stock made a good move here and uh now the stock is coming back to the cost price...there's no opportunity to exit so now it is coming back to the cost price",
+    "what_is_shown": "Chart showing entry point, upward move, cost price level, and current price returning to cost price",
+    "visual_description": "On a white digital whiteboard, a hand-drawn line chart shows a price trending upwards before a large vertical move, represented by a candlestick-like drawing. The screen is labeled \"EXITS\" in the top-left corner. The cursor illustrates the speaker's point by first indicating an entry point at the bottom of the vertical move, then moving to the peak, and finally tracing the line as it begins to fall back toward the entry \"cost price.\" No specific stock name or price levels are visible.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2650s.mp4"
+  },
+  {
+    "timestamp": "46:13-46:44",
+    "quote": "you bought a stock here and then with all the move you have already exited let's say 60% over this period...now the stock is getting extended...you have to exit 40% right on a great extension",
+    "what_is_shown": "Chart showing entry point, area where 60% was exited previously, current extension point, and remaining 40% position to exit",
+    "visual_description": "On a digital whiteboard labeled \"EXITS,\" a hand-drawn line chart depicts a hypothetical stock's upward price movement. The chart shows annotations for partial exits, with \"60%\" written over a mid-trend move and \"40\" written above a final, steep price extension. As the speaker discusses exiting the remaining 40%, the cursor draws a small horizontal line at the very peak of the sharp final ascent, indicating a selling point.",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2773s.mp4"
+  },
+  {
+    "timestamp": "46:44-47:15",
+    "quote": "this is your entry price and this is your stop loss so the stock is coming back to the entry price...come to the entry price go below the entry price but not hit the stop loss",
+    "what_is_shown": "Chart with marked entry price level, stop loss level, and current price position relative to both",
+    "visual_description": "On a digital whiteboard titled \"EXITS,\" several hand-drawn line charts illustrate stock price movements, with annotations like \"60%\" and a crossed-out \"20%.\" The cursor moves to a smaller, separate chart at the bottom of the screen. It first points to a horizontal line, which the speaker calls the \"entry price,\" then traces the drawn price path as it dips below this entry line but stays above a second, lower horizontal line designated as the \"stop loss.\"",
+    "status": "critical",
+    "_file": "adv-3.txt",
+    "_vid_id": "RF2i6JjgApM",
+    "clip_file": "RF2i6JjgApM_2804s.mp4"
+  }
+]

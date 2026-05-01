@@ -73,9 +73,9 @@ server.tool(
 // --- tv_chart tool ---
 server.tool(
   "tv_chart",
-  "Generate a composite candlestick chart image for an NSE stock. Produces a multi-panel PNG: top panel has candles + SMA + volume + CVD (daily), bottom panel shows CVD at intraday resolution. All settings configurable with defaults. Requires TV_SESSION_ID for CVD.",
+  "Generate composite candlestick chart images for NSE stocks. Accepts one or many symbols. Produces multi-panel PNGs: top panel has candles + SMA20 + volume + CVD, bottom panel shows CVD at intraday resolution. Uses dual-session batch for efficient parallel processing. Requires TV_SESSION_ID for CVD.",
   {
-    symbol: z.string().describe("Stock symbol (e.g., 'RELIANCE')"),
+    symbols: z.array(z.string()).describe("Stock symbols (e.g., ['RELIANCE', 'TCS', 'INFY'])"),
     timeframe: z.string().optional().describe("Top chart timeframe. Default: '1D'"),
     bars: z.number().optional().describe("Number of bars. Default: 188"),
     sma: z.number().optional().describe("SMA period (0 to disable). Default: 20"),
@@ -84,22 +84,23 @@ server.tool(
     cvdAnchor: z.string().optional().describe("CVD anchor/reset period. Default: '12M'"),
     cvdCustomTF: z.boolean().optional().describe("Use custom timeframe for bottom CVD. Default: true"),
     cvdResolution: z.string().optional().describe("CVD custom timeframe resolution. Default: '30S'"),
-    savePath: z.string().optional().describe("Save path. Folder → auto filename. Default: /tmp/charts/{SYMBOL}-{TF}-{YYYY-MM-DD}.png (date = last bar)"),
+    savePath: z.string().optional().describe("Save folder. Default: /tmp/charts/. Files named {SYMBOL}-{TF}-{YYYY-MM-DD}.png"),
     width: z.number().optional().describe("Image width in px. Default: 1200"),
     height: z.number().optional().describe("Image height in px. Default: 1000"),
     theme: z.enum(["dark", "light"]).optional().describe("Color theme. Default: 'dark'"),
-    paneRatios: z.array(z.number()).optional().describe("Top chart pane ratios [candles, volume, cvd]. Default: [0.65, 0.14, 0.21]"),
-    panelWeights: z.array(z.number()).optional().describe("Panel weight ratio [top, bottom]. Default: [76, 24]"),
+    paneRatios: z.tuple([z.number(), z.number(), z.number()]).optional().describe("Top chart pane ratios [candles, volume, cvd]. Default: [0.65, 0.14, 0.21]"),
+    panelWeights: z.tuple([z.number(), z.number()]).optional().describe("Panel weight ratio [top, bottom]. Default: [76, 24]"),
   },
   async (input) => {
     try {
-      const result = await handleChart(fetcher, input);
-      return {
-        content: [
-          { type: "image", data: result.image.toString("base64"), mimeType: "image/png" },
-          { type: "text", text: `${result.symbol} | ${input.timeframe || "1D"} | saved: ${result.path}` },
-        ],
-      };
+      const output = await handleChart(fetcher, input);
+      const okResults = output.results.filter((r) => r.ok);
+      const text = [
+        `${output.stats.ok}/${output.stats.total} charts generated in ${(output.stats.totalMs / 1000).toFixed(1)}s (${output.stats.avgMs}ms/chart)`,
+        ...okResults.map((r) => r.path),
+        ...(output.stats.failed > 0 ? [`Failed: ${output.results.filter((r) => !r.ok).map((r) => `${r.symbol}: ${r.error}`).join(", ")}`] : []),
+      ].join("\n");
+      return { content: [{ type: "text", text }] };
     } catch (err: any) {
       return { content: [{ type: "text", text: `Error: ${err.message}` }], isError: true };
     }

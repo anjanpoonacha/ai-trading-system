@@ -1,0 +1,20 @@
+{
+  "symbol": "AMC",
+  "date": null,
+  "timeframe": "weekly",
+  "label": "good_base",
+  "sub_label": "post_abnormal_move",
+  "confidence": "strong",
+  "notes": "Post-1000% move ($10 → $100). Required extended consolidation before valid setup. Abnormal gains → immediate profit-taking.",
+  "trp_pct": null,
+  "base_candles": null,
+  "outcome": "worked",
+  "outcome_pct": 340,
+  "outcome_duration_days": null,
+  "outcome_notes": "9.5R in 3 days, 34R in 5 days. Abnormal gains → 99% exit.",
+  "source": "course_example",
+  "image_quality": "course_clip",
+  "needs_fresh_screenshot": true,
+  "video_id": "n0uG60h5HXM",
+  "clip_file": "n0uG60h5HXM_0000.mp4"
+}

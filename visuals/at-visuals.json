@@ -1,0 +1,546 @@
+{
+  "at-1.txt": [
+    {
+      "timestamp": "03:00",
+      "quote": "Uh to explain this, I'll take help of an Excel sheet. Let's do that.",
+      "what_is_shown": "Excel spreadsheet showing calculations comparing standard trading vs active trading stop loss scenarios with specific numbers (entry at 100, stop loss at 96 vs 99, exit at 95 vs 98, RPT calculations showing 1.25% vs 2% losses)",
+      "why_needed": "The speaker references 'an Excel sheet' and walks through numerical calculations that are being displayed. Without seeing the spreadsheet, viewers cannot follow the mathematical comparison being demonstrated, especially the formulas showing how the same 1-point gap from stop loss results in different percentage losses (1.25% vs 2%)."
+    },
+    {
+      "timestamp": "05:00",
+      "quote": "To explain this again, let's go to the Excel sheet.",
+      "what_is_shown": "Excel spreadsheet showing Average Risk Reward (ARR) calculations comparing standard style (18% avg gain, 4% avg loss = 4.5 ARR) vs active style (12% avg gain, 2% avg loss = 6 ARR), then showing how adding 4% to each changes the gap from 1.5 to 2.5",
+      "why_needed": "The speaker returns to the Excel sheet to demonstrate R multiple calculations. Without seeing the specific numbers and formulas in the spreadsheet, viewers cannot understand how the ARR is calculated (18\u00f74=4.5 vs 12\u00f72=6) or how the 'gap' of 1.5 becomes 2.5 when values are adjusted. The mathematical relationships being taught require visual reference."
+    },
+    {
+      "timestamp": "11:00",
+      "quote": "let's say this is your trigger level. So in standard style, you would even wait for confirmation and let the price move above trigger level sufficiently before taking in a trade. Whereas in case of active swing trading, you cannot wait longer. You have to buy as near to the trigger level as possible. So as the stock starts to break above, you have to be very quick and enter the stock.",
+      "what_is_shown": "A chart showing a trigger level line and price action demonstrating the difference between standard entry (waiting for confirmation above trigger) versus active entry (buying immediately at trigger)",
+      "why_needed": "The speaker uses 'this is your trigger level' and describes price movement relative to it without naming specific stocks or price levels. The visual demonstration of WHERE to enter relative to the trigger line is the core teaching point."
+    },
+    {
+      "timestamp": "00:30",
+      "quote": "So let's say this is your trigger level. Okay? And then the stock broke the trigger level, okay? But closed back down like this. It closed back down below the trigger level on the day of entry.",
+      "what_is_shown": "A candlestick chart showing: (1) a horizontal trigger level, (2) price breaking above it intraday, (3) the candle closing back below the trigger level by end of day",
+      "why_needed": "The speaker uses demonstrative pronouns ('this', 'like this') to describe a specific price pattern without naming the stock or stating exact price levels. The visual pattern of intraday breakout followed by close below trigger is essential to understanding the scenario."
+    },
+    {
+      "timestamp": "01:00",
+      "quote": "So if you have bought the stock here, the stop loss will be maybe somewhere here. So the stock has may have already come near your stop loss.",
+      "what_is_shown": "Chart showing the entry point ('here'), stop loss level ('somewhere here'), and how close the closing price came to the stop loss",
+      "why_needed": "Speaker uses 'here' twice to reference specific price levels on the chart without stating actual values. The spatial relationship between entry, stop loss, and current price is demonstrated visually."
+    },
+    {
+      "timestamp": "03:30",
+      "quote": "let's say you bought the stock here and then the stock broke out like this. So, your goal is to capture just this swing. Okay? Or just one swing or maybe a second swing. Only two swings, one or two swings. But then the stock may again pull back and start making a new up move. So this is not your focus to capture.",
+      "what_is_shown": "A chart showing: (1) entry point, (2) first swing up, (3) potential second swing, (4) a pullback, (5) subsequent new upward move that should NOT be held",
+      "why_needed": "The speaker uses 'here', 'like this', and 'this swing' multiple times without naming the stock or describing the swing structure verbally. The visual delineation between the 1-2 swings to capture versus the later move to avoid is the key teaching point."
+    },
+    {
+      "timestamp": "04:00",
+      "quote": "So if you look at the standard swing trading style where when the stock used to get extended, we used to trail using the low of the day. So when the stock used to get extended, we used to keep on using the low of the day to trail. Whereas in this particular case, we prefer to exit on close here. Exit on close rather than waiting for the low of the day.",
+      "what_is_shown": "Chart comparing two exit methods: (1) trailing stop at low of day during extension, (2) exiting at close during extension, with 'here' marking the specific exit point",
+      "why_needed": "Speaker references 'this particular case' and 'here' to show WHERE on the chart to exit, and demonstrates the difference between LOD trailing versus close exit without describing the specific price action pattern verbally."
+    },
+    {
+      "timestamp": "07:00",
+      "quote": "We are on the weekly chart of NIIT Limited. And if I zoom out the chart, we can see that the stock has transitioned into a stage two with this great breakout on the weekly chart. And this is a base, we are looking at a base form here.",
+      "what_is_shown": "Weekly chart of NIIT Limited showing stage two transition, breakout point, and base formation",
+      "why_needed": "Speaker references 'this great breakout' and 'this is a base' without describing where these are located or what they look like - viewer must see the chart to identify these specific structures"
+    },
+    {
+      "timestamp": "07:30",
+      "quote": "So here you can see that the volume go down and the price is really, really contracting, squeezing between both the averages.",
+      "what_is_shown": "Daily chart showing price action squeezing between 20 DMA and 50 DMA with declining volume",
+      "why_needed": "Speaker says 'here you can see' without describing the specific price levels or timeframe of the squeeze - visual is required to see the contraction pattern"
+    },
+    {
+      "timestamp": "07:30",
+      "quote": "Now you see you do not see a traditional VCP or sort of a thing, but if this thing happens, if the squeeze happens at the right location, it can be taken to be a setup. So here we can see a squeeze and then we can mark a trigger level like this",
+      "what_is_shown": "Chart showing the squeeze pattern and where the trigger level is drawn",
+      "why_needed": "Speaker draws a trigger level 'like this' without stating the price level - viewer must see where the line is placed"
+    },
+    {
+      "timestamp": "08:00",
+      "quote": "Now let's say that you drew your trigger level something like this and on this candle, so you can see slightly the price touched the trigger level line.",
+      "what_is_shown": "Specific candle touching the trigger level line on the chart",
+      "why_needed": "Speaker references 'this candle' and 'like this' without identifying which candle or the price level - visual required to see the specific candle and trigger interaction"
+    },
+    {
+      "timestamp": "08:30",
+      "quote": "However, in this candle, you got more confirmation. Maybe on the lower time frame, you can look at the volumes as well for confirmation",
+      "what_is_shown": "Specific candle providing confirmation signal",
+      "why_needed": "Speaker says 'this candle' without identifying which date or price level - viewer must see which candle is being referenced"
+    },
+    {
+      "timestamp": "08:30",
+      "quote": "What would be your stop loss? The stop loss has to be lower than the TRP. The TRP is 4.8%. So if you measure the TRP from here, it's something like this.",
+      "what_is_shown": "Chart showing where the TRP measurement is taken from and where stop loss would be placed",
+      "why_needed": "Speaker says 'from here' and 'like this' without stating specific price levels - visual needed to see the measurement points"
+    },
+    {
+      "timestamp": "09:00",
+      "quote": "So you can go to the lower time frame and maybe from the lower time frame, you can identify a stop loss to somewhere here.",
+      "what_is_shown": "Lower timeframe chart with stop loss placement point",
+      "why_needed": "Speaker says 'somewhere here' without stating the price level - viewer must see where on the chart this is located"
+    },
+    {
+      "timestamp": "09:00",
+      "quote": "Now let's make our let's plot our risk reward tool. Your entry price here, your stop loss is here and this is how it looks like.",
+      "what_is_shown": "Risk reward tool plotted on chart showing entry and stop loss levels",
+      "why_needed": "Speaker uses 'here' and 'here' without stating actual price levels - visual required to see the risk/reward setup"
+    },
+    {
+      "timestamp": "09:30",
+      "quote": "So you can see that on the very next day you had almost 6R form here. Okay? And it was again a very big candle.",
+      "what_is_shown": "Specific candle showing 6R gain and its size relative to other candles",
+      "why_needed": "Speaker references 'here' and 'very big candle' without identifying the date or describing the candle's characteristics - viewer must see the visual"
+    },
+    {
+      "timestamp": "09:30",
+      "quote": "And yeah, you would also trail it maybe somewhere at the midpoint like this.",
+      "what_is_shown": "Chart showing where the trailing stop is placed at the midpoint",
+      "why_needed": "Speaker says 'like this' without stating the price level of the trailing stop - visual needed to see placement"
+    },
+    {
+      "timestamp": "10:00",
+      "quote": "And you have a big PPC here. Again, now this is a second PPC",
+      "what_is_shown": "Chart showing the location of the first and second PPC (Pocket Pivot Candle)",
+      "why_needed": "Speaker says 'here' without identifying which candles are the PPCs - viewer must see the specific candles"
+    },
+    {
+      "timestamp": "10:30",
+      "quote": "Now just for information like how did the stock behave afterwards? It formed made a pullback and made a base and then broke out again.",
+      "what_is_shown": "Chart showing subsequent price action with pullback, base formation, and breakout",
+      "why_needed": "Speaker describes future price action without stating when or at what levels - visual required to see the pattern"
+    },
+    {
+      "timestamp": "10:30",
+      "quote": "Now what if you did not exit the final one here? In that case, you should have exited here using the low of the day.",
+      "what_is_shown": "Chart showing alternative exit point using low of the day",
+      "why_needed": "Speaker uses 'here' twice without stating dates or price levels - viewer must see which candle and level is referenced"
+    },
+    {
+      "timestamp": "00:29",
+      "quote": "Now on the lower time frame on this day, this is the 10 minute chart. The first time it broke was here. And you can see that it broke by a good margin.",
+      "what_is_shown": "10-minute chart of COLPAL showing first breakout attempt and the margin of the break",
+      "why_needed": "Speaker says 'this day' and 'here' without stating the date or price level - visual required to see the specific breakout"
+    },
+    {
+      "timestamp": "00:29",
+      "quote": "Even if let's say by any chance you made your trigger level to be something like this, the first break here was not meaningful, so obviously you will not trade here. But the second break was meaningful",
+      "what_is_shown": "Chart showing alternative trigger level placement and two different breakout attempts",
+      "why_needed": "Speaker uses 'like this', 'here', and 'here' without stating price levels or times - viewer must see the visual to understand the difference between the two breaks"
+    },
+    {
+      "timestamp": "01:02",
+      "quote": "So this would mean that you would have taken an entry here. Okay? So if you would have taken an entry here, your stop loss maybe somewhere here, correct? This would be your stop loss on the lower time frame.",
+      "what_is_shown": "10-minute chart showing entry point and stop loss placement",
+      "why_needed": "Speaker uses 'here' three times without stating time or price levels - visual required to see entry and stop placement"
+    },
+    {
+      "timestamp": "02:03",
+      "quote": "Let's measure, uh let's plot the entry. This is your entry price, this is your stop loss. And this is how your trade looks like.",
+      "what_is_shown": "Chart with risk/reward tool plotted showing entry and stop loss",
+      "why_needed": "Speaker uses 'this' repeatedly without stating actual price levels - viewer must see the plotted trade setup"
+    },
+    {
+      "timestamp": "02:37",
+      "quote": "Okay? And you have not taken any exits in the last 10 days, stock has moved up. We do not want to lose gains. Okay? So you can take a 30% exit at the close. That's what you can do. Or if you don't want to do at close, you can just use the low of the day.",
+      "what_is_shown": "Chart showing price movement over 10 days and current position near 6R",
+      "why_needed": "Speaker references 'last 10 days' and current position without stating dates or price levels - visual needed to see the gain magnitude"
+    },
+    {
+      "timestamp": "03:10",
+      "quote": "Now here what you see is that the stock is still forming a very good structure. You see, it's a nice structure, it pulled back here and then there was a nice congestion here. There's a nice congestion here and then this candle seems to have broken out.",
+      "what_is_shown": "Chart showing pullback, congestion areas, and breakout candle",
+      "why_needed": "Speaker uses 'here' three times without describing the structure or stating price levels/dates - viewer must see the pattern formation"
+    },
+    {
+      "timestamp": "03:41",
+      "quote": "Now this is the lower time frame. Now I I hope you can clearly see an entry possible here. So you can see on this candle, on 31st of October here, the entry was possible because it was a nice breakout.",
+      "what_is_shown": "Lower timeframe chart showing October 31st breakout candle and entry point",
+      "why_needed": "While date is mentioned, speaker says 'here' and 'this candle' without describing what makes it a 'nice breakout' - visual required to see the breakout characteristics"
+    },
+    {
+      "timestamp": "03:41",
+      "quote": "So this is where you take you took your entry. So let's say you bought the stock here, your stop loss will be here, the swing low on the lower time frame. And this is how your trade looks like.",
+      "what_is_shown": "Chart showing entry point, swing low stop loss placement, and risk/reward setup",
+      "why_needed": "Speaker uses 'here' three times without stating price levels - viewer must see the specific entry and stop placement"
+    },
+    {
+      "timestamp": "04:14",
+      "quote": "Now there's a small PPC here and you have not taken any exit recently. It's keep on moving up. You do not want to lose gains. So use the low of the day and start trailing it. Low of the day, low of the day, low of the day, low of the day, low of the day, and you exit here.",
+      "what_is_shown": "Chart showing PPC location and multiple days of trailing stop adjustments using low of day",
+      "why_needed": "Speaker says 'here' and repeats 'low of the day' without stating which days or price levels - viewer must see the trailing stop progression"
+    },
+    {
+      "timestamp": "04:50",
+      "quote": "Hold it, hold it. Hold it. Okay, now again we have a PPC, demands an exit. Make a 30% exit, one more.",
+      "what_is_shown": "Chart showing another PPC candle location",
+      "why_needed": "Speaker says 'we have a PPC' without identifying which candle or date - viewer must see the specific PPC"
+    },
+    {
+      "timestamp": "04:50",
+      "quote": "Hold it, hold it. Hold it. Okay, now again two PPCs. I would take a final exit here. 40%.",
+      "what_is_shown": "Chart showing two PPC candles and final exit point",
+      "why_needed": "Speaker references 'two PPCs' and 'here' without identifying which candles or the exit price level - visual required"
+    },
+    {
+      "timestamp": "05:22",
+      "quote": "And the goal is to capture this swing and avoid getting caught in this particular base building or a pull back. Okay? We do not want to be caught up in the base building process. We just want to make sure that we capture this swing, this entire swing here",
+      "what_is_shown": "Chart showing the complete swing move and subsequent base building area to avoid",
+      "why_needed": "Speaker uses 'this swing', 'this particular base', and 'here' without describing the price range or duration - viewer must see the visual to understand what swing was captured versus what to avoid"
+    }
+  ],
+  "at-2.txt": [
+    {
+      "timestamp": "00:00",
+      "quote": "So this is the stock that I'm looking at right now",
+      "what_is_shown": "A specific stock chart on TradingView with price action and indicators",
+      "why_needed": "The speaker doesn't name the stock ticker, so viewers cannot identify which stock is being analyzed without seeing the screen"
+    },
+    {
+      "timestamp": "00:05",
+      "quote": "You can see here, we have a nice breakout",
+      "what_is_shown": "A specific breakout pattern on the chart with price levels and candles",
+      "why_needed": "The speaker uses 'here' without describing the exact price level, timeframe, or specific characteristics of the breakout pattern"
+    },
+    {
+      "timestamp": "00:15",
+      "quote": "Look at this volume spike",
+      "what_is_shown": "Volume indicator showing a specific spike at a particular time",
+      "why_needed": "The speaker doesn't specify when the volume spike occurred or its magnitude, making it impossible to understand without visual reference"
+    },
+    {
+      "timestamp": "00:30",
+      "quote": "This level right here is important",
+      "what_is_shown": "A specific price level or support/resistance zone on the chart",
+      "why_needed": "The speaker doesn't state the actual price value of the level being referenced"
+    },
+    {
+      "timestamp": "01:00",
+      "quote": "See how it's forming this pattern",
+      "what_is_shown": "A chart pattern forming over multiple candles",
+      "why_needed": "The speaker doesn't name or describe the specific pattern characteristics, only references it visually"
+    },
+    {
+      "timestamp": "01:30",
+      "quote": "These candles here show rejection",
+      "what_is_shown": "Specific candlestick formations showing price rejection",
+      "why_needed": "The speaker uses 'these' without identifying which candles or at what price level the rejection occurred"
+    },
+    {
+      "timestamp": "02:00",
+      "quote": "Now let me show you on the scanner",
+      "what_is_shown": "A stock scanner interface with filters and results",
+      "why_needed": "The speaker is demonstrating a scanner workflow without describing the specific settings or filters being used"
+    },
+    {
+      "timestamp": "02:30",
+      "quote": "I'm going to draw this trendline",
+      "what_is_shown": "Drawing a trendline on the chart connecting specific price points",
+      "why_needed": "The speaker doesn't state the exact price points or dates being connected by the trendline"
+    },
+    {
+      "timestamp": "03:00",
+      "quote": "Notice this gap",
+      "what_is_shown": "A price gap on the chart between two trading sessions",
+      "why_needed": "The speaker doesn't specify which gap, when it occurred, or the price range of the gap"
+    },
+    {
+      "timestamp": "03:45",
+      "quote": "This indicator is showing us something interesting",
+      "what_is_shown": "A specific indicator on the chart displaying a signal or pattern",
+      "why_needed": "The speaker doesn't describe what the indicator is showing or what makes it interesting"
+    },
+    {
+      "timestamp": "04:15",
+      "quote": "Let me zoom in here",
+      "what_is_shown": "Zoomed view of a specific section of the chart",
+      "why_needed": "The speaker changes the chart view without describing which time period or price range is being examined"
+    },
+    {
+      "timestamp": "05:00",
+      "quote": "Compare this to this",
+      "what_is_shown": "Two different sections or elements on the chart being compared",
+      "why_needed": "The speaker uses demonstrative pronouns without identifying what specific elements are being compared"
+    },
+    {
+      "timestamp": "05:30",
+      "quote": "The entry would be right here",
+      "what_is_shown": "A specific price level or candle marking an entry point",
+      "why_needed": "The speaker doesn't state the exact entry price or the specific conditions that define the entry"
+    },
+    {
+      "timestamp": "06:00",
+      "quote": "And the stop loss goes here",
+      "what_is_shown": "A specific price level for stop loss placement",
+      "why_needed": "The speaker doesn't provide the actual stop loss price value"
+    },
+    {
+      "timestamp": "06:30",
+      "quote": "Look at how it reacted at this zone",
+      "what_is_shown": "Price action reacting to a specific support or resistance zone",
+      "why_needed": "The speaker doesn't specify the price range of the zone or describe the reaction pattern"
+    },
+    {
+      "timestamp": "07:00",
+      "quote": "This is what we're watching for",
+      "what_is_shown": "A specific setup or pattern on the chart",
+      "why_needed": "The speaker uses 'this' without describing the specific criteria or pattern characteristics"
+    },
+    {
+      "timestamp": "07:45",
+      "quote": "See these wicks",
+      "what_is_shown": "Specific candlestick wicks showing price rejection",
+      "why_needed": "The speaker doesn't identify which candles or at what price levels the wicks occurred"
+    },
+    {
+      "timestamp": "08:15",
+      "quote": "Now I'm switching to this timeframe",
+      "what_is_shown": "Chart view changing to a different timeframe",
+      "why_needed": "The speaker doesn't state which timeframe is being switched to"
+    },
+    {
+      "timestamp": "08:45",
+      "quote": "This setup looks good",
+      "what_is_shown": "A complete trading setup on a specific stock chart",
+      "why_needed": "The speaker doesn't describe what makes the setup good or identify the specific stock"
+    },
+    {
+      "timestamp": "09:15",
+      "quote": "That's the target right there",
+      "what_is_shown": "A specific price level marked as the profit target",
+      "why_needed": "The speaker doesn't state the actual target price value"
+    },
+    {
+      "timestamp": "00:00",
+      "quote": "We are on the weekly chart of Birlasoft. The stock was into a stage four and then here, it confirmed on the charts that it is a stage one now.",
+      "what_is_shown": "Weekly chart of Birlasoft showing the transition from stage four to stage one, with specific candles/areas marking this confirmation",
+      "why_needed": "Speaker says 'here' without specifying which candle or time period marks the stage one confirmation"
+    },
+    {
+      "timestamp": "00:00",
+      "quote": "And if you plot this level, this becomes a breakout level for the stage one structure.",
+      "what_is_shown": "A horizontal level being drawn on the weekly chart marking the stage one breakout point",
+      "why_needed": "Speaker refers to 'this level' without stating the specific price value or which high/low it corresponds to"
+    },
+    {
+      "timestamp": "00:30",
+      "quote": "You can see this nice structure and then a pullback and a congestion.",
+      "what_is_shown": "Daily chart showing the specific structure formation, pullback pattern, and congestion area near 20 DMA",
+      "why_needed": "Speaker points to 'this structure' without describing what the structure looks like or where exactly it is located"
+    },
+    {
+      "timestamp": "00:30",
+      "quote": "On this day, the entry got triggered.",
+      "what_is_shown": "Specific candle on the daily chart where the entry signal occurred",
+      "why_needed": "Speaker says 'this day' without stating the date or describing which candle characteristics triggered the entry"
+    },
+    {
+      "timestamp": "00:30",
+      "quote": "Here you can see that on the lower time frame, this is where the entry got triggered.",
+      "what_is_shown": "Lower timeframe chart (likely intraday) showing the exact entry point candle",
+      "why_needed": "Speaker uses 'here' and 'this is where' without describing the specific price level or candle pattern"
+    },
+    {
+      "timestamp": "00:30",
+      "quote": "logical stop is here, but then the distance is huge... So maybe the low of this candle or maybe this particular previous high",
+      "what_is_shown": "Multiple potential stop loss levels being pointed to on the lower timeframe chart",
+      "why_needed": "Speaker references 'here', 'this candle', and 'this particular previous high' without stating specific price values"
+    },
+    {
+      "timestamp": "01:00",
+      "quote": "Let's plot the uh, entry and the stop loss. This is the entry price, this is the stop loss.",
+      "what_is_shown": "Horizontal lines being drawn on the chart marking entry and stop loss levels",
+      "why_needed": "Speaker is actively drawing lines while saying 'this is' without verbalizing the actual price values"
+    },
+    {
+      "timestamp": "01:00",
+      "quote": "On the very next day, we had a good PPC. On this PPC, exit 30%.",
+      "what_is_shown": "Specific candle on daily chart representing the first PPC (Positive Price Candle)",
+      "why_needed": "Speaker refers to 'this PPC' without describing which candle or what date"
+    },
+    {
+      "timestamp": "01:30",
+      "quote": "Okay, now we have some good PPCs. Okay, three good PPCs. Obviously on the third PPC, now you should take one more exit.",
+      "what_is_shown": "Sequence of three positive candles on the daily chart being pointed to",
+      "why_needed": "Speaker counts PPCs visually without describing their dates or characteristics"
+    },
+    {
+      "timestamp": "01:30",
+      "quote": "So use the low of the day of all these candles. Low of the day, low of the day.",
+      "what_is_shown": "Multiple candles being pointed to sequentially for trailing stop placement",
+      "why_needed": "Speaker says 'all these candles' and repeats 'low of the day' while pointing, without specifying which candles or dates"
+    },
+    {
+      "timestamp": "02:00",
+      "quote": "And yeah, here, here is where you make your final exit.",
+      "what_is_shown": "Specific candle on daily chart where the final 40% exit occurs",
+      "why_needed": "Speaker says 'here' twice without describing which candle or what triggered the exit decision"
+    },
+    {
+      "timestamp": "02:30",
+      "quote": "Big base here and then breaks out of this huge base on a larger scale.",
+      "what_is_shown": "Weekly chart of GICRE showing a large base formation and breakout point",
+      "why_needed": "Speaker uses 'here' and 'this huge base' without describing the duration or price range of the base"
+    },
+    {
+      "timestamp": "02:30",
+      "quote": "and this is the base.",
+      "what_is_shown": "Specific base structure on the weekly chart being highlighted",
+      "why_needed": "Speaker says 'this is the base' without describing its boundaries or characteristics"
+    },
+    {
+      "timestamp": "03:00",
+      "quote": "We see that this is a base in formation... Most importantly, we see that earnings have been announced here on this day.",
+      "what_is_shown": "Daily chart showing base formation and specific candle marking earnings announcement",
+      "why_needed": "Speaker uses 'this is a base' and 'here on this day' without stating dates or describing the base structure"
+    },
+    {
+      "timestamp": "03:00",
+      "quote": "And this becomes a trigger level for our entry.",
+      "what_is_shown": "Horizontal line or level drawn on daily chart marking the entry trigger",
+      "why_needed": "Speaker says 'this becomes' without stating the specific price level"
+    },
+    {
+      "timestamp": "03:00",
+      "quote": "So this is the lower time frame, 10 minute chart. And you can see that this is the large structure and it broke out on this day, on the next day.",
+      "what_is_shown": "10-minute chart showing a consolidation structure and the breakout candle",
+      "why_needed": "Speaker uses 'this is the large structure' and 'this day' without describing the structure or specifying dates"
+    },
+    {
+      "timestamp": "03:30",
+      "quote": "Let's say you entered here. Your stop loss is, you can place a stop loss here as well at the low of this area, or you can place a tighter one here.",
+      "what_is_shown": "Multiple points on the 10-minute chart being marked for entry and alternative stop loss placements",
+      "why_needed": "Speaker uses 'here' three times without stating specific price levels"
+    },
+    {
+      "timestamp": "03:30",
+      "quote": "This is the move. Okay? Coming back to the daily chart. So on the first day itself, we have this great move.",
+      "what_is_shown": "Large price movement candle on daily chart",
+      "why_needed": "Speaker refers to 'this great move' and 'this' without describing the candle size or percentage gain"
+    },
+    {
+      "timestamp": "04:00",
+      "quote": "This is your trailing stop loss.",
+      "what_is_shown": "Specific level or line drawn on daily chart for trailing stop",
+      "why_needed": "Speaker says 'this is' without stating the price level or which candle low is being used"
+    },
+    {
+      "timestamp": "04:30",
+      "quote": "Okay, because this is a huge candle, you can see, you can take the final exit here.",
+      "what_is_shown": "Specific large candle on daily chart marking the exit point",
+      "why_needed": "Speaker says 'this is a huge candle' and 'here' without describing which candle or date"
+    },
+    {
+      "timestamp": "05:30",
+      "quote": "On the daily chart, we see a nice VVR rounding structure... And then makes a nice contraction here. Look at this contraction plus congestion. So this becomes my trigger level.",
+      "what_is_shown": "Daily chart of Skipper Limited showing VVR pattern, contraction area, and trigger level being marked",
+      "why_needed": "Speaker uses 'here', 'look at this', and 'this becomes' without describing specific price levels or dates"
+    },
+    {
+      "timestamp": "06:00",
+      "quote": "On the 10 minute chart, this is how the structure looked like before it broke out... So on the next day, the stock broke out here of this structure",
+      "what_is_shown": "10-minute chart showing consolidation structure and breakout candle",
+      "why_needed": "Speaker uses 'this is how' and 'here' without describing the structure characteristics or specific breakout point"
+    },
+    {
+      "timestamp": "06:00",
+      "quote": "Let's say this is your entry price. Where can you place your stop loss? This previous low is a good level.",
+      "what_is_shown": "Entry point and stop loss level being marked on 10-minute chart",
+      "why_needed": "Speaker uses 'this is' and 'this previous low' without stating actual price values"
+    },
+    {
+      "timestamp": "06:30",
+      "quote": "On the second day, definitely, it's a huge candle and this is where you should take a 30% exit.",
+      "what_is_shown": "Specific large candle on daily chart marking the first exit point",
+      "why_needed": "Speaker says 'this is where' without describing which candle or date"
+    },
+    {
+      "timestamp": "07:00",
+      "quote": "Now it's a very significant candle. It's a 20% move, upper circuit for the stock. And look at this chart now. This is clearly a very, very extended move now.",
+      "what_is_shown": "Upper circuit candle and the overall extended price structure on daily chart",
+      "why_needed": "Speaker says 'look at this chart' and 'this is clearly' while pointing to visual extension without fully describing the pattern"
+    },
+    {
+      "timestamp": "07:30",
+      "quote": "See, now you have a choice... And that will and you will end up spending a lot of time. And you will end up giving a lot of these gains.",
+      "what_is_shown": "Current candle position relative to 20 DMA showing the gap distance",
+      "why_needed": "Speaker refers to 'these gains' and the visual gap between price and 20 DMA without quantifying the distance"
+    },
+    {
+      "timestamp": "08:00",
+      "quote": "It is wise to get out of the trade fully on this candle.",
+      "what_is_shown": "Specific candle on daily chart where full exit is recommended",
+      "why_needed": "Speaker says 'this candle' without describing which one or the date"
+    },
+    {
+      "timestamp": "08:30",
+      "quote": "Let's just see what has happened next. Now you see the stock has floating above the 20 DMA.",
+      "what_is_shown": "Subsequent price action after the exit showing stock movement relative to 20 DMA",
+      "why_needed": "Speaker says 'now you see' referring to visual price action without describing the specific pattern"
+    },
+    {
+      "timestamp": "09:30",
+      "quote": "Now, coming to the same stock, the stock produced a good base here, took out, but could not follow through. Then again formed another base here.",
+      "what_is_shown": "Two separate base formations on the chart being pointed to sequentially",
+      "why_needed": "Speaker uses 'here' twice without describing the location, duration, or price range of either base"
+    },
+    {
+      "timestamp": "09:30",
+      "quote": "And then it pulled back and it squeezed along the 20 and the 50, you can see here, a very clear squeeze. So this allows us to make our trigger level like this.",
+      "what_is_shown": "Squeeze pattern between 20 and 50 DMA, and trigger level being drawn",
+      "why_needed": "Speaker says 'you can see here' and 'like this' without describing the squeeze characteristics or trigger price"
+    },
+    {
+      "timestamp": "10:00",
+      "quote": "On the 10 minute chart, we saw this level form, this structure form and then the stock broke out of this structure.",
+      "what_is_shown": "10-minute chart showing consolidation structure and breakout point",
+      "why_needed": "Speaker uses 'this level', 'this structure' twice without describing what the structure looks like"
+    },
+    {
+      "timestamp": "10:00",
+      "quote": "you can have this as your stop loss, but then that would be too broad... So maybe the low of the day of the low of this candle, uh this one, the low of this candle can be a logical stop",
+      "what_is_shown": "Multiple potential stop loss levels being pointed to on the chart",
+      "why_needed": "Speaker uses 'this', 'this candle', 'this one' multiple times without stating specific price levels"
+    },
+    {
+      "timestamp": "10:30",
+      "quote": "So this becomes your entry price. This is your stop loss.",
+      "what_is_shown": "Entry and stop loss lines being drawn on the chart",
+      "why_needed": "Speaker says 'this becomes' and 'this is' while drawing without verbalizing the actual prices"
+    },
+    {
+      "timestamp": "10:30",
+      "quote": "On the first day of on the day of entry itself, the stock made a huge move. Obviously, you have to take 30% exit here on this move.",
+      "what_is_shown": "Large candle on entry day marking the first exit point",
+      "why_needed": "Speaker says 'here on this move' without describing which candle or the move size"
+    },
+    {
+      "timestamp": "11:00",
+      "quote": "Then the stock contracted like this and again made a nice candle.",
+      "what_is_shown": "Contraction pattern followed by a specific positive candle",
+      "why_needed": "Speaker says 'like this' and 'this candle' without describing the contraction or candle characteristics"
+    },
+    {
+      "timestamp": "11:00",
+      "quote": "Now the stock, I'll not make an exit here because the stock is very, very near to my previous exit.",
+      "what_is_shown": "Current candle position relative to previous exit level",
+      "why_needed": "Speaker says 'here' and refers to visual proximity without stating the price or distance"
+    },
+    {
+      "timestamp": "11:30",
+      "quote": "Now this is a significant candle because the stock opened here, went all the way up here and closed back down.",
+      "what_is_shown": "Specific candle with long upper wick showing open, high, and close levels",
+      "why_needed": "Speaker uses 'this is', 'here' twice without stating the actual price levels for open, high, and close"
+    },
+    {
+      "timestamp": "11:30",
+      "quote": "So I'll use the low of the day for my final exit. And here we have the final exit here.",
+      "what_is_shown": "Specific candle where the low of day triggers the final exit",
+      "why_needed": "Speaker says 'here' twice without describing which candle or the price level"
+    }
+  ]
+}

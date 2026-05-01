@@ -1,0 +1,1250 @@
+[
+  {
+    "timestamp": "02:34",
+    "quote": "look at this this is a chart of Astral limited",
+    "what_is_shown": "TradingView chart of Astral Limited stock showing price movement patterns over past few months",
+    "why_needed": "Viewer must see the actual chart patterns being referenced to understand what 'patterns' mean in practice",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "06:21",
+    "quote": "trend line here like this okay",
+    "what_is_shown": "A trend line drawn on a chart",
+    "why_needed": "The phrase 'like this' requires visual demonstration of how to draw a trend line",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "06:52",
+    "quote": "on the top left you have to change the color theme and make it dark",
+    "what_is_shown": "TradingView interface with color theme selector in top left",
+    "why_needed": "Viewer must see the exact UI location being referenced to follow setup instructions",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "07:24",
+    "quote": "here we have the bar style so by default you will have the candles what we are going to use for our trading system is this Holo candles so you can just select Holo candles here and this is this is how it appears",
+    "what_is_shown": "Bar style dropdown menu and visual comparison of candle vs Holo candle appearance",
+    "why_needed": "Viewer must see what Holo candles look like compared to regular candles to implement the change correctly",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "08:27",
+    "quote": "you go to the settings and here you have option options to select the moving averages that you want to display you have an option to display four moving averages on the chart okay so go to puts uh the first moving average is the 50 day moving 50 simple moving average then we will apply 200 okay then we have the 10 moving average and then we have the 20 moving average so you can make the same colors for 50 we use white opacity 75 for 200 we use this purple opacity again 80 85%",
+    "what_is_shown": "Moving Average Ribbon indicator settings panel with input fields and color selections being modified in real-time",
+    "why_needed": "Specific opacity percentages and color selections must be seen on screen as viewer follows along to configure settings correctly",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "09:30",
+    "quote": "go to style there are similar settings you just have to keep them as it is or you can just make the same settings as you did in the inputs in this visibility keep everything as it is and then click on here defaults and click on save as default",
+    "what_is_shown": "Style tab and visibility settings in indicator configuration panel with specific UI buttons being clicked",
+    "why_needed": "Viewer must see the exact UI elements and their locations to follow the multi-step configuration process",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "10:00",
+    "quote": "now there is one more indicator that we apply and that's a custom indicator so you don't find that indicator on your trading view so you have to go to your resources folder of the course and here we are on the resources folder of the course and here you can see two indicators",
+    "what_is_shown": "File explorer showing resources folder with indicator files",
+    "why_needed": "Viewer must see which files to locate and select from the course resources folder",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "10:32",
+    "quote": "I'll just show you by applying the champion Trader Volume Plus trp indicator because this is the conclusive indicator",
+    "what_is_shown": "Champion Trader Volume Plus indicator file being selected/applied",
+    "why_needed": "Viewer must see which specific indicator file to use from multiple options available",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "11:03",
+    "quote": "here you will find pine editor click on Pine editor then you have to click on open then you have to click on new indicator here you have to remove everything and paste it",
+    "what_is_shown": "TradingView Pine Editor interface with menu clicks and code pasting workflow",
+    "why_needed": "Viewer must see the exact UI navigation sequence and steps to properly import the custom indicator",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "11:34",
+    "quote": "if you are in trading in the Indian market you have to keep this sticked",
+    "what_is_shown": "Volume indicator settings panel with checkbox options for displaying turnover in Crores vs millions",
+    "why_needed": "Viewer must see which specific checkbox is ticked/unticked in the settings dialog",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "12:06",
+    "quote": "the first value here is the current volume the volume on the bar where I put my cursor okay the second is the 30 days average volume",
+    "what_is_shown": "Volume indicator values displayed on chart showing current volume, 30-day average, average turnover, and ATR percentage",
+    "why_needed": "Specific numerical data fields visible on screen that cannot be described verbally with clarity",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "13:09",
+    "quote": "it also shows us the uh sector it is belonging to the health services and then it shows the industry",
+    "what_is_shown": "Indicator display showing sector and industry information for the stock",
+    "why_needed": "Information is presented visually on the indicator; location and format only visible on screen",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "13:42",
+    "quote": "right click on the scale here and there will be an option called logarithmic",
+    "what_is_shown": "Right-click context menu on chart scale with logarithmic option visible",
+    "why_needed": "Viewer must see where to click and which option to select in the menu",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "14:15",
+    "quote": "go to settings and go to symbol and make the settings the way I've done you can use the same colors if you want go to status line and do these settings go to scales",
+    "what_is_shown": "Multiple settings panels (symbol, status line, scales, canvas, trading, events) with specific configurations",
+    "why_needed": "Specific checkbox and color settings only visible on screen; cannot be adequately described verbally",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "15:15",
+    "quote": "on the left hand side you see all the different tools and drawing tools that you can use so these are the tools and here you'll also see the shortcuts",
+    "what_is_shown": "Tools panel on left side showing drawing tools with keyboard shortcuts listed",
+    "why_needed": "Viewer needs to see the full list of tools and their corresponding shortcuts visually",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "15:47",
+    "quote": "if you want to use the tool very frequently you can just click on the star button here and it appears into this drawing toolbar",
+    "what_is_shown": "Star button next to tool and favorite toolbar where tools appear",
+    "why_needed": "Viewer must see the star icon location and how favorites toolbar visually changes",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "16:19",
+    "quote": "you applied a trend line here like this okay now you have to double click on this and go to visibility",
+    "what_is_shown": "Trend line drawn on chart and visibility settings dialog with timeframe checkboxes",
+    "why_needed": "Viewer must see where the trend line is placed and which checkboxes to toggle in the visibility dialog",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "16:51",
+    "quote": "now if I open the weekly chart you see the line is visible here on the weekly chart as well",
+    "what_is_shown": "Trend line visible on weekly chart after enabling visibility setting",
+    "why_needed": "Result of visibility setting only demonstrable by showing the chart visually",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "17:21",
+    "quote": "I use this one number three the first one here click on that and you will see three layouts getting opened",
+    "what_is_shown": "Layout selection dropdown and resulting three-chart layout configuration",
+    "why_needed": "Viewer must see which layout number to select and the resulting visual arrangement",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "17:53",
+    "quote": "on the weekly chart if I want to go here if I want to look at this particular What's Happening Here on the daily chart so just click on this",
+    "what_is_shown": "Specific price point/pattern on weekly chart and corresponding location on daily chart after clicking",
+    "why_needed": "Viewer must see the exact location being referenced and how it maps across timeframes",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "18:53",
+    "quote": "go to inputs here here you can select the time frame as daily 50 200 and and here for the 100 we will use the green color",
+    "what_is_shown": "Moving average indicator settings panel with timeframe inputs (50, 200, 100) and color selectors",
+    "why_needed": "Specific settings fields and color selections only visible in the settings dialog",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "21:00",
+    "quote": "just click on the plus button here at this particular level and click on ADD alert",
+    "what_is_shown": "Plus button location on chart at specific price level and ADD alert menu option",
+    "why_needed": "Viewer must see where the plus button is located and the menu that appears",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "21:32",
+    "quote": "double click on this alert here and here you can customize the alert name message trigger and you can customize the notifications",
+    "what_is_shown": "Alert customization dialog with fields for name, message, trigger, and notification options (notify app, popup, email)",
+    "why_needed": "Viewer must see all the customization fields and their locations in the alert dialog",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "22:02",
+    "quote": "Fibonacci risk reward tool we do not use the Fibonacci tool for Fibonacci analysis we use it for risk we use it for our trade setup so it's this one Trend based FIB FIB extension",
+    "what_is_shown": "Tool selection showing 'Trend based FIB extension' option among Fibonacci tools",
+    "why_needed": "Viewer must identify which specific Fibonacci tool to select from the available options",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "22:02",
+    "quote": "let's say I bought the stock here so I'll just click here let's say my stop loss is here so I just click here and again I bring it back and click here towards my Enterprise",
+    "what_is_shown": "Three click points on chart for Fibonacci extension entry point, stop loss level, and target level",
+    "why_needed": "Viewer must see the exact price levels and positions where to click for the trade setup",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "22:34",
+    "quote": "this is the entry price this minus one the red line is your stop loss and then this is your two risk R multiple two three R multiple Target five R multiple 7 and 15",
+    "what_is_shown": "Risk/reward tool visualization with colored lines showing entry price, stop loss, and multiple risk reward targets (2R, 3R, 5R, 7R, 15R)",
+    "why_needed": "Specific price levels and visual representation of the tool's output cannot be understood from description alone; viewer must see the colored lines and labels",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "23:36",
+    "quote": "this is your stop-loss price and moving it up and down you can see the risk reward here is changing the r multiple is changing so here you are getting a three R",
+    "what_is_shown": "Long position tool being adjusted by dragging, with risk reward multiple changing in real-time from one value to another (showing 3R, then 2R)",
+    "why_needed": "The dynamic interaction and numerical changes cannot be conveyed through audio alone; viewer must observe the tool movement and value changes",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "24:07",
+    "quote": "here you will get the number of quantities that you should purchase you can go to style and remove the compact stats view if you want to just have a look at all the meanings",
+    "what_is_shown": "Tool output display showing quantity calculations and the compact stats view option with multiple fields and their meanings",
+    "why_needed": "Specific numerical values and layout of the stats view cannot be understood without seeing the actual tool output",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "25:09",
+    "quote": "you can copy the link if you just click on copy link you will get a web address",
+    "what_is_shown": "Camera button location on TradingView interface and the copy link function demonstration",
+    "why_needed": "Viewer needs to see exactly where the camera button is located and what the interface looks like when copy link is activated",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "27:45",
+    "quote": "now have a look at this particular box here on the top left when you click on this box you can type the name of the stock",
+    "what_is_shown": "Search box location at top left of TradingView showing stock search interface",
+    "why_needed": "Specific UI location and layout must be visible for viewer to find and use this feature",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "28:17",
+    "quote": "this one so you just have to click on this Arrow here and this box will open up",
+    "what_is_shown": "Timeframe selector dropdown and its location on the TradingView interface",
+    "why_needed": "Viewer must see the exact location and appearance of the timeframe arrow button",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "29:20",
+    "quote": "click on this particular field and click on D one day so now you are on the daily chart of HDFC Bank lastly I like to show this thing to you uh look at this here box here this is how you can change the type of the chart",
+    "what_is_shown": "Chart type selector showing bar/candle/line options and the current timeframe label (1W for weekly)",
+    "why_needed": "The location of the chart type selector and the timeframe indicator must be visible on screen",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "29:52",
+    "quote": "click on the bar style here and click on line you see there are many many types of charts so there is candle there is line",
+    "what_is_shown": "Dropdown menu with different chart style options (bar, candle, line, etc.)",
+    "why_needed": "Viewer must see the actual menu and available chart type options to follow along",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "30:24",
+    "quote": "the horizontal axis the bottom horizontal axis this one this represents the time interval you can see the months June July August September and the vertical axis represents the priz levels",
+    "what_is_shown": "Line chart with visible x-axis (time intervals showing months) and y-axis (price levels)",
+    "why_needed": "Without seeing the actual chart axes with month labels and price values, the concept of axis representation cannot be understood",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "30:56",
+    "quote": "on 21st November 2022 where my cursor is right now you look at this at where my cursor is look at the right side the PRI price closed at 1595",
+    "what_is_shown": "Cursor position on specific chart date (21st November 2022) with corresponding price value (1595) displayed",
+    "why_needed": "Specific date and price relationship must be visually demonstrated; viewer needs to see cursor, date, and price alignment",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "34:04",
+    "quote": "look at this body of the red candle and look at the body of the green candle this is the body",
+    "what_is_shown": "Two candlesticks (one red, one green) with their bodies clearly visible and color-coded",
+    "why_needed": "Viewer must see the actual visual difference between red and green candle bodies to understand the concept",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "34:36",
+    "quote": "the day opened here here at the bottom of the body and closed higher at the top of the body",
+    "what_is_shown": "Green candlestick with open price marked at bottom of body and close price at top",
+    "why_needed": "The speaker is pointing to specific locations on a candle that must be visible to understand open/close positioning",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "35:08",
+    "quote": "the price opened here at a high point the top of the body and closed at the bottom of the body lower",
+    "what_is_shown": "Red candlestick with open price at top and close price at bottom of body",
+    "why_needed": "Viewer must see the inverted positioning in red candles versus green candles",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "35:39",
+    "quote": "this is the highest point during that day the top of the week is the highest price level and the lowest part of the week is the lowest price",
+    "what_is_shown": "Candlestick wicks labeled with high and low price points visibly marked",
+    "why_needed": "The speaker references specific wick positions that are only meaningful when visible on screen",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "38:40",
+    "quote": "look at the top left box that I have marked when I put my cursor on a candle you can look at ohlc Open high low and close",
+    "what_is_shown": "OHLC data box appearing when cursor hovers over a candle on TradingView",
+    "why_needed": "The tooltip/info box is a specific UI element that must be visible to demonstrate where data appears",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "39:10",
+    "quote": "I have drawn a line using horizontal Ray so I'm using this tool click on trend line tools and click on horizontal Ray",
+    "what_is_shown": "Horizontal ray line drawn on chart marking the open price level",
+    "why_needed": "Viewer must see the actual line placement and the tool workflow being demonstrated",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "39:44",
+    "quote": "the bottom of the week shows the low so during this particular day HDFC bank went to a lowest price of 1538 then the top of the week shows the high",
+    "what_is_shown": "Specific price levels (1538, 1637.5) marked on the candle's wicks with visual indicators",
+    "why_needed": "Specific numerical price levels on chart elements require visual reference to connect to spoken numbers",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "40:16",
+    "quote": "there is another thing look at this box now now when I put my cursor on a particular candle now this box represents uh 86.4 represents how higher this candle has closed",
+    "what_is_shown": "Tooltip box showing price change data (86.4 and 5.67%) when hovering over candle",
+    "why_needed": "This is a specific UI element displaying calculated values that must be visible to understand the information",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "41:49",
+    "quote": "now look at this big red candle let's try to interpret what has happened since this is a red candle",
+    "what_is_shown": "Weekly timeframe candle chart with a prominent red candle visible",
+    "why_needed": "Viewer must see the specific candle being referenced and its structure on the weekly chart",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "42:20",
+    "quote": "there is no upper Wick it means that the stock it means that the top of the body is the high",
+    "what_is_shown": "Red candle with no upper wick - the body top aligns with the high",
+    "why_needed": "The absence of an upper wick is a specific visual characteristic that must be observed",
+    "_file": "ta-1.txt",
+    "_vid_id": "SD9Sjuk_YpY"
+  },
+  {
+    "timestamp": "00:00",
+    "quote": "this is zeroa that is a broker in India it is this platform of zeroda where you can have a look at the watch list here",
+    "what_is_shown": "Zerodha broker platform interface with watch list panel",
+    "why_needed": "Viewer needs to see the actual platform layout and watch list feature to understand the context",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "00:31",
+    "quote": "here you see the last traded prices you see this the price is fluctuating these are the last traded prices",
+    "what_is_shown": "LTP (last traded price) column showing real-time price changes",
+    "why_needed": "Specific price display and its fluctuation cannot be adequately conveyed verbally",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "01:04",
+    "quote": "here there is two option NSE and BC in India NSE is more liquid always so click on nsse",
+    "what_is_shown": "Exchange selection dropdown menu showing NSE and BSE options",
+    "why_needed": "Viewer must see the UI elements and menu structure to follow the order placement workflow",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "01:35",
+    "quote": "here you have to enter your quantity let's say say you want to buy 150 quantity so enter 150 and here uh you can enter the price at which you want to buy let's say you want to buy 335",
+    "what_is_shown": "Order entry form with quantity and price input fields populated with values",
+    "why_needed": "Visual demonstration of where to input these values is essential for following the order placement process",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "02:07",
+    "quote": "now there are two options as you can see market and limit",
+    "what_is_shown": "Market and Limit order toggle/selection buttons",
+    "why_needed": "Viewer must see the UI buttons to understand the two order type options available",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "02:41",
+    "quote": "you see the price is 34.8 right now for uja cement 341 34.8",
+    "what_is_shown": "Current price display for Ambuja Cement showing 341-348 range",
+    "why_needed": "Specific numerical price levels referenced without full context require visual confirmation",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "03:13",
+    "quote": "if you look at the market depth of ambuja cement this is the market depth here you see on the right hand side all the sellers all the selling orders the best selling orders are visible on the right hand side",
+    "what_is_shown": "Market depth panel with bid (left) and ask/offer (right) sides showing seller orders",
+    "why_needed": "Market depth layout with seller orders on right side is a visual concept that requires screen reference",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "03:44",
+    "quote": "the price is 34.855917",
+    "what_is_shown": "Specific price level in market depth display",
+    "why_needed": "Exact numerical price values visible only on screen",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "05:29",
+    "quote": "so if I want to sell any of these let's say let's look at Craftsman so I click on options here Craftsman I have 243 quantity at this price and the current price is here 3449",
+    "what_is_shown": "Open positions/trades list showing Craftsman stock with 243 quantity at specific price 3449",
+    "why_needed": "Viewer must see the portfolio/positions panel and specific numerical values displayed",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "06:01",
+    "quote": "let's say out of that I want to sell 20 quantities",
+    "what_is_shown": "Quantity modification interface showing reduction from 243 to 20 shares",
+    "why_needed": "The UI interaction for changing quantity quantities is demonstrated on screen",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "06:33",
+    "quote": "if you click on Craftsman's Market depth here on the left hand side we have the best buyers available best orders available so the best order is now at 34491",
+    "what_is_shown": "Market depth panel for Craftsman showing buy orders (bid side) on left at 34491",
+    "why_needed": "Specific price levels and market depth layout require visual reference",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "07:44",
+    "quote": "let's look at HDFC bank and let's click on Market depth so you see on this right hand side you see these are the ltps last traded price and see they are constantly changing",
+    "what_is_shown": "HDFC bank market depth panel with fluctuating LTP values",
+    "why_needed": "Real-time price changes and market depth interface need to be visible",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "08:15",
+    "quote": "Focus here there are few other important uh things that you can understand here which is for first is open on this particular day HDFC opened at 1613 it made a low of 159 2.10 on today it made a high of 16188 5 and this is the previous close it means yesterday it closed at 16142",
+    "what_is_shown": "OHLC data and previous close values displayed on screen (Open, High, Low, Close, Previous Close)",
+    "why_needed": "Specific numerical values for Open, High, Low, Close require visual reference on the platform",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "08:45",
+    "quote": "here is the volume today up till now these many shares have been traded this is the number of shares that have been traded today till now and then we have the lower circuit limit and the upper circuit limit if the price goes up and hits 17756 then beyond that trading is not done that is the maximum price for today that can be hit similarly this is the lower circuit",
+    "what_is_shown": "Volume data and upper/lower circuit limit values (17756 and corresponding lower limit)",
+    "why_needed": "Specific numerical data points and their location on the interface require screen visibility",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "10:54",
+    "quote": "let's come back to the broker platform let's click on the market depth of HDFC bank now you see here uh this is the ltp the last traded price which is fluctuating and here on the left hand side we see the bid prices bid orders and bid quantities on the right hand side which is red we see the ask prices orders and the quantities",
+    "what_is_shown": "Market depth layout with bid column (left), LTP (center), ask/offer column (right in red)",
+    "why_needed": "The spatial layout of bid vs ask columns and color coding is essential visual information",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "11:24",
+    "quote": "the best buying price available right now is 16 05.15 and there are six orders and this many quantities",
+    "what_is_shown": "Best bid price of 1605.15 with order count and quantity data in market depth",
+    "why_needed": "Specific price level and associated order/quantity data visible only on screen",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "11:55",
+    "quote": "the best seller available to me is at this level 16440 right and we have the number of orders and the quantities which are available to be sold at this particular",
+    "what_is_shown": "Best ask price of 16440 with order count and quantities in market depth",
+    "why_needed": "Specific offer price level and associated data require visual reference",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "15:33-16:05",
+    "quote": "looking at charts you have to try to spot significant tops and bottoms... let's look at the weekly chart of hom motop currently the price is at this particular level now you just have to look on the left hand side",
+    "what_is_shown": "Weekly chart of HOM (Hom motop) stock with price action showing historical tops and bottoms",
+    "why_needed": "Viewer must see the actual chart to identify where the significant reversal points are located that the speaker is referencing",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "16:05-16:38",
+    "quote": "there is a significant top here you see this is a significant top... I've drawn a line here horizontal Ray here to connect these two points",
+    "what_is_shown": "TradingView chart with speaker drawing horizontal resistance lines connecting multiple tops",
+    "why_needed": "Viewer must see the specific price levels and the drawn lines to understand what constitutes 'significant tops' and how to draw resistance zones",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "16:38-17:10",
+    "quote": "if you look at the bottom uh this becomes my support I'm drawing a line here... look at the bodies of the candles and try to draw a line",
+    "what_is_shown": "Chart with support lines being drawn at bottoms, showing candle body alignment",
+    "why_needed": "Viewer must see exactly where support lines are drawn relative to candle bodies to understand the proper technique",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "17:43-18:13",
+    "quote": "you can identify this particular level as your resistance as well from where the price has reacted reversed multiple times",
+    "what_is_shown": "Chart showing additional resistance level with multiple price rejections visible",
+    "why_needed": "Viewer needs to see the visual pattern of price rejections at the specific level being identified",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "18:13-18:48",
+    "quote": "let's look at another chart for an example we are on the chart of bhel weekly chart... there is one level here not so significant... there is another support here",
+    "what_is_shown": "Weekly chart of BHEL stock with marked support and resistance levels",
+    "why_needed": "Viewer must see the BHEL chart with identified support/resistance zones to understand the example",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "18:48-19:18",
+    "quote": "the price is currently trading at a support which you can see here this becomes my two rejection... there are three rejections from the same level",
+    "what_is_shown": "BHEL chart showing price touching same support level multiple times",
+    "why_needed": "Viewer must visually count the rejections from the support level to understand why it's significant",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "19:49",
+    "quote": "when the stock hits this are this level of 390 zones then the market participants may feel that okay the price may not deserve to go below this level",
+    "what_is_shown": "Chart with specific price level marked showing the 390 support zone",
+    "why_needed": "Without seeing the chart, the specific price level reference (390) cannot be verified or understood in context",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "21:23-21:54",
+    "quote": "we are on the weekly chart of Reliance Industries weekly chart of Reliance Industries and we are currently here let's look at the top first... this becomes my resistance Zone",
+    "what_is_shown": "Weekly chart of Reliance Industries with current price and resistance zone marked",
+    "why_needed": "Viewer must see where Reliance is currently trading and where the resistance zone is located",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "21:54-22:27",
+    "quote": "if you look at the bottom I can Mark out this particular bottom here which becomes my support then I have another support here if I zoom out the chart a bit I have another support here and I have another support here as well",
+    "what_is_shown": "Reliance chart zoomed out showing multiple support levels drawn",
+    "why_needed": "Viewer must see all the marked support levels and their locations to understand the multi-level support structure",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "22:27-22:59",
+    "quote": "we are on the chart of baj Finance weekly chart the stock is trading here let's look at the top this becomes my resistance let's look at the bottom this becomes my support",
+    "what_is_shown": "Weekly chart of Bajaj Finance with identified resistance and support levels",
+    "why_needed": "Viewer needs to see the Bajaj Finance chart with marked levels to follow the example",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "22:59",
+    "quote": "this also becomes my support then we have this support as well look at this here also it got reversed here also again it got reversed",
+    "what_is_shown": "Bajaj Finance chart showing multiple support levels with price reversals",
+    "why_needed": "Viewer must see the visual evidence of price reversals at each support level",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "22:59",
+    "quote": "then we have the chart of Vio the stock is trading here now in this case we have a support here immediate support rejection has happened two times",
+    "what_is_shown": "Weekly chart of Vio (Voltas/similar stock) showing immediate support with marked rejections",
+    "why_needed": "Viewer must see the Vio chart and the specific support level with rejection points",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "23:32",
+    "quote": "resistance we have a resistance here uh then we have a resistance uh there is a minor resistance here as well",
+    "what_is_shown": "Multiple resistance levels marked on JSW Steel chart at specific price points with rejection candles",
+    "why_needed": "Viewer must see exact locations of these resistance zones to understand which price levels are being referenced",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "23:45",
+    "quote": "if I zoom out the chart a little bit this becomes my significant support as well",
+    "what_is_shown": "Chart zoomed out showing a previous resistance level now acting as support",
+    "why_needed": "Zooming action changes chart view; viewer must see the zoomed perspective to understand the support level's significance",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "24:03",
+    "quote": "this was a resistance Zone earlier I'm marking it out this was a resistance zone so now the stock is reversing from that zone as you can see",
+    "what_is_shown": "JSW Steel chart with resistance zone drawn/marked and price reversing from that level",
+    "why_needed": "Specific zone location and reversal point only visible on screen; marking action requires visual reference",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "24:20",
+    "quote": "this continues to be my resistance zone I'll just draw a line to keep my charts clean this becomes my support",
+    "what_is_shown": "Horizontal line being drawn on chart marking resistance, and support level being identified below",
+    "why_needed": "Drawing action and specific price level placement shown on screen; cannot be understood from words alone",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "24:36",
+    "quote": "let me identify a few areas so these are some important areas that I can identify as my supports and resistances",
+    "what_is_shown": "Multiple support and resistance zones marked/highlighted on the zoomed out chart",
+    "why_needed": "Viewer must see which specific areas are being identified as significant support/resistance zones",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "25:08",
+    "quote": "use this tool horizontal Ray uh click on this and click on horizontal Ray alter plus J",
+    "what_is_shown": "TradingView tools menu showing horizontal ray tool selection and keyboard shortcut demonstration",
+    "why_needed": "Tool location in interface and how to access it only visible on screen; workflow demo requires visual demonstration",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "25:41",
+    "quote": "so on your screen I have shown you a diagram where you can see quite a few Candlestick patterns",
+    "what_is_shown": "Diagram showing multiple candlestick patterns (hammers, engulfing, doji, etc.)",
+    "why_needed": "Diagram with pattern examples explicitly required for viewer to see the patterns being referenced",
+    "_file": "ta-2.txt",
+    "_vid_id": "xpB5rOSavXM"
+  },
+  {
+    "timestamp": "01:36",
+    "quote": "this is the candle which you can clearly see which has the biggest range",
+    "what_is_shown": "Ultratech Cement weekly chart with the largest range candle highlighted",
+    "why_needed": "Viewer must see which specific candle on the chart has the biggest range to understand the visual concept",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "02:08",
+    "quote": "the white line is the 50 candles average so from the average which is 7% this current candle has a range of 18%",
+    "what_is_shown": "True range indicator applied to chart showing 50-candle average line and current candle's range value",
+    "why_needed": "Visual comparison of indicator bar heights and average line placement is essential to understand true range measurement",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "02:42",
+    "quote": "you see the three candles here 1 2 3 you look at the range the ranges are above the average for all the three candles",
+    "what_is_shown": "Three specific candles on chart with ranges visibly above the average line",
+    "why_needed": "Must see exact candle positions and how their ranges compare to the plotted average line",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "03:14",
+    "quote": "this particular candle here this green candle look at the range here the range is pretty big",
+    "what_is_shown": "Specific green candle on the Ultratech chart with large range",
+    "why_needed": "Viewer needs to visually identify which green candle is being referenced and see its range relative to average",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "04:48",
+    "quote": "this white line here represents the average volume so on this particular candle how many shares were traded 6.5 million shares were traded",
+    "what_is_shown": "Volume indicator with average volume line and specific candle's volume bar comparison",
+    "why_needed": "Visual representation of volume bars against the average line is necessary to compare trading activity",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "05:50",
+    "quote": "look at the three red candles here the ranges uh were going up you can see and the volumes are also increasing",
+    "what_is_shown": "Three specific red candles showing progression of ranges and volumes above average",
+    "why_needed": "Viewer must see the exact location and visual progression of these three candles on the chart",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "06:22",
+    "quote": "look at these candles here two three Candles now here the range if you look at the range it is at the average",
+    "what_is_shown": "Specific group of 2-3 candles with ranges at average level but high volume bars",
+    "why_needed": "Must see exact candle positions relative to the average range line and volume indicators",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "06:54",
+    "quote": "because of the covid fall in March 2020 the range got expanded you see the range got expanded so when the range got so so much expanded the average line also rose up",
+    "what_is_shown": "Chart showing March 2020 COVID crash period with visibly expanded candle ranges and rising average line",
+    "why_needed": "Visual context of the expanded range period and its effect on the average line is essential to understand the context",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "07:25",
+    "quote": "if you look at these two candles the red and the green I think both of these candles are pivotal candles",
+    "what_is_shown": "Specific red and green candles identified as pivotal on the chart",
+    "why_needed": "Viewer must see exact location of these two candles to identify them as examples",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "10:02",
+    "quote": "this candle here very big pivotal candle you see the range is pretty solid and the volume is also solid",
+    "what_is_shown": "Infosis weekly chart with specific large pivotal candle highlighted with high range and volume",
+    "why_needed": "Must see the exact candle and visually compare its size and volume to understand the example",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "10:34",
+    "quote": "look at this particular candle now I can see that the range is greater than the average but there are no good volumes",
+    "what_is_shown": "Specific candle with above-average range but low volume bars visible on indicator",
+    "why_needed": "Viewer must see the contrast between range and volume on this specific candle to understand why it's not pivotal",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "10:34",
+    "quote": "if you mark the midpoint of its range you see the the the candle has closed below the midpoints",
+    "what_is_shown": "Candle on Infosis chart with visible midpoint marking and close position relative to midpoint",
+    "why_needed": "Visual marking of midpoint and candle close position is essential to demonstrate negative pivotal candle analysis",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "11:38",
+    "quote": "you see there is a big gap here so it has moved down by 10% from the previous close",
+    "what_is_shown": "Specific candle showing visible gap from previous candle's close on the chart",
+    "why_needed": "Gap between candles must be visible on screen to understand the true range concept with gap movement",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "12:45-13:16",
+    "quote": "we are on the weekly chart of infosis and I have marked a resistance Zone here as you can see and in the month of July 2020 this resistance got broken out",
+    "what_is_shown": "Weekly chart of Infosys with marked resistance zone and breakout in July 2020",
+    "why_needed": "Specific resistance level and breakout point only visible on chart; no numerical value given",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "13:47-14:20",
+    "quote": "look at this particular candle here which broke out this is a clearcut positive pivotal candle you look at the range here sorry look at the volume here first a standout volume clearly visible and look at the range the range is also very big",
+    "what_is_shown": "Specific candle with visible volume and range comparison to average",
+    "why_needed": "Volume spike and range measurements require visual inspection; relative comparisons cannot be understood from text alone",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "14:54-15:26",
+    "quote": "look at the weekly chart of lus labs and I have marked a support here and on this particular candle we see a breakdown of the support",
+    "what_is_shown": "Weekly chart of LUS Labs with marked support level and breakdown candle",
+    "why_needed": "Specific support zone location and breakdown point only visible on screen",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "15:58-16:28",
+    "quote": "this particular candle is a negative pivotal candle look at the volume above average the range is also higher than the average look at a close the close is below the midpoint of its own range",
+    "what_is_shown": "Specific candle with volume visualization and price close position within candle range",
+    "why_needed": "Volume comparison and candle close positioning relative to midpoint require visual reference",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "18:37-19:08",
+    "quote": "we are on the daily chart daily chart of BDL bat Dynamics limited so go to indicators go to technicals and search for moving average ma a ribbon m a ribbon plot this one now go to the settings",
+    "what_is_shown": "TradingView interface with indicators menu, search function, and MA Ribbon indicator",
+    "why_needed": "Workflow navigation and tool selection requires seeing menu structure and selections",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "19:08-19:39",
+    "quote": "on the time frame select one day do not forget this on the time frame you must select one day because we want to plot 50 day and the 200 day moving average then you have to take the first and the second one and remove the third and the fourth one",
+    "what_is_shown": "Settings panel with time frame dropdown and MA Ribbon configuration options showing multiple MA selections",
+    "why_needed": "Settings interface layout and which options to select/remove requires visual demonstration",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "19:39-20:10",
+    "quote": "I'll select white color with a 75% opacity and for the 200 day moving average I'll prefer the purple color with with an 80% of opacity and I'll click on okay okay before clicking on okay go to style and look at this you can remove the third and the fourth",
+    "what_is_shown": "Color picker interface and style settings panel for moving averages",
+    "why_needed": "Color selection and styling options require seeing the interface to follow instructions",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "20:10-20:41",
+    "quote": "you also see the values on the top left side which is 93 and 850 respectively so it means that if you look at the closing prices of the previous 50 candles previous 50 days and take out an average the average comes to 93",
+    "what_is_shown": "Chart with two moving average lines and numerical values displayed (93 for 50-day MA, 850 for 200-day MA)",
+    "why_needed": "Viewer needs to see which line corresponds to which MA and where values appear on screen",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "21:12-21:43",
+    "quote": "if you go to the weekly chart you see the candles have now turned into the weekly candles each candle represents one week but the values are the same because the averages are based on the calculation on the daily chart and this line represents the 200 day sorry the white line represents again the 50-day moving average not the 50 we moving average it represents the 50-day moving average and the purple line shows the 200 day moving average so the values you see it will be the same the white value is 93 latest and the purple value is 850",
+    "what_is_shown": "Weekly chart view with same moving average lines and values visible",
+    "why_needed": "Comparison between daily and weekly timeframes with visual lines requires screen reference",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "22:13-23:16",
+    "quote": "the first is ascending triangle pattern here you see a horizontal resistance where you will see the price getting reversed more than two times at least and then you see higher lows you look at the lows here the lows are higher and higher so you see at least two higher lows and you can draw you can connect those lows and form a line like this so that creates an triangle pattern",
+    "what_is_shown": "Chart showing ascending triangle pattern with horizontal resistance line and ascending trendline connecting higher lows",
+    "why_needed": "Pattern structure with specific resistance level and trendline placement requires visual demonstration",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "23:47-24:17",
+    "quote": "ultimately this horizontal resistance is broken out we say that the ascending triangle pattern has broken out the stock has broken out of the ascending triangle pattern on the upside and then there is an anticipation that the stock will charge higher",
+    "what_is_shown": "Breakout point of ascending triangle pattern with price action moving above resistance",
+    "why_needed": "Exact breakout level and direction of move only visible on chart",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "24:48",
+    "quote": "this pattern breaks down on the downside",
+    "what_is_shown": "Descending triangle pattern with horizontal support and slanting trendline, showing downside breakout",
+    "why_needed": "Pattern structure only visible on chart; verbal description alone insufficient to identify support level and trendline angle",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "25:22",
+    "quote": "symmetrical triangle pattern wherein on both ends there are slanting trend lines",
+    "what_is_shown": "Symmetrical triangle with lower highs and higher lows converging, showing breakout direction",
+    "why_needed": "Visual convergence of trendlines and breakout point cannot be adequately described verbally",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "25:52",
+    "quote": "double bottom pattern you see the stock comes down hits this particular level",
+    "what_is_shown": "Double bottom with two support rejections at same level and neckline resistance",
+    "why_needed": "Specific price level and neckline position only visible on screen; 'this particular level' requires visual reference",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "26:23",
+    "quote": "triple bottom pattern first second and third bottom getting form",
+    "what_is_shown": "Triple bottom with three rejections of same support level and neckline breakout",
+    "why_needed": "'This particular level' and support zone cannot be identified without seeing the chart",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "26:54",
+    "quote": "you can see that the second bottom does not touch the support",
+    "what_is_shown": "Triple bottom with imperfect second bottom not reaching same level as first and third",
+    "why_needed": "The non-alignment of bottoms is a visual distinction critical to understanding pattern variation",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "27:26",
+    "quote": "double top pattern the stock makes two tops of the same resistance you can see a big M letter M getting formed",
+    "what_is_shown": "Double top with M-shape formation and neckline support breakdown",
+    "why_needed": "M-shaped visual pattern and neckline position require visual confirmation",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "27:57",
+    "quote": "triple top pattern we see three tops getting formed you can see 1 two and three",
+    "what_is_shown": "Triple top with three resistance rejections and neckline breakdown",
+    "why_needed": "Specific identification of three peaks and their alignment only possible visually",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "28:29",
+    "quote": "rounding bottom pattern the stock is forming a rounding bottom it is curving itself out",
+    "what_is_shown": "Rounding bottom curved formation with neckline resistance and breakout",
+    "why_needed": "The curved shape and neckline position cannot be conveyed through speech alone",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "29:00",
+    "quote": "cup and handle pattern you see this round cup and then you see this handle here getting formed",
+    "what_is_shown": "Cup and handle pattern with rounded cup shape and handle driftdown on right side",
+    "why_needed": "Cup and handle geometry and relative positioning only visible on screen",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "29:32",
+    "quote": "rounding top creates a curve at the top this is a curve at the top",
+    "what_is_shown": "Rounding top curved formation with neckline support and breakdown",
+    "why_needed": "The inverted curve shape compared to rounding bottom requires visual comparison",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "30:04",
+    "quote": "Head and Shoulders pattern in this pattern we have the left shoulder then there is a head and then we have a right shoulder the head is always higher than both the shoulders",
+    "what_is_shown": "Head and Shoulders pattern with three peaks, head higher than shoulders, and neckline",
+    "why_needed": "The relative height of shoulders versus head and neckline position must be seen visually",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "30:35",
+    "quote": "here is a practical example you see this is the left shoulder then we have the head here and then we have the right shoulder here",
+    "what_is_shown": "Specific Head and Shoulders chart example with labeled shoulder and head peaks",
+    "why_needed": "Cannot identify specific chart locations and peak positions without seeing the screen",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "31:07",
+    "quote": "inverse Head and Shoulders pattern we have two shoulders you can see the shoulder number one and then we see shoulder number two and in the middle we see the head which is clearly lower than both the shoulders",
+    "what_is_shown": "Inverse Head and Shoulders with head valley lower than shoulder peaks and neckline",
+    "why_needed": "The relationship of head being lower than shoulders is a critical visual distinction",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "31:38",
+    "quote": "you see a left shoulder here then you see a head here and then you see a right shoulder here",
+    "what_is_shown": "Specific inverse Head and Shoulders chart example with neckline breakout",
+    "why_needed": "Cannot identify specific pattern locations and breakout point without visual reference",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "34:12",
+    "quote": "here is the first chart we can see an inverse Head and Shoulders pattern you see the left shoulder the Deep head and the right shoulder",
+    "what_is_shown": "Inverse Head and Shoulders pattern on actual chart with breakout candle",
+    "why_needed": "Specific chart locations and price action cannot be identified verbally",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "34:43",
+    "quote": "on this chart we have a rounding top pattern you see the rounding top then we have the neckline here",
+    "what_is_shown": "Rounding top pattern on chart with neckline and breakdown",
+    "why_needed": "Chart-specific rounding top structure and neckline position require visual identification",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "34:43",
+    "quote": "here we see an ascending triangle pattern you see the resistance which is a horizontal line and then you see the slanting trend line",
+    "what_is_shown": "Ascending triangle with horizontal resistance and slanting trendline connecting higher lows",
+    "why_needed": "Specific price level positions and trendline angles only visible on chart",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "34:43",
+    "quote": "here we see a symmetrical triangle pattern we see higher lows and lower highs getting formed and finally the price is squeezed here at the end of the pattern",
+    "what_is_shown": "Symmetrical triangle with converging trendlines and compression point",
+    "why_needed": "The convergence geometry and squeeze point location cannot be conveyed verbally",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "35:13",
+    "quote": "breakout here we see Head and Shoulders pattern you see the left shoulder then the head and then the right shoulder again you will sometimes see variations like here you see two shoulders",
+    "what_is_shown": "Head and Shoulders pattern with labeled left shoulder, head, right shoulder, and neckline with breakdown candle",
+    "why_needed": "Pattern identification requires visual reference to distinguish shoulders and head positioning",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "35:13",
+    "quote": "here we have a symmetrical triangle pattern uh lower highs and higher lows being connected finally the price breaks down of this pattern",
+    "what_is_shown": "Symmetrical triangle with lower highs and higher lows trend lines, breakout candle",
+    "why_needed": "Triangle pattern geometry and trend line connections only visible on chart",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "35:47",
+    "quote": "here we have a double bottom as I said when we have double bottoms it is not necessary that every time we see exact support levels being reversed twice here there is this the second bottom is slightly higher than the first bottom",
+    "what_is_shown": "Double bottom pattern with two bottoms at different price levels and neckline",
+    "why_needed": "Visual confirmation of bottom placements and their relative heights needed for pattern recognition",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "35:47",
+    "quote": "here we have two head and shoulders pattern the first Head and Shoulder is here there is this neckline and there is this breakdown",
+    "what_is_shown": "First Head and Shoulders pattern with neckline and breakdown location on chart",
+    "why_needed": "Multiple overlapping patterns require visual identification of each pattern location",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "36:19",
+    "quote": "formed another Head and Shoulders pattern you can clearly see the shoulders and the middle head and then again it broke down",
+    "what_is_shown": "Second Head and Shoulders pattern on same chart with shoulders, head, neckline, and breakdown",
+    "why_needed": "Visual differentiation of second pattern from first pattern on same chart",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "36:19",
+    "quote": "here we have a third Head and Shoulders pattern here on the same chart look at this head sorry shoulder the middle head and the right shoulder then we have the neckline and then the stock broke down of the neckline",
+    "what_is_shown": "Third Head and Shoulders pattern with shoulders, head, neckline, and breakdown point",
+    "why_needed": "Three distinct patterns on one chart require visual identification of each separate pattern",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "36:49",
+    "quote": "here we see an ascending triangle pattern the resistance is the horizontal Al line here and then we have higher lows being connected through a sling trend line",
+    "what_is_shown": "Ascending triangle with horizontal resistance line and ascending support trend line",
+    "why_needed": "Triangle structure with specific trend line angles and resistance level only visible on screen",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "36:49",
+    "quote": "here we have again an ascending triangle pattern similar thing",
+    "what_is_shown": "Second ascending triangle pattern with horizontal resistance and ascending lows",
+    "why_needed": "Another distinct ascending triangle pattern requires visual reference for structure",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "37:21",
+    "quote": "here we have an inverse Head and Shoulders now here is a variation here you see the pattern is you know it's it seems like the pattern is tilting downwards but yes it is inverse Head and Shoulders pattern you see it is the shoulder then we have the head and then we have the right shoulder as marked by the uh curves that I have drawn",
+    "what_is_shown": "Inverse Head and Shoulders pattern with drawn curves marking shoulders and head, tilted formation",
+    "why_needed": "Inverse pattern positioning and drawn annotations needed to distinguish from standard Head and Shoulders",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "37:52",
+    "quote": "on this particular chart we have a rounding top and also see we see some kind of an Head and Shoulders formation many times we'll see rounding tops and head and shoulders together so this is a rounding top pattern we have a neck line and then the stop broke out broke down of this NE neckline",
+    "what_is_shown": "Rounding top pattern with Head and Shoulders overlay, neckline, and breakdown location",
+    "why_needed": "Combined pattern formations with curved and linear elements visible only on chart",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "37:52",
+    "quote": "here we have inverse Head and Shoulders pattern again A variation of this pattern we see the left shoulder we see the head the head is you know appearing like this and then we see the right shoulder and finally the stock breaks out of the pattern the neckline",
+    "what_is_shown": "Inverse Head and Shoulders pattern variation with shoulder-head-shoulder positioning and neckline",
+    "why_needed": "Visual reference needed for pattern variation identification",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "38:23",
+    "quote": "here we have double top again just like double bottom we may not not see exact reversals reversals of the same levels in this case the second top was a little higher than the first top but finally the neckline got broken down",
+    "what_is_shown": "Double top pattern with two peaks at different price levels and neckline",
+    "why_needed": "Price level comparison and neckline placement only visible on chart",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "38:54",
+    "quote": "here we have Century ply again we have a double top formation clearcut two rejections of the same level and then the stock breaks down of this NE line when you see a double top you see an M formation the letter M is formed printed on the chart",
+    "what_is_shown": "Double top pattern forming M shape with two resistance rejections and breakdown",
+    "why_needed": "M-shaped visual formation requires on-screen observation",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "38:54",
+    "quote": "here we have a symmetrical triangle beautiful perfect looking symmetrical triangle the lower highs and the higher lows being connected and then it gives a bullish breakout of this particular pattern",
+    "what_is_shown": "Symmetrical triangle with lower highs and higher lows converging, bullish breakout candle",
+    "why_needed": "Triangle geometry and convergence point visible only on chart",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "39:26",
+    "quote": "here we have a rounding bottom formation on this particular chart and many times you'll see rounding bottom appear along with the cup and handle pattern so in this case you see the right handle the small right handle here and there's a breakup",
+    "what_is_shown": "Rounding bottom with small handle on right side and breakout point",
+    "why_needed": "Curved bottom and handle placement visible only on screen",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "39:26",
+    "quote": "here we have a rounding top and I've drawn two neck lines here the first one is here the second neckline is this support here both the neck lines were broken",
+    "what_is_shown": "Rounding top with two drawn necklines at different levels, both broken",
+    "why_needed": "Multiple neckline positions and their sequential breakdowns visible only on chart",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "39:58",
+    "quote": "here we have triple top formation there are three tops of the same resistance on this chart and then we have a neckline getting formed here which is a support and finally the stock breaks down of the neckline",
+    "what_is_shown": "Triple top pattern with three resistance peaks and neckline support level",
+    "why_needed": "Three distinct peaks and their alignment visible only on screen",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "39:58",
+    "quote": "here we have a triple bottom you can see one two and three bottoms again the third bottom is not touching the exact support but it's okay this is a variation so triple top triple bottom formation is a bullish price action for the stock the stock broke out of this pattern with this particular big red candle sorry big green candle",
+    "what_is_shown": "Triple bottom with three bottom points at varying levels and breakout candle color/position",
+    "why_needed": "Three bottoms alignment and candle color/position at breakout point visible only on chart",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "40:28",
+    "quote": "here we have a rounding bottom formation and again you can see a small handle forming on the right hand side of this pattern so it is a rounding bottom and also a cup and handle C Le formation",
+    "what_is_shown": "Rounding bottom with cup shape and small handle on right side",
+    "why_needed": "Cup and handle formation geometry visible only on chart",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "40:28",
+    "quote": "here we have a descending triangle pattern with a bullish breakout we have a support being connected by connect which is a horizontal line here and then we have lower highs getting formed and finally at the right hand side there is this breakout of this pattern which is a bullish breakout for the stock",
+    "what_is_shown": "Descending triangle with horizontal support and descending resistance, bullish breakout location",
+    "why_needed": "Triangle structure and breakout direction visible only on screen",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "40:58",
+    "quote": "here again we have the same thing here is the chart of U which is a weekly chart which shows The Head and Shoulders pattern you can see it is the left shoulder the center is the head and then we have the right shoulder this forms the neckline and here we have a breakdown of this pattern this shows the double bottom as well you see the first bottom and the second bottom here further it also shows you rounding bottom kind of a formation",
+    "what_is_shown": "Weekly chart with Head and Shoulders pattern, double bottom, and rounding bottom formations overlaid",
+    "why_needed": "Multiple patterns on different time frame require visual identification",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "41:30",
+    "quote": "here is a very beautiful double bottom pattern you see the first bottom and then you see the second bottom which is clear and then the stock broke out of this particular neckline at this particular candle",
+    "what_is_shown": "Double bottom pattern with two distinct bottoms and neckline breakout candle",
+    "why_needed": "Bottom positions and specific breakout candle identification visible only on chart",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "42:00",
+    "quote": "here we have a rounding bottom formation and then we have a small handle formed here and then the stock broke out of this handle on the upside so I mean this is a rounding bottom plus a cup and handle this is a cup and handle you see this is a cup and the handle is Big here you see this is a handle on the right hand side the stock broke out of this handle on this particular candle",
+    "what_is_shown": "Cup and handle pattern with rounding cup, large handle on right side, and breakout candle",
+    "why_needed": "Cup shape, handle size and position, and breakout point visible only on screen",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "42:32",
+    "quote": "this is a rounding top and you can also call it it also looks like an Head and Shoulders pattern with two shoulders on the right side so overall this is a topping pattern rounding top and head and shoulders and this is a neckline the stock broke down of its neckline bearish price action",
+    "what_is_shown": "Rounding top with two shoulders formation and neckline, breakdown point",
+    "why_needed": "Combined rounding top and Head and Shoulders pattern variation visible only on chart",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "42:32",
+    "quote": "again this is a very clear Head and Shoulders pattern the first is the left shoulder then we have the head then we have the right shoulder here on the right hand side we have a neckline and there is a breakdown of this particular C of this particular pattern on this particular candle",
+    "what_is_shown": "Clear Head and Shoulders pattern with labeled shoulders, head, neckline, and breakdown candle",
+    "why_needed": "Textbook Head and Shoulders structure with specific breakdown candle identification visible only on screen",
+    "_file": "ta-3.txt",
+    "_vid_id": "xyKtg_D1-aY"
+  },
+  {
+    "timestamp": "00:00",
+    "quote": "this is a rounding bottom plus a cup and handle this is a cup and handle you see this is a cup and the handle is Big here",
+    "what_is_shown": "Chart with labeled rounding bottom, cup and handle pattern, and breakout candle",
+    "why_needed": "Speaker refers to 'this' pattern multiple times without naming the stock or providing verbal coordinates; viewer must see the visual structure of the cup, handle, and breakout point",
+    "_file": "ta-4.txt",
+    "_vid_id": "hOzHACAvIPU"
+  },
+  {
+    "timestamp": "00:15",
+    "quote": "this is a rounding top and you can also call it it also looks like an Head and Shoulders pattern with two shoulders on the right side so overall this is a topping pattern rounding top and head and shoulders and this is a neckline the stock broke down of its neckline",
+    "what_is_shown": "Chart displaying rounding top/head and shoulders pattern with neckline and breakdown candle",
+    "why_needed": "Multiple chart patterns shown with 'this is' references; viewer must see the neckline location, shoulder positions, and breakdown candle to understand the pattern structure",
+    "_file": "ta-4.txt",
+    "_vid_id": "hOzHACAvIPU"
+  },
+  {
+    "timestamp": "00:30",
+    "quote": "the first is the left shoulder then we have the head then we have the right shoulder here on the right hand side we have a neckline and there is a breakdown of this particular C of this particular pattern on this particular candle",
+    "what_is_shown": "Clear head and shoulders pattern with labeled left shoulder, head, right shoulder, neckline, and breakdown candle",
+    "why_needed": "Pattern components identified by position only ('left shoulder', 'head', 'right shoulder'); viewer must see visual layout to understand the pattern formation and breakdown point",
+    "_file": "ta-4.txt",
+    "_vid_id": "hOzHACAvIPU"
+  },
+  {
+    "timestamp": "02:36",
+    "quote": "look at this stock here now if you look at this pattern",
+    "what_is_shown": "Stock chart showing a price pattern at a specific point",
+    "why_needed": "Vague reference 'this stock here' and 'this pattern' without naming either; visual required to identify what is being discussed",
+    "_file": "ta-4.txt",
+    "_vid_id": "hOzHACAvIPU"
+  },
+  {
+    "timestamp": "02:36",
+    "quote": "somebody some Trader can say that okay this is a rounding bottom pattern this is a rounding bottom pattern and then it broke out",
+    "what_is_shown": "Chart demonstrating rounding bottom with breakout",
+    "why_needed": "Pattern shown on screen without specific price levels or coordinates provided verbally",
+    "_file": "ta-4.txt",
+    "_vid_id": "hOzHACAvIPU"
+  },
+  {
+    "timestamp": "03:08",
+    "quote": "some Trader may say that this is an inverse Head and Shoulders this becomes the left shoulder this becomes the head and this becomes the right shoulder",
+    "what_is_shown": "Same chart pattern redrawn/labeled as inverse head and shoulders with shoulder and head positions marked",
+    "why_needed": "Alternative interpretation of the same pattern; viewer must see the visual structure to understand how different pattern names apply to identical price action",
+    "_file": "ta-4.txt",
+    "_vid_id": "hOzHACAvIPU"
+  },
+  {
+    "timestamp": "03:08",
+    "quote": "somebody may say that okay this is a cup and handle so this is a cup and this is a handle and then it broke out",
+    "what_is_shown": "Chart with cup and handle pattern highlighted on the same price structure",
+    "why_needed": "Another interpretation of same pattern; specific areas labeled 'cup' and 'handle' only visible on screen",
+    "_file": "ta-4.txt",
+    "_vid_id": "hOzHACAvIPU"
+  },
+  {
+    "timestamp": "03:38",
+    "quote": "somebody may also say that if you draw a line like this and then connect these lows like this it is an ascending triangle breakout",
+    "what_is_shown": "Chart with lines drawn connecting highs/lows to form ascending triangle pattern",
+    "why_needed": "Drawing action in real-time on chart ('draw a line like this', 'connect these lows'); viewer must see the line placements and resulting triangle formation",
+    "_file": "ta-4.txt",
+    "_vid_id": "hOzHACAvIPU"
+  }
+]

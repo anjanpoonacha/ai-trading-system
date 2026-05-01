@@ -1,0 +1,1048 @@
+[
+  {
+    "timestamp": "13:30-14:30",
+    "quote": "This is how the dashboard appears... position manager metrics, the open trades are five, exposure is 75% right now. My total open risk is 1.95%... equity curve... R distribution curve",
+    "what_is_shown": "championjournal.com dashboard interface with metrics, equity curve, R distribution curve visualization",
+    "visual_description": "The screen displays a static presentation slide titled \"TRADING JOURNAL\" with bullet points defining its purpose and listing data to record. Despite the speaker describing a dashboard with metrics like \"open trades\" and \"exposure,\" no such dashboard, chart, or stock data is shown. The slide remains completely unchanged throughout the clip with no cursor movement.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_810s.mp4"
+  },
+  {
+    "timestamp": "14:30-15:00",
+    "quote": "trades page... you get a list of all the trades... trade level metrics here... stop loss percent, position size percent, RPT, gain percent... all these are trade level metrics which you will see here",
+    "what_is_shown": "Trade list page with columns and rows of trade data showing all listed metrics",
+    "visual_description": "The screen displays a static presentation slide titled \"TRADING JOURNAL\" with a white background and black text. The slide contains a bulleted list explaining what a trading journal is, why it's used, and what data to record, such as \"Entry Date, Qty, Price,\" \"SL,\" and \"Charges.\" A small, blue circular cursor briefly appears near the last bullet point and moves slightly to the right before disappearing. No stock charts, prices, or trading platforms are visible.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_870s.mp4"
+  },
+  {
+    "timestamp": "15:00-15:30",
+    "quote": "if you click on FCT... you get all the details of the trade... you can upload all the charts here",
+    "what_is_shown": "Trade details page showing entry/exit information and chart upload interface",
+    "visual_description": "The screen displays a static \"Position Manager\" dashboard on the Champion Journal website. The dashboard shows account overview metrics, including an Account Value of 89,93,156 and a Net Profit of 19,93,156, representing a 31.41% ROI. An equity curve graph illustrates the account's growth over 35 trades, and there is no cursor movement during the clip.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_900s.mp4"
+  },
+  {
+    "timestamp": "15:30-16:00",
+    "quote": "positions manager... five trades open and for each trade you see all the metrics here... exposure of each trade... open risk... you can also modify your stop losses from here... click on this and click on break even stop loss",
+    "what_is_shown": "Positions manager page with open trades listed, metrics columns, and interactive stop loss modification controls",
+    "visual_description": "The screen displays a trading journal's \"Positions\" tab on championjournal.com, showing a spreadsheet-like list of open trades with symbols including ACC, BDL, and WIPRO. The cursor moves from the right side of the screen, hovers over the \"RPT %\" column for the ACC trade, and then clicks the three-dot menu icon in the far right column for that same row. This opens a dropdown menu, and the cursor moves down to highlight the \"Break Even Stop Loss\" option.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_930s.mp4"
+  },
+  {
+    "timestamp": "16:00-16:30",
+    "quote": "summary page... metrics like win rate, average RPT, average loss, ARR, average holding period, profit for each period, return percentage",
+    "what_is_shown": "Summary page displaying period-based metrics in table format",
+    "visual_description": "The screen displays the Champion Journal interface, moving from a dashboard of many trades to a detailed view of a single closed trade for FERTILIZERS & CHEM (FACT). In the detailed view, the cursor moves across the top metrics, highlighting the Average Exit Price of 447.20. A candlestick chart for FACT is visible below the trade data, showing a current price of 318.60, but with no technical indicators or patterns drawn.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_960s.mp4"
+  },
+  {
+    "timestamp": "16:30-17:00",
+    "quote": "funds here where you can add and add capital and withdraw capital... deposit or withdrawal is here... feed which displays all the recent activities... sorted by the time",
+    "what_is_shown": "Funds page and activity feed interface showing deposit/withdrawal records and recent activity log",
+    "visual_description": "On a trading journal platform, the cursor navigates from the \"Positions\" tab to the \"Funds\" tab, which displays options for adding and withdrawing capital. The cursor then clicks on the \"Feed\" tab, revealing a chronologically sorted list of recent activities like \"Trade Added\" and \"Capital Added\". The initial \"Positions\" view lists open trades in stocks such as ITUBANK, PNB, WELSPUNIND, NCC, and ACC.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_990s.mp4"
+  },
+  {
+    "timestamp": "08:20",
+    "quote": "strong stocks forming strong bases",
+    "what_is_shown": "TradingView chart showing Caplin Point stock with base formation pattern",
+    "visual_description": "A presentation slide titled \"CDR - Post Market\" is displayed, featuring a bulleted list of post-trading routine tasks such as \"Record your trades\" and \"Update watchlists.\" There are no stock charts, price levels, or technical indicators shown on screen. The cursor starts near \"Update your diary,\" moves slightly, disappears, and then reappears as a blue circle next to the same line item.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_500s.mp4"
+  },
+  {
+    "timestamp": "09:33",
+    "quote": "I can create more section, three sections, right? The first is away. Then it it can be, sorry, it can be near and then it can be ready.",
+    "what_is_shown": "TradingView watch list interface with three subsections being created and labeled (Away, Near, Ready)",
+    "visual_description": "The screen shows a presentation slide titled \"CDR - Post Market\" which lists post-market trading tasks. As the speaker mentions the watchlist sections \"away,\" \"near,\" and \"ready,\" these are visible as sub-bullets on the slide. A small, white hand cursor and the faint, grey word \"DISCIPLINE\" are briefly visible near the top of the list before disappearing.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_573s.mp4"
+  },
+  {
+    "timestamp": "10:49",
+    "quote": "when the stock made this PPC here, it would have come into your PPC scan. So when you see the chart here, you may put the chart here and on this candle on this day",
+    "what_is_shown": "Caplin Point chart with specific candlestick marked as the PPC (Point of Primary Concern)",
+    "visual_description": "The screen displays a presentation slide titled \"CDR - Weekends,\" which outlines trading review tasks in a bulleted list. The main points include performance evaluation, analyzing historical charts, and scanning for \"Big Movers.\" A mouse cursor appears and hovers over the words \"Big Movers\" for the duration of the clip. No stock chart, prices, or indicators are visible on the slide.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_649s.mp4"
+  },
+  {
+    "timestamp": "11:26",
+    "quote": "Then the stock pulled back and you see on this candle we had uh congestion, two days of congestion. So on this red candle, you can put this chart to your ready list",
+    "what_is_shown": "Caplin Point chart showing pullback and congestion pattern with red candles",
+    "visual_description": "Contrary to the speaker's narration about a stock chart, the screen displays a static presentation slide titled \"CDR - Weekends.\" The slide contains a bulleted list of tasks, including \"Performance evaluation using your journal\" and \"Analyse historical charts.\" A circular blue cursor briefly appears over the \"Analyse historical charts\" text, but no stock chart, price levels, or candles are shown.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_686s.mp4"
+  },
+  {
+    "timestamp": "11:59",
+    "quote": "on this candle the setup is partially triggered and then on this candle the setup is fully triggered",
+    "what_is_shown": "Caplin Point chart with trigger levels and entry candles marked",
+    "visual_description": "Despite the audio describing a stock chart with candles and a triggered setup, the screen shows a static presentation slide. The slide is titled \"TRADING JOURNAL\" and features two bullet points explaining the purpose of a trading journal. In the bottom right corner, there is a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB.\" No stock charts, prices, indicators, or cursor movements are visible.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_719s.mp4"
+  },
+  {
+    "timestamp": "12:38",
+    "quote": "So on this PPC, the stock would have come, maybe you could have put put this stock to the away list. Then somewhere here, you put the stock to the near list. And then here as the stock starts to make this trigger bars, you put the stock to the ready list.",
+    "what_is_shown": "Second chart example showing PPC location, near-list stage, and trigger bar formation",
+    "visual_description": "The screen displays a presentation slide titled \"TRADING JOURNAL\" with several bullet points. As the clip progresses, a new bullet point appears, listing items to record in a journal, such as \"Entry Date, Qty, Price,\" \"SL,\" and \"Exit Date, Qty, Price.\" Contrary to the speaker's narration about stock chart analysis (\"PPC,\" \"trigger bars\"), no stock chart, price data, or patterns are visible on the screen. A small circular cursor hovers over the slide throughout the clip.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_758s.mp4"
+  },
+  {
+    "timestamp": "14:24",
+    "quote": "Just click on the plus button here at this level and you can click on add an alert. Okay? Then the alert would not have triggered and then again the stock made another couple of trigger bars. Now I would have set a new trigger here.",
+    "what_is_shown": "TradingView alert-setting interface with plus button, and chart showing multiple trigger levels being set",
+    "visual_description": "The screen displays a static presentation slide titled \"TRADING JOURNAL,\" which lists bullet points explaining the purpose and contents of a trading journal. The speaker's audio about setting alerts and trigger bars does not match the visual content, as there is no stock chart, price information, or cursor movement shown. The slide remains unchanged throughout the clip.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_864s.mp4"
+  },
+  {
+    "timestamp": "14:57",
+    "quote": "You can also set alert using the lines. So if you have drawn a line like this, you can click on the line here and click on this plus button",
+    "what_is_shown": "TradingView interface showing how to click on a drawn line and access the alert feature via plus button",
+    "visual_description": "The screen displays a trading journal dashboard on championjournal.com, showing performance metrics like an Equity Curve, Net Profit (19,93,156), and an ROI of 31.41%. The cursor moves across the \"Position Manager\" and \"Overview\" sections, sequentially highlighting the values for \"Total Open Risk\", \"Account Value\", and \"Starting Account Value\". Contrary to the speaker's audio, the visuals do not show a stock chart, drawn lines, or the process of setting an alert.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_897s.mp4"
+  },
+  {
+    "timestamp": "32:30",
+    "quote": "You can mark an arrow like this to mention that on this candle the entry was triggered. If you want to be more precise, then you can also use the uh trend based Fibonacci tool to mark your entry, average entry and the stop loss something like this.",
+    "what_is_shown": "Chart with Caplin Point stock showing marked entry point, Fibonacci tool applied, entry/average entry/stop loss levels marked on the chart",
+    "visual_description": "On the stock chart for INDUSINDBK, the cursor first draws a small, red, downward-pointing arrow above a large green candlestick to signify a trade entry. It then moves to the toolbar, selects the \"Trend-Based Fib Extension\" tool, and draws it on the chart. This action creates three annotated horizontal lines, labeling the \"Entry\" at 1411.00, \"Avg Entry\" at 1387.25, and the \"SL\" (Stop Loss) at 1363.50.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_1950s.mp4"
+  },
+  {
+    "timestamp": "32:30-33:00",
+    "quote": "here the stock got extended and if there is an exit trigger here, as per the method, then you mark it that okay, here 20% exit is triggered.",
+    "what_is_shown": "Chart showing extended price movement with marked 20% exit level/trigger point on the candle",
+    "visual_description": "The screen displays a static presentation slide titled \"List: Skipped Trades.\" The slide contains a six-point bulleted list detailing the rules for this category, such as \"Mark exits as per our exit method\" and \"This includes all trades that are FULLY triggered.\" No stock charts, price levels, or cursor movements are visible, but a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is present in the bottom-right corner.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_1950s.mp4"
+  },
+  {
+    "timestamp": "34:30-35:00",
+    "quote": "Let's say you bought the stock here, okay? Now, overall this, okay, once you have bought the stock... So, mark the midpoint here.",
+    "what_is_shown": "Chart showing entry point, subsequent big move/extension, and marked midpoint (trailing stop loss level)",
+    "visual_description": "A daily candlestick chart for CAPLIN POINT LAB LTD. (CAPLIPOINT) is shown, featuring an MA Ribbon indicator and a horizontal line drawn at a recent high. As the speaker says \"bought the stock here,\" the cursor moves over a large green candle from late July and settles on its midpoint, which is marked with a white plus sign around the 1,430 price level. The screen then cuts to a presentation slide titled \"List: OPEN POSITIONS & CLOSED POSITIONS.\"",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2070s.mp4"
+  },
+  {
+    "timestamp": "35:00",
+    "quote": "on this day, after the close, you will place an alert here for the next day because now this low of the day becomes your trailing stop loss.",
+    "what_is_shown": "Chart showing small candle with its low marked as new trailing stop loss level",
+    "visual_description": "The clip begins on a presentation slide titled \"List: OPEN POSITIONS & CLOSED POSITIONS\" with bullet points about trade management. The view then transitions to the homepage of the \"Market In&Out\" trading platform, showing descriptions of tools like \"Stock Screener\" and \"Portfolio Tracker.\" The mouse cursor moves over the main text, while a small thumbnail chart for the S&P 500 IX is visible in the right sidebar.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2100s.mp4"
+  },
+  {
+    "timestamp": "38:00-38:30",
+    "quote": "Add these four indicators. How to add? You can click on the indicator here. Then let's say you're adding SMA, so you find SMA here. Then write here 50 and click on add. Then write 200, click on add.",
+    "what_is_shown": "MarketInOut platform chart template setup screen showing indicator addition interface, field inputs, and buttons",
+    "visual_description": "On the Market InOut platform, charts for HINDZINC.NS show the price at 392.90. The daily chart (top right) displays SMA(50) and SMA(200) indicators, valued at 392.90 and 382.93 respectively, with an upward sloping trendline drawn below the price. Throughout the clip, the cursor moves over and circles the price action on both the weekly and daily HINDZINC charts, highlighting the area around the moving averages being discussed.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2280s.mp4"
+  },
+  {
+    "timestamp": "39:00-39:30",
+    "quote": "you should go to the resources folder of the of the course and there I've given you the conditions that you the formula that you need to paste here for each scanner. So, you have to create all the scanners here... write down the name of the scanner here. So, for example, we are creating PPC scan.",
+    "what_is_shown": "MarketInOut formula screener interface showing where to enter scanner name and paste formula",
+    "visual_description": "On the Market In Out stock screener website, candlestick charts for stocks like HINDZINC and VEDL are displayed with moving average indicators and volume charts. The page shows side-by-side weekly/daily and daily charts for each stock. The user scrolls down the page, and the cursor moves from the daily chart of HINDZINC to the daily chart of VEDL.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2340s.mp4"
+  },
+  {
+    "timestamp": "40:00-40:30",
+    "quote": "Now here, based on the formula that we have entered, you will get a list of all the stocks that have made a PPC today. So, we have got some 20 stocks here... Now here you have the name, you have the industry, you have the sector. So, always click on this sector and sort it using sector.",
+    "what_is_shown": "MarketInOut overview tab showing list of stocks with columns (name, industry, sector, exchange, market cap, price, % change, volume) and sector sorting interface",
+    "visual_description": "The screen shows the Market In & Out stock screener, displaying a grid of candlestick charts for stocks in the \"Basic Materials\" sector, including Hindustan Zinc (HINDZINC.NS) and Vedanta (VEDL.NS). On the left, a list shows stock names (e.g., JINDALSTEL.NS, TATASTEEL.NS), their industry, and sector. The cursor moves down this list and comes to rest over the \"Sector\" column heading, highlighting it.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2400s.mp4"
+  },
+  {
+    "timestamp": "40:30-41:00",
+    "quote": "Then you can go to the overview tab and click on charts. Now this is where it becomes really interesting... Now I get all the charts of these stocks just like that... on the top, you have all these settings. So, do it exactly the way I've done. You can click on the daily and the weekly. Turn on the combined periods.",
+    "what_is_shown": "MarketInOut charts view with multiple stock charts displayed in grid, settings buttons for daily/weekly/combined periods toggle at top",
+    "visual_description": "On the Market In Out website, the screen displays the formula editor for a stock screen named \"IND/FPC\". The cursor moves from the complex formula box and clicks the \"Go To My Screens\" link. The page then navigates to a list of saved stock screens, including \"IND / FPC\", \"IND / My Stocks\", and \"PPC Ready\". The cursor comes to rest over the \"IND/PPC\" link.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2430s.mp4"
+  },
+  {
+    "timestamp": "41:00-41:30",
+    "quote": "By turning on the combined periods, on the left hand side, you will have the weekly chart by default and on the right hand side, you will have the daily chart... this stock Hindustan Zinc, here we have the weekly chart, here we have the daily chart.",
+    "what_is_shown": "Combined periods view showing Hindustan Zinc with weekly chart on left and daily chart on right side by side",
+    "visual_description": "The screen shows the \"Formula Screener\" page on the \"Market In Out\" platform, which is inconsistent with the speaker's description of stock charts. A large \"Formula Expression\" text box displays a complex, multi-line trading algorithm with conditions for price, simple moving averages (SMA), and average true range (ATR). No charts, stock names, price levels, or drawn patterns are visible; instead, the view consists of screener configuration fields.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2460s.mp4"
+  },
+  {
+    "timestamp": "42:00-42:30",
+    "quote": "For example, I like this stock Vedanta. Okay, I want to add it to a watch list. So, what I what I'll do is I'll just click on the name here and then you see, I have this option to add the stock to my watch list. Click on add and click on the select the watch list.",
+    "what_is_shown": "MarketInOut chart grid interface showing click action on stock name 'Vedanta' and resulting menu/dialog to add to watch list",
+    "visual_description": "The screen shows a daily candlestick chart for the stock VEDANTA on the MarketInOut platform, with the price around ₹260 and three moving average indicators. The cursor moves to click on the hyperlinked stock name \"VEDANTA\" at the top left of the chart. This action opens a pop-up menu, from which the user clicks \"Add to Watchlist,\" causing a second pop-up to appear for selecting the specific list. A phone number watermark is visible across the chart.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2520s.mp4"
+  },
+  {
+    "timestamp": "42:30",
+    "quote": "The dotted lines here. The dotted lines represent the day on which the earnings were announced.",
+    "what_is_shown": "Chart showing dotted vertical lines marking earnings announcement dates",
+    "visual_description": "The screen displays a daily candlestick chart for Paradeep Phosphates Ltd. (PARADEEP) on the MarketInOut platform, which includes three moving averages and a volume chart. As the speaker says, \"The dotted lines here,\" the cursor moves from left to right across the chart, highlighting three separate vertical dotted lines. The speaker explains that these lines indicate the dates on which company earnings were announced.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2550s.mp4"
+  },
+  {
+    "timestamp": "40:27",
+    "quote": "I have run the PPC scan here. Uh this is for the Indian market. So, go to edit screen.",
+    "what_is_shown": "MarketInOut scanner interface with PPC scan results and edit screen option",
+    "visual_description": "The screen displays the \"Formula Screener\" setup page on the Market In Out website, with the screen name entered as \"IND PPC.\" A large text box contains a complex, multi-line formula for screening stocks based on criteria like average volume, price relative to moving averages (SMA), and Average True Range (ATR). The cursor is initially visible in the middle section of the screen but disappears after the first two seconds, and the view remains static.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2427s.mp4"
+  },
+  {
+    "timestamp": "40:27-41:00",
+    "quote": "This is your turnover. This is your liquidity criteria.",
+    "what_is_shown": "Scanner formula with labeled sections for turnover and liquidity criteria values",
+    "visual_description": "On the Market In Out website's \"Formula Screener\" page, the cursor highlights the first few lines of a complex formula for the \"IND PPC\" screen. The speaker specifically refers to the highlighted code `(and(avg(vol*,price,100) > 150000000 and avg(vol*,price,20) > 150000000` as the \"turnover\" and \"liquidity criteria.\" The rest of the screen shows the various input fields and options for building a formula-based stock screener.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2427s.mp4"
+  },
+  {
+    "timestamp": "41:30-42:00",
+    "quote": "I have right now I have just turned off the combined period and made the charge chart huge. I just wanted to show you the daily chart, that's why.",
+    "what_is_shown": "Chart display showing daily timeframe with combined period turned off",
+    "visual_description": "From a stock screener list, the user switches to the chart view for the stock PARADEEPNS (Paradeep Phosphates Ltd). The cursor then moves to the settings bar above the chart to turn the \"Combined Periods\" option \"OFF\" and change the chart \"Size\" to \"Huge.\" The clip ends with a large daily candlestick chart of PARADEEPNS, with red, gold, and grey moving average lines, as the cursor clicks on the \"Daily\" template option.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2490s.mp4"
+  },
+  {
+    "timestamp": "42:00",
+    "quote": "there is an option here called show and hide. Next bars, show and hide. So here, when I click on show, see, uh this this orange line shows me the 1st December.",
+    "what_is_shown": "Chart with orange line marking December 1st date on x-axis and show/hide next bars buttons",
+    "visual_description": "On the MarketInOut.com platform, a daily candlestick chart for Paradeep Phosphates Ltd (PARADEEP) is displayed with three moving average lines. The cursor moves to the menu above the chart and clicks on the \"Show\" link next to the \"Next Bars\" option. This action adds a vertical dashed orange line to the far right of the chart, which the speaker identifies as marking the 1st of December.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2520s.mp4"
+  },
+  {
+    "timestamp": "42:00-42:30",
+    "quote": "when I click on show next bars, so you will see the next few bars as well. But when I click on hide next bars, then the next bar will be hidden",
+    "what_is_shown": "Chart bars appearing and disappearing with toggle of show/hide next bars function",
+    "visual_description": "On a daily candlestick chart for Paradeep Phosphates Ltd. (PARADEEP), the cursor moves to and clicks the \"Show\" link. This reveals several future price bars (candlesticks) to the right of a vertical dotted line marking the current date. The cursor then immediately clicks the link, which now reads \"Hide,\" causing the newly appeared bars to vanish from the chart.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2520s.mp4"
+  },
+  {
+    "timestamp": "42:30",
+    "quote": "you have the basic material six, it means there are six stocks in the scan that are coming from the basic material. And this is the industry, agriculture inputs within basic materials, one stock from this.",
+    "what_is_shown": "Scanner results breakdown by sector/industry with numerical counts displayed",
+    "visual_description": "On the MarketInOut platform, a stock chart for Paradeep Phosphates Ltd. (PARADEEP) is shown, with a last price of 115.00 and several moving average indicators. The chart is categorized under \"Basic Materials: Agricultural Inputs.\" The mouse cursor appears in the lower-left corner over the navigation menu and moves up to hover on the \"Basic Materials\" link.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2550s.mp4"
+  },
+  {
+    "timestamp": "45:30",
+    "quote": "this stock, look at this Chalet. This stock, have a look at this daily chart here. It's a nice base forming, right? It's a nice rounding base forming, good PPCs in the base.",
+    "what_is_shown": "Specific stock chart showing rounding base pattern with PPCs marked",
+    "visual_description": "The screen shows a daily candlestick chart for the stock CHALET (Chalet Hotels Ltd.), where a blue U-shaped line has been drawn to highlight a \"rounding base\" pattern that formed between late April and late June. The price consolidates between approximately ₹330 and ₹395, and the cursor traces this drawn curve. Below the price chart, the volume pane shows several large green bars (the \"PPCs\" mentioned) within the base, and a rising Relative Strength (RS) line is also visible.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2730s.mp4"
+  },
+  {
+    "timestamp": "45:30",
+    "quote": "Now this stock is making a breakout attempt. Okay, so I can put this stock into my near list.",
+    "what_is_shown": "Chart showing breakout attempt with price action near resistance level",
+    "visual_description": "On the screen is a daily candlestick chart for the stock MASTEK, showing a breakout attempt. A red, downward-sloping trendline is drawn over the price action, which the most recent large green candle has just broken above. The cursor initially highlights this breakout candle, while a horizontal yellow line marks a key resistance pivot level near 2600.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2730s.mp4"
+  },
+  {
+    "timestamp": "46:00",
+    "quote": "I can click on the name of the stock and just click on the watch list near, create a new watch list here",
+    "what_is_shown": "Watch list interface with stock name and menu options to add to 'near' list",
+    "visual_description": "The screen displays a presentation slide titled \"The Contraction Scan\" with several bullet points outlining criteria for a stock scan. As a blue circular cursor moves from left to right, more bullet points are dynamically added to the slide, explaining the purpose and next steps, such as putting stocks into a \"Watchlist: READY\". No stock charts, prices, or technical indicators are visible, only the text-based slide and the cursor movement.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2760s.mp4"
+  },
+  {
+    "timestamp": "48:00-48:30",
+    "quote": "Let's say this is the base. This is your setup and then it's pulling back and here you have some contraction, three three days of contraction, right?",
+    "what_is_shown": "Chart with labeled base formation, pullback, and three-day contraction period",
+    "visual_description": "The screen shows a presentation slide titled \"The Contraction Scan,\" featuring a hand-drawn chart pattern illustrating a price pullback and consolidation. The pattern is annotated with \"PPC,\" \"A/V,\" and \"W/L -> R,\" with the consolidation area boxed and marked \"III\" to represent a three-day contraction. As the speaker says \"three three days of contraction,\" the cursor circles this \"III\" mark to emphasize the concept being explained. No specific stock, price levels, or indicators are visible.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2880s.mp4"
+  },
+  {
+    "timestamp": "48:30",
+    "quote": "if the price breaks above this level, you have supposed to buy the stock",
+    "what_is_shown": "Chart with drawn resistance/trigger level that price breaks above",
+    "visual_description": "A static daily candlestick chart for Polymedicure Ltd (POLYMED) is shown, with several moving average indicators. The price is currently consolidating in a tight range, or \"contraction,\" near the 900-920 level, hovering around a red moving average line. There is no cursor movement or drawing during this clip.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_2910s.mp4"
+  },
+  {
+    "timestamp": "50:00",
+    "quote": "You see all the charts on the daily chart, you will see contraction or congestion forming. So this scan will give out these sorts of stocks where there is congestion or contraction forming.",
+    "what_is_shown": "TradingView charts displaying daily and weekly views side-by-side with visible contraction/congestion patterns",
+    "visual_description": "The screen shows a static presentation slide titled \"THE SETUP SCAN\" on a white background. The slide contains a bulleted list describing the purpose and criteria of a stock scan, such as finding liquid stocks with a positive candle. There are no charts, stock names, price data, or cursor movements, and a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is visible in the bottom-right corner.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_3000s.mp4"
+  },
+  {
+    "timestamp": "50:15",
+    "quote": "You see a perfect base forming, it's a breakout attempt, then it has pulled back and now it's contracting and you can identify trigger level here.",
+    "what_is_shown": "Shilpa Med stock chart zoomed in showing base formation, breakout attempt, pullback, contraction, and marked trigger level",
+    "visual_description": "A candlestick chart for the stock GRANULES shows a hand-drawn basing pattern with annotations for a \"Breakout,\" a \"Pullback,\" and a \"Contraction.\" The cursor moves to the recent consolidation area following the pullback. A horizontal line is then drawn at the top of this consolidation, establishing a \"trigger level\" at approximately the 358.55 price point.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_3015s.mp4"
+  },
+  {
+    "timestamp": "50:30",
+    "quote": "So you can see now in this stock, there are PPCs forming here as well as here.",
+    "what_is_shown": "Shilpa Med chart with PPC (Perfect Pullback Continuation) patterns marked at two specific locations",
+    "visual_description": "The screen displays side-by-side weekly (left) and daily (right) candlestick charts for the stock SBIN (State Bank of India). The speaker uses a blue circular cursor to highlight two areas of price consolidation on the daily chart, which are referred to as \"PPCs\". The first circle is drawn around the price action from late April/early May 2023, and the second is drawn on the more recent consolidation from late June to early July 2023.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_3030s.mp4"
+  },
+  {
+    "timestamp": "61:00-61:30",
+    "quote": "I plot the plot two moving averages, that is the 10 and the 20 on the daily and the weekly charts. The best environment is...when the 10 simple moving average floats above the 20 simple moving average and the price floats above both these moving averages and both these moving averages are sloping up. So I'll just draw a diagram of how it looks and then we'll also look at the charts.",
+    "what_is_shown": "Diagram showing price above 10 SMA above 20 SMA with both moving averages sloping upward",
+    "visual_description": "On a presentation slide titled \"MS - Index,\" a bullet point appears that reads, \"• Use 10/20 SMA on D and W charts.\" This text corresponds to the speaker's discussion of using the 10 and 20 simple moving averages (SMA) on daily (D) and weekly (W) charts. A teal circular cursor with an arrow inside moves to highlight the \"10/20\" part of the new text.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_3660s.mp4"
+  },
+  {
+    "timestamp": "62:00-62:30",
+    "quote": "The 10 SMA crosses below 20 SMA...And finally, we have this 10 and the 20 SMA sloping downwards...the stock price moves like this and then it transitions and starts going down. So this is the 10 moving average. And then this becomes the 20.",
+    "what_is_shown": "Diagram showing moving average crossover with 10 SMA crossing below 20 SMA and both sloping downward; price action transitioning from uptrend to downtrend",
+    "visual_description": "A presentation slide titled \"MS - Index\" is displayed, detailing a trading strategy using 10 and 20 Simple Moving Averages (SMA). The slide lists criteria for \"Weak Signals,\" including \"20 SMA crosses over 10 SMA\" and \"10/20 SMA sloping downward.\" Throughout the clip, a blue-green circular cursor hovers over the text \"price breaks below a support.\" No charts or stock prices are shown.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_3720s.mp4"
+  },
+  {
+    "timestamp": "63:00",
+    "quote": "So here we are on the daily chart of Nifty 500...You see, price is floating above the 10 and the 20. This orange line is the 10 and the green line is the 20. Okay?...this is the best environment where you'll see you will be making easy trades",
+    "what_is_shown": "Nifty 500 daily chart with price above orange 10 SMA and green 20 SMA, both moving averages sloping upward",
+    "visual_description": "This clip shows a daily candlestick chart of the NIFTY 500 index on the TradingView platform. After closing the \"MA Ribbon\" settings window, the cursor moves over the right side of the chart, highlighting an uptrend where the price candles are consistently above the orange 10-period and green 20-period moving averages. The speaker identifies this specific area, from roughly April to September 2023, as the \"best environment\" for trading.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_3780s.mp4"
+  },
+  {
+    "timestamp": "63:30",
+    "quote": "the environment that we had post COVID... the price was staying above the 10 and the 20",
+    "what_is_shown": "Chart showing post-COVID price action with 10 and 20 period moving averages positioned above price",
+    "visual_description": "This clip displays a daily candlestick chart for the NIFTY 50 index, showing a strong uptrend from the March 2020 \"COVID fall\" low (around 7,500) to late 2021 (above 14,000). The price action is consistently above two upward-sloping moving averages (white and light green lines), which the speaker identifies as the 10 and 20-period MAs. The cursor moves backward from August 2021 to March 2021, highlighting this bullish period before the chart's timeframe briefly switches to weekly at the end.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_3810s.mp4"
+  },
+  {
+    "timestamp": "64:00",
+    "quote": "on the weekly chart... the white line is the 10, the orange line is the 20... the market went into a smooth, smooth, favorable state... the first close... first breakdown",
+    "what_is_shown": "Weekly chart with 10 and 20 moving averages identified by color, showing post-COVID uptrend and the specific candle where breakdown occurs",
+    "visual_description": "This clip displays a weekly candlestick chart of the NIFTY 50 index from 2020 to early 2023. The chart includes a white 10-week moving average, an orange 20-week moving average, and a slower purple moving average. As the speaker identifies the white and orange lines, the cursor moves left from the late 2021 price peak to highlight the preceding uptrend where the price stayed consistently above the moving averages.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_3840s.mp4"
+  },
+  {
+    "timestamp": "64:30",
+    "quote": "You see this crossover here... the 10 went below the 20... mark this previous low as the support... the stock broke below that support",
+    "what_is_shown": "Weekly chart showing moving average crossover, previous low support level marked, and price breaking below that support",
+    "visual_description": "On a weekly candlestick chart of the NIFTY 50 index, the cursor first points to a bearish moving average crossover from early 2022, where the 10-period (white) line dropped below the 20-period (yellow) line. The cursor then moves to identify the subsequent swing low from June 2022, near the 15,200 level, as a key support. Finally, the cursor shows where the index price broke below this support level in early 2023.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_3870s.mp4"
+  },
+  {
+    "timestamp": "65:00",
+    "quote": "on the daily chart here, we are at the top of that 2021 market... the price was staying above the 10 and the 20 and for the first time it closed below both these averages here",
+    "what_is_shown": "Daily chart showing 2021 market top and the specific candle closing below both moving averages",
+    "visual_description": "The screen displays a daily candlestick chart of the NIFTY 50 index with multiple moving averages. The cursor first highlights the price action in late September/early October 2021, where the price is above the yellow (10-period) and green (20-period) moving averages. It then moves down to a large red candle from late October, pointing out where the price first closed below both of these averages, which are around the 17,600-17,800 level.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_3900s.mp4"
+  },
+  {
+    "timestamp": "65:30",
+    "quote": "You see this moving average crossover... the previous swing low was this... the support got broken down here... You see how the chart looked all the way up and suddenly you see this happening",
+    "what_is_shown": "Daily chart displaying moving average crossover, marked swing low support level, breakdown point, and visual chart distortion",
+    "visual_description": "The screen displays a daily candlestick chart for the NIFTY 50 index on the NSE. A cyan curved line is drawn over a rounded top pattern from September to November, with a yellow horizontal line indicating a support level around 15000. The cursor points to a bearish moving average crossover in early November, then moves to a swing low on the support line, and finally indicates where the price broke down through that support.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_3930s.mp4"
+  },
+  {
+    "timestamp": "66:30",
+    "quote": "You see the price, the index started to go down here... produced a small upswing... the price action here... it clearly shot back down... the market was horrible for the next few weeks... a small upswing... gap down candle",
+    "what_is_shown": "Ongoing daily chart showing downtrend, minor upswings, failed recoveries, and gap down candle formations",
+    "visual_description": "This clip displays a daily candlestick chart for the NIFTY 50 index in 2022, with several moving average indicators plotted. The cursor moves to highlight specific price movements corresponding to the speaker's commentary. It first points to a downtrend starting in April, moves to a brief upswing, then to the sharp drop that followed, and finally indicates a subsequent small rally before a significant gap down candle in mid-June.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_3990s.mp4"
+  },
+  {
+    "timestamp": "67:30",
+    "quote": "it produces an upswing here, you see? How the stock starts to slope up and moving average starts to slope up... at the start of this swing",
+    "what_is_shown": "Chart section showing beginning of an upswing with moving averages turning upward",
+    "visual_description": "The screen shows a daily candlestick chart for the NIFTY 500 index from March to August 2022, with several moving average lines plotted. A hand-drawn cyan circle highlights a point in mid-July where the price (around 13800) and the moving averages cross over and begin to slope upwards. The white crosshair cursor starts inside the circle and moves slightly up and to the right, tracing the beginning of this upward price swing.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_4050s.mp4"
+  },
+  {
+    "timestamp": "68:00",
+    "quote": "it slopes up and then there are problems start happening here... closes down here... shoots back up... slopes up... clearly closes below the 10 and the 20... cross over... support is broken down here",
+    "what_is_shown": "Chart showing multiple failed upswing attempts with candle closures, moving average crossovers, and support breakdown points",
+    "visual_description": "This is a daily candlestick chart for the NIFTY 50 index, showing several moving average indicators. The cursor traces the price action from a peak in late 2022, pointing out a subsequent sharp drop and a brief recovery attempt. The speaker then highlights the price closing below the shorter-term moving averages (green and yellow lines) in early February 2023, followed by a break below the longer-term moving average (purple line), indicating a breakdown of support.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_4080s.mp4"
+  },
+  {
+    "timestamp": "68:30",
+    "quote": "out of the market... slopes down, everything is weak... starts to slope up once again... bouncing off very nice... Build aggressively positions... moving up, up, up... this is a healthy market",
+    "what_is_shown": "Chart progression from downtrend through reversal signals into healthy uptrend with clear moving average slopes",
+    "visual_description": "This clip displays a daily candlestick chart for the NIFTY 50 index with multiple moving average indicators. The cursor first highlights a recent downtrend in late September/early October 2023 where the price is below the moving averages, illustrating the \"weak\" market. It then moves back to the strong uptrend from April to August 2023, tracing how the price repeatedly \"bounced\" off the white moving average line as it moved \"up, up, up\" in what the speaker terms a \"healthy market.\"",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_4110s.mp4"
+  },
+  {
+    "timestamp": "73:00",
+    "quote": "a lot of stocks are having choppy topping structures like this",
+    "what_is_shown": "Visual examples of choppy topping structures on stock charts",
+    "visual_description": "The screen displays a presentation slide titled \"MS - WATCHLIST\" with bullet points about market analysis, not a stock chart. As the speaker mentions \"choppy topping structures,\" a small circular cursor moves to highlight the bullet point that reads, \"Are a lot of stocks forming topping structures?\". The cursor then turns into an arrow and moves to the right, as if to transition to an example.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_4380s.mp4"
+  },
+  {
+    "timestamp": "73:30",
+    "quote": "this is the 10 day moving average and this is the 20 day moving average. Now, once again, the index is making a an upswing here",
+    "what_is_shown": "Index chart with 10-day and 20-day moving averages plotted, showing an upswing",
+    "visual_description": "The screen shows a presentation slide titled \"MS - WATCHLIST\" with several bullet points about market analysis. While the speaker describes a stock chart with 10-day and 20-day moving averages and an upswing, this is not visible on screen. Instead, the cursor appears and moves to point at the bullet point \"Are a lot of stocks forming topping structures?\". The audio and video are completely mismatched.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_4410s.mp4"
+  },
+  {
+    "timestamp": "75:00-75:30",
+    "quote": "a lot of stocks are have structures like this. Okay, a lot of stocks are trading here",
+    "what_is_shown": "Visual representation of extended stock structures/patterns in the watch list context",
+    "visual_description": "The screen displays a presentation slide titled \"MS - WATCHLIST\" with bullet points about market analysis. At the bottom are three hand-drawn chart patterns: a downward channel on the left, and two \"W\" or double-bottom patterns in the middle and on the right. As the speaker says \"structures like this,\" a white arrow cursor points to the middle \"W\" pattern, then moves to trace the top of the right-most \"W\" pattern as they continue speaking.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_4500s.mp4"
+  },
+  {
+    "timestamp": "76:00",
+    "quote": "you are seeing most of the stocks are here. It means that this is not a good time to buy",
+    "what_is_shown": "Watch list with multiple stocks displayed in extended positions on charts",
+    "visual_description": "A presentation slide titled \"MS - WATCHLIST\" is displayed, featuring several hand-drawn chart patterns on the right. As the speaker explains that it's \"not a good time to buy,\" the cursor moves from the top-right corner to hover over two choppy, sideways chart patterns. These patterns are annotated with the letters \"E\" and \"W\", representing the unfavorable market conditions the speaker is describing.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_4560s.mp4"
+  },
+  {
+    "timestamp": "76:30",
+    "quote": "these structures after the breakout, they may again be coming back within the base or they'll be forming a totally new structure like this",
+    "what_is_shown": "Chart patterns showing post-breakout pullbacks and new base formations",
+    "visual_description": "The screen displays a presentation slide titled \"MS - WATCHLIST\" with several hand-drawn chart patterns on the right. As the speaker discusses post-breakout behavior, they use a digital pen to draw two potential outcomes on a sample chart pattern. First, they draw a downward sloping line, indicating a price returning to its previous base, and then draw a new sideways consolidation pattern to illustrate a new structure forming at a higher level.",
+    "status": "critical",
+    "_file": "dr-1.txt",
+    "_vid_id": "H3DQ557G0-s",
+    "clip_file": "H3DQ557G0-s_4590s.mp4"
+  },
+  {
+    "timestamp": "14:30-15:00",
+    "quote": "You can mark your entries and exits on that chart. You can use a function that's there on TradingView. The function's name is bar replay.",
+    "what_is_shown": "TradingView interface with bar replay function location and how to access it",
+    "visual_description": "",
+    "status": "error",
+    "_file": "dr-2.txt",
+    "_vid_id": "EEjTQcSekwA",
+    "clip_file": "EEjTQcSekwA_870s.mp4",
+    "error": "Clip extraction failed"
+  },
+  {
+    "timestamp": "15:00",
+    "quote": "Using that function, you can play the bar live one by one...mark your entries and exits the way I have done in my uh setup examples.",
+    "what_is_shown": "Setup examples with marked entries and exits on historical charts",
+    "visual_description": "",
+    "status": "error",
+    "_file": "dr-2.txt",
+    "_vid_id": "EEjTQcSekwA",
+    "clip_file": "EEjTQcSekwA_900s.mp4",
+    "error": "Clip extraction failed"
+  },
+  {
+    "timestamp": "01:03",
+    "quote": "You can mark your entries and exits on that chart",
+    "what_is_shown": "TradingView chart with entry and exit marks drawn on it",
+    "visual_description": "The screen displays a static presentation slide titled \"CDR - Weekends\" with a bulleted list of tasks for traders. No stock chart, prices, or indicators are visible. During the clip, the cursor appears and remains stationary over the sub-bullet point \"Scan - Big Movers,\" which is listed under \"Analyse historical charts.\" A logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is in the bottom-right corner.",
+    "status": "critical",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_63s.mp4"
+  },
+  {
+    "timestamp": "01:34",
+    "quote": "using that function, bar replay to study historical charts and mark your exits, mark your entries and exits the way I have done in my uh setup examples",
+    "what_is_shown": "TradingView bar replay function being used and marked entry/exit examples on charts",
+    "visual_description": "The screen shows a presentation slide with a white background, titled \"CDR - Weekends,\" listing several bullet points for analysis. A light blue circular cursor moves onto the screen and repeatedly circles the sub-bullet point \"Mark entries and exits,\" which is listed under the main point \"Analyse historical charts.\" No stock charts, prices, or technical indicators are visible, only the text on the slide.",
+    "status": "critical",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_94s.mp4"
+  },
+  {
+    "timestamp": "06:38",
+    "quote": "I've run the scanner and you see the list of stocks",
+    "what_is_shown": "MarketInOut scanner results showing filtered stock list",
+    "visual_description": "The clip starts by showing a list of 20 scanned stocks, such as FLUOROCHEM.NS and ELECTCAST.NS, on the \"Market In Out\" website. The user clicks the \"Charts\" button, which replaces the table view with a series of candlestick charts for the scanned stocks. The chart for FLUOROCHEM.NS is shown first, displaying price action with several moving average indicators, before the user scrolls down to reveal the chart for ELECTCAST.NS.",
+    "status": "critical",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_398s.mp4"
+  },
+  {
+    "timestamp": "06:38",
+    "quote": "when you click on sector here, it the stocks get sorted by sector and then within that it gets sorted using the industry",
+    "what_is_shown": "MarketInOut interface with sector sorting functionality being demonstrated",
+    "visual_description": "On the Market In Out stock screener, the user clicks the \"Sector\" column header in a table of 20 stocks. This action sorts the table first alphabetically by sector, then by industry, and changes the view to display candlestick charts for the stocks. The user then scrolls down, revealing the charts for FLUOROCHEM and ELECTCAST, which include red and black candlesticks and several moving average indicators.",
+    "status": "critical",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_398s.mp4"
+  },
+  {
+    "timestamp": "07:09",
+    "quote": "if you click on this and click on charts here, you get ready-made charts here. Look at this. All the stocks you get the charts, just like this",
+    "what_is_shown": "MarketInOut charts display for multiple stocks",
+    "visual_description": "On the \"Market In Out\" stock screener, a table of 20 stocks is displayed. The cursor moves to the top-right \"Overview\" dropdown menu and clicks on the \"Charts\" option. The stock table is then replaced by a loading screen, preparing to display charts for all the listed stocks.",
+    "status": "critical",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_429s.mp4"
+  },
+  {
+    "timestamp": "07:40",
+    "quote": "You just get all the charts like this. Now here you can zoom in and zoom out as well",
+    "what_is_shown": "MarketInOut chart zoom controls and functionality",
+    "visual_description": "The screen shows a grid of four stock charts on the Market In Out platform: FLUOROCHEM, ELECTCAST, MAZDOCK, and TATACOMM. The cursor moves over the top-right chart for ELECTCAST (Electrosteel Castings Ltd.) and clicks, causing the view to zoom in on that specific chart. The enlarged daily chart for ELECTCAST fills the screen, showing price action up to approximately 48.65, along with volume and moving average indicators.",
+    "status": "critical",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_460s.mp4"
+  },
+  {
+    "timestamp": "08:10",
+    "quote": "If I want to change the time frame, you can just click on the daily, weekly, monthly",
+    "what_is_shown": "MarketInOut timeframe selection buttons and chart updates",
+    "visual_description": "On the Market In Out website, a grid of stock charts is displayed, including FLUOROCHEM.NS and ELECTCAST.NS. The user then scrolls down the page, revealing more candlestick charts for tickers such as TTML.NS, CROMPTON.NS, and AIAENG.NS. Each chart features price data, volume histograms, and several moving average indicators. The cursor remains mostly stationary over the top-right chart area as the page scrolls.",
+    "status": "critical",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_490s.mp4"
+  },
+  {
+    "timestamp": "08:41",
+    "quote": "you get the sectors and the industries printed here. Look at this, Fluorocam, it's from the basic material sector and the industry is specialty chemical",
+    "what_is_shown": "Specific stock chart with sector and industry labels displayed",
+    "visual_description": "The screen displays a presentation slide titled \"SCANNER - MarketInOut\" with a bulleted list of features, including \"Ready Charts with Sector and Industry.\" During the clip, a new bullet point, \"Backdated scan,\" is added to the list. A circular blue cursor briefly appears next to this new text at the end of the clip. No stock charts, price levels, or indicators are shown.",
+    "status": "critical",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_521s.mp4"
+  },
+  {
+    "timestamp": "09:11",
+    "quote": "Crompton, it's from the consumer cyclical, furniture fixtures industry",
+    "what_is_shown": "Specific stock chart with sector and industry information labeled",
+    "visual_description": "On the \"Market In Out Stock Screener\" platform, the user clicks on the stock name \"CROMPTON\" from a list of results. This action opens the daily candlestick chart for Crompton in a new browser tab. Below the stock's name on the chart, its sector and industry are clearly displayed as \"Consumer Cyclical | Furniture, Fixtures & Appliances,\" which is what the speaker is reading aloud. The chart also displays volume and an oscillator indicator below the price candles.",
+    "status": "critical",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_551s.mp4"
+  },
+  {
+    "timestamp": "09:42",
+    "quote": "if I go to edit screen, if I want to run the scan on a previous particular date, so I can just click on edit screen and there is a command here",
+    "what_is_shown": "MarketInOut edit screen interface and backdated scan command input",
+    "visual_description": "The clip starts on the \"Formula Screener\" page for a scan named \"India CDS-INU-50\" on the Market In Out website. The cursor moves from the formula input box over to the \"Run Screen\" link and clicks it. The page then loads the \"Stock Screener Results,\" displaying a table with 21 matching stocks and their corresponding market data.",
+    "status": "critical",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_582s.mp4"
+  },
+  {
+    "timestamp": "09:42",
+    "quote": "I'll write 09 that is the month, September, 22, that's the date and the year 2023",
+    "what_is_shown": "MarketInOut date input field with example date being typed",
+    "visual_description": "On the Market In Out \"Formula Screener\" page, the speaker types the date \"09/22/2023\" into a date field at the end of a formula expression for a backdated scan. The cursor then moves to and clicks the \"Run Screen\" link. The page reloads to show the \"Stock Screener Results,\" displaying a table of 21 stocks that matched the criteria for that date, with GUJALKALI being the first stock listed.",
+    "status": "critical",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_582s.mp4"
+  },
+  {
+    "timestamp": "10:13",
+    "quote": "now you see this line has come. So it means that the scanner has run on this particular date",
+    "what_is_shown": "MarketInOut chart with indicator line showing backdated scan result",
+    "visual_description": "On the screen, a \"Windows Player\" interface for the \"CTMIND-- English\" program is shown. The cursor clicks on the video file named \"23A Scanner - MarketInOut\" in the playlist on the left. This action triggers a new dialog box to appear, asking, \"Do you want to play this video?\" for the file \"23B Setting Up MarketInOut.\" Contrary to the speaker's narration, no stock chart, price levels, or indicators are visible in this clip.",
+    "status": "critical",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_613s.mp4"
+  },
+  {
+    "timestamp": "11:35",
+    "quote": "Click on stock chart here. We are going to click create some templates. So click on stock chart, then click on my chart templates. Now as you can see, I have created three templates, daily, weekly and monthly.",
+    "what_is_shown": "MarketInOut interface showing the 'my chart templates' section with three existing templates (daily, weekly, monthly) visible",
+    "visual_description": "On the Market IN/OUT website, the user is on the \"Stock Chart\" page and clicks the \"My Chart Templates\" tab. The screen then displays a table of saved chart configurations. This table lists three existing templates named \"Daily,\" \"Weekly,\" and \"Monthly,\" each with options to edit, copy, or delete. No stock chart, price data, or indicators are visible on this final screen.",
+    "status": "critical",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_695s.mp4"
+  },
+  {
+    "timestamp": "12:06",
+    "quote": "So just click on add 50, add 20, add 200 and all of them should appear here. And you can look at the chart here. It appears like this.",
+    "what_is_shown": "Chart template settings interface showing the moving average inputs and the resulting chart with 20, 50 moving averages displayed",
+    "visual_description": "On the \"Market In Out\" website, the screen shows the \"Chart Template\" settings for a template named \"Monthly.\" The configuration already includes SMA(10) and SMA(40) as indicators, and the user has entered \"50\" into the input box to add another Simple Moving Average. During this time, the cursor moves from the top menu down over the \"Stock Chart\" and \"Stock Screener\" links in the left-side navigation pane. A small sample candlestick chart for SULA Vineyards is visible at the bottom.",
+    "status": "critical",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_726s.mp4"
+  },
+  {
+    "timestamp": "13:08-13:39",
+    "quote": "Now here, uh what you have to do is you have to go to the course resources folder... So in this particular thing, just paste one scanner's condition... These are the conditions, this is how the conditions will look like.",
+    "what_is_shown": "Formula screener interface showing where to paste scanner conditions and the format/layout of the condition fields",
+    "visual_description": "The screen shows the \"Formula Screener\" tool on the Market In Out website. A complex, multi-line formula, representing the scanner's conditions, is already pasted in the \"Formula Expression\" text box. The cursor first clears the \"Screen Name\" input field, then moves down to hover briefly over the formula and the \"Save Screen\" and \"Run Screen\" links. No specific stocks or charts are visible.",
+    "status": "critical",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_788s.mp4"
+  },
+  {
+    "timestamp": "14:10-14:41",
+    "quote": "So you can look at the list of your scanners by going to the my stock screen... Then all you have to do is run the scanner from the list. Let's say I run this scanner. So I get a list of these stocks.",
+    "what_is_shown": "Results list from scanner showing stocks with columns for symbols, industries, sectors, exchange, market cap, last price, change, percentage change, and volume",
+    "visual_description": "The screen displays a 2x2 grid of stock charts for FLUOROCHEM, ELECTCAST, NAZARA, and TATAMTRDVR from a stock screener called \"Market In Out.\" Initially, the charts are on a daily timeframe, showing candlestick price action, volume, and several moving average indicators. The cursor then moves to the top of the charts and clicks the \"Weekly\" template link, causing all four charts to refresh and display a weekly timeframe instead.",
+    "status": "critical",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_850s.mp4"
+  },
+  {
+    "timestamp": "14:41-15:12",
+    "quote": "You click on this, go to charts, you get ready made charts here... Now based on your preference screen size, you can adjust. You can make it a a smaller chart like this... I generally stay between 2x and 1:1. That's my spot.",
+    "what_is_shown": "Multi-chart view with adjustable chart sizes and zoom levels (2x, 1:1 ratios) and template selector buttons showing daily/weekly/monthly options",
+    "visual_description": "",
+    "status": "error",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_881s.mp4",
+    "error": "Clip extraction failed"
+  },
+  {
+    "timestamp": "15:12",
+    "quote": "If you click on the weekly, now all the charts will be the weekly time frame. Click on monthly, now these will be the monthly charts. You click on daily, these will be the daily charts.",
+    "what_is_shown": "Template selector interface with daily/weekly/monthly buttons and the resulting chart timeframe changes when each is clicked",
+    "visual_description": "",
+    "status": "error",
+    "_file": "dr-3.txt",
+    "_vid_id": "W7eXprf_XII",
+    "clip_file": "W7eXprf_XII_912s.mp4",
+    "error": "Clip extraction failed"
+  },
+  {
+    "timestamp": "03:00",
+    "quote": "here I have opened the India setup scan. So whatever your setup scan is, you can just click on edit screen and here I have mentioned 20 crores as the turnover",
+    "what_is_shown": "TradingView scan interface with India setup scan open, edit screen visible, turnover parameter set to 20 crores",
+    "visual_description": "On the Market In Out stock screener, the \"India Setup Scan\" tab is active, displaying the scan's formula in a text box and a table with 23 matching stocks, including GUJFLUOROCHE.NS and ELECTCAST.NS. The cursor moves from near the scan's name to the right, hovering over and highlighting the \"Edit Screen\" button. The speaker explains that this is where the scan's parameters, such as the 20 crore turnover mentioned in the formula, can be adjusted.",
+    "status": "critical",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc",
+    "clip_file": "kcLgkznqwFc_180s.mp4"
+  },
+  {
+    "timestamp": "04:00",
+    "quote": "If the stock is very very uh if the stock has moved much away from the 20 SMA or the 50 SMA on the upside, then I call those stocks extended",
+    "what_is_shown": "Chart showing stock price far above 20 SMA and 50 SMA, demonstrating what 'extended' looks like visually",
+    "visual_description": "The screen shows a presentation slide titled \"The Shortlist Scan.\" The slide has a bulleted list outlining criteria for stocks, with the final point being \"are not very extended.\" A light blue circular cursor highlights this last point on the list. There are no stock charts, prices, or technical indicators displayed.",
+    "status": "critical",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc",
+    "clip_file": "kcLgkznqwFc_240s.mp4"
+  },
+  {
+    "timestamp": "04:30",
+    "quote": "I have created this watch list here, India watch list. I'll just zoom it in. You can see India short list is the name of my watch list and there I have made three sections",
+    "what_is_shown": "TradingView watchlist panel showing 'India short list' with three sections visible",
+    "visual_description": "The screen displays a TradingView interface showing the daily chart for LAURUSLABS LTD, which is trading at 390.45 INR. The chart includes 20-day (392.21) and 50-day (370.47) moving average indicators. The cursor moves from the chart to the right-hand panel, highlighting a watchlist titled \"India\" that contains various stock symbols like CHOLAFIN and TATACHEM.",
+    "status": "critical",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc",
+    "clip_file": "kcLgkznqwFc_270s.mp4"
+  },
+  {
+    "timestamp": "05:00",
+    "quote": "You can just right click on this and create add a section and that's how the section gets added",
+    "what_is_shown": "Right-click context menu on watchlist showing 'add section' option",
+    "visual_description": "The clip begins on a TradingView interface showing a candlestick chart for LAURUSLABS, with a watchlist on the right. The screen then cuts to a presentation slide titled \"The Shortlist Scan.\" As the speaker talks about adding a section, a new bullet point appears on the slide: \"If the stock has a trigger bar and is ready for a trade, put it under 'Ready' section.\" The cursor, now a glowing cyan circle, moves to and highlights this new line of text.",
+    "status": "critical",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc",
+    "clip_file": "kcLgkznqwFc_300s.mp4"
+  },
+  {
+    "timestamp": "07:30",
+    "quote": "let's say this is the trigger bar, the previous one. Okay? So these kinds of stocks should be in the ready section.",
+    "what_is_shown": "Chart showing a specific candle labeled as trigger bar in ready section stock",
+    "visual_description": "This clip shows a daily candlestick chart for RBL BANK LTD (NSE), which is trading at 243.80. A horizontal orange line is drawn at a resistance level of approximately 246.40, and a small blue \"V\" pattern highlights the most recent price action near this resistance. As the speaker identifies \"the trigger bar,\" the cursor points to the tall green candle from the previous day, indicating this is a stock that is ready for a potential breakout.",
+    "status": "critical",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc",
+    "clip_file": "kcLgkznqwFc_450s.mp4"
+  },
+  {
+    "timestamp": "08:00",
+    "quote": "the stock has uh given this good volume pickup here. It it hits its previous stop here. And now the stock seems ready for a breakout",
+    "what_is_shown": "RBL Bank chart showing volume pickup area and previous resistance/stop level",
+    "visual_description": "The screen displays a daily candlestick chart for Patanjali Foods Ltd (PATANJALI) on a trading platform, with the price at 1229.50 INR. An orange horizontal line is drawn at a recent swing high near the 1300 level, marking a resistance point that the speaker calls the \"previous stop.\" As the speaker talks, the cursor moves to this resistance level, while a volume indicator at the bottom of the screen shows a recent spike in activity.",
+    "status": "critical",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc",
+    "clip_file": "kcLgkznqwFc_480s.mp4"
+  },
+  {
+    "timestamp": "08:00-08:30",
+    "quote": "if the stock pulls back like this, okay, and then we have the our trigger bar here forming, that's where we would be looking to enter",
+    "what_is_shown": "RBL Bank chart with pullback pattern and trigger bar formation marked",
+    "visual_description": "This clip shows a daily candlestick chart for Patanjali Foods Ltd. (PATANJALI) on TradingView. An orange horizontal line is drawn at a recent resistance level around 1280. As the speaker mentions a \"pullback,\" the cursor points to the recent red candles that have moved down towards the moving average indicators. The cursor then moves to the empty space to the right of the last candle, indicating the area where a future \"trigger bar\" for a trade entry might appear.",
+    "status": "critical",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc",
+    "clip_file": "kcLgkznqwFc_480s.mp4"
+  },
+  {
+    "timestamp": "08:30",
+    "quote": "The stock has this wake up call here, right? This is the wake up call for the stock and now the stock is nearing the end of the base",
+    "what_is_shown": "RBL Bank chart showing the 'wake up call' breakout confirmation point",
+    "visual_description": "The screen displays a daily candlestick chart for Patanjali Foods Ltd (PATANJALI) on the NSE, with the current price at 1229.45 INR. A yellow horizontal resistance line is drawn near the 1300 level, and a hand-drawn blue line illustrates a potential breakout-and-pullback price path. As the speaker mentions the \"wake up call,\" the cursor points to a large green candle from mid-September, then moves to trace the hand-drawn blue line showing the end of the base formation. The chart also includes an MA Ribbon and a volume indicator at the bottom.",
+    "status": "critical",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc",
+    "clip_file": "kcLgkznqwFc_510s.mp4"
+  },
+  {
+    "timestamp": "08:30",
+    "quote": "let's say we pick up this stock from the Indian market here. So this is how the stock is now",
+    "what_is_shown": "Chart of a stock in away section showing early base formation, stage two structure",
+    "visual_description": "The screen displays a daily candlestick chart for Patanjali Foods Ltd (PATAJALI) on the NSE, with the current price shown as 1229.45 INR. The cursor moves from a watchlist on the right, where \"PATAJALI\" is highlighted, to the main chart area. The chart is annotated with a yellow horizontal resistance line and a hand-drawn light-blue line illustrating a potential breakout, pullback, and continuation pattern. An MA Ribbon indicator is visible on the chart, along with a volume indicator at the bottom.",
+    "status": "critical",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc",
+    "clip_file": "kcLgkznqwFc_510s.mp4"
+  },
+  {
+    "timestamp": "09:00",
+    "quote": "the stock is making the first base here. Okay? It's making the first base here, fresh stage two. And now we are waiting for the stock to break out",
+    "what_is_shown": "Chart showing base formation pattern and stage two structure",
+    "visual_description": "This clip displays a daily stock chart for SHRIRAMFIN (Shriram Finance) from the Indian market. A large rectangular box highlights a price consolidation pattern, which the speaker calls a \"first base,\" with an upper resistance line drawn at 2364.50. The cursor moves from the middle of this base to the most recent candles on the right, hovering near the resistance line as the speaker explains they are waiting for a price breakout. Below the price chart, volume bars and an upward-trending Relative Strength (RS) line are also visible.",
+    "status": "critical",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc",
+    "clip_file": "kcLgkznqwFc_540s.mp4"
+  },
+  {
+    "timestamp": "10:00",
+    "quote": "let's say the stock is in a stage one here, it broke out of the stage one and it's forming up starts forming a good base here",
+    "what_is_shown": "Chart showing stage one breakout and subsequent base formation pattern",
+    "visual_description": "Despite the speaker's narration about stock stages, the screen only shows a white title slide with the text \"The Pivotal Scans\" at the top left. A teal circular cursor appears on the right side and moves left, coming to rest underneath the title. No stock chart, price levels, or indicators are visible; only the title and a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" in the bottom right corner are displayed.",
+    "status": "critical",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc",
+    "clip_file": "kcLgkznqwFc_600s.mp4"
+  },
+  {
+    "timestamp": "10:00",
+    "quote": "breaks out here of this mini base, we put it into into the near section. Then as the stock, let's say pulls back and it produces a trigger bar here",
+    "what_is_shown": "Chart progression showing mini base breakout and subsequent pullback with trigger bar",
+    "visual_description": "The screen displays a white presentation slide with the black text \"The Pivotal Scans\" in the top-left corner and a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" in the bottom-right. A circular teal cursor appears on the right and moves towards the title text, circling it to draw attention. No stock charts, price levels, indicators, or specific patterns are visible on the slide.",
+    "status": "critical",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc",
+    "clip_file": "kcLgkznqwFc_600s.mp4"
+  },
+  {
+    "timestamp": "11:00",
+    "quote": "you'll find this sheet in the resources folder",
+    "what_is_shown": "Setup tracker sheet document/template",
+    "visual_description": "The screen displays a presentation slide titled \"The Pivotal Scans,\" which has four bullet points detailing instructions for running daily stock scans (PPC and NPC) and recording observations. A light blue circular cursor starts near the end of the last bullet point and drifts down and to the right across the white space. No stock charts or trading data are shown, but a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is visible in the bottom-right corner.",
+    "status": "critical",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc",
+    "clip_file": "kcLgkznqwFc_660s.mp4"
+  },
+  {
+    "timestamp": "11:30",
+    "quote": "a particular sector...a few stocks from a particular industry are showing PPCs",
+    "what_is_shown": "Sector/industry groupings and examples of stocks with PPC patterns in scanner results",
+    "visual_description": "The screen displays a presentation slide titled \"The Pivotal Scans,\" which lists bullet points explaining a stock scanning method involving \"PPC and NPC.\" The content directly relates to the speaker's discussion of observing these patterns in stocks. As the speaker talks, the cursor hovers on the slide and a fifth bullet point appears: \"This scan will keep you up to date with what's happening in the big stocks.\"",
+    "status": "critical",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc",
+    "clip_file": "kcLgkznqwFc_690s.mp4"
+  },
+  {
+    "timestamp": "12:30",
+    "quote": "I'm looking at only top 200 liquid stocks...the top 200",
+    "what_is_shown": "Scanner filter settings showing top 200 stocks by volume parameter",
+    "visual_description": "The screen is static, showing a \"Windows Player\" application. On the left, a purple panel displays a video playlist titled \"CTMIND-- English,\" with topics like \"Risk Management\" and \"Stop Loss.\" The main video playback area on the right is completely black. No stock chart, prices, indicators, or cursor movement are visible.",
+    "status": "critical",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc",
+    "clip_file": "kcLgkznqwFc_750s.mp4"
+  },
+  {
+    "timestamp": "13:00",
+    "quote": "insert or save all these scans in the market in out...according to the routine, you have to execute these scans",
+    "what_is_shown": "Scanner interface, save workflow, and market/in/out scan locations",
+    "visual_description": "",
+    "status": "error",
+    "_file": "dr-4.txt",
+    "_vid_id": "kcLgkznqwFc",
+    "clip_file": "kcLgkznqwFc_780s.mp4",
+    "error": "Clip extraction failed"
+  },
+  {
+    "timestamp": "01:25-02:32",
+    "quote": "So I plot the plot two moving averages, that is the 10 and the 20 on the daily and the weekly charts. The best environment is...when the 10 simple moving average floats above the 20 simple moving average and the price floats above both these moving averages and both these moving averages are sloping up.",
+    "what_is_shown": "TradingView chart with 10 and 20 SMAs plotted, showing price above both MAs with both MAs sloping upward",
+    "visual_description": "The screen displays a presentation slide titled \"MS - Index\" with two bullet points describing a trading strategy using 10 and 20 Simple Moving Averages. No stock chart or financial data is shown. During the clip, the cursor disappears, a vertical drawing toolbar appears on the right, and the cursor reappears as a pen icon, positioned below the text as if to begin drawing.",
+    "status": "critical",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo",
+    "clip_file": "KcAIfs63mQo_85s.mp4"
+  },
+  {
+    "timestamp": "04:18-05:20",
+    "quote": "So here we are on the daily chart of Nifty 500...the best environment to be trading is this...You see, price is floating above the 10 and the 20. This orange line is the 10 and the green line is the 20.",
+    "what_is_shown": "Live TradingView daily chart of Nifty 500 with 10 SMA (orange) and 20 SMA (green) displayed, price above both",
+    "visual_description": "This clip shows a daily candlestick chart of the Nifty 500 index on the TradingView platform, displaying price action from 2020 to early 2021. The chart features several moving averages, which the speaker identifies as the 10-period (orange) and 20-period (green) MAs. The cursor moves from the uptrend in late 2020 to the left, pointing to the area around July-August 2020 where the price is consistently trading above both the 10 and 20 moving averages.",
+    "status": "critical",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo",
+    "clip_file": "KcAIfs63mQo_258s.mp4"
+  },
+  {
+    "timestamp": "06:00-06:40",
+    "quote": "For most amount of time, so it was a healthy environment...The same thing you can notice on the weekly chart...And on the weekly chart you can enable that 100 day moving average...So the white line is the 10, the orange line is the 20.",
+    "what_is_shown": "Weekly chart of Nifty 500 post-COVID showing extended period with price and SMAs in optimal configuration; different moving average colors displayed",
+    "visual_description": "The screen displays a daily candlestick chart for the NIFTY 500 (CNX500) index, covering the period from early 2021 to early 2022 and showing a strong uptrend followed by consolidation. Several moving averages are plotted, including a 10-period (white line), a 20-period (orange line), and a longer-term purple moving average. The cursor moves over the price action from July to September 2021, highlighting the period where the index traded consistently above these key moving averages.",
+    "status": "critical",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo",
+    "clip_file": "KcAIfs63mQo_360s.mp4"
+  },
+  {
+    "timestamp": "06:40-07:15",
+    "quote": "And you can see similar things after the COVID fall, the market went into a smooth, smooth, favorable state. And then here we saw the first close. We saw the first breakdown of the 10 and the 20 on this candle. That was the signal of the market weakening from the weekly perspective. Then we saw a crossover. You see this crossover here.",
+    "what_is_shown": "Weekly chart showing specific candle where price closes below both 10 and 20 SMAs, and the subsequent moving average crossover point",
+    "visual_description": "On a daily candlestick chart of the NIFTY 50 index (CNX500), the cursor moves from the strong uptrend of mid-2021 to a large red candle in late November 2021. As the speaker identifies a signal of market weakness, the cursor points to this specific candle breaking below the 10 and 20-period moving averages. This breakdown occurs near the 14,900 price level.",
+    "status": "critical",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo",
+    "clip_file": "KcAIfs63mQo_400s.mp4"
+  },
+  {
+    "timestamp": "07:15-07:49",
+    "quote": "And for the breakdown, you can mark this previous low as the support. And as the stock broke below that support, we say that okay, we have the clear signal, market weakened...you see? Uh the the 20 going, the 10 going below the 20 and both are sloping down and the stock and the price is moving down.",
+    "what_is_shown": "Weekly chart with support level marked at previous swing low, showing price breaking below it and moving averages crossing/sloping downward",
+    "visual_description": "On a daily candlestick chart of the NIFTY 500 (CNX500), an orange horizontal line marks a support level at a previous low around the 15200 price level. The cursor first points to this support low from September 2021, then moves to the large red candle that broke below it in late October 2021. It finally settles on the area where the 10-period (white) and 20-period (orange) moving averages cross over and slope downwards, following the price decline.",
+    "status": "critical",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo",
+    "clip_file": "KcAIfs63mQo_435s.mp4"
+  },
+  {
+    "timestamp": "08:24-09:00",
+    "quote": "Now you see on the daily chart here, we are at the top of that 2021 market. This was the top here. So what happened was the price was staying above the 10 and the 20 and for the first time it closed below both these averages here...And then, you see, the moving average is crossed over here...And you can say previous swing low was this. This was the previous swing low...And the support got broken down here",
+    "what_is_shown": "Daily chart of Nifty 500 showing 2021 top, first close below both SMAs, moving average crossover, previous swing low support level, and support breakdown",
+    "visual_description": "This is a daily candlestick chart for the NIFTY 500 index, featuring several moving average indicators. The speaker’s cursor first points to the market top of late 2021 near the 15,800 level. It then moves to January 2022 to indicate where the price candles closed below the shorter-term moving averages, followed by a bearish moving average crossover shortly after. The cursor finally returns to the current price action around 14,855.",
+    "status": "critical",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo",
+    "clip_file": "KcAIfs63mQo_504s.mp4"
+  },
+  {
+    "timestamp": "09:00",
+    "quote": "You can also see the distortion in the chart. You see how the chart looked all the way up and suddenly you see this happening",
+    "what_is_shown": "Daily chart displaying the visual shift from uptrend structure to distorted/weakening price action pattern",
+    "visual_description": "The screen displays a daily candlestick chart for the NIFTY 50 index from late 2021 to July 2022, featuring several moving average indicators. The cursor initially points to a moving average crossover that occurred in mid-July near the 13800 price level. The cursor then moves slightly to the right, hovering over a small red candle from late July near the 14380 mark as the price consolidates.",
+    "status": "critical",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo",
+    "clip_file": "KcAIfs63mQo_540s.mp4"
+  },
+  {
+    "timestamp": "10:47-11:22",
+    "quote": "You see the stock, you see the price, the index started to go down here with both the moving averages sloping down. Again, it produced a small upswing...with this price action here, it clearly shot back down...And then you see the market was horrible for the next few weeks...And then again, a small upswing. The moving average started to slope up. Price started to behave well...with this gap down candle",
+    "what_is_shown": "Daily chart showing multiple transition periods with downtrending SMAs, failed upswings, gap down candle, and weak price action patterns",
+    "visual_description": "The screen displays a daily candlestick chart for the NIFTY 50 index (CNX500) with multiple moving average indicators. As the speaker describes the downtrend, the cursor points to a period in early 2023 where a small upswing was rejected by the downward-sloping moving averages. The cursor then follows the subsequent sharp price decline through February and March, which the speaker calls a \"horrible\" market, before moving to another small bounce in late March.",
+    "status": "critical",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo",
+    "clip_file": "KcAIfs63mQo_647s.mp4"
+  },
+  {
+    "timestamp": "12:07-12:47",
+    "quote": "Then again, there is this downtrend here, no trading, no trading, no trading...And then again, it produces an upswing here, you see? How the stock starts to slope up and moving averages start to slope up. That's where you can build your positions.",
+    "what_is_shown": "Daily chart showing extended downtrend period followed by new upswing with price and moving averages both sloping upward",
+    "visual_description": "While the speaker describes a stock chart showing a downtrend followed by an upswing with sloping moving averages, the screen itself does not display this. Instead, it shows a plain gray background with the title \"MS - Your Trades\" at the top left. No stock chart, price levels, indicators, or cursor movements related to a chart are visible during this clip.",
+    "status": "critical",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo",
+    "clip_file": "KcAIfs63mQo_727s.mp4"
+  },
+  {
+    "timestamp": "14:00",
+    "quote": "And then again it slopes up and then there there are problems start happening here. It closes down here. Again shoots back up. Again it slopes up. But then here it's clearly closes below the 10 and the 20",
+    "what_is_shown": "TradingView chart with price action, 10 and 20 moving averages, specific candles closing below/above these levels",
+    "visual_description": "A stock chart for RELIANCE is shown, featuring price candles with 10-period and 20-period moving averages. The speaker uses the cursor to trace the price as it trends upwards, dips below the moving averages, and then recovers. The clip concludes with the cursor highlighting a point where the price decisively closes below both the 10 and 20 moving averages, signaling a breakdown.",
+    "status": "critical",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo",
+    "clip_file": "KcAIfs63mQo_840s.mp4"
+  },
+  {
+    "timestamp": "14:40",
+    "quote": "It slopes down. Everything is weak, everything is weak. Now it starts to slope up once again. It's moving up. Wait for it. Try to build some positions. And it is bouncing off very nice.",
+    "what_is_shown": "Price action on chart showing downtrend transitioning to uptrend with bounce pattern",
+    "visual_description": "Despite the speaker's narration of a stock chart, the screen displays a static presentation slide titled \"MS - Your Trades.\" The slide contains a bulleted list of trading principles, such as \"Your own trades give you feedback about the market conditions\" and \"Scale up as the trades start to go well.\" No stock chart, price levels, indicators, or cursor movements are visible on the screen, only the slide's text and a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" in the bottom right corner.",
+    "status": "critical",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo",
+    "clip_file": "KcAIfs63mQo_880s.mp4"
+  },
+  {
+    "timestamp": "15:15",
+    "quote": "whenever you see a breakdown of the 10 and the 20, you start getting weak signals",
+    "what_is_shown": "Chart displaying 10 and 20 moving average lines and their crossover/breakdown points",
+    "visual_description": "",
+    "status": "error",
+    "_file": "dr-6.txt",
+    "_vid_id": "KcAIfs63mQo",
+    "clip_file": "KcAIfs63mQo_915s.mp4",
+    "error": "Clip extraction failed"
+  }
+]

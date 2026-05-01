@@ -1,0 +1,216 @@
+{
+  "rm-1.txt": [
+    {
+      "timestamp": "10:30",
+      "quote": "In case of Jim, if 10 consecutive trades fail, Jim would lose 10% of his capital and his capital would be brought down to 4,50,000 rupees. From 5 lakh, his capital would come down to 4,50,000 rupees. Now, from 4,50,000 rupees if he wants to come back to 5 lakhs. What is the percentage return he has to make? Pause the video and calculate it yourself.",
+      "what_is_shown": "On-screen calculation or visual representation showing the drawdown from 5 lakhs to 4.5 lakhs and the required percentage return to recover",
+      "why_needed": "The speaker asks viewers to calculate but doesn't verbally provide the answer immediately, implying the calculation or answer is shown on screen during the pause"
+    },
+    {
+      "timestamp": "10:30",
+      "quote": "Jim will need 11.1% to get back at 5 lakhs. It will not be 10%. It will be 11.1% to get back to 5 lakhs.",
+      "what_is_shown": "Mathematical calculation demonstrating why the recovery percentage is 11.1% and not 10%",
+      "why_needed": "The counterintuitive result (11.1% vs 10%) requires visual demonstration of the asymmetric math of losses and gains"
+    },
+    {
+      "timestamp": "14:00",
+      "quote": "Position size percentage is equal to desired RPT percentage divided by stop loss percent... Position size percentage means how much, what percentage of your account value is to be deployed to a particular trade.",
+      "what_is_shown": "Formula displayed on screen: Position Size % = RPT % / Stop Loss %",
+      "why_needed": "Mathematical formulas are difficult to follow by ear alone; viewers need to see the formula written out to understand and apply it"
+    },
+    {
+      "timestamp": "14:30",
+      "quote": "Let's say that your account value is 1 lakh rupees... RPT that you decided for the next trade is 1%. For the next trade, the entry price is coming at 100, stop loss is coming at 92... So it is 8% as you can clearly see, 8 rupees divided by 100 multiplied by 100. That's 8%.",
+      "what_is_shown": "Step-by-step calculation showing: (100-92)/100 \u00d7 100 = 8%",
+      "why_needed": "The phrase 'as you can clearly see' indicates the calculation is displayed visually; following multiple numerical steps by audio alone is difficult"
+    },
+    {
+      "timestamp": "14:30",
+      "quote": "Position size percentage is equal to RPT percent divide by stop loss percent into 100. So RPT is 1 divide by 8 multiplied by 100. It will it will be equal to 12.5%.",
+      "what_is_shown": "Calculation displayed: 1% \u00f7 8% \u00d7 100 = 12.5%",
+      "why_needed": "Multi-step calculation with percentages requires visual representation to follow the logic and verify the result"
+    },
+    {
+      "timestamp": "15:00",
+      "quote": "Position size in terms of rupee or in terms of dollar it will be 1 lakh which is your account value, that's your capital, multiplied by 12.5%. That's 12,500... So the quantity has to be calculated now. It is 12,500 divided by 100, which is equal to 125 quantities.",
+      "what_is_shown": "Sequential calculations: 100,000 \u00d7 12.5% = 12,500, then 12,500 \u00f7 100 = 125 shares",
+      "why_needed": "Multiple dependent calculations need to be seen together to understand the complete position sizing workflow"
+    },
+    {
+      "timestamp": "15:30",
+      "quote": "So now if you do the reverse calculation, let's say you bought 125 shares of this particular stock at the price of 100. Now if the stock goes down and hits your stop loss, what will be the loss that you will make? You will see that you will make a loss of $1,000 or 1,000 rupees, which is equal to 1% of your RPT.",
+      "what_is_shown": "Verification calculation: 125 shares \u00d7 (100-92) = 125 \u00d7 8 = 1,000, which is 1% of 100,000",
+      "why_needed": "The phrase 'you will see' indicates a visual calculation; the reverse verification with multiple numbers requires visual confirmation"
+    },
+    {
+      "timestamp": "16:00",
+      "quote": "Let's take one more example. Let's say your account value is 500,000 or 5 lakh. RPT is 0.5%. That's what you decided for the next trade. Entry price is 500, stop loss is 450. Now you have to calculate what is the quantity that you should buy in this particular trade so that you ensure an RPT of 0.5%. You can just pause this video right now and calculate it yourself for your practice.",
+      "what_is_shown": "Example problem displayed with values: Account = 500,000, RPT = 0.5%, Entry = 500, SL = 450",
+      "why_needed": "The speaker asks viewers to pause and calculate, implying the problem parameters are displayed on screen for reference during the practice exercise"
+    },
+    {
+      "timestamp": "03:00",
+      "quote": "Let's say one lot may have 500 quantities, 1000 quantities depending upon the stocks. Different stocks have different lot sizes.",
+      "what_is_shown": "Likely showing examples of specific stocks with their lot sizes on TradingView or a broker platform",
+      "why_needed": "The speaker references varying lot sizes but doesn't name specific stocks or show actual numbers - viewer needs to see concrete examples on screen"
+    },
+    {
+      "timestamp": "03:00",
+      "quote": "So I'm preparing an Excel sheet. You can also do the same.",
+      "what_is_shown": "Excel spreadsheet being created with columns for capital, RPT%, average loss calculations",
+      "why_needed": "The speaker is demonstrating a live Excel calculation workflow - the verbal description alone doesn't convey the spreadsheet structure, formulas, or layout being created"
+    },
+    {
+      "timestamp": "03:30",
+      "quote": "Your average loss, your average loss is equal to 10 lakh multiplied by 1%.",
+      "what_is_shown": "Excel cell showing the formula =1000000*1% or =1000000*0.01 with result 10000",
+      "why_needed": "While the calculation is stated verbally, the speaker is demonstrating how to set up the formula in Excel cells, which requires seeing the actual spreadsheet structure"
+    },
+    {
+      "timestamp": "04:00",
+      "quote": "Now let's talk about the ARR. Let's say you are you are trading with an ARR of one. Now tell me what will be your average gain?",
+      "what_is_shown": "Excel spreadsheet with ARR value entered and average gain calculation being performed",
+      "why_needed": "The speaker is continuing to build the Excel model - viewers need to see where these values are being entered and how the spreadsheet is organized"
+    },
+    {
+      "timestamp": "04:30",
+      "quote": "Now coming to the win rate. Okay, before win rate, let's talk about the number of trades. Let us say that in a year, you did 120 trades. And you maintained a win rate, your win rate was 50%.",
+      "what_is_shown": "Excel spreadsheet with additional rows/cells for number of trades (120) and win rate (50%) being added",
+      "why_needed": "The speaker is continuing to populate the Excel model with these values - the visual structure of how this data is organized in the spreadsheet is essential to follow along"
+    },
+    {
+      "timestamp": "05:30",
+      "quote": "Let me use a rounding rounding formula so that in the future it will be helpful. It will be 60.",
+      "what_is_shown": "Excel spreadsheet showing a formula being entered or applied to calculate winning trades (120 \u00d7 50% = 60)",
+      "why_needed": "The speaker references applying a specific Excel formula but doesn't describe what formula or where it's being entered - the viewer must see the spreadsheet cell and formula bar"
+    },
+    {
+      "timestamp": "09:00",
+      "quote": "So currently, I just want you to make this table in in an Excel sheet.",
+      "what_is_shown": "Complete Excel table/model showing columns for trades, win rate, ARR, average gain/loss, profit/loss calculations, and return percentages",
+      "why_needed": "The speaker asks viewers to recreate 'this table' but doesn't verbally describe the complete structure, column headers, or layout - viewers need to see the exact table format"
+    },
+    {
+      "timestamp": "09:30",
+      "quote": "And then we were looking at this particular sheet where we understood that if you have a combination of your ARR and win rate as such where your ARR is one and the win rate is 50%, then you are at break even.",
+      "what_is_shown": "Excel sheet with specific cells showing ARR=1, win rate=50%, and the resulting calculations proving break-even",
+      "why_needed": "Speaker references 'this particular sheet' and 'as such' without describing which cells contain which values or how the table is organized"
+    },
+    {
+      "timestamp": "10:30",
+      "quote": "Okay, before going into that, just have a look at the calculation first in case you have any doubts.",
+      "what_is_shown": "Excel calculations showing: 120 trades, 60 winning trades (50%), average gain 20,000, total profit 12 lakhs, 60 losing trades, average loss 10,000, total loss 6 lakhs, net return 60%",
+      "why_needed": "Speaker says 'have a look at the calculation' implying visual reference to specific cells and formulas, not describing the spreadsheet layout"
+    },
+    {
+      "timestamp": "00:30",
+      "quote": "At 40% win rate, at 40% win rate, I'm making a profit of 24%. So still I need to reduce the win rate.",
+      "what_is_shown": "Excel sheet with win rate changed to 40%, showing updated calculations resulting in 24% return",
+      "why_needed": "Speaker is actively changing values in the spreadsheet and reading results without describing which cells are being modified or where the 24% appears"
+    },
+    {
+      "timestamp": "01:00",
+      "quote": "So you see at 33.3% win rate, my winning trades are 40, my losing trades are 80. And the profit and the loss becomes equal and the return is zero.",
+      "what_is_shown": "Excel sheet showing win rate at 33.3%, with calculated values: 40 winning trades, 80 losing trades, equal profit/loss amounts, 0% return",
+      "why_needed": "Speaker says 'you see' indicating visual confirmation of the break-even calculation, but doesn't describe the spreadsheet structure showing these interdependent values"
+    },
+    {
+      "timestamp": "03:00",
+      "quote": "Now let me show you an interesting table. Look at this table.",
+      "what_is_shown": "New reference table showing multiple rows with columns for: average loss, average gain, ARR, and required win rate to break even, with one row highlighted in yellow",
+      "why_needed": "Speaker introduces a completely new table without describing its structure, column headers, or data organization - just says 'look at this table'"
+    },
+    {
+      "timestamp": "03:30",
+      "quote": "So, we look at this particular row which is marked yellow. At an ARR of one, you need 50% win rate to break even, and we have discussed that.",
+      "what_is_shown": "Reference table with a yellow-highlighted row showing ARR=1 corresponding to 50% required win rate",
+      "why_needed": "Speaker references visual highlighting ('marked yellow') and 'this particular row' without stating which row number or describing the table's full content"
+    },
+    {
+      "timestamp": "05:00",
+      "quote": "You see, let's look at two trade examples. Let's say this is trade number one and this is trade number two.",
+      "what_is_shown": "Visual comparison showing two trade setups side by side, each displaying entry price, stop loss, and target levels",
+      "why_needed": "Speaker says 'this is trade number one and this is trade number two' indicating visual elements on screen, without describing how they're laid out or labeled"
+    },
+    {
+      "timestamp": "05:30",
+      "quote": "Now you see in trade number one, now looking at this trade, the entry price is 100, stop loss is 95 and the target is 105.",
+      "what_is_shown": "Trade example #1 displayed with entry=100, stop loss=95, target=105 clearly labeled",
+      "why_needed": "While the speaker does state the numbers, the phrase 'looking at this trade' and 'you see' indicates viewers should be seeing a visual representation, likely needed to understand the spatial relationship of these levels"
+    },
+    {
+      "timestamp": "07:30",
+      "quote": "Now let's talk about our trading setup. Our trading strategy. So in our strategy, we will try to maintain an ARR of two.",
+      "what_is_shown": "Excel sheet showing ARR value of 2 and win rate of 40%, with resulting 24% return calculation",
+      "why_needed": "Speaker references 'our strategy' parameters while likely pointing to or highlighting specific cells in the working spreadsheet model"
+    },
+    {
+      "timestamp": "08:00",
+      "quote": "Now at this particular combination, you are making a return of 24%. If you go by this particular table.",
+      "what_is_shown": "Excel table showing ARR=2, win rate=40%, with calculated return of 24%",
+      "why_needed": "Speaker says 'this particular combination' and 'this particular table' without describing which cells or where in the spreadsheet to look"
+    },
+    {
+      "timestamp": "08:30",
+      "quote": "But since we are maintaining a win rate of 40%, which is above 33%, we are in a positive expectancy combination and we are going to make money. If our win rate goes lower than 33%, well, let's say we are making a win rate of 25% in a year, then you see making a loss.",
+      "what_is_shown": "Excel sheet with win rate changed to 25%, showing negative return of -30%",
+      "why_needed": "Speaker says 'then you see making a loss' while actively changing the win rate value in the spreadsheet - viewer must see the cell change and resulting calculation"
+    },
+    {
+      "timestamp": "09:00",
+      "quote": "Let's bring back the win rate to 40%. Let's say the ARR you shift from two to 2.3. You see, now we are making again a better return at 30 38.4% return.",
+      "what_is_shown": "Excel sheet showing win rate reset to 40%, ARR changed from 2 to 2.3, with updated return calculation showing 38.4%",
+      "why_needed": "Speaker is actively manipulating spreadsheet values ('bring back', 'shift from') and reading results ('you see') without describing which cells are being edited"
+    }
+  ],
+  "rm-2.txt": [
+    {
+      "timestamp": "10:30",
+      "quote": "Here is how the OR matrix looks for a trader with moderate risk appetite. This is an OR matrix with a trader with moderate risk appetite.",
+      "what_is_shown": "A visual table/matrix showing market stance categories (Very Strong, Strong, Moderate, Weak) with corresponding maximum open risk percentages",
+      "why_needed": "The speaker references 'here is how the OR matrix looks' and 'this is an OR matrix' indicating they are showing a specific table on screen. The structure and values of the matrix are not verbally described."
+    },
+    {
+      "timestamp": "11:30",
+      "quote": "For example, let's say today the market stance is strong. As on today, the market conditions are such or the market conditions have been strong. So I would say that the market stance is strong and my MOR is 4%.",
+      "what_is_shown": "The speaker is likely pointing to or highlighting a specific row in the OR matrix table to show where the 4% value comes from for 'Strong' market stance",
+      "why_needed": "While the speaker states the 4% value, they are demonstrating how to read the matrix by example, which requires seeing the actual table structure and where this value appears"
+    },
+    {
+      "timestamp": "12:30",
+      "quote": "If I say that the market stance is weak, then my total open risk should not cross 1%.",
+      "what_is_shown": "The OR matrix table showing the 'Weak' market stance row with 1% MOR value",
+      "why_needed": "The speaker is referencing another specific value from the matrix table to demonstrate how different market stances correspond to different MOR limits"
+    },
+    {
+      "timestamp": "05:00",
+      "quote": "here here is the OR matrix for conservative appetite and aggressive appetite. So as you can see, if you are looking at the conservative appetite, uh you have reduced numbers here and aggressive risk appetite have higher numbers.",
+      "what_is_shown": "A table/matrix showing different risk percentages for conservative vs aggressive trading approaches across different market conditions",
+      "why_needed": "The speaker references 'here' and 'as you can see' while comparing 'reduced numbers' vs 'higher numbers' without stating the actual values or structure of the matrix"
+    },
+    {
+      "timestamp": "07:30",
+      "quote": "So now, let's look at the table. So your initial capital was 10 lakhs. In the first year, you made a profit of 2 lakh.",
+      "what_is_shown": "Compound interest calculator results table showing year-by-year breakdown of capital growth",
+      "why_needed": "Speaker says 'look at the table' and walks through specific numbers that are visible on screen but doesn't describe the table structure or how to read it"
+    },
+    {
+      "timestamp": "08:30",
+      "quote": "So you can pause the video and have a look at the calculation.",
+      "what_is_shown": "Complete compound interest calculation table showing 20 years of growth at 20% CAGR",
+      "why_needed": "Speaker explicitly instructs viewers to look at visual calculations on screen without reading out all the values"
+    },
+    {
+      "timestamp": "09:00",
+      "quote": "Now let's let me change the rate to 26%. 26%, let's let me calculate this. Now you see at 26% rate of return",
+      "what_is_shown": "Calculator interface where the rate is being changed and new results being generated",
+      "why_needed": "Speaker is demonstrating the process of changing calculator inputs and viewing new results in real-time, which requires seeing the interface"
+    },
+    {
+      "timestamp": "10:30",
+      "quote": "So just let's assume that every month or let's say every quarter, you deposit 50,000 rupees every quarter. Okay, and now let's look at the calculation.",
+      "what_is_shown": "Calculator with additional deposit field being filled in and new compound interest results",
+      "why_needed": "Speaker is adding a new parameter to the calculator and referring to the resulting calculation without fully describing the new table values"
+    }
+  ]
+}

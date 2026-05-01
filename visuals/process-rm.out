@@ -1,0 +1,23 @@
+[2026-04-30T06:04:02.430Z] Visual Marker Processor - Started: 2026-04-30T06:04:02.430Z
+[2026-04-30T06:04:02.431Z] 
+============================================================
+[2026-04-30T06:04:02.431Z] Processing RM (Risk Management)
+[2026-04-30T06:04:02.432Z] ============================================================
+[2026-04-30T06:04:02.433Z] Total markers: 24
+[2026-04-30T06:04:02.433Z] Pending: 24 (already done: 0)
+[2026-04-30T06:04:02.433Z]   Video eCZkzzbY8dk: 8 markers
+[2026-04-30T06:04:05.282Z]   Stream URL OK
+[2026-04-30T06:04:28.253Z]   5/24 done
+[2026-04-30T06:04:47.344Z]   8/24 done
+[2026-04-30T06:04:47.345Z]   Video E9HsDhA6Fqc: 16 markers
+[2026-04-30T06:04:50.599Z]   Stream URL OK
+[2026-04-30T06:05:14.746Z]   13/24 done
+[2026-04-30T06:05:38.248Z]   18/24 done
+[2026-04-30T06:06:00.631Z]   23/24 done
+[2026-04-30T06:06:20.808Z]   24/24 done
+[2026-04-30T06:06:20.811Z] 
+  RM (Risk Management) COMPLETE: critical=24 skipped=0 errors=0 total=24
+[2026-04-30T06:06:20.813Z]   Output: /Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/rm-results.json
+[2026-04-30T06:06:20.814Z] 
+ALL DONE: critical=24 skipped=0 errors=0 total=24
+[2026-04-30T06:06:20.816Z] Finished: 2026-04-30T06:06:20.816Z

@@ -1,0 +1,60 @@
+[
+  {
+    "timestamp": "00:00",
+    "quote": "this is a rounding bottom plus a cup and handle this is a cup and handle you see this is a cup and the handle is Big here",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-4_0000.png",
+    "description": "On the VIP Industries stock chart, a yellow curved line is drawn to outline a \"rounding bottom\" or \"cup\" pattern that formed between approximately November 2021 and February 2022. A horizontal orange line marks the resistance neckline of this pattern, and the subsequent price consolidation, which the speaker calls a \"big handle,\" completes the \"cup and handle\" formation.",
+    "critical": true
+  },
+  {
+    "timestamp": "00:15",
+    "quote": "this is a rounding top and you can also call it it also looks like an Head and Shoulders pattern with two shoulders on the right side so overall this is a topping pattern rounding top and head and shoulders and this is a neckline the stock broke down of its neckline",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-4_0015.png",
+    "description": "This stock chart for VIP INDUSTRIES shows a price pattern from November 2021 to March 2022, highlighted by an orange curved line, which the speaker identifies as a \"rounding top\" and \"Head and Shoulders\" pattern. The speaker refers to the white moving average line as the \"neckline.\" The chart clearly shows the price candles breaking down below this white moving average line after the pattern, illustrating the \"break down\" described.",
+    "critical": true
+  },
+  {
+    "timestamp": "00:30",
+    "quote": "the first is the left shoulder then we have the head then we have the right shoulder here on the right hand side we have a neckline and there is a breakdown of this particular C of this particular pattern on this particular candle",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-4_0030.png",
+    "description": "On the V-MART RETAIL LTD weekly chart, a yellow arc is drawn over the price action from mid-2021 to early 2022, forming a rounding top pattern. A horizontal yellow line acts as a neckline around the 3400 price level. The speaker's \"breakdown\" is illustrated by a yellow circle highlighting a large red candle in May 2022 that decisively closes below this neckline.",
+    "critical": true
+  },
+  {
+    "timestamp": "02:36",
+    "quote": "look at this stock here now if you look at this pattern",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-4_0236.png",
+    "description": "Based on the image provided, the speaker's statement is not understandable. The screen displays a presentation slide titled \"PATTERNS ARE SUBJECTIVE\" with several bullet points of text discussing trading theory. There is no stock chart, price data, or any drawn pattern visible to which the speaker could be referring.",
+    "critical": false,
+    "skipped_reason": "Frame shows a text presentation slide, not a chart with patterns"
+  },
+  {
+    "timestamp": "02:36",
+    "quote": "somebody some Trader can say that okay this is a rounding bottom pattern this is a rounding bottom pattern and then it broke out",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-4_0236.png",
+    "description": "The screen does not show a chart with a \"rounding bottom pattern\" or a breakout. It displays a presentation slide titled \"PATTERNS ARE SUBJECTIVE,\" which argues that traders should focus on interpreting price action rather than just finding named patterns. The slide provides a general, conceptual context for the discussion of patterns but does not illustrate the specific example mentioned by the speaker.",
+    "critical": false,
+    "skipped_reason": "Frame shows a text presentation slide, not a chart with patterns"
+  },
+  {
+    "timestamp": "03:08",
+    "quote": "some Trader may say that this is an inverse Head and Shoulders this becomes the left shoulder this becomes the head and this becomes the right shoulder",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-4_0308.png",
+    "description": "On the daily candlestick chart for UGAR SUGAR WORKS (UGARSUG), a light blue curved line is drawn under the price action between August and December 2021. This line highlights the three distinct troughs that form the inverse Head and Shoulders pattern being described: the left shoulder (Aug '21), the lower central head (Sep-Oct '21), and the right shoulder (Nov-Dec '21). The lowest point of the pattern, the \"head,\" forms near the 24.90 price level.",
+    "critical": true
+  },
+  {
+    "timestamp": "03:08",
+    "quote": "somebody may say that okay this is a cup and handle so this is a cup and this is a handle and then it broke out",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-4_0308.png",
+    "description": "On the daily chart for UGAR SUGAR WORKS, a light blue curved line explicitly outlines the \"cup\" of a classic cup and handle pattern, which formed between July 2021 and January 2022. Following a brief consolidation period (the \"handle\"), the price is shown breaking out dramatically in February 2022, surging from the mid-\u20b930s to a high above \u20b958.",
+    "critical": true
+  },
+  {
+    "timestamp": "03:38",
+    "quote": "somebody may also say that if you draw a line like this and then connect these lows like this it is an ascending triangle breakout",
+    "screenshot": "/Users/i548399/SAPDevelop/github.com/nse-trading-system/visuals/screenshots/ta/ta-4_0338.png",
+    "description": "On the stock chart for UGAR SUGAR WORKS (UGARSUG), a light blue horizontal line is drawn at a resistance level of approximately 33.60. The price action leading up to this line forms a series of higher lows, creating an ascending triangle pattern. The subsequent sharp price increase above this horizontal line illustrates the \"ascending triangle breakout\" mentioned by the speaker.",
+    "critical": true
+  }
+]

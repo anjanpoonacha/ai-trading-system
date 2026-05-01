@@ -1,0 +1,20 @@
+{
+  "symbol": "ANGELONE",
+  "date": null,
+  "timeframe": "weekly",
+  "label": "good_base",
+  "sub_label": "shallow_along_20dma",
+  "confidence": "strong",
+  "notes": "Breakout, forming base within higher breakout area. Short shallow base along 20 DMA, rounding features, PPCs, contraction, volume variation. TRP 4%.",
+  "trp_pct": 4,
+  "base_candles": null,
+  "outcome": "worked",
+  "outcome_pct": 42,
+  "outcome_duration_days": null,
+  "outcome_notes": "2R → 20% exit | 42% move, TRP 4% (10x, great) → 40% exit | Break below 20 DMA after 90+ days → final 40%.",
+  "source": "course_example",
+  "image_quality": "course_clip",
+  "needs_fresh_screenshot": true,
+  "video_id": "aTv2pNEEN_Q",
+  "clip_file": "aTv2pNEEN_Q_1630.mp4"
+}

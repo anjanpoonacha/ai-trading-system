@@ -1,0 +1,284 @@
+# 1 RiskManagement
+# Video ID: eCZkzzbY8dk
+# Duration: 66m11s
+# URL: https://www.youtube.com/watch?v=eCZkzzbY8dk
+
+very important. If you are a poor analyst but a great risk manager, you may still survive anyhow. I repeat, if you are bad at analysis, but if you are very good at risk management, then you may still survive in survive in the stock market anyhow. [00:30] I'm not saying you will start making some money, some good returns. No. I'm saying you will still you may still survive in the market. But if you are a great analyst, but a poor risk manager, you won't survive long in the market. I repeat, if you are a great analyst, you make great decisions about when to buy and when to sell, but you are poor in your risk management, [01:00] in your money management. You will not survive long in the market. The market will smash you out in no time. So this is the importance of risk management. A very, very important pillar behind successful trading. To achieve high performance, you need to understand about the metrics responsible for that. Just like any other activity, any other business, to achieve good good results, good returns, you need to understand the mathematical [01:30] models, the mathematics, the statistics behind that performance. Same thing is there with the stock market. You need to understand the important metrics responsible for high performance. And we will dive deep into this topic slowly and steadily and in a very easy manner. That's it for this one. See you in the next video.
+
+Let us talk about losses. We are dealing with probabilities in the stock market. [02:00] We cannot trade with 100% certainty. No matter how good our analysis or strategy is, we cannot always be right. We will have many losing trades where we have to accept losses. Whenever we buy any stock, we are never, never 100% sure that this is going to give us a profit. In fact, nobody in the world can be 100% certain in the stock market. [02:30] In our strategy, we need to be right in just 40% of the trades and yet we will come out profitable overall. It means if I take 150 trades in a year and if I am right in just 60 trades and wrong in the remaining 90 trades, yet I will make money. We will talk about that later. So the point which I'm trying to make is we have to embrace losses. [03:00] They are a part of the game. You will not make profit in each trade. The only thing we must do is restrict the amount of losses. Now we know that we are going to make losses in many trades. But the thing that is in our hand is that the thing that we must do is restrict though the amount of the losses that we make. [03:30] That's it for this one. See you in the next video.
+
+by defining this stop loss level in advance, we are able to restrict our loss. Let us talk about stop loss. Stop loss is a tool to restrict our losses. Stop loss is a defined price level below which you do not hold the stock. [04:00] It may signify that you are wrong in the trade or that the risk is unjustified. Suppose you bought HDFC at 1,000, you determined your stop loss to be at 950. If the price hits 950, you must sell it and book a loss. In the stock market, always think about the risk first, [04:30] reward next. This is a very important statement. A rule that I want you to follow now onwards, never take a trade without a stop loss. You may have a question, how to identify the stop loss level in a trade. All of these things will form part of the trading setup, which will be discussed later. But now on, now on, I want you to understand that always, always trade with a stop loss. [05:00] Whenever you buy something, you must have your stop loss in place and you must say this to yourself that, okay, if this stock goes down and goes below this particular level, I am going to sell it off. Most traders and investors do not have any stop losses and this is one of the biggest reasons for their failure because they never know when to get out of their trades when they are wrong. By defining a level, by defining this stop loss level in advance, [05:30] we are able to restrict our losses to a great degree. That's it for this one. See you in the next video.
+
+Hi traders. In this video, let us talk about risk per trade. When a stock hits your stop loss, you get out of a trade, you exit the trade and book a loss. That trade is called a losing trade. Now the problem is most traders take trades without determining the maximum loss that they are ready to bear in a losing trade, which is disastrous. [06:30] It means that before taking a trade, most traders do not know, do not calculate the maximum amount of loss that they will make if the trade fails, if the trade hits the stop loss. We as professional traders, we will always calculate our risk in in a trade. I'm sorry, we will always calculate risk before taking a trade. Now, how do we express the risk per trade? Risk per trade should be quantified as a percentage of account value. [07:00] Right now, we have not discussed about account value. You can just think of it as capital right now. We'll talk about it later. We'll talk about account value later. So risk per trade should be quantified as a percentage of account value. For most traders, risking 0.5% to 1% of their account value in a trade is comfortable. So let's say if your account value is 10 lakh rupees or let's say 1 million dollars, then risking 5,000 to 10,000 rupee or dollar is comfortable for that particular trader. [07:30] RPT percent or risk per trade percent depends upon a trader's risk appetite, whether he is a conservative trader, a moderate trader or an aggressive trader. It also depends upon a trader's trading style, whether he is a scalper, intraday trader, swing trader, positional trader or what. And it also depends upon the market conditions. If he's trading in favorable market conditions, he may raise his RPT. If the market conditions are not favorable, he may trade with lower RPT. We'll talk about all of this in detail, but right now, the point to be noted is the rule that you must follow is that always determine the percentage of risk in each trade. [08:00] When you take your next trade, always determine how much of the percentage of your account value you will lose if that particular trade fails. By doing this, you always are in total control. You know exactly how much you will lose before taking a trade. That's it for this one. See you in the next video.
+
+let us demonstrate the importance of keeping the risk per trade low. Suppose there are two traders, Jim and Tom. Both of them started with a capital of 5 lakh rupees and both of them did 120 trades in a year. Both of them made a return of 40% on the capital. [09:00] From this data, it seems that both of them have performed equally, but we do not know the kind of risks that they have taken. When we asked Jim, he said that he took 1% risk on each trade, whereas Tom risked 5% of his capital in each trade. It means if if Jim had a losing trade, he would lose 5,000 rupees and if Tom had a losing trade, he would lose 25,000 rupees. [09:30] What would happen if 10 consecutive trades fail? In case of Jim, if 10 consecutive trades fail, Jim would lose 10% of his capital and his capital would be brought down to 4,50,000 rupees. From 5 lakh, his capital would come down to 4,50,000 rupees. Now,
+
+from 4,50,000 rupees if he wants to come back to 5 lakhs. What is the percentage return he has to make? Pause the video and calculate it yourself.
+
+Jim will need 11.1% to get back at 5 lakhs. It will not be 10%. [00:30] It will be 11.1% to get back to 5 lakhs. Let's talk about Tom.
+
+Tom would have a drawdown of 50% of his capital. If 10 trades, consecutive trades fail, he would lose 50% of his capital and his capital would be marked down to 2.5 lakhs.
+
+Now, from 2.5 lakhs, if he wants to get back to break even, [01:00] how much will he need to generate? He will need to generate a return of 100% now to get back at 5 lakhs. So you see, we cannot afford to lose big. We cannot afford to have a big drawdown. The bigger the drawdown, the more difficult it becomes to recover.
+
+I repeat, the bigger the drawdown, the difficult it becomes to recover. [01:30] And so, we should keep our risk per trade in control. And that's why I suggested a range of 0.75% to 1.5% which is okay, which is a comfortable range to be in. For most traders, 1% works good.
+
+In this example, Tom was risking a way lot higher at 5%. And [02:00] if five or 10 trades go wrong, he will have a big hit on his capital. So I repeat this statement. In the stock market, always think about the risk first. Always evaluate the risk first, reward next.
+
+So whenever you hear somebody saying that he has made so, so great returns, ask him what was the risk he had taken [02:30] to achieve those returns. Because the element of risk is also very important which needs evaluation. That's it for this one. See you in the next video.
+
+In the previous video, we talked about the rule of determining RPT percent in a trade. We understood that it is important to determine how much of the account value [03:00] you are going to risk in a particular trade. That is your RPT percentage. In this video, let us talk about how to calculate how much of the account value to allocate to a trade. How to identify or how to calculate the quantity that needs to be traded in a particular trade. This is called position sizing.
+
+Now, I'll just give you a formula. Position size percentage is equal to desired RPT percentage divided by stop loss percent. [03:30] Position size percentage means how much, what percentage of your account value is to be deployed to a particular trade. Desired RPT percent means your desired risk per trade that you want to risk in a particular trade. Stop loss percentage means how much your stop loss is away from the entry price.
+
+With this formula, you know exactly how much you will lose if the trade fails. [04:00] If you calculate your quantities with this formula, you are every time sure of how much you will lose if the trade hits your stop loss. Now I'll just give you an example which makes it easy for you to understand. Let's say that your account value is 1 lakh rupees, 100,000 rupees, 100,000 dollars. RPT that you decided for the next trade is 1%. For the next trade, the entry price is coming at 100, stop loss is coming at 92. Then you have to find out what's your stop loss percentage. [04:30] So it is 8% as you can clearly see, 8 rupees divided by 100 multiplied by 100. That's 8%. Position size percentage is equal to RPT percent divide by stop loss percent into 100. So RPT is 1 divide by 8 multiplied by 100. It will it will be equal to 12.5%.
+
+So what will be your position size for that trade? [05:00] Position size in terms of rupee or in terms of dollar it will be 1 lakh which is your account value, that's your capital, multiplied by 12.5%. That's 12,500. Now you have decided that you have to allocate 12,500 to this trade, 12,500 rupee or dollar. So what will what is your entry price? It is 100. So the quantity has to be calculated now. It is 12,500 [05:30] divided by 100, which is equal to 125 quantities. So now if you do the reverse calculation, let's say you bought 125 shares of this particular stock at the price of 100. Now if the stock goes down and hits your stop loss, what will be the loss that you will make? You will see that you will make a loss of $1,000 or 1,000 rupees, which is equal to 1% of your RPT. That's what you decided. [06:00] So this formula makes possible this particular RPT percent. Let's take one more example. Let's say your account value is 500,000 or 5 lakh. RPT is 0.5%. That's what you decided for the next trade. Entry price is 500, stop loss is 450. Now you have to calculate what is the quantity that you should buy in this particular trade so that you ensure an RPT of 0.5%. [06:30] You can just pause this video right now and calculate it yourself for your practice.
+
+So the correct answer is 50. Okay? You have to buy 50 shares of this particular trade. You can do all the calculations yourself. That's it for this one. See you in the next video.
+
+Hi traders. In this video, we will talk about three terminologies: capital deployed, account value, and exposure. [07:00] The first is capital deployed. In the first year of trading, capital deployed on a given date is the net funds added to your broker account. You just have to add all deposits and subtract all withdrawals. Let's just say today is 1st June and let's say I started trading from February. Okay? [07:30] So if I want to identify my capital deployed as on today, I just have to add all the deposits till date and subtract all the withdrawals till date. So just take out the list of all the deposits and the withdrawals from February till today, that is 1st of June. And there you have your capital deployed.
+
+In simple words, [08:00] how much of your money, how much of your investment you are putting into trading is your capital deployed. Okay? In the subsequent years of trading, capital deployed is equal to account value as on 1st January plus deposits minus withdrawals. So in the next year, let's say in the next year, if I want to identify my capital deployed on 1st of June, [08:30] I'll have to identify, I'll just have to calculate account value as on 1st Jan. And then I have to add or subtract my deposits and withdrawals from 1st of Jan till 1st of June to get my capital deployed as on 1st of June.
+
+Now, why have I put account value as on 1st Jan here? This is because ROI is a yearly metric. ROI is calculated [09:00] on capital deployed as on 1st Jan, as on the start of the year. You will understand about this later. Now, let's talk about account value. Account value is simply the current value of your account. And it is different from capital deployed. Let's see the formula. Account value as on today is equal to capital deployed as on today [09:30] plus minus realized gain or loss from 1st January till today, plus minus unrealized profit or unrealized loss. Now, just in case you do not know what's realized and unrealized, let me just give you an example. Let's say you bought stocks worth 10,000 rupees and it went up and now the value is 12,000. [10:00] You have not sold them. Okay? Your cost is 10,000, now the value is 12,000. So 2,000 today is your unrealized gain. Okay? Now, let's say you sold it. You sold it and you booked a gain of 2,000. Now, as you sell it and you realize that profit, it goes into realized gain. So you have booked that gain, it goes into realized gain. Okay? So I hope this is very clear. So account value as on today is capital deployed as on today plus realized gain from 1st Jan till today, [10:30] plus unrealized gain. So that's your account value as on today. Okay? For our system, for our purposes, account value as on today is equal to capital deployed as on today plus realized gain from 1st Jan. It means for our trading, we will ignore this unrealized gain loss for the sake of easy calculations. So you have to remember this formula, the second one, okay? Where you just take into account the realized gain.
+
+Now, position sizing and RPT percent calculation has to be done on account value. Not on capital deployed. Just for example, if you start off your trading with a capital deployed of let's say 10 lakh rupees or 1 million. And after six months, your account value is you made some profits and your account value has become becomes 1.5 million or 15 lakhs.
+
+[00:30]
+So now your RPT percent and your position sizing has to be done on 15 lakhs or 1.5 million. Not on 1 million or 10 lakhs. Only then you will be able to compound your capital. I hope this is very clear. Next, let's talk about exposure. Assuming, let's say, let's say that you are just a long side trader.
+
+[01:01]
+You do not have any short trades. So what is your long exposure? It's cost price multiplied by quantity of all your long trades divided by the account value. Let's say your account value is 10 lakh rupees or 1 million. And if you look at all your long trades and you you look at you find out the value of those trades in terms of cost price, not in terms of the market price. Okay? You find out the value in terms of cost price, the invested amount, just add all of that.
+
+[01:32]
+All of those long trades. And divide it by the account value. Let's say that you have taken trades worth 8 lakhs or 0.8 million. So 0.8 divided by 10 or you can say 8 divided by, sorry, 0.8 divided by 1 which is your account value. Or you can say 8 lakhs divided by 10 lakhs. So 80% is your long exposure.
+
+[02:03]
+So out of your total account value, which is 1 million, you have uh an exposure of 0.8 million in your long trades. As simple as that. Then there is short exposure where you have to do all of this for just for your short trades. Very simple. Then you have total exposure.
+
+[02:32]
+Which is just an addition of long exposure and short short exposure. Let's say your long exposure is 50% and your short exposure is 5%. So total total exposure becomes 55%. So you have to do the same thing for all the trades divided by the account value. And finally with there is net exposure, which is important, which is long exposure minus minus short exposure. It means we can you can also call it net long exposure.
+
+[03:03]
+Okay? So let's say your long exposure is 80% and your short exposure is 15%. Then your net exposure is 65%. I hope these terms are clear. That's it for this one. See you in the next video.
+
+Hi traders. In this video, let us talk about ROI or return on investment.
+
+[03:34]
+In simple words, ROI is a metric that measures what is the percentage gain on your capital deployed over a year. So ROI is a metric which is generally calculated on a yearly basis. For example, on 1st of January, you invested in a fixed deposit and it is giving you let's say 6% interest at the end of the year.
+
+[04:04]
+So your ROI for that year becomes 6%. Very simple. Similarly, in trading, it measures how much you are profitable, what is the percentage gain on your capital deployed over a year. Now, let's talk about calculation. If there are no subsequent deposits or withdrawals, I repeat, if there are no subsequent deposits or withdrawals, it means if you started off with a certain capital deployed and then you start off your trading and then you do not make any subsequent deposits or withdrawals for that year, then ROI can be calculated very simply.
+
+[04:51]
+The formula is net profit for the year divided by capital deployed. So the formula becomes very simple. Whatever is your realized net profit, you divide it by your capital deployed. And that will calculate your ROI percent for that particular period or year. However, if there are subsequent deposits or withdrawals, it means in the middle of the year, you may add some money or withdraw some money from your account. In that case, ROI has to be calculated in a different way. I'm explaining you two methods.
+
+[05:24]
+The first one is a very simple method wherein you can you need to just calculate the average capital deployed for the period. So you have to see at what on what dates you have added funds or withdraw withdrawn funds from your account and then you have to make a weighted average calculate calculation to calculate your average capital deployed for that particular year. Now I'm not going to go into how to calculate uh the average capital deployed.
+
+[06:00]
+You can just Google it, how to do weighted average calculations and you'll find it. Basically, the intention is to calculate the average capital deployed for the period and then you divide the net profit by your average capital deployed to get the ROI. Now if you just observe here, earlier the formula was net profit divided by the capital deployed because there were no additions or withdrawal of funds. But now since you're adding funds or withdrawing funds, your capital deployed throughout the year changes and so now you need to find out what is the average capital deployed throughout the year. Okay?
+
+[06:33]
+And the formula becomes net profit divided by the average capital deployed and you get the ROI percent. The second method is a more precise method of calculating ROI. Now let's let's understand this. It is a little complicated, but if you can maybe get it, you can get it. The first one, the first step is calculate ROI percent for each exited trade. Whenever you exit any trade, whether fully or partially, you have to calculate ROI percent for that particular exit.
+
+[07:05]
+Okay? ROI percent for a trade is calculated as the formula is realized profit, realized profit, whether fully or partially exited, okay? Whatever profit you book, divided by capital deployed as on trade open date. Now mind here, we are calculating ROI for a trade. Okay? We need to first calculate ROI for each trades that are exited. So you need to find out realized profit of that trade, whether you exit the trade fully or partially, whatever, on that particular date, you just find out what is the realized profit for that particular exit and you divide that profit by capital deployed as on trade open date.
+
+[07:44]
+So you look at when did you open the trade, when did you enter the trade? And what was your capital deployed on that particular date? So you divide your net profit by that particular capital deployed and then you get the ROI percent for that exit, for that trade. Okay? And then you need to add each individual ROI percentages of each exited trade during that period. And then when you make a sum, when you make a sum total of ROI percent of each exited trade for that particular period, you get the total ROI percent.
+
+[08:15]
+Now, if you do not understand this calculation, it's absolutely okay. You just need to understand the meaning of ROI because once you start using our trade journal, once you put your trades into the trade journal, you record your funds deposits and withdrawals in the trade journal, automatically the trade journal will calculate your ROI percent for you. So you do not need to worry, but you just need to understand the meaning of ROI which is very simple. That's it for this one. See you in the next video. Hi traders. In this video, we will understand three terminologies, free cash, margin, and leverage.
+
+[08:50]
+Free cash is the amount of cash balance that is available for trading. Let's say you have a capital of 10 lakh and you have purchased stocks worth 8 lakh. So the 2 lakh that is left off, the 2 lakh cash that is available, we can call it free cash because that cash is available for trading now. Very simple. The second term is margin.
+
+[09:20]
+Margin is the amount of non-cash balance. Remember, it is the amount of non-cash balance that is available for trading. Free cash is the amount of cash balance, margin is the amount of non-cash balance that is available for trading. Now, how do we get margin? So margin, it may be lent by the broker as a loan. In India, it is known as MTF or margin trading facility, wherein if you are buying certain stocks, you can avail a loan from the broker to buy that stock.
+
+[09:55]
+It means you put your own funds partially in that stock and partial investment is made by your broker. And that is your non-cash balance. So it is equivalent to being called as margin. And the second case may be that let's say you have certain stocks in your portfolio and you pledge your stocks with the broker and once you pledge your stocks with the broker, the broker gives you additional margin to trade.
+
+[10:25]
+So it is again a form of non-cash balance to trade more. So that's the meaning of margin. You can just Google it, what's pledging, what's margin, what's margin trading facility, you can just Google it and get more idea. I've just given you a brief. The third is leverage. Leverage is the ability to buy more than what can be done with the free cash amount. So when you want to trade more than what you can do with the available free cash, it is like taking leverage.
+
+[10:56]
+So basically when a trader has a total exposure above his account value, when your total exposure gets above your account value, it implies taking leverage. Exposure, what is the meaning of exposure? We'll talk about it in the next video, but right now just understand this. When your total exposure goes above account value, it generally implies taking leverage. Generally, leverage implies using margin.
+
+And this is simple, right? When you are using your margin money to trade, only then you can avail the leverage. Okay? So generally leverage implies that you are using margin. That's it for this one. See you in the next video.
+
+Hi traders. In this video, let us talk about futures. [00:30] Now see, there are around 200 stocks available in the futures segment in India. So you must have come across derivatives or futures and options as a terminology. So there are around 200 stocks that are available in the F&O segment in India. This means there are 200 stocks that are available in equity segment as well, like stock segment as well, and they are also available in future segment. Okay?
+
+[01:00] Now, what are the advantages of futures? Let's talk about that. When you participate in the stock market, STT is the most significant cost of trading. If you compare all the charges that you incur when you buy or sell something, like brokerage, GST, stamp duty, STT, you will find that STT, securities transaction tax is the most significant cost of our trading. [01:30] When you trade in futures, it will save a lot of STT as compared to stocks. Let's say you want to buy HDFC bank. If you buy HDFC bank in stocks, in equity segment, and if you buy HDFC bank of the same value in future segment, STT in futures will be much, much lower. That's advantage number one.
+
+The second advantage is trading in futures also gives you leverage by default. [02:00] You do not have to pay any interest to the broker whatsoever. Okay? You just need 15% to 25% of the free cash or margin money to take a futures position. Let's say you want to buy HDFC bank worth 7 lakh rupees, then you just need 15% to 25% of that amount in your uh in your account as free cash or margin, whatever. [02:30] And you can trade and you can, you know, trade HDFC bank worth 7 lakhs. So by default, trading in futures give you leverage. That's the advantage number two.
+
+Now, should you trade in futures or not? The answer is very simple. You should trade in futures only if your position sizing rules allow you to trade at least three lots in a trade. [03:00] This is because we exit trades in installments. Whenever you decide about buying or trading any particular stock in future segment, you just see how many lots you can buy. Okay, let me first make it this make this very clear. In futures, you cannot buy random quantities like 5, 10, 15, 20. No. [03:30] You need to trade in lots. Okay? One lot, two lot, three lot. And each lot contains a certain number of quantities. Let's say one lot may have 500 quantities, 1000 quantities depending upon the stocks. Different stocks have different lot sizes. Okay?
+
+So now if you are planning to take any trade, you have to see if your position sizing rules allow you to allow you to trade at least three lots in that particular trade. [04:00] If not, you should not be trading in futures in that particular trade. If yes, if your position sizing rules allow you to trade at least three lots in the trade, you should definitely take trades in futures. Because it will save you a lot of STT and it will also give you leverage by default. That's it for this one. See you in the next video.
+
+Let us talk about risk reward ratio. [04:30] At a trade level, this ratio shows the relationship between the risk you took in a trade and the reward you anticipated. I repeat, it shows the relationship between the risk you took in a trade and the reward you anticipated. [05:00] Let's take this example. Let us say you found a trade setup where your entry price is 100, your stop loss is 95 and your target is 105. Now tell me what is the R multiple? To calculate the R multiple, which is nothing but the risk reward ratio, you have to first calculate the gap between the target and the entry price. [05:30] The gap is 5 rupees. Then you have to calculate the gap between stop loss and the entry price. The gap is again 5 rupees. Then you have to divide the target gap by the stop loss gap. 5 divided by 5 is equal to 1. So the R multiple is 1R. [06:00] It means in this trade, you risked five points for a target of five points. Both the sides, the gap was equal, five points. And so the R multiple is one. You risked one to to get the reward of one. You risked one for a reward of one. As simple.
+
+Let's take another example. [06:30] Let's say you found another setup. The entry price of that stock is 200, the stop loss is at 185 and your target is 230. Now you have to calculate the R multiple here. What is the risk reward ratio? You can pause the video and calculate it. The correct answer is 2R. [07:00] Now I'm not going into the calculation, it is pretty simple. So in this trade, if the target hits, I will say that I made 2R. It means I made two times my risk. So that's the terminologies that we use as traders. Let's take the third example. The entry price is 500, stop loss is 480 and the target is 510. [07:30] Now if the target is hit, what is the R multiple that I will make? The correct answer is 0.5R. Because in this trade, you risked 20 points for a reward of just 10 points. [08:00] And so your risk was high, the reward was less. The risk was two times the reward. And so you made 0.5R in this trade. In the second one, the reward was two times the risk. So you made 2R. So in simple uh terms, higher the R multiple you can achieve at a trade level, better it is. [08:30] It simply means you risked less to gain more. I hope this is pretty simple.
+
+discuss a very important metric, average risk reward ratio, ARR. At a summarized level, which concerns all your trades over a particular period. [09:00] So at a summarized level, this ratio shows the relationship between your average loss and your average gain. It shows the relationship between the average loss and the average gain. Now, what is your average loss per trade? Simply look at all the losing trades, make a total of the losses made in all your losing trades, [09:30] divide that total by the number of losing trades. So this will give you the average loss per trade. It simply means that if you are losing a particular trade, what is the average loss that you're making on it? So that is nothing but the average loss per trade. So it has to be looked at over a particular period, maybe three months, six months, one year, whatever. So you can calculate your average loss per trade like that. [10:00] Then you have to calculate your average gain per trade. What is the average gain that you're making on a winning trade? Now, let's say some trades you make 10,000, some trades you make 15,000, on some trades you make 20,000. But when you look at the when you make a total of all the profits in the winning trades and divide it by the number of winning trades, you get an average that which is your average gain per trade. [10:30] So we are talking about that average here. So when you have both the two, average loss and average gain, ARR can be calculated, which is average gain divided by average loss. So keeping other metrics constant, higher the ARR, the better it is. You see risk reward ratio, we used to look at it at a trade level. But when you look at a summarized level, when you look at your performance, [11:00] the way you have traded over a period, you have to calculate your ARR, which is nothing but a risk reward ratio only, where you get to know what is your average gain divided by the average loss. So what is your ratio? For example, if your average gain is 10,000 rupees and your average loss is 5,000 rupees, it means your ARR is two. This means that on an average, in your winning trades, you are making two and on losing trades, you are losing one. [11:30] Or the other way around. If I say that, okay, my average loss is 7,000. My average loss per trade is 7,000. And if I tell you that, okay, my ARR is three. My ARR for that period is three. Tell me what will be my average gain. So you'll tell me, okay, your average gain
+
+is 21,000. Three times the average loss.
+
+So this is how the calculation works.
+
+So this is about the average risk reward ratio. That's it for this one. See you in the next video.
+
+Let us talk about another very important metric which is win rate.
+
+[00:30] At a summarized level, this percentage shows the relationship between the number of winning trades and the losing trades. How many trades go right as against the total number of trades is shown by the win rate.
+
+So in this particular calculation, you need to know the number of winning trades. Out of all the trades that you have taken, how many trades went right? How many trades were profitable? [01:00] And how many trades were losing trades? So win rate is calculated by calculated as follows. Number of winning trades divided by the total number of trades.
+
+So out of 140 trades in a year, if 63 trades were winning trades, your win rate for that period is 45%. So the win rate is calculated by 63 divided by 140, which is 45%. [01:30] So this is an example to just make you make you understand. Higher the win rate, better it is. So if you keep the other variable, other metrics constant, higher the win rate, the better it is.
+
+So pretty simple concept.
+
+Win rate, which is a very important metric which affects our performance. That's it for this one. See you in the next video.
+
+[02:00] Let us now discuss ARR and WR in detail. I call these metrics, these two metrics as expectancy metrics. Because the combination of your ARR and your win rate decides whether you are trading with a positive expectancy or a negative expectancy.
+
+In simple language, positive expectancy means profitable trading. [02:30] Negative expectancy means non-profitable or loss making journey.
+
+So the way your ARR and your WR shapes up, when you look at your figures, your combination of ARR and win rate will decide whether you are in a positive expectancy or a negative expectancy.
+
+Let us understand this concept with the help of an Excel sheet. [03:00] So I'm preparing an Excel sheet. You can also do the same. Let's say the capital with which you are trading is 10 lakhs. Your RPT percentage is 1%. Your average loss, your average loss is equal to 10 lakh multiplied by 1%.
+
+Because you are risking 1% in each trade, so I'm assuming that every time you lose a trade, you are losing 10,000 rupees. [03:30] And so if you look at all your losing trades over a period of time, let's say six months or one year, and you calculate your average loss, it comes to 10,000. In real life, this average loss may not always be equal to 1%. It may go up and down slightly or more because sometimes we may exit before stop loss. And there are also other scenarios possible. So the average loss may not come exactly 10,000. But in this calculation, I'm assuming that okay, [04:00] your risk is 1% and so your average loss is 10,000. Because we are understanding the mathematics behind this.
+
+Now let's talk about the ARR. Let's say you are you are trading with an ARR of one.
+
+Now tell me what will be your average gain? In your winning trades, what will be your average gain? Simple. 10,000 multiplied by one.
+
+Okay? Your average gain will also be 10,000 because your ARR is one. [04:30] Or you can do the other way around. Since your average gain is 10,000 and your average loss is also 10,000, I can say that the ARR is one. Okay? That should be clear.
+
+Now coming to the win rate. Okay, before win rate, let's talk about the number of trades.
+
+Let us say that in a year, you did 120 trades.
+
+And you maintained a win rate, [05:00] your win rate was 50%.
+
+Now tell me how many trades were winning trades? What is the number of winning trades that you had in that particular year?
+
+You did 120 trades and 50% of those trades went correct. So the win rate will be 120 multiplied by 50% is equal to 60.
+
+Let me use a rounding rounding formula so that in the future it will be helpful. [05:30] It will be 60.
+
+Now tell me what will be the profit that you will make in all the winning trades combined? That you have made in all the winning trades combined. What is that profit? It is simple. It is 60 multiplied by the average gain. You had 60 winning trades in a year. Okay? And your average gain was 10,000 per trade. [06:00] Your average gain per trade was 10,000. So 60 multiplied by 10,000, total profit in all the winning trades is 6 lakh rupees.
+
+What will be the losing trades? How many trades will go wrong? Must have gone wrong. It will be 120 minus 60. So again 60 trades have gone wrong. So loss in losing trades. What is your loss in losing trades? 60 trades went wrong and in each losing trade, you lost 10,000. [06:30] Okay? You lost 10,000, which is your average loss per trade. So your loss in losing trade is 6 lakh rupees.
+
+Now tell me what is the net profit? What is your return?
+
+Your return is profit minus the loss. Profit minus the loss which is zero. Your return is zero. And if we talk about return in terms of percentage [07:00] of capital, then it will be zero divided by your capital. Your capital was 10 lakh. So in terms of percentage, your return is also 0%. Now when we are at zero return, we say that we are at break even. This is a term that we may use in the future as well. Break even means no profit, no loss.
+
+Okay?
+
+Now I want you to place your attention towards these two [07:30] things that we are discussing, the expectancy metrics. ARR and the win rate.
+
+Now this is very logical. If your win rate is 50% and your ARR is one, you are at break even. You are at break even. Always remember this. If your win rate is 50% and your ARR is one, you are at break even. It is very simple. If you just think of it very logically, [08:00] uh 50% of your trades go right, 50% of your trades go wrong. In each winning trade, let's say you make 10,000 rupees and your ARR is one. In each losing trades, you also lose 10,000 rupees. So obviously, no matter how many trades you take, you will always be at break even.
+
+So this combination, ARR of one and a win rate of 50% will produce a result which is break even. [08:30] You will not make any profit, you will not make any loss.
+
+So currently, I just want you to make this table in in an Excel sheet. And if you are not able to do it in an Excel sheet, you can just simply do this on a piece of paper and do the calculation on your own because this is the model, this is the table that we will use in the coming videos as well and we will go go very, very deep into these calculations. So, [09:00] I'm ending this video as of now. Please do your homework.
+
+So that's it for this one. See you in the next video.
+
+So we have started our discussion with the expectancy metrics, which are ARR and WR. So I said that the combination of your ARR and WR decides whether you are trading with a positive expectancy or a negative expectancy.
+
+And then we were looking at this particular sheet [09:30] where we understood that if you have a combination of your ARR and win rate as such where your ARR is one and the win rate is 50%, then you are at break even. Now no matter how many trades you do, let's say 120 trades, you are at break even. If it is 100 trades, again you are at break even. So this combination produces break even results.
+
+Now let's say, let's remove the win rate from here. Now let's say that in a particular year, [10:00] you traded with an ARR of two. It means your average gain is two times the average loss. Your average loss is 10,000, but your average gain was 20,000.
+
+Now, if you maintain a win rate of 50%, you are making a profit of 6 lakh rupees in that particular year, which translates into a return of 60% on your capital.
+
+[10:30] Now tell me, if I want to see what should be the minimum win rate I need to break even. Should my win rate be higher than 50% or lower than 50%?
+
+Okay, before going into that, just have a look at the calculation first in case you have any doubts. Uh 120 trades, 50% trades went right. So that 60 trades went right. In each winning trade, you made 20,000 profit. So the total profit was 12 lakhs. [11:00] 60 trades went wrong. These are losing trades and your average loss per trade was 10,000. So the total loss in losing trades becomes 6 lakh. So profit was 12 lakhs, loss is 6 lakh. So the return becomes
+
+60%. Fine? Now tell me, if I want to see what is the win rate which is required to break even, what would it be? Will it be higher than 50 or lower than 50? Obviously, it has to be lower than 50 because at 50% win rate, you're making a profit. So let's check. At 40% win rate, at 40% win rate, I'm making a profit of 24%. So still I need to reduce the win rate.
+
+[00:30] At 35% win rate, I'm making a profit of 6%. So I need to reduce my win rate again. At 33.3% win rate, I am at break even. So you see at 33.3% win rate, my winning trades are 40, my losing trades are 80. And the profit and the loss becomes equal and the return is zero.
+
+[01:00] So this is again a combination where you are at break even. If your ARR is two and your win rate is 33.3%, you will be at break even. No matter how many trades you do, you will be at break even.
+
+[01:30] Now let's get back to 1 and 50. Now if my ARR is 0.5, ARR is 0.5, it means that my average gain is half the average loss. My average loss is 10,000 and my average gain is just 5,000. Now at 50% win rate, I am making a loss of 30%. You see? At 50% win rate, I am making a loss of 30%.
+
+[02:00] I need to have a higher win rate. Let's say my win rate is 75%. It means out of 120 trades, 90 trades go right, 30 trades hit the stop loss. In that case, I'll make a return of 15%. So at a lower ARR, I needed a very high win rate to make a return.
+
+[02:30] So let's look at what is the win rate which is required to break even. Let's look at what is the win rate which is required to break even. At 70% win rate, I am again making 6% return. So I need to reduce my win rate. At 66.6% win rate, I am making a zero return. I am at break even.
+
+[03:00] So we got to understand this combination again. At 0.5 ARR and a 66.6% win rate, we are at break even. No matter how many trades you do, you will be at break even. Now let me show you an interesting table. Look at this table. If your average, this is your average loss, this column is your average gain, this represents your ARR, which is the average gain divided by average loss.
+
+[03:30] And this column represents the win rate which is required to break even. So, we look at this particular row which is marked yellow. At an ARR of one, you need 50% win rate to break even, and we have discussed that. Okay. At ARR of two, at ARR of two, you need a 33% win rate to break even.
+
+[04:00] So you see as your ARR becomes high, as your ARR goes up, the win rate required to break even goes down. You can be break even at a lower win rate as well. Anything about anything about 33% will give you profit. If your win rate goes 35%, 40%, 45%, you are going to make money. But you need a minimum win rate of 33% to break even.
+
+[04:30] Similarly, if the ARR becomes lower, if you are trading with an ARR of 0.5 where your average gain is half the average loss, in that case, the win rate that you require to break even will be high. You need a win rate of 66.6% only then you will be at break even. If your win rate crosses that particular level, then you will start making profits.
+
+[05:00] Okay. Now let me also explain why achieving higher risk reward ratio is difficult. You see, let's look at two trade examples. Let's say this is trade number one and this is trade number two. Now you see in trade number one, now looking at this trade, the entry price is 100, stop loss is 95 and the target is 105.
+
+[05:30] The second trade, the entry price is 100, stop loss is 95, but the target is now 200. Now tell me, will the win rate be higher for the trade number one or trade number two? Where will the win rate be higher? Mind you, win rate means the probability of hitting targets. Forget the analysis here. Ignore the analysis, just looking at this numbers, what do you think where will the win rate be higher? Where will the probability of hitting the target will be higher?
+
+[06:00] The answer should be the probability will be higher in trade number one. Why? Because in trade number one, you see the gap of stop loss is the same in both the trades. But in trade number one, the target is nearer as compared to trade number two. The target is just five points away, whereas in trade number two, the target is 100 points away.
+
+[06:30] So obviously the probability of hitting the target in trade number one will be higher than trade number two. So just this example proves that achieving, you know, going for high risk reward ratios will get difficult. It is common, it is natural.
+
+[07:30] Now let's talk about our trading setup. Our trading strategy. So in our strategy, we will try to maintain an ARR of two. We will try to maintain an ARR of two or above. We will try to maximize our ARR by maintaining it at two or above. That should be our parameters. And our win rate we are going to maintain it above 40%. So this is the minimum metrics that we need, ARR of two, minimum win rate of 40%.
+
+[08:00] Now at this particular combination, you are making a return of 24%. If you go by this particular table. So this creates a positive expectancy. This combination, ARR of two and a win rate of 40% is a positive expectancy combination because you are making money. Now, we are talking about this ARR of two and a win rate of 33% which is required to break even.
+
+[08:30] But since we are maintaining a win rate of 40%, which is above 33%, we are in a positive expectancy combination and we are going to make money. If our win rate goes lower than 33%, well, let's say we are making a win rate of 25% in a year, then you see making a loss. We are making a loss. The return is minus 30%. So we need to maintain a win rate of 40% or above. Let's say if we win make a win rate of 45%, we are making more money. We are making a return of 42% now.
+
+[09:00] Let's bring back the win rate to 40%. Let's say the ARR you shift from two to 2.3. You see, now we are making again a better return at 30 38.4% return. Earlier at two ARR, your return was 24%. Now with with an ARR of 2.3, you are making a return of 38.4%. So the more you the higher you raise your ARR, you are able to maximize your risk rewards in trades, you are going to make more money.
+
+[09:30] The the higher your win rate is, you are going to make more money. Uh let's bring it back to two and the win rate of 40% which are the standard metrics that we want to aim for. I want you to watch this video once again before proceeding ahead because this video is extremely important. That's it for this one. See you in the next video.
+
+[10:30] In the previous video, we talked about expectancy metrics. In this video, let us discuss about intensity metrics. Expectancy metrics, EMs, decide whether you are profitable or not, whether you are in a positive expectancy or in a negative expectancy. The combination of your average risk reward and your win rate decide whether you are in a positive expectancy or a negative expectancy. We have discussed that.
+
+[11:00] Intensity metrics decide how intense or extreme your results will be, whether profits or losses. So intensity matrix decide how extreme your results will be whether profits or losses. These are the two intensity metrics, the number of trades and RPT percentage.
+
+[11:30] If you are trading in the positive expectancy, the higher the intensity metrics, the higher your profits will be. So if you are in a positive expectancy, the more number of trades you do or the more risk you take on a trade, the more your profits will be. If you are in a negative expectancy, the higher the intensity metrics, the higher your losses will be.
+
+[12:00] Because you are in a negative expectancy and in the negative expectancy combinations, the more you risk or the more number of trades you do, the more your losses will be. Let us now understand this with the help of a practical example. So I have marked orange the intensity metrics, which is RPT percent and the number of trades. So these are the intensity metrics. The yellow marked are the expectancy metrics.
+
+[12:30] Now we discussed earlier that for our strategy, we want that our ARR has to be above two and the win rate has to be above 40%. Now, this is a positive expectancy combination. Why? Because if you look at this particular table, at ARR of two, the minimum win rate required is 33%. Win rate higher than 33% will create a positive expectancy. So if our win rate is 40% or more than that, we are in
+
+positive expectancy territory. So now, in the positive expectancy territory, if we increase the intensity matrix, our profits will go up. So if let's say RPT percent, let's say from 1% if I make it 1.5%, you see now I'm making a return of 36% which has increased. Let me get back to 1%.
+
+[00:30] If I reduce my RPT from 1% to 0.8%, you see the return has gone down. Okay? It has come to 19.2%. It has decreased. So it decides the intensity. RPT percent is deciding the intensity. Let me make it back to 1%. Let's come to the number of trades. At 120 trades, I'm making a return of 24%. If I increase the number of trades, you see if I make it 140, the returns go up to 28%.
+
+[01:00] If I reduce the number of trades from 120 to 100, the returns go down to 20%. So it again is deciding the intensity of the profits. Now this is happening because we are trading in a positive expectancy. Let us say if the win rate or the risk reward goes down and we go into the negative expectancy. Let us say that the risk reward ratio goes down from two to let's say one.
+
+[01:30] Now if your win rate is 40%, you are in a negative expectancy because at an ARR of one, you need a minimum win rate of 50%. If your win rate is below 50%, you are in a negative expectancy. So now you are in a negative expectancy, the more your intensity matrix will be, the more your losses will be. So let's say if you increase your RPT from 1% to let's say 1.5%, you see the losses have magnified from 24% to 36%.
+
+[02:00] Your losses have gone up. Let me make it let me make it back to 1%. We are losing 24%. Now let's say if I increase my number of trades from 120 to 150, now the return goes the the loss is increased from 25% to 30%. So the intensity matrix are working in this particular fashion. Now you may have a question, what decides the number of trades? What
+
+[02:30] Let me get back to 1%. If I reduce my RPT from 1% to 0.8%, you see the return has gone down. Okay? It has come to 19.2%. It has decreased. So it decides the intensity. RPT percent is deciding the intensity. Let me make it back to 1%. Let's come to the number of trades.
+
+[03:00] At 120 trades, I'm making a return of 24%. If I increase the number of trades, you see if I make it 140, the returns go up to 28%. If I reduce the number of trades from 120 to 100, the returns go down to 20%. So it again is deciding the intensity of the profits. Now this is happening because we are trading in a positive expectancy.
+
+[03:30] Let us say if the win rate or the risk reward goes down and we go into the negative expectancy. Let us say that the risk reward ratio goes down from two to let's say one. Now if your win rate is 40%, you are in a negative expectancy because at an ARR of one, you need a minimum win rate of 50%. If your win rate is below 50%, you are in a negative expectancy.
+
+[04:00] So now you are in a negative expectancy, the more your intensity matrix will be, the more your losses will be. So let's say if you increase your RPT from 1% to let's say 1.5%, you see the losses have magnified from 24% to 36%. Your losses have gone up. Let me make it let me make it back to 1%. We are losing 24%. Now let's say if I increase my number of trades from 120 to 150,
+
+[04:30] now the return goes the the loss is increased from 25% to 30%. So the intensity matrix are working in this particular fashion. Now you may have a question, what decides the number of trades? What decides the risk per trade? So the number of trades depend upon your trading setup and the market conditions.
+
+[05:00] By trading setup, I mean what kind of time frame you are trading in, how many opportunities you are getting to trade with your trading setup, all those factors affect the number of trades. If you are trading on a very shorter time frame, you can get more number of trades. If you are trading on a higher time frame, longer time frame, holding period is large, you may get lesser number of trades. So all of these factors affect the number of trades. Secondly, the market conditions play a very important role.
+
+[05:30] This is something that you will not find elsewhere. Nobody discusses this as well because most people do not know about this. Market conditions are very important and it affects your number of trades. We will talk about it later. Coming to the RPT, RPT percent depends upon your risk appetite and the market conditions. I've told you that uh 0.75% to 1.5% is a decent
+
+[06:00] range of RPT percent to be in for most traders. But again, it depends upon your risk appetite. And secondly, it also depends upon the market conditions. It means that if the markets are favorable, we prefer to take more risk. If the markets are unfavorable, we prefer to take lesser risk. We will talk about that later. So now coming back to this table, uh we have discussed that our expectancy matrix,
+
+[06:30] our expectation is that we have to maintain a win rate above 40%, we have to maintain an ARR above two. Uh as as regards to the risk per trade, I have told you 0.75% to 1.5% is a good range to be in. And as regards the number of trades, according to our trading strategy, 100 to 200 trades is something uh that we look for in a year.
+
+[07:00] Okay? So now your homework is to uh create this table on your own, maybe on the Excel sheet, in the Excel sheet or maybe in your notebook and then play around with different expectancy matrix and intensity matrix and look at the kind of results. Uh look at the impact that these matrix have on the performance. I hope this is clear.
+
+[07:30] If not, you can watch this video again. That's it for this one. See you in the next video.

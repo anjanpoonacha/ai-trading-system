@@ -1,0 +1,830 @@
+{
+  "ta-1.txt": [
+    {
+      "timestamp": "02:04",
+      "quote": "so look at this this is a chart of Astral limited a listed company so the way this stock is moving over the past few months there is a certain pattern with which it is moving",
+      "what_is_shown": "A TradingView chart of Astral Limited showing price movement patterns over several months",
+      "why_needed": "The speaker references 'this chart' and 'the way this stock is moving' and 'a certain pattern' without describing what the pattern looks like or what specific price action is visible. The viewer must see the chart to understand what pattern is being demonstrated."
+    },
+    {
+      "timestamp": "06:52",
+      "quote": "when you open trading view when you open any chart for the first thing that you have to do is on the top left you have to change the color theme and make it dark",
+      "what_is_shown": "The TradingView interface showing the location of the color theme selector in the top left corner",
+      "why_needed": "The speaker says 'on the top left' but doesn't describe how to navigate the menu structure or what the button looks like. The viewer needs to see the exact UI element to click."
+    },
+    {
+      "timestamp": "06:52",
+      "quote": "then the next thing is about the time frame here you see there are different time frames right now I on The Daily time frame",
+      "what_is_shown": "The time frame selector dropdown menu in TradingView showing various time frame options",
+      "why_needed": "The speaker says 'here' without describing where the time frame selector is located or what it looks like. Visual reference is required to locate this control."
+    },
+    {
+      "timestamp": "07:24",
+      "quote": "here we have the bar style I'll just zoom it in okay here we have the bar style so by default you will have the candles what we are going to use for our trading system is this Holo candles so you can just select Holo candles here",
+      "what_is_shown": "The bar style dropdown menu showing different chart display options including candles and Holo candles",
+      "why_needed": "The speaker repeatedly says 'here' and 'this' without describing the location or appearance of the bar style selector. The viewer must see where to click and what 'Holo candles' looks like in the menu."
+    },
+    {
+      "timestamp": "07:54",
+      "quote": "now let's uh add indicators on the chart so you have to go to indicators you have to go to technicals the first indicator we use is moving average ribbon ma a ribbon so you can select this one",
+      "what_is_shown": "The indicators menu navigation path and the specific 'MA ribbon' indicator selection",
+      "why_needed": "The speaker describes a multi-step navigation process ('go to indicators', 'go to technicals', 'select this one') without describing what these menu items look like or their exact location. Visual guidance is essential."
+    },
+    {
+      "timestamp": "08:27",
+      "quote": "you go to the settings and here you have option options to select the moving averages that you want to display",
+      "what_is_shown": "The indicator settings dialog box showing the moving average configuration options",
+      "why_needed": "The speaker says 'here you have options' without describing the settings interface layout or where specific fields are located."
+    },
+    {
+      "timestamp": "08:58",
+      "quote": "go to style there are similar settings you just have to keep them as it is or you can just make the same settings as you did in the inputs in this visibility keep everything as it is",
+      "what_is_shown": "The 'Style' and 'Visibility' tabs in the indicator settings showing various configuration options",
+      "why_needed": "The speaker references multiple tabs ('style', 'visibility') and their contents without describing what settings are visible or how they're organized."
+    },
+    {
+      "timestamp": "10:00",
+      "quote": "you can see two indicators I'll just show you by applying the champion Trader Volume Plus trp indicator",
+      "what_is_shown": "A file browser or folder view showing two indicator files in the resources folder",
+      "why_needed": "The speaker says 'you can see two indicators' without naming them or describing what the viewer is looking at in the resources folder."
+    },
+    {
+      "timestamp": "11:03",
+      "quote": "go to the trading view platform here you will find pine editor click on Pine editor then you have to click on Open then you have to click on new indicator here you have to remove everything and paste it",
+      "what_is_shown": "The TradingView Pine Editor interface showing the menu navigation and code editor window",
+      "why_needed": "The speaker describes a multi-step workflow ('here you will find', 'click on Open', 'click on new indicator', 'here you have to remove') using spatial references without describing the UI layout or button locations."
+    },
+    {
+      "timestamp": "11:34",
+      "quote": "this is the champion Trader volume indicator so I clicked on it and here is how it looks",
+      "what_is_shown": "The applied Champion Trader volume indicator displayed on the chart showing volume bars and numerical values",
+      "why_needed": "The speaker says 'here is how it looks' without describing what visual elements are displayed or how the indicator appears on the chart."
+    },
+    {
+      "timestamp": "12:06",
+      "quote": "you can go to the settings and just do the settings as I've have done so if you are in trading in the Indian market you have to keep this sticked",
+      "what_is_shown": "The indicator settings dialog showing a checkbox option for Indian market turnover display",
+      "why_needed": "The speaker says 'keep this sticked' without identifying which specific checkbox or setting is being referenced."
+    },
+    {
+      "timestamp": "12:37",
+      "quote": "so the first value here is the current volume the volume on the bar where I put my cursor okay the second is the 30 days average volume",
+      "what_is_shown": "The indicator display showing multiple numerical values with labels for volume, average volume, turnover, and TRP",
+      "why_needed": "The speaker says 'the first value here' and 'the second' without describing where these values appear on screen or how they're labeled. The viewer must see the indicator's data display to understand the layout."
+    },
+    {
+      "timestamp": "13:09",
+      "quote": "and the last one last thing important thing is here it also shows us the uh sector it is belonging to the health services and then it shows the industry",
+      "what_is_shown": "The indicator display showing sector and industry information fields",
+      "why_needed": "The speaker says 'here it also shows us' without describing where this information appears in the indicator display or how it's formatted."
+    },
+    {
+      "timestamp": "13:42",
+      "quote": "just keep it ticked the other thing is you have to apply log scale to the Chart so right click on the scale here and there will be an option called logarithmic so you have to click on this one",
+      "what_is_shown": "The speaker is demonstrating where to right-click on the TradingView chart scale and showing the logarithmic option in the menu",
+      "why_needed": "The speaker uses deictic references ('here', 'this one') without verbally describing the exact location of the scale or menu path, requiring visual confirmation of where to click"
+    },
+    {
+      "timestamp": "14:15",
+      "quote": "go to settings and go to symbol and make the settings the way I've done you can use the same colors if you want go to status line and do these settings go to scales and do this settings canvas okay so background has to be black here grid line it should should be gradient and it should be black",
+      "what_is_shown": "The speaker is clicking through multiple settings tabs and showing specific configurations, but only verbally describes some settings (black background, gradient gridlines) while saying 'make the settings the way I've done' and 'do these settings' for others",
+      "why_needed": "The speaker repeatedly says 'do these settings' and 'the way I've done' without verbally specifying what those settings are, making the visual essential to replicate the configuration"
+    },
+    {
+      "timestamp": "15:15",
+      "quote": "here on the left hand side you see all the different tools and drawing tools that you can use so these are the tools and here you'll also see the shortcuts",
+      "what_is_shown": "The left sidebar of TradingView showing the tools panel with various drawing tools and their keyboard shortcuts",
+      "why_needed": "The speaker uses 'here' and 'these' without naming specific tools or describing the interface layout, requiring visual reference to understand what tools are available and where shortcuts are displayed"
+    },
+    {
+      "timestamp": "15:47",
+      "quote": "so I have these many Tools in my favorite toolbars which I use often",
+      "what_is_shown": "The favorite toolbar showing the specific tools the speaker has selected",
+      "why_needed": "The speaker references 'these many tools' without naming them, requiring visual confirmation of which specific tools are in the favorite toolbar"
+    },
+    {
+      "timestamp": "16:19",
+      "quote": "let's say you you applied a you applied a trend line here like this okay now you have to double click on this and go to visibility",
+      "what_is_shown": "The speaker drawing a trend line on a chart at a specific location and then opening its visibility settings dialog",
+      "why_needed": "The speaker uses 'here like this' and 'this' without describing where the trend line is drawn or what the visibility dialog looks like"
+    },
+    {
+      "timestamp": "17:21",
+      "quote": "now if I want to open up any chart Zoom it in so I click on any particular uh chart here time frame here and then on the bottom right there's an option called maximize panel",
+      "what_is_shown": "The multi-panel layout with three charts and the maximize panel button location in the bottom right",
+      "why_needed": "While 'bottom right' is mentioned, the speaker uses 'here' multiple times and the exact location and appearance of the maximize button requires visual confirmation in the context of the three-panel layout"
+    },
+    {
+      "timestamp": "17:53",
+      "quote": "on the weekly chart if I want to go here if I want to look at this particular What's Happening Here on the daily chart so just click on this click here",
+      "what_is_shown": "The speaker clicking on a specific point on the weekly chart and demonstrating how it navigates to the corresponding location on the daily chart",
+      "why_needed": "Multiple uses of 'here' and 'this' without describing what specific point or feature is being clicked, making the demonstration impossible to follow without seeing the screen"
+    },
+    {
+      "timestamp": "22:02",
+      "quote": "let's say I have selected the to let's say I bought the stock here so I'll just click here let's say my stop loss is here so I just click here and again I bring it back and click here towards my Enterprise",
+      "what_is_shown": "The speaker demonstrating the three-click process of applying the Fibonacci extension tool: clicking at entry, stop loss, and back to entry",
+      "why_needed": "The speaker uses 'here' four times without describing the specific price levels or the visual sequence of clicks required to properly apply the tool"
+    },
+    {
+      "timestamp": "22:34",
+      "quote": "now you can just double click on the tool go to style and make the same settings that I've done okay and like 2 3 5 you can just sck as many as you want when you press you do the settings first okay exactly the way I've done",
+      "what_is_shown": "The Fibonacci extension tool's style settings dialog showing specific configuration options for the risk-reward levels",
+      "why_needed": "The speaker says 'make the same settings that I've done' and 'exactly the way I've done' without verbally describing what those settings are, requiring visual reference"
+    },
+    {
+      "timestamp": "23:36",
+      "quote": "click on your Buy price this becomes your stop- loss so change the stop loss like this this is your stop- loss price and moving it up and down you can see the risk reward here is changing",
+      "what_is_shown": "The long position tool interface showing how dragging the stop loss line changes the risk-reward calculation display",
+      "why_needed": "The speaker uses 'like this', 'this', and 'here' without describing the specific interaction method or what visual feedback indicates the changing risk-reward ratio"
+    },
+    {
+      "timestamp": "27:13",
+      "quote": "so now we are on this chart and now have a look at this particular box here on the top left when you click on this box you can type the name of the stock",
+      "what_is_shown": "The search box location on TradingView's interface in the top left corner",
+      "why_needed": "Speaker says 'this particular box here' without naming it - viewer must see where to click to search for stocks"
+    },
+    {
+      "timestamp": "28:17",
+      "quote": "secondly the second thing that I would like to show is this thing the time frame this one so you just have to click on this Arrow here and this box will open up",
+      "what_is_shown": "The timeframe selector dropdown menu and its location on the TradingView interface",
+      "why_needed": "Speaker uses 'this thing' and 'this Arrow here' without describing the location or appearance of the timeframe selector"
+    },
+    {
+      "timestamp": "29:20",
+      "quote": "lastly I like to show this thing to you uh look at this here box here this is how you can change the type of the chart",
+      "what_is_shown": "The chart type selector button/dropdown on TradingView interface",
+      "why_needed": "Speaker says 'this here box here' without describing where the chart type selector is located or what it looks like"
+    },
+    {
+      "timestamp": "29:52",
+      "quote": "in a chart the horizontal axis the bottom horizontal axis this one this represents the time interval",
+      "what_is_shown": "The horizontal time axis at the bottom of the chart showing months (June, July, August, September)",
+      "why_needed": "Speaker says 'this one' while presumably pointing at the axis on screen"
+    },
+    {
+      "timestamp": "30:24",
+      "quote": "now whenever you place your cursor at any point at any point here you get to see the closing price for that time interval... look at this at where my cursor is look at the right side",
+      "what_is_shown": "Cursor positioned on a specific date (21st November 2022) on the line chart, with the price display showing 1595 on the right side",
+      "why_needed": "Speaker is demonstrating cursor interaction and referring to 'where my cursor is' and 'look at the right side' - requires seeing the actual cursor position and price display"
+    },
+    {
+      "timestamp": "31:28",
+      "quote": "look at this particular box here here you see the closing price whenever I change my move my cursor you'll see different closing prices for different dates",
+      "what_is_shown": "The data box (likely top-left) that dynamically updates to show closing prices as the cursor moves across the chart",
+      "why_needed": "Speaker refers to 'this particular box here' and demonstrates interactive cursor movement without describing the box's location or appearance"
+    },
+    {
+      "timestamp": "31:28",
+      "quote": "po at this particular level at the top of the body okay",
+      "what_is_shown": "A specific price level being pointed to on a candlestick body",
+      "why_needed": "Speaker says 'this particular level' without stating the actual price value"
+    },
+    {
+      "timestamp": "38:08",
+      "quote": "look at the top left side of your screen and you can see here we are on the daily daily chart 1D daily chart of HDFC bank",
+      "what_is_shown": "The timeframe indicator showing '1D' in the top left of the TradingView interface",
+      "why_needed": "While the speaker mentions 'top left', they're demonstrating where to verify the current timeframe setting visually"
+    },
+    {
+      "timestamp": "38:40",
+      "quote": "look at the top left box that I have marked when I put my cursor on a candle you can look at ohlc Open high low and close",
+      "what_is_shown": "The OHLC data box in the top left that displays when hovering over a candle",
+      "why_needed": "Speaker refers to 'the top left box that I have marked' and demonstrates cursor interaction - viewer must see the box and how it updates"
+    },
+    {
+      "timestamp": "39:10",
+      "quote": "let's look at this particular big green candle... so the bottom of the body will be the open price so this is the open price I have drawn a line using horizontal Ray",
+      "what_is_shown": "A specific large green candle with a horizontal line drawn at the open price level (1545)",
+      "why_needed": "Speaker says 'this particular big green candle' and 'this is the open price' while drawing on the chart - requires seeing which candle and where the line is drawn"
+    },
+    {
+      "timestamp": "39:44",
+      "quote": "now the bottom of the week shows the low so during this particular day HDFC bank went to a lowest price of 1538",
+      "what_is_shown": "The lower wick of the green candle being analyzed, with cursor showing the low price of 1538",
+      "why_needed": "While the price is stated, the speaker is demonstrating the visual relationship between the wick and the low price on a specific candle"
+    },
+    {
+      "timestamp": "40:16",
+      "quote": "now I want you to place your attention here there is another thing look at this box now now when I put my cursor on a particular candle now this box represents uh 86.4",
+      "what_is_shown": "A data box showing the price change value (86.4) and percentage (5.67%) when hovering over a candle",
+      "why_needed": "Speaker says 'look at this box' and 'this box represents' without describing which box or where it's located - requires seeing the interface element"
+    },
+    {
+      "timestamp": "41:49",
+      "quote": "now look at this big red candle let's try to interpret what has happened",
+      "what_is_shown": "A specific red candlestick on a weekly chart with visible body and wick structure",
+      "why_needed": "The speaker references 'this big red candle' without naming the stock or timeframe initially, requiring viewers to see which specific candle is being analyzed"
+    },
+    {
+      "timestamp": "41:58",
+      "quote": "so the top of the body will be the open price so this is the open price now you see uh there is no upper Wick",
+      "what_is_shown": "The top of the red candle body and the absence of an upper wick",
+      "why_needed": "Speaker uses 'this is' and 'you see' to point to specific parts of the candle structure that must be visually identified"
+    },
+    {
+      "timestamp": "42:20",
+      "quote": "the stock opened here at the top of the body and simply went down during that day it did during this particular week it did not go up at all so right when it opened here on Monday",
+      "what_is_shown": "The opening point at the top of the candle body and the downward price movement",
+      "why_needed": "Multiple uses of 'here' to point to specific price levels on the candle without stating exact values"
+    },
+    {
+      "timestamp": "42:35",
+      "quote": "made a low till here the bottom of the wick it made a low till here okay and then finally it closed at the top at the bottom of the body",
+      "what_is_shown": "The bottom of the lower wick (low point) and the bottom of the candle body (close price)",
+      "why_needed": "Speaker points to 'here' twice to indicate specific price levels without stating numerical values"
+    },
+    {
+      "timestamp": "43:05",
+      "quote": "if you want to go to a let's say 10 minutes chart press comma and click on 10 a hit 10 minutes so now each candle represents the activity of 10 minutes",
+      "what_is_shown": "The process of changing timeframe in TradingView interface and the resulting 10-minute chart",
+      "why_needed": "Demonstrates a specific UI workflow (pressing comma, clicking options) that requires seeing the interface"
+    },
+    {
+      "timestamp": "43:18",
+      "quote": "so if you look at the uh xaxis you will see the the time interval is Shifting by 10 minutes only",
+      "what_is_shown": "The x-axis of the chart showing time intervals in 10-minute increments",
+      "why_needed": "Directs viewer to observe a specific visual element (x-axis time labels) to verify the timeframe change"
+    }
+  ],
+  "ta-2.txt": [
+    {
+      "timestamp": "00:00",
+      "quote": "let me show you the screen this is zeroa that is a broker in India it is this platform of zeroda where you can have a look at the watch list here",
+      "what_is_shown": "Zerodha trading platform interface showing the watchlist panel",
+      "why_needed": "Speaker references 'this platform' and 'here' without describing the layout or specific interface elements"
+    },
+    {
+      "timestamp": "00:31",
+      "quote": "here you see the last traded prices you see this the price is fluctuating these are the last traded prices",
+      "what_is_shown": "Real-time price updates in the watchlist showing fluctuating numbers",
+      "why_needed": "Speaker says 'you see this' and 'these' without stating specific stocks or price values being observed"
+    },
+    {
+      "timestamp": "00:31",
+      "quote": "now let's say I want to buy uja cement uja cement is something that I want to buy so I'll H my mouse here and click on buy",
+      "what_is_shown": "The specific location and appearance of the buy button in the Zerodha interface",
+      "why_needed": "Speaker demonstrates the clicking action with 'here' but doesn't describe where the buy button is located"
+    },
+    {
+      "timestamp": "01:04",
+      "quote": "now when I click on buy I have this option of two things intraday or longterm... here there is two option NSE and BC... click on regular here do not click on cover or anything else",
+      "what_is_shown": "Order entry form showing radio buttons/dropdowns for Intraday/Long-term, NSE/BSE exchange selection, and Regular/Cover/AMO options",
+      "why_needed": "Speaker references multiple interface elements ('this option', 'here', 'click on regular here') without describing their visual layout or location"
+    },
+    {
+      "timestamp": "01:35",
+      "quote": "on the bottom at the bottom you get margin it means this is the fund that you need... and here are the charges like the exchange charges",
+      "what_is_shown": "Bottom section of order form displaying margin requirement and breakdown of charges (exchange charges, brokerage, GST)",
+      "why_needed": "Speaker points to 'the bottom' and 'here' showing specific calculated values without stating the amounts or exact layout"
+    },
+    {
+      "timestamp": "02:41",
+      "quote": "now as you see the price is 34.8 right now for uja cement 341 34.8 it is moving around that",
+      "what_is_shown": "Real-time price display for Ambuja Cement showing values around 340-341",
+      "why_needed": "While speaker states the price, they reference 'as you see' indicating the visual of the fluctuating price is important to observe"
+    },
+    {
+      "timestamp": "02:41",
+      "quote": "now as I click on buy you see in my order orders panel you see in my orders panel I have this ambuja cement",
+      "what_is_shown": "Orders panel displaying the newly placed limit order for Ambuja Cement with quantity, LTP, and order price",
+      "why_needed": "Speaker references 'you see' and 'this' pointing to the orders panel without describing where it's located or how to access it"
+    },
+    {
+      "timestamp": "03:44",
+      "quote": "so if you look at the market depth of ambuja cement this is the market depth here you see on the right hand side all the sellers all the selling orders",
+      "what_is_shown": "Market depth window for Ambuja Cement showing bid and ask columns with prices, orders, and quantities",
+      "why_needed": "Speaker opens a new window/panel ('this is the market depth') and references 'here' and 'right hand side' without describing how to access it or its full layout"
+    },
+    {
+      "timestamp": "04:16",
+      "quote": "I now click on Market you see this price field is hidden now",
+      "what_is_shown": "Order form with Market order type selected, showing the price input field disappearing/graying out",
+      "why_needed": "Speaker demonstrates a UI change ('this price field is hidden') that must be seen to understand the difference between limit and market orders"
+    },
+    {
+      "timestamp": "04:49",
+      "quote": "so here if I place a market order what will happen look at the best sellers on the right hand side we have a list of seller",
+      "what_is_shown": "Market depth window showing the ask side (right column) with seller prices and quantities",
+      "why_needed": "Speaker says 'look at' and 'on the right hand side' referencing specific visual data without reading out the values"
+    },
+    {
+      "timestamp": "05:29",
+      "quote": "the list of the stocks that I have right now in my as my trades open so if I want to sell any of these let's say let's look at Craftsman so I click on options here",
+      "what_is_shown": "Portfolio/positions panel showing holdings including Craftsman, with an options menu being accessed",
+      "why_needed": "Speaker navigates to a different section ('list of stocks', 'click on options here') without describing how to access the portfolio or where the options button is"
+    },
+    {
+      "timestamp": "06:01",
+      "quote": "so if I click on Craftsman's Market depth here on the left hand side we have the best buyers available",
+      "what_is_shown": "Market depth window for Craftsman showing the bid side (left column) with buyer prices and quantities",
+      "why_needed": "Speaker opens market depth and references 'here on the left hand side' pointing to specific bid data without reading values"
+    },
+    {
+      "timestamp": "07:04",
+      "quote": "when I click on order here you see my order is pending now my order is open you can see this the order is open",
+      "what_is_shown": "Orders panel showing the pending limit sell order for Craftsman with status indicator",
+      "why_needed": "Speaker says 'you see', 'you can see this' pointing to order status without describing where the orders panel is or how the status is displayed"
+    },
+    {
+      "timestamp": "08:15",
+      "quote": "let's click on Market depth so you see on this right hand side you see these are the ltps last traded price and see they are constantly changing",
+      "what_is_shown": "Market depth window showing real-time LTP updates with numbers changing rapidly",
+      "why_needed": "Speaker demonstrates live price movement ('see they are constantly changing') which requires visual observation of the animation"
+    },
+    {
+      "timestamp": "08:15",
+      "quote": "Focus here there are few other important uh things that you can understand here which is for first is open on this particular day HDFC opened at 1613",
+      "what_is_shown": "Stock information panel showing OHLC data (Open, High, Low, Close), volume, and circuit limits for HDFC Bank",
+      "why_needed": "Speaker says 'Focus here' and 'here' pointing to specific data fields without describing the layout or location of this information panel"
+    },
+    {
+      "timestamp": "10:54",
+      "quote": "let's come back to the broker platform let's click on the market depth of HDFC bank now you see here uh this is the ltp the last traded price which is fluctuating and here on the left hand side we see the bid prices",
+      "what_is_shown": "Market depth window for HDFC Bank showing LTP in center, bid column on left, ask column on right with live updates",
+      "why_needed": "Speaker references 'you see here', 'this is', 'here on the left' pointing to specific areas of the market depth interface without fully describing the layout"
+    },
+    {
+      "timestamp": "12:57",
+      "quote": "then my broker will send this order to The Exchange and the exchange will put this order into the market depth at 160 4.1 here my order will be visible to everybody",
+      "what_is_shown": "Market depth window showing where a hypothetical order at 1604.1 would appear in the bid column",
+      "why_needed": "Speaker explains order placement in market depth using 'here' to indicate position without describing the exact location in the bid/ask ladder"
+    },
+    {
+      "timestamp": "13:28",
+      "quote": "so it it says that okay there is no buyer right now so it will place this it will put this order of mine into the market depth it will put this order in the list of priority",
+      "what_is_shown": "Market depth window demonstrating where a sell order would be placed in the ask column priority queue",
+      "why_needed": "Speaker explains order queue placement using 'this' and 'list of priority' while presumably pointing to the visual queue without describing the structure"
+    },
+    {
+      "timestamp": "15:33",
+      "quote": "so let's look at the weekly chart of hom motop currently the price is at this particular level now you just have to look on the left hand side and try to identify significant tops and bottoms",
+      "what_is_shown": "Weekly chart of Hindustan Motors with current price level and historical price action showing tops and bottoms",
+      "why_needed": "Speaker references 'this particular level' and 'the top here' without stating specific price values; viewer must see the chart to identify which tops/bottoms are being discussed"
+    },
+    {
+      "timestamp": "16:05",
+      "quote": "you see this is a significant top from where the price has reversed a lot so now this top is a resistance now if I connect the if I look at left hand side further I see that this area had acted as resistance earlier as well",
+      "what_is_shown": "Specific top on the chart being identified as resistance, with horizontal line being drawn to connect multiple resistance points",
+      "why_needed": "Speaker says 'this is a significant top' and 'this area' without stating the price level; the act of drawing the horizontal line is demonstrated visually"
+    },
+    {
+      "timestamp": "16:38",
+      "quote": "now if you look at the bottom uh this becomes my support I'm drawing a line here this becomes my support from where the price has reversed now you can also draw it something like this at the bottom or you can make it something like this",
+      "what_is_shown": "Support level being identified and horizontal line being drawn, with alternative placement options demonstrated",
+      "why_needed": "Speaker references 'the bottom' and 'this becomes my support' without stating price; demonstrates different ways to draw the line with 'like this' which requires visual"
+    },
+    {
+      "timestamp": "17:10",
+      "quote": "if I look at it further down here is another support I've drawn a line here so this also becomes my significant support because from this support the price has reversed a lot",
+      "what_is_shown": "Additional support level lower on the chart with another horizontal line drawn",
+      "why_needed": "Speaker says 'here is another support' and 'I've drawn a line here' without stating the specific price level"
+    },
+    {
+      "timestamp": "18:13",
+      "quote": "we are on the chart of bhel weekly chart we we are currently at this particular level right now so if you look at the top I mean there is one level here not so significant it is the alltime high level",
+      "what_is_shown": "Weekly chart of BHEL showing current price position and all-time high resistance level",
+      "why_needed": "Speaker references 'this particular level' and 'one level here' without stating specific prices; viewer must see where on the chart these levels are"
+    },
+    {
+      "timestamp": "18:48",
+      "quote": "the price is currently trading at a support which you can see here this becomes my two rejection so this is support then there is another support here as well there are three rejections from the same level",
+      "what_is_shown": "Multiple support levels being identified with 'here' and 'this' without stating exact price values; the number of rejections at each level must be counted visually"
+    },
+    {
+      "timestamp": "21:23",
+      "quote": "so we are on the weekly chart of Reliance Industries weekly chart of Reliance Industries and we are currently here let's look at the top first to identify resistances so I have a resistance Zone here",
+      "what_is_shown": "Weekly chart of Reliance Industries with current price position and resistance zone being identified",
+      "why_needed": "Speaker says 'we are currently here' and 'I have a resistance Zone here' without stating specific price levels"
+    },
+    {
+      "timestamp": "21:54",
+      "quote": "if you look at the bottom I can Mark out this particular bottom here which becomes my support then I have another support here and I have another support here as well",
+      "what_is_shown": "Multiple support levels being marked on Reliance chart at different price points",
+      "why_needed": "Speaker uses 'this particular bottom here' and 'another support here' repeatedly without stating the actual price values"
+    },
+    {
+      "timestamp": "22:27",
+      "quote": "then we have the chart of baj Finance weekly chart the stock is trading here let's look at the top this becomes my resistance let's look at the bottom this becomes my support this also becomes my support",
+      "what_is_shown": "Weekly chart of Bajaj Finance with current price, resistance at top, and multiple support levels at bottom",
+      "why_needed": "Speaker says 'trading here', 'this becomes my resistance', 'this becomes my support' without stating any specific price levels"
+    },
+    {
+      "timestamp": "23:32",
+      "quote": "then we have the chart of Vio the stock is trading here now in this case we have a support here immediate support rejection has happened two times if you talk about the resistance we have a resistance here",
+      "what_is_shown": "Chart of Vodafone Idea showing current price, support level with two rejections, and resistance level",
+      "why_needed": "Speaker uses 'trading here', 'support here', 'resistance here' without stating price values; viewer must see the chart to identify these levels"
+    },
+    {
+      "timestamp": "24:03",
+      "quote": "then we have the chart of jsw Ste the stock is trading here it is coming off from a resistance Zone as you can see this was a resistance Zone earlier I'm marking it out",
+      "what_is_shown": "Chart of JSW Steel with current price position and resistance zone being marked",
+      "why_needed": "Speaker says 'trading here' and 'this was a resistance Zone' while actively marking it on screen without stating the price level"
+    }
+  ],
+  "ta-3.txt": [
+    {
+      "timestamp": "01:36",
+      "quote": "so here we are on the chart of ultratech cement it is the weekly chart now I just want you to identify the biggest candle the candle with the biggest range so you'll see okay this is the candle which you can clearly see which has the biggest range",
+      "what_is_shown": "Ultratech Cement weekly chart with a specific large-range candle being pointed out, along with the true range indicator showing the bar size",
+      "why_needed": "Speaker says 'this is the candle' without naming the date or price level - viewer must see which specific candle is being referenced on the chart"
+    },
+    {
+      "timestamp": "02:08",
+      "quote": "now tell me something about this candle here the tiny candle here so you can see the range the high minus low is very small",
+      "what_is_shown": "A specific small candle on the Ultratech Cement chart with its corresponding small true range indicator bar",
+      "why_needed": "Speaker refers to 'this candle here' and 'the tiny candle here' without identifying which specific candle by date or price - visual reference is required"
+    },
+    {
+      "timestamp": "02:42",
+      "quote": "now let's add identify a few other significant uh pivotal uh sorry a few other candles with a bigger range uh you see the three candles here 1 2 3 you look at the range",
+      "what_is_shown": "Three specific consecutive candles on the chart with above-average range indicators",
+      "why_needed": "Speaker counts 'three candles here 1 2 3' without specifying dates or price levels - viewer must see which three candles are being referenced"
+    },
+    {
+      "timestamp": "03:14",
+      "quote": "you can also see this particular candle here this green candle look at the range here the range is pretty big higher than the average",
+      "what_is_shown": "A specific green candle with a large range indicator bar above the average line",
+      "why_needed": "Speaker says 'this particular candle here' and 'this green candle' without identifying the specific date or price - visual is necessary to know which candle"
+    },
+    {
+      "timestamp": "04:48",
+      "quote": "now look at the first uh Big Range candle now in this first uh wide range candle you can also see the volume is pretty big look at this higher than the average",
+      "what_is_shown": "The first large-range candle previously identified, now showing its corresponding volume bar compared to the average volume line",
+      "why_needed": "Speaker refers to 'the first Big Range candle' and 'look at this' without restating which candle or when - requires visual reference to the earlier identified candle"
+    },
+    {
+      "timestamp": "05:18",
+      "quote": "uh place your attention here at these small candles uh the range is small and the volumes are also small so these candles are not pivotal candles",
+      "what_is_shown": "Multiple small candles with small range and volume indicators",
+      "why_needed": "Speaker says 'here at these small candles' without specifying which candles or time period - viewer must see the specific candles being referenced"
+    },
+    {
+      "timestamp": "05:50",
+      "quote": "uh let's look at the three red candles here the ranges uh were going up you can see and the volumes are also increasing",
+      "what_is_shown": "Three consecutive red candles showing progressively increasing range and volume indicators",
+      "why_needed": "Speaker refers to 'the three red candles here' without identifying dates or price levels - visual is required to see which three candles"
+    },
+    {
+      "timestamp": "06:22",
+      "quote": "now look at these candles here look at these candles here two three Candles now here the range if you look at the range it is at the average",
+      "what_is_shown": "Two or three specific candles with average-level range indicators but high volume bars",
+      "why_needed": "Speaker says 'these candles here' and 'two three Candles' without specifying which ones - viewer must see the specific candles being analyzed"
+    },
+    {
+      "timestamp": "06:54",
+      "quote": "so you see here because of the covid fall in March 2020 the range got expanded you see the range got expanded so when the range got so so much expanded the average line also rose up and so here these ranges seem smaller",
+      "what_is_shown": "Chart showing the COVID-19 crash period in March 2020 with extremely large range candles that caused the average line to spike up, making subsequent candles appear smaller in comparison",
+      "why_needed": "Speaker refers to 'here' and 'these ranges' multiple times while explaining the visual effect of the average line shift - requires seeing the chart context and average line movement"
+    },
+    {
+      "timestamp": "07:25",
+      "quote": "if you look at these two candles the red and the green I think both of these candles are pivotal candles range and the volume is high uh then we have a couple of candles here as well",
+      "what_is_shown": "Two specific candles (one red, one green) followed by a couple more candles, all showing high range and volume",
+      "why_needed": "Speaker says 'these two candles' and 'a couple of candles here' without identifying specific dates or prices - visual reference is necessary"
+    },
+    {
+      "timestamp": "10:02",
+      "quote": "we are on the weekly chart of infosis now on this particular chart let's identify pivotal candles so I can see this candle here very big pivotal candle you see the range is pretty solid pretty big and the volume is also solid",
+      "what_is_shown": "Infosys weekly chart with a specific large pivotal candle highlighted, showing both large range and volume indicators",
+      "why_needed": "Speaker says 'this candle here' without identifying which specific candle on the Infosys chart - viewer must see which candle is being referenced"
+    },
+    {
+      "timestamp": "10:34",
+      "quote": "similarly look at this candle as as well again this is also a positive pivotal candle uh place your attention to this particular candle now I can see that the range is greater than the average but there are no good volumes",
+      "what_is_shown": "Two different candles being referenced - first a positive pivotal candle, then another candle with good range but low volume",
+      "why_needed": "Speaker uses 'this candle' and 'this particular candle' to reference different candles without specifying dates or prices - visual is required to distinguish between them"
+    },
+    {
+      "timestamp": "11:06",
+      "quote": "look at this particular candle here here you see the range is big and the volume is also greater than the average very I mean higher volumes than the average so this would be my pivotal candle but this would be a negative pivotal candle if you mark the midpoint of its range",
+      "what_is_shown": "A specific negative pivotal candle with large range and high volume, showing the close below the midpoint of its range",
+      "why_needed": "Speaker says 'this particular candle here' and demonstrates marking the midpoint without stating the specific date or price level - viewer must see the candle and its midpoint"
+    },
+    {
+      "timestamp": "11:38",
+      "quote": "also look at this one now you see the size of the candle is small I mean it is not so big but it has moved a lot from the previous close you see there is a big gap here",
+      "what_is_shown": "Speaker says 'look at this one' and 'you see there is a big gap here' without identifying which candle or the gap size - visual is necessary to see the gap and candle"
+    },
+    {
+      "timestamp": "12:10",
+      "quote": "so this candle also becomes my negative pivotal candle and then we have a few negative pivotal candles here as well",
+      "what_is_shown": "Multiple negative pivotal candles being identified on the chart",
+      "why_needed": "Speaker says 'a few negative pivotal candles here' without specifying which candles or dates - viewer must see which specific candles are being referenced"
+    },
+    {
+      "timestamp": "13:16",
+      "quote": "so we are on the weekly chart of infosis and I have marked a resistance Zone here as you can see and in the month of July 2020 this resistance got broken out so this price action is called breakout",
+      "what_is_shown": "Infosys weekly chart with a marked resistance zone and the specific breakout candle in July 2020",
+      "why_needed": "While the month is mentioned, speaker says 'I have marked a resistance Zone here' and 'this resistance got broken out' - viewer must see where the resistance zone is drawn and which specific candle broke it"
+    },
+    {
+      "timestamp": "14:20",
+      "quote": "so look at this particular candle which broke out this is a clearcut positive pivotal candle you look at the range here sorry look at the volume here first a standout volume clearly visible and look at the range",
+      "what_is_shown": "The specific breakout candle with its volume bar and range indicator displayed",
+      "why_needed": "Speaker says 'this particular candle' and 'look at the range here' and 'look at the volume here' without restating the date - viewer must see the specific candle and its indicators"
+    },
+    {
+      "timestamp": "14:54",
+      "quote": "so look at the weekly chart of lus labs and I have marked a support here and on this particular candle we see a breakdown of the support",
+      "what_is_shown": "Lupin Labs weekly chart with a marked support level and the specific breakdown candle",
+      "why_needed": "Speaker says 'I have marked a support here' and 'on this particular candle' without specifying the support price level or breakdown date - viewer must see where support is drawn and which candle broke it"
+    },
+    {
+      "timestamp": "15:58",
+      "quote": "you can see on the chart this particular candle is a negative pivotal candle look at the volume above average the range is also higher than the average... look at a close the Clos is below the midpoint of its own range",
+      "what_is_shown": "A specific candle on a chart showing breakdown, with visible volume bars and the candle's position relative to support",
+      "why_needed": "Speaker uses 'this particular candle' without naming the stock or date, and references visual elements (volume bars, candle range, close position) that cannot be understood from words alone"
+    },
+    {
+      "timestamp": "16:28",
+      "quote": "look at this particular candle the candle has closed here which is below the support zone so you can see both the features here",
+      "what_is_shown": "The same candle's closing price position relative to a support zone drawn on the chart",
+      "why_needed": "Speaker points to 'this particular candle' and 'here' without stating the stock name, price level, or date - the visual reference is essential"
+    },
+    {
+      "timestamp": "18:37",
+      "quote": "so we we are on the daily chart daily chart of BDL bat Dynamics limited so go to indicators go to technicals and search for moving average ma a ribbon m a ribbon plot this one",
+      "what_is_shown": "Step-by-step demonstration of navigating TradingView menus to add the MA ribbon indicator",
+      "why_needed": "This is a software workflow demonstration - viewer must see the menu navigation and where to click to replicate the process"
+    },
+    {
+      "timestamp": "19:08",
+      "quote": "now go to the settings... on the time frame you must select one day... then you have to take the first and the second one and remove the third and the fourth one",
+      "what_is_shown": "MA ribbon settings dialog box with timeframe dropdown, multiple MA input fields, and checkboxes to enable/disable specific moving averages",
+      "why_needed": "Speaker is configuring specific settings in a dialog box - viewer must see which fields to modify and which checkboxes to toggle"
+    },
+    {
+      "timestamp": "19:39",
+      "quote": "go to style and look at this you can remove the third and the fourth just click on First and the second... on the defaults click on this and click as save as default",
+      "what_is_shown": "Style tab in settings showing color/opacity options and 'save as default' button location",
+      "why_needed": "Speaker uses 'this' and 'click on this' without describing what buttons or fields are being clicked - pure visual demonstration"
+    },
+    {
+      "timestamp": "19:39",
+      "quote": "now if you place your attention on any particular candle let's say you look at the latest candle now you get two values here... you also see the values on the top left side which is 93 and 850 respectively",
+      "what_is_shown": "Chart with cursor hovering over a candle, showing MA values both in a tooltip and in the indicator legend at top left",
+      "why_needed": "Speaker references 'here' and 'top left side' showing where MA values appear on screen - the UI element locations are visual"
+    },
+    {
+      "timestamp": "20:10",
+      "quote": "if you place your cursor on any particular candle let's say this particular candle so now here the calculation is with respect to previous 50 candles from this point",
+      "what_is_shown": "Cursor positioned on a specific candle showing how MA values change based on cursor position",
+      "why_needed": "Speaker says 'this particular candle' and 'this point' without identifying which candle or date - must see the visual demonstration"
+    },
+    {
+      "timestamp": "23:16",
+      "quote": "here you see a horizontal resistance where you will see the price getting reversed more than two times at least and then you see higher lows you look at the lows here the lows are higher and higher... you can connect those lows and form a line like this",
+      "what_is_shown": "Ascending triangle pattern drawn on a chart with horizontal resistance line and slanting support line connecting higher lows",
+      "why_needed": "Speaker draws lines on chart while saying 'like this' and 'here' - the pattern formation and line drawing is being demonstrated visually"
+    },
+    {
+      "timestamp": "25:22",
+      "quote": "here is an example of descending triangle pattern on chart you see there is a horizontal support and then there is a slanting trend line connecting the lower highs and then finally the stock breaks out of this trend line",
+      "what_is_shown": "Actual chart example showing descending triangle pattern with drawn horizontal support and slanting resistance lines",
+      "why_needed": "Speaker references 'this trend line' on an unnamed stock chart - viewer must see the specific example being analyzed"
+    },
+    {
+      "timestamp": "26:23",
+      "quote": "in this case you can see that the second bottom does not touch the support okay so it's okay you have to give this some room",
+      "what_is_shown": "Chart showing imperfect triple bottom pattern where second bottom is slightly above the support level",
+      "why_needed": "Speaker points out a specific visual detail about pattern imperfection that cannot be understood without seeing the actual chart"
+    },
+    {
+      "timestamp": "28:29",
+      "quote": "it drifts down like this it drifts down like this and finally breaks out of that handle itself",
+      "what_is_shown": "Visual demonstration of how a handle forms in a cup and handle pattern, showing the downward drift and breakout point on a chart",
+      "why_needed": "The speaker uses 'like this' twice without describing the specific shape, angle, or characteristics of the handle formation"
+    },
+    {
+      "timestamp": "29:00",
+      "quote": "this is an example of cup and handle pattern as well you see this round cup and then you see this handle here getting formed and it breaks out of the handle here",
+      "what_is_shown": "A specific stock chart showing a cup and handle pattern with the cup formation, handle location, and breakout point marked",
+      "why_needed": "Speaker references 'this' pattern and 'here' multiple times without naming the stock or describing the specific price levels or timeframe"
+    },
+    {
+      "timestamp": "29:32",
+      "quote": "you see this is a curve at the top uh it's surrounding top pattern",
+      "what_is_shown": "A chart displaying a rounding top pattern with the curved formation at the top and neckline visible",
+      "why_needed": "Speaker says 'this is a curve' without describing the specific characteristics or showing which stock/example is being referenced"
+    },
+    {
+      "timestamp": "30:04",
+      "quote": "you see how the pattern forms out there is a shoulder on both the sides and there is a head in the middle of it and then there is a breakdown of the pattern",
+      "what_is_shown": "A chart showing a Head and Shoulders pattern with left shoulder, head, right shoulder, and neckline breakdown clearly marked",
+      "why_needed": "While the pattern is described, 'you see how the pattern forms out' and 'there is a breakdown' require visual reference to understand the specific formation being taught"
+    },
+    {
+      "timestamp": "30:35",
+      "quote": "here is a practical example you see this is the left shoulder then we have the head here and then we have the right shoulder here",
+      "what_is_shown": "A specific stock chart example showing an actual Head and Shoulders pattern with each component labeled",
+      "why_needed": "Speaker uses 'this' and 'here' repeatedly without naming the stock or describing the specific price levels of each component"
+    },
+    {
+      "timestamp": "31:07",
+      "quote": "here is an example of inverse Head and Shoulders you see a left shoulder here then you see a head here and then you see a right shoulder here and then you see a neckline here which gets break broken out on this particular candle",
+      "what_is_shown": "A chart displaying an inverse Head and Shoulders pattern with all components and the specific breakout candle visible",
+      "why_needed": "Multiple uses of 'here' and 'this particular candle' without identifying the stock, timeframe, or specific price levels"
+    },
+    {
+      "timestamp": "34:12",
+      "quote": "here is the first chart we can see an inverse Head and Shoulders pattern you see the left shoulder the Deep head and the right shoulder and then there is a breakout at this particular candle",
+      "what_is_shown": "A specific stock chart showing an inverse Head and Shoulders pattern with the breakout candle marked",
+      "why_needed": "Speaker references 'this particular candle' and pattern components without naming the stock or describing price levels"
+    },
+    {
+      "timestamp": "34:43",
+      "quote": "on this chart we have a rounding top pattern you see the rounding top then we have the neckline here and then the stock breaks down of this neckline",
+      "what_is_shown": "A chart showing a rounding top pattern with neckline and breakdown point visible",
+      "why_needed": "Uses 'this chart' and 'here' without identifying which stock or the specific price levels involved"
+    },
+    {
+      "timestamp": "34:43",
+      "quote": "here we see an ascending triangle pattern you see the resistance which is a horizontal line and then you see the slanting trend line which is connecting the higher lows and then finally the breakdown happens of this pattern on the downside",
+      "what_is_shown": "A chart displaying an ascending triangle with horizontal resistance line, slanting support line, and breakdown point marked",
+      "why_needed": "Speaker says 'here we see' and 'this pattern' without naming the stock or specific price levels of the triangle"
+    },
+    {
+      "timestamp": "35:13",
+      "quote": "here we see a symmetrical triangle pattern we see higher lows and lower highs getting formed and finally the price is squeezed here at the end of the pattern and then with these two candles the stock breaks out of this pattern",
+      "what_is_shown": "A chart showing a symmetrical triangle with converging trendlines and the specific two breakout candles visible",
+      "why_needed": "References 'here', 'these two candles', and 'this pattern' without identifying the stock or describing the specific breakout characteristics"
+    },
+    {
+      "timestamp": "35:13",
+      "quote": "here we see Head and Shoulders pattern you see the left shoulder then the head and then the right shoulder again you will sometimes see variations like here you see two shoulders actually if you look at it carefully there are two shoulders",
+      "what_is_shown": "A chart showing a Head and Shoulders pattern with a variation where two shoulders are visible on one side",
+      "why_needed": "Speaker points out a visual variation ('here you see two shoulders') that requires seeing the chart to understand what makes this a variation"
+    },
+    {
+      "timestamp": "35:47",
+      "quote": "here we have a symmetrical triangle pattern uh lower highs and higher lows being connected finally the price breaks down of this pattern",
+      "what_is_shown": "A chart displaying a symmetrical triangle with trendlines and breakdown point visible",
+      "why_needed": "Uses 'here' and 'this pattern' without naming the stock or specific characteristics of the breakdown"
+    },
+    {
+      "timestamp": "36:19",
+      "quote": "here we have a double bottom as I said when we have double bottoms it is not necessary that every time we see exact support levels being reversed twice here there is this the second bottom is slightly higher than the first bottom",
+      "what_is_shown": "A chart showing a double bottom pattern where the second bottom is visibly higher than the first, demonstrating a variation",
+      "why_needed": "Speaker describes a visual variation ('slightly higher') that requires seeing the chart to understand the difference from a perfect double bottom"
+    },
+    {
+      "timestamp": "36:19",
+      "quote": "here we have two head and shoulders pattern the first Head and Shoulder is here there is this neckline and there is this breakdown the stock could not move much lower and then bounced back up again formed another Head and Shoulders pattern",
+      "what_is_shown": "A chart showing two consecutive Head and Shoulders patterns with their respective necklines and breakdowns visible",
+      "why_needed": "Multiple uses of 'here' and 'this' without naming the stock or describing where each pattern begins and ends"
+    },
+    {
+      "timestamp": "36:49",
+      "quote": "look at this head sorry shoulder the middle head and the right shoulder then we have the neckline and then the stock broke down of the neckline",
+      "what_is_shown": "A chart showing a third Head and Shoulders pattern with components and neckline breakdown marked",
+      "why_needed": "Uses 'look at this' and 'the neckline' without identifying the stock or specific price levels"
+    },
+    {
+      "timestamp": "37:21",
+      "quote": "here we have an inverse Head and Shoulders now here is a variation here you see the pattern is you know it's it seems like the pattern is tilting downwards but yes it is inverse Head and Shoulders pattern you see it is the shoulder then we have the head and then we have the right shoulder as marked by the uh curves that I have drawn",
+      "what_is_shown": "A chart showing an inverse Head and Shoulders pattern that tilts downward, with curves drawn by the instructor to mark the components",
+      "why_needed": "Speaker describes a visual variation ('tilting downwards') and references curves he has drawn on screen, which cannot be understood without seeing the chart"
+    },
+    {
+      "timestamp": "37:52",
+      "quote": "on this particular chart we have a rounding top and also see we see some kind of an Head and Shoulders formation many times we'll see rounding tops and head and shoulders together",
+      "what_is_shown": "A chart displaying both a rounding top and Head and Shoulders pattern overlapping or occurring together",
+      "why_needed": "Speaker references 'this particular chart' and describes two patterns occurring together without naming the stock or explaining how they overlap visually"
+    },
+    {
+      "timestamp": "38:23",
+      "quote": "here we have inverse Head and Shoulders pattern again A variation of this pattern we see the left shoulder we see the head the head is you know appearing like this and then we see the right shoulder",
+      "what_is_shown": "A chart showing an inverse Head and Shoulders variation with the head 'appearing like this' in a non-standard way",
+      "why_needed": "Speaker says 'appearing like this' without describing what makes this head formation different from a standard pattern"
+    },
+    {
+      "timestamp": "38:23",
+      "quote": "here we have double top again just like double bottom we may not not see exact reversals reversals of the same levels in this case the second top was a little higher than the first top",
+      "what_is_shown": "A chart showing a double top where the second top is visibly higher than the first, demonstrating a variation",
+      "why_needed": "Speaker describes a visual variation ('a little higher') that requires seeing the chart to understand the imperfect double top formation"
+    },
+    {
+      "timestamp": "38:54",
+      "quote": "here we have Century ply again we have a double top formation clearcut two rejections of the same level and then the stock breaks down of this NE line when you see a double top you see an M formation the letter M is formed printed on the chart",
+      "what_is_shown": "Century Ply stock chart showing a double top pattern that forms an M shape with the neckline breakdown visible",
+      "why_needed": "While the stock is named, the speaker references 'this NE line' and describes the M formation being 'printed on the chart' which requires visual confirmation"
+    },
+    {
+      "timestamp": "38:54",
+      "quote": "here we have a symmetrical triangle beautiful perfect looking symmetrical triangle the lower highs and the higher lows being connected and then it gives a bullish breakout of this particular pattern",
+      "what_is_shown": "A chart showing a symmetrical triangle pattern with converging trendlines and bullish breakout point",
+      "why_needed": "Uses 'here' and 'this particular pattern' without naming the stock or describing the specific breakout characteristics"
+    },
+    {
+      "timestamp": "39:26",
+      "quote": "here we have a rounding bottom formation on this particular chart and many times you'll see rounding bottom appear along with the cup and handle pattern so in this case you see the right handle the small right handle here and there's a breakup",
+      "what_is_shown": "A chart showing a rounding bottom with a small handle on the right side and the breakout point visible",
+      "why_needed": "Speaker references 'this particular chart', 'here', and 'the small right handle here' without naming the stock or describing the handle's specific characteristics"
+    },
+    {
+      "timestamp": "39:26",
+      "quote": "here we have a rounding top and I've drawn two neck lines here the first one is here the second neckline is this support here both the neck lines were broken",
+      "what_is_shown": "A chart showing a rounding top with two necklines drawn by the instructor at different support levels",
+      "why_needed": "Multiple uses of 'here' and references to lines the instructor has drawn without naming the stock or describing the price levels of the necklines"
+    },
+    {
+      "timestamp": "39:58",
+      "quote": "here we have triple top formation there are three tops of the same resistance on this chart and then we have a neckline getting formed here which is a support and finally the stock breaks down of the neckline",
+      "what_is_shown": "A chart showing three tops at the same resistance level with a neckline and breakdown point visible",
+      "why_needed": "Uses 'this chart' and 'here' without naming the stock or specific price levels of the resistance and support"
+    },
+    {
+      "timestamp": "39:58",
+      "quote": "here we have a triple bottom you can see one two and three bottoms again the third bottom is not touching the exact support but it's okay this is a variation",
+      "what_is_shown": "A chart showing a triple bottom where the third bottom doesn't touch the exact support level, demonstrating a variation",
+      "why_needed": "Speaker describes a visual variation ('not touching the exact support') that requires seeing the chart to understand the imperfect triple bottom"
+    },
+    {
+      "timestamp": "39:58",
+      "quote": "here we have a rounding bottom formation and again you can see a small handle forming on the right hand side of this pattern",
+      "what_is_shown": "A chart showing a rounding bottom with a small handle visible on the right side",
+      "why_needed": "Uses 'here' and 'this pattern' without naming the stock, and references a 'small handle' whose size and characteristics require visual confirmation"
+    },
+    {
+      "timestamp": "40:28",
+      "quote": "formation here we have a descending triangle pattern with a bullish breakout we have a support being connected by connect which is a horizontal line here and then we have lower highs getting formed and finally at the right hand side there is this breakout",
+      "what_is_shown": "A specific stock chart showing a descending triangle pattern with horizontal support line, lower highs, and the exact breakout candle location",
+      "why_needed": "Speaker uses 'here' repeatedly without naming the stock or describing where the support level is or which candle shows the breakout"
+    },
+    {
+      "timestamp": "40:58",
+      "quote": "here is the chart of U which is a weekly chart which shows The Head and Shoulders pattern you can see it is the left shoulder the center is the head and then we have the right shoulder this forms the neckline and here we have a breakdown of this pattern",
+      "what_is_shown": "Weekly chart of stock 'U' with specific candles/areas marked as left shoulder, head, right shoulder, neckline, and breakdown point",
+      "why_needed": "While stock name is mentioned, the speaker points to specific areas saying 'this is the left shoulder', 'the center is the head', 'this forms the neckline' without describing their price levels or time periods"
+    },
+    {
+      "timestamp": "40:58",
+      "quote": "this shows the double bottom as well you see the first bottom and the second bottom here further it also shows you rounding bottom kind of a formation if you look at this it show shows the rounding bottom and then we have a breakout here",
+      "what_is_shown": "Same chart showing double bottom pattern with two specific low points and a rounding bottom formation with breakout location",
+      "why_needed": "Speaker says 'you see the first bottom and the second bottom here' and 'if you look at this' without describing where these bottoms are or their price levels"
+    },
+    {
+      "timestamp": "41:30",
+      "quote": "here is a very beautiful double bottom pattern you see the first bottom and then you see the second bottom which is clear and then the stock broke out of this particular neckline at this particular candle",
+      "what_is_shown": "A different chart showing double bottom pattern with two specific bottoms, neckline, and the exact breakout candle",
+      "why_needed": "Speaker references 'this particular neckline' and 'this particular candle' without naming the stock or describing the price levels or timeframe"
+    },
+    {
+      "timestamp": "41:30",
+      "quote": "here we have a rounding bottom formation and then we have a small handle formed here and then the stock broke out of this handle on the upside",
+      "what_is_shown": "Chart showing rounding bottom pattern with a handle formation and specific breakout point",
+      "why_needed": "Speaker uses 'here' multiple times and 'this handle' without describing the shape, duration, or price levels of the pattern"
+    },
+    {
+      "timestamp": "41:30",
+      "quote": "this is a cup and handle you see this is a cup and the handle is Big here you see this is a handle on the right hand side the stock broke out of this handle on this particular candle",
+      "what_is_shown": "Chart displaying cup and handle pattern with the cup portion, large handle, and specific breakout candle marked",
+      "why_needed": "Speaker repeatedly says 'this is' and 'you see this' pointing to visual elements without describing their characteristics or the stock name"
+    },
+    {
+      "timestamp": "42:00",
+      "quote": "this is a rounding top and you can also call it it also looks like an Head and Shoulders pattern with two shoulders on the right side so overall this is a topping pattern rounding top and head and shoulders and this is a neckline the stock broke down of its neckline bearish price action",
+      "what_is_shown": "Chart showing rounding top/head and shoulders topping pattern with two right shoulders, neckline, and breakdown point",
+      "why_needed": "Speaker describes pattern saying 'this is' and 'this is a neckline' without naming the stock or describing where these pattern elements are located"
+    },
+    {
+      "timestamp": "42:32",
+      "quote": "this is a very clear Head and Shoulders pattern the first is the left shoulder then we have the head then we have the right shoulder here on the right hand side we have a neckline and there is a breakdown of this particular C of this particular pattern on this particular candle",
+      "what_is_shown": "Chart displaying head and shoulders pattern with left shoulder, head, right shoulder, neckline, and specific breakdown candle marked",
+      "why_needed": "Speaker says 'this is' and 'on this particular candle' without naming the stock or describing the price levels or timeframe of the pattern components"
+    }
+  ],
+  "ta-4.txt": [
+    {
+      "timestamp": "00:00",
+      "quote": "this is a rounding bottom plus a cup and handle this is a cup and handle you see this is a cup and the handle is Big here you see this is a handle on the right hand side the stock broke out of this handle on this particular candle",
+      "what_is_shown": "A specific stock chart showing a rounding bottom/cup and handle pattern with the handle formation and breakout candle visible",
+      "why_needed": "Speaker uses demonstrative pronouns ('this', 'here') repeatedly without naming the stock or describing the pattern's specific price levels or timeframe. The viewer must see which candle is the breakout and what the pattern looks like."
+    },
+    {
+      "timestamp": "00:30",
+      "quote": "this is a rounding top and you can also call it it also looks like an Head and Shoulders pattern with two shoulders on the right side... this is a neckline the stock broke down of its neckline bearish price action",
+      "what_is_shown": "A chart showing a rounding top/head and shoulders topping pattern with the neckline drawn and the breakdown candle marked",
+      "why_needed": "Speaker references 'this' pattern and 'this' neckline without describing specific price levels or which stock is being shown. The visual is required to see the pattern structure and breakdown point."
+    },
+    {
+      "timestamp": "00:30",
+      "quote": "this is a very clear Head and Shoulders pattern the first is the left shoulder then we have the head then we have the right shoulder here on the right hand side we have a neckline and there is a breakdown of this particular C of this particular pattern on this particular candle",
+      "what_is_shown": "A different chart example showing a head and shoulders pattern with left shoulder, head, right shoulder, neckline, and specific breakdown candle",
+      "why_needed": "While the speaker describes the components, they use 'this' and 'here' without naming the stock or price levels. The viewer must see the chart to identify which candle is the breakdown and how the pattern is structured."
+    },
+    {
+      "timestamp": "02:36",
+      "quote": "look at this stock here now if you look at this pattern uh somebody some Trader can say that okay this is a rounding bottom pattern this is a rounding bottom pattern and then it broke out",
+      "what_is_shown": "The same chart with lines drawn showing how it could be interpreted as an inverse head and shoulders (left shoulder, head, right shoulder marked)",
+      "why_needed": "Speaker demonstrates how one pattern can be named differently by drawing on the chart, but doesn't name the stock or describe the specific structure verbally. The visual demonstration of drawing lines and identifying components is essential."
+    },
+    {
+      "timestamp": "03:08",
+      "quote": "this is a cup and this is a handle and then it broke out and somebody may also say that if you draw a line like this and then connect these lows like this it is an ascending triangle breakout",
+      "what_is_shown": "The same chart with different lines drawn to show cup and handle interpretation, then redrawn to show ascending triangle interpretation with trendlines connecting specific lows",
+      "why_needed": "Speaker is actively drawing lines on the chart ('like this', 'these lows') to demonstrate different interpretations. Without seeing where the lines are drawn and which specific lows are connected, the explanation is meaningless."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "symbol": "RVLV",
+  "date": null,
+  "timeframe": "weekly",
+  "label": "good_base",
+  "sub_label": "base_on_base",
+  "confidence": "strong",
+  "notes": "First base breakout at $14 failed, stock formed second base at similar level (base-on-base). MBB with volume spike, then earnings shock, then pullback provided entry. Inverse H&S within base.",
+  "trp_pct": null,
+  "base_candles": null,
+  "outcome": "worked",
+  "outcome_pct": null,
+  "outcome_duration_days": null,
+  "outcome_notes": "Base-on-base pattern confirmed. MBB + earnings shock entry worked.",
+  "source": "course_example",
+  "image_quality": "course_clip",
+  "needs_fresh_screenshot": true,
+  "video_id": "ckPZqexb4l4",
+  "clip_file": "ckPZqexb4l4_0030_0100.mp4"
+}

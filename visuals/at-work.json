@@ -1,0 +1,658 @@
+[
+  {
+    "timestamp": "11:00",
+    "quote": "let's say this is your trigger level. So in standard style, you would even wait for confirmation and let the price move above trigger level sufficiently before taking in a trade. Whereas in case of active swing trading, you cannot wait longer. You have to buy as near to the trigger level as possible.",
+    "what_is_shown": "Chart with trigger level marked, price action showing how close to trigger level to enter",
+    "why_needed": "The concept of proximity to trigger level and visual comparison between standard vs active entry requires seeing the chart positioning",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "00:30",
+    "quote": "Stop loss has to be lower than the TRP",
+    "what_is_shown": "Chart showing trigger level with stop loss placement below it",
+    "why_needed": "TRP reference point and stop loss positioning must be visually shown on the chart",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "01:00",
+    "quote": "let's say this is your trigger level. And then the stock broke the trigger level, okay? But closed back down like this. It closed back down below the trigger level on the day of entry.",
+    "what_is_shown": "Chart showing trigger level break and close back below trigger level candle pattern",
+    "why_needed": "The specific candle pattern and price action relative to trigger level cannot be understood from description alone",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "01:30",
+    "quote": "if you have bought the stock here, the stop loss will be maybe somewhere here. So the stock has may have already come near your stop loss.",
+    "what_is_shown": "Chart with entry point marked, stop loss level marked, and price proximity illustration",
+    "why_needed": "The spatial relationship between entry, stop loss, and current price is essential visual information",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "02:00",
+    "quote": "if the stock has made a move of let's say 1.5 to 2R, if it has made a good green candle, okay, immediately trail the stock to cost.",
+    "what_is_shown": "Chart showing entry point with price moved up 1.5-2R and green candle formation",
+    "why_needed": "The visual representation of the R multiple move and candle quality is necessary to understand the exit trigger",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "03:30",
+    "quote": "your goal is to capture just this swing",
+    "what_is_shown": "Chart showing a breakout followed by a specific upswing labeled as the target swing to capture",
+    "why_needed": "Without seeing the marked swing on the chart, viewer cannot understand which portion of price movement to focus on",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "03:30",
+    "quote": "Or just one swing or maybe a second swing",
+    "what_is_shown": "Visual distinction between first and second swings on the price chart",
+    "why_needed": "The concept of 'one or two swings' requires visual reference to understand the specific price movements being discussed",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "04:00",
+    "quote": "Exit on close here. Exit on close rather than waiting for the low of the day",
+    "what_is_shown": "Chart candle showing close price versus low of day price level",
+    "why_needed": "Viewer must see the difference between exit on close versus exit on LOD to understand the practical distinction",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "07:00-07:30",
+    "quote": "the stock has transitioned into a stage two with this great breakout on the weekly chart. And this is a base",
+    "what_is_shown": "NIIT Limited weekly chart showing the breakout and base formation",
+    "why_needed": "Without seeing the actual weekly chart, the base structure and breakout cannot be visualized",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "07:30",
+    "quote": "you can see that the volume go down and the price is really, really contracting, squeezing between both the averages",
+    "what_is_shown": "Daily chart with 20 DMA and 50 DMA, showing price squeezing between them with volume contraction",
+    "why_needed": "The squeeze setup and volume contraction pattern must be visible on screen to understand the entry signal",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "08:00",
+    "quote": "you drew your trigger level something like this and on this candle, so you can see slightly the price touched the trigger level line",
+    "what_is_shown": "Drawn trigger line on the chart with price touching it",
+    "why_needed": "The exact location of the trigger level and its relationship to price action cannot be understood without seeing the chart",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "08:30",
+    "quote": "The stop loss has to be lower than the TRP. The TRP is 4.8%",
+    "what_is_shown": "Chart with measured TRP distance marked and stop loss placement indicated",
+    "why_needed": "The visual measurement of TRP and stop loss placement requires seeing the chart to understand the calculation",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "09:00",
+    "quote": "Now let's plot our risk reward tool. Your entry price here, your stop loss is here",
+    "what_is_shown": "Risk-reward tool plotted on chart with entry and stop loss marked",
+    "why_needed": "The risk-reward ratio visualization is only meaningful when seen on the actual chart",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "09:30",
+    "quote": "on the very next day you had almost 6R form here. Okay? And it was again a very big candle",
+    "what_is_shown": "Specific candle formation showing 6R reward level reached",
+    "why_needed": "Without seeing which candle this is, the 6R level reference is meaningless",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "09:30",
+    "quote": "You can see a difference in the way we are exiting the stock here. Wait, hold. Hold. You just made an exit. You have one more PPC.",
+    "what_is_shown": "Multiple PPCs (Perfect Price Candles) marked on the chart with exit points indicated",
+    "why_needed": "The identification of each PPC and exit opportunity requires seeing the specific candles on the chart",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "10:00",
+    "quote": "You already made one. Should we exit here? The answer would be no. Just wait for more",
+    "what_is_shown": "Second PPC candle on the chart showing where the second exit should occur",
+    "why_needed": "The decision logic for which PPC to exit on depends on seeing the specific price action",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "10:30",
+    "quote": "So now the final exit came at around 24R. So you can the potential look at the potential of R multiple that you can generate here because the stop loss was very tight",
+    "what_is_shown": "Final exit candle marked on chart showing 24R achieved",
+    "why_needed": "The final exit location and resulting R multiple are only meaningful with visual reference to the chart",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "10:30",
+    "quote": "It formed made a pullback and made a base and then broke out again",
+    "what_is_shown": "Post-exit price action showing pullback, base formation, and subsequent breakout",
+    "why_needed": "The post-exit behavior pattern must be visible on screen to illustrate why early exit was correct",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "10:30",
+    "quote": "Now what if you did not exit the final one here? In that case, you should have exited here using the low of the day",
+    "what_is_shown": "Low of day level marked on a specific candle showing alternative exit point",
+    "why_needed": "The alternative exit point and its price level are only clear when marked on the chart",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "00:00",
+    "quote": "the stock has broken out of the stage one structure and transitioned into a stage two and this is the base",
+    "what_is_shown": "COLPAL weekly chart showing stage one structure breakdown and stage two base formation",
+    "why_needed": "Stage structures are visual chart patterns that cannot be clearly identified from description alone",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "00:15",
+    "quote": "the stock is making a very nice rounding baby structure. Nice base, clean PPCs",
+    "what_is_shown": "COLPAL daily chart with rounding base pattern and price point confirmations",
+    "why_needed": "Chart patterns and PPC locations are visual elements requiring screen visibility",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "00:29",
+    "quote": "this candle and slightly the trigger level was broken",
+    "what_is_shown": "Specific candle on daily chart breaking trigger level",
+    "why_needed": "Without seeing the exact candle and trigger level position, the statement is ambiguous",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "00:40",
+    "quote": "The first time it broke was here. And you can see that it broke by a good margin",
+    "what_is_shown": "10-minute chart showing first break attempt of trigger level",
+    "why_needed": "Specific breakout point and margin of break are visual references",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "00:52",
+    "quote": "the second break was meaningful, it went up a little bit and also maybe have sustained for some really good a few minutes at least above the trigger level",
+    "what_is_shown": "10-minute chart showing second meaningful break above trigger level with price sustained above it",
+    "why_needed": "Visual comparison of two break attempts requires seeing the chart",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "01:02",
+    "quote": "you would have taken an entry here. Okay? So if you would have taken an entry here, your stop loss maybe somewhere here",
+    "what_is_shown": "10-minute chart with marked entry point and stop loss level",
+    "why_needed": "Entry and stop loss placement are specific price points shown on screen",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "01:33",
+    "quote": "the stock comfortably broke about the trigger level. Let's go to the lower time frame. And on the next day we saw this candle",
+    "what_is_shown": "Daily chart showing breakout, then 10-minute chart with next day's first candle",
+    "why_needed": "Specific candle identification and breakout visualization require screen reference",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "01:43",
+    "quote": "you are going to take your entry somewhere here at this candle and then you place your stop loss to be somewhere here. If you measure the move of stop loss, it would be around 0.9%",
+    "what_is_shown": "10-minute chart with entry and stop loss marked, showing the distance between them",
+    "why_needed": "Exact price levels for entry and stop loss calculation need visual reference",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "01:53",
+    "quote": "Let's measure, uh let's plot the entry. This is your entry price, this is your stop loss. And this is how your trade looks like",
+    "what_is_shown": "10-minute chart with plotted entry and stop loss levels creating a trade setup visualization",
+    "why_needed": "Trade structure visualization requires seeing the plotted levels on chart",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "02:03",
+    "quote": "So you have taken an entry here. This is how the day closed. The next day the stock made a good fine positive candle",
+    "what_is_shown": "Daily chart showing entry point, close, and next day's positive candle",
+    "why_needed": "Specific candle patterns and price action at entry level need visual reference",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "02:20",
+    "quote": "bring your stop loss to the cost immediately",
+    "what_is_shown": "Daily chart showing stop loss being adjusted to cost basis level",
+    "why_needed": "Stop loss adjustment location is a specific price level on the chart",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "02:37",
+    "quote": "the stock has come very, very near to the six R multiple and also made a small breakout attempt here",
+    "what_is_shown": "Daily chart showing price approach to 6R level and breakout attempt",
+    "why_needed": "Precise price level visualization and breakout location require screen visibility",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "03:10",
+    "quote": "the stock is still forming a very good structure. You see, it's a nice structure, it pulled back here and then there was a nice congestion here. There's a nice congestion here and then this candle seems to have broken out",
+    "what_is_shown": "Daily chart showing pullback, multiple congestion zones, and breakout candle",
+    "why_needed": "Multiple chart patterns and congestion areas cannot be identified from verbal description alone",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "03:30",
+    "quote": "on this candle, on 31st of October here, the entry was possible because it was a nice breakout",
+    "what_is_shown": "10-minute chart showing October 31st candle with breakout pattern",
+    "why_needed": "Specific dated candle and its breakout structure require visual reference",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "03:41",
+    "quote": "You took a trade here, it hit your trailing stop loss, you got out of the trade. Now you enter the trade again. Let's plot the entry and the exit price",
+    "what_is_shown": "Daily chart showing first trade exit and re-entry point marked",
+    "why_needed": "Trade exit and re-entry locations are specific price levels on chart",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "03:50",
+    "quote": "So this is where you take you took your entry. So let's say you bought the stock here, your stop loss will be here, the swing low on the lower time frame",
+    "what_is_shown": "10-minute chart with entry marked and swing low identified for stop loss",
+    "why_needed": "Swing low location for stop loss placement requires visual chart reference",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "04:14",
+    "quote": "use the low of the day and start trailing it. Low of the day, low of the day, low of the day, low of the day, low of the day, and you exit here",
+    "what_is_shown": "Daily chart showing multiple daily lows as trailing stops and final exit point",
+    "why_needed": "Series of daily lows and exit location need visual chart tracking",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "04:50",
+    "quote": "now again two PPCs. I would take a final exit here. 40%",
+    "what_is_shown": "Daily chart showing two PPC patterns and final exit level",
+    "why_needed": "PPC locations and exit price points are specific chart references",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os"
+  },
+  {
+    "timestamp": "00:00",
+    "quote": "The stock was into a stage four and then here it confirmed on the charts that it is a stage one now. And if you plot this level, this becomes a breakout level for the stage one structure.",
+    "what_is_shown": "Birlasoft weekly chart showing stage four to stage one transition with marked breakout level",
+    "why_needed": "Specific price levels and chart patterns need visual identification to understand the stage transition",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "00:00",
+    "quote": "We have a very nice base form along the 20 DMA. It's a fast base, small tight base. And now here we have a very nice congestion. You can see this nice structure and then a pull back and a congestion.",
+    "what_is_shown": "Birlasoft daily chart showing base formation, 20 DMA, congestion pattern, pullback structure",
+    "why_needed": "Visual identification of base structure, congestion zones, and their relationship to moving average required",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "00:30",
+    "quote": "Here you can see that on the lower time frame, this is where the entry got triggered.",
+    "what_is_shown": "Birlasoft lower timeframe chart with entry trigger point marked",
+    "why_needed": "Specific entry location on lower timeframe cannot be understood without visual reference",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "00:30",
+    "quote": "logical stop is here, but then the distance is huge. So maybe the low of this candle or maybe this particular previous high, these are some logical stops.",
+    "what_is_shown": "Lower timeframe chart with multiple stop loss level options visually marked",
+    "why_needed": "The choice between different stop loss levels requires visual comparison of candle lows and previous highs",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "01:00",
+    "quote": "Let's plot the uh entry and the stop loss. This is the entry price, this is the stop loss.",
+    "what_is_shown": "Daily chart with entry price and stop loss levels plotted and labeled",
+    "why_needed": "Visual marking of specific price levels needed to show the plotted entry and stop",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "01:00",
+    "quote": "On the very next day, we had a good PPC. On this PPC, exit 30%. Okay. Trail it to the cost, trail the stop loss to the cost",
+    "what_is_shown": "Daily chart showing first PPC (Post Pullback Candle) where 30% exit occurs",
+    "why_needed": "PPC identification and timing requires visual reference to candle formations",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "01:30",
+    "quote": "Okay, three good PPCs. Obviously, on the third PPC, now you should take one more exit. That's a 30% more.",
+    "what_is_shown": "Daily chart showing three consecutive PPCs with exit points marked",
+    "why_needed": "Identification of multiple PPCs and their sequence requires chart visualization",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "01:30",
+    "quote": "Now the stock seems to be getting extended with small, small candles and we do not want to lose all the gains all of a sudden. So what you can do is you can use the low of the day to keep on trailing the stock. So use the low of the day on all these candles.",
+    "what_is_shown": "Daily chart showing extended move with small candles and low-of-day trailing levels",
+    "why_needed": "Visual identification of extension pattern and candle structure needed to apply low-of-day trailing",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "01:30",
+    "quote": "And yeah, here, here is where you make your final exit. That's your final 40% exit.",
+    "what_is_shown": "Daily chart indicating specific candle where final 40% exit is taken",
+    "why_needed": "Final exit location on specific candle requires visual reference",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "02:21",
+    "quote": "we are on the weekly chart of GICRE. Big base here and then breaks out of this huge base on a larger scale. Transitioned into a stage two clearly and this is the base.",
+    "what_is_shown": "GICRE weekly chart showing large base and breakout into stage two",
+    "why_needed": "Base structure, breakout point, and stage transition require visual identification",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "02:51",
+    "quote": "We see that this is a base in formation and we see some good volume variations. We see some good PPCs along the base. Most importantly, we see that earnings have been announced here on this day. And after that the stock produced a very nice contraction, a squeeze along the 20 and the 50 day moving average.",
+    "what_is_shown": "GICRE daily chart showing base formation, volume variations, PPCs, earnings announcement point, and contraction/squeeze between 20 and 50 DMA",
+    "why_needed": "Multiple structural elements and their spatial relationships on chart need visual reference",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "02:51",
+    "quote": "this becomes a trigger level for our entry.",
+    "what_is_shown": "GICRE daily chart with trigger level marked at contraction zone",
+    "why_needed": "Specific trigger level location requires visual identification",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "02:51",
+    "quote": "So this is the lower time frame. 10 minute chart. And you can see that this is the large structure and it broke out on this day, on the next day.",
+    "what_is_shown": "GICRE 10-minute chart showing large structure and breakout point",
+    "why_needed": "Lower timeframe structure and breakout location need visual reference",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "03:21",
+    "quote": "Now as it broke out, that's where you will take your entry. So let's mark our entries. Let's say you entered here.",
+    "what_is_shown": "GICRE 10-minute chart with entry point marked at breakout",
+    "why_needed": "Entry location at specific breakout point requires visual marking",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "03:21",
+    "quote": "Your stop loss is, you can place a stop loss here as well at the low of this area. Or you can place a tighter one here. Let's say this is the stop loss and this is your entry price.",
+    "what_is_shown": "10-minute chart showing two stop loss options and marked entry price",
+    "why_needed": "Visual comparison of two stop loss alternatives required",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "03:51",
+    "quote": "On the next day, this is how the move came. Okay? That's what we did in the lower time frame. This is the move.",
+    "what_is_shown": "GICRE daily chart showing the move that occurred from lower timeframe entry",
+    "why_needed": "Visual representation of resulting candle movement from entry",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "03:51",
+    "quote": "So on the first day itself, we have this great move. So huge candle. Use this to make a 30% exit immediately and trail it to cost.",
+    "what_is_shown": "GICRE daily chart showing large first-day candle for 30% exit",
+    "why_needed": "Specific candle identification and size assessment requires visual reference",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "04:21",
+    "quote": "Again, very big candle on the next day. So now you can make another exit here or you can trail it tightly because you just made a you just made an exit here, right?",
+    "what_is_shown": "GICRE daily chart showing second large candle with exit options",
+    "why_needed": "Size and positioning of consecutive candles need visual assessment",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "04:21",
+    "quote": "So this is your trailing stop loss. Okay, this is how you can think of it. Again, it moved up. Low of the day, you can use the low of the day.",
+    "what_is_shown": "Daily chart showing trailing stop loss level marked",
+    "why_needed": "Trailing stop placement on specific level requires visual reference",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "04:21",
+    "quote": "Now back to back three positive candles. So now you can either continue to use the low of the day, you can keep on using the low of the day or you can think that okay, now it's too much. back to back four candle, back to back one, two, three, four, five positive candles.",
+    "what_is_shown": "Daily chart showing sequence of back-to-back positive candles",
+    "why_needed": "Visual identification and counting of consecutive positive candles required",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "04:51",
+    "quote": "And then again a huge move. Now here definitely this is almost a 20% candle. So you will take the final exit here. Huge candle, you can see, you can take the final exit here.",
+    "what_is_shown": "Daily chart showing large 20% candle for final exit",
+    "why_needed": "Candle size estimation and final exit location require visual reference",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "05:21",
+    "quote": "Okay, you look at the chart. This is a crazy swing. Okay, so get out of the swing.",
+    "what_is_shown": "GICRE daily chart showing overall swing movement from entry to exit",
+    "why_needed": "Assessment of swing magnitude requires visual chart overview",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "05:42",
+    "quote": "we are on the weekly chart of Skipper Limited. Zooming out the chart, the stock is in a stage two now and it's forming this a little longer base on the weekly chart you can see.",
+    "what_is_shown": "Skipper Limited weekly chart zoomed out showing stage two and longer base formation",
+    "why_needed": "Base formation and stage identification require visual reference on zoomed chart",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "05:42",
+    "quote": "On the daily chart we see a nice V-rounding structure. The stock made a mini base breakout here after the earnings and then pulled back down and down towards the 50 DMA and then makes a nice contraction here. Look at this contraction plus condition.",
+    "what_is_shown": "Skipper Limited daily chart showing V-rounding structure, mini base breakout, pullback to 50 DMA, and contraction",
+    "why_needed": "Multiple chart structures and their spatial relationships require visual identification",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "05:42",
+    "quote": "So this becomes my trigger level.",
+    "what_is_shown": "Skipper Limited daily chart with trigger level marked at contraction",
+    "why_needed": "Specific trigger level location requires visual identification",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "06:12",
+    "quote": "This is the 10 minute chart. On the 10 minute chart, this is how the structure looked like before it broke out. Okay. So on the next day, the stock broke out here of this structure on the lower time frame, broke about the trigger level.",
+    "what_is_shown": "Skipper Limited 10-minute chart showing structure before breakout and breakout point",
+    "why_needed": "Lower timeframe structure formation and breakout location need visual reference",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "06:12",
+    "quote": "That's where you can take your trade. Let's say this is your entry price. Where can you place your stop loss? This previous low is a good level. Okay. So you can place your stop loss to that previous low and then this is how your trade looks like.",
+    "what_is_shown": "10-minute chart with entry price and stop loss at previous low marked",
+    "why_needed": "Entry location and stop loss placement at specific price level require visual marking",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "06:42",
+    "quote": "First day, it's a good candle but not good enough to take any exit. You can just trail the stop loss to the cost and make the trade risk free now. On the second day, definitely, it's a huge candle and this is where you should take a 30% exit.",
+    "what_is_shown": "Skipper Limited daily chart showing first day candle and large second day candle",
+    "why_needed": "Candle assessment and comparison between first and second day requires visual reference",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "07:12",
+    "quote": "Now it's a very significant candle. It's a 20% move, upper circuit for the stock. And look at this chart now. This is clearly a very, very extended move now.",
+    "what_is_shown": "Daily chart showing significant 20% upper circuit candle in extended move",
+    "why_needed": "Candle size assessment and extended move identification require visual reference",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "07:12",
+    "quote": "So here, you can take 50% exit, at least 30% but since it's a huge move, you can go ahead and take 50% exit.",
+    "what_is_shown": "Daily chart showing the point to take 50% exit on the significant candle",
+    "why_needed": "Exit location and decision based on candle size require visual assessment",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "07:42",
+    "quote": "Again a gap up and a good candle but close negative. And the next candle is like this.",
+    "what_is_shown": "Daily chart showing gap-up candle and following candle with negative close",
+    "why_needed": "Gap pattern and candle characteristics require visual identification",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "07:42",
+    "quote": "You are left with the final 20% quantity. You are left with 20% quantity and 20 DMA is your ultimate weakness level.",
+    "what_is_shown": "Daily chart showing 20 DMA level marked as ultimate weakness",
+    "why_needed": "Location of 20 DMA relative to current price requires visual reference",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "08:12",
+    "quote": "Because we do not want to hold the stock for so long and wait for it to break the 20 DMA because the gap between this and the 20 DMA is wide. It's a wide gap.",
+    "what_is_shown": "Daily chart showing the gap between current price level and 20 DMA",
+    "why_needed": "Visual assessment of gap width between price and 20 DMA required for decision",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "08:42",
+    "quote": "Now you see the stock is floating about the 20 DMA. It has not broken the 20 DMA decisively. And then it decided to go up. Okay. But you see it ultimately went up, it did not break the 20 DMA.",
+    "what_is_shown": "Daily chart showing stock price action around 20 DMA after exit",
+    "why_needed": "Post-exit price behavior and 20 DMA interaction require visual reference",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "09:36",
+    "quote": "this particular setup here",
+    "what_is_shown": "Previous video's setup on the chart (specific price action pattern or trade setup)",
+    "why_needed": "Viewer cannot know which setup is being referenced without seeing it highlighted on screen",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "09:36",
+    "quote": "the stock produced a good base here, took out but could not follow through. Then again formed another base here",
+    "what_is_shown": "Base formations and breakout attempt visible on chart",
+    "why_needed": "Specific chart pattern locations need visual reference to understand the price action sequence",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "09:36",
+    "quote": "squeezed along the 20 and the 50, you can see here, a very clear squeeze",
+    "what_is_shown": "Price action squeezed between 20 and 50 moving averages on chart",
+    "why_needed": "The visual representation of the squeeze between these two moving averages is essential to identify the setup",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "10:06",
+    "quote": "the low of this candle, uh this one, the low of this candle can be a logical stop",
+    "what_is_shown": "Specific candle highlighted/identified on the 10-minute chart",
+    "why_needed": "Without seeing which candle is pointed to, the stop loss level cannot be determined",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "10:06",
+    "quote": "This becomes your entry price. This is your stop loss. This is how the trade looks like",
+    "what_is_shown": "Entry and stop loss levels marked on chart",
+    "why_needed": "Specific price levels must be visible on screen to understand the trade setup",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "10:36",
+    "quote": "you have to take 30% exit here on this move",
+    "what_is_shown": "First exit point marked on the chart after the initial move",
+    "why_needed": "The exact price level for the 30% exit is only visible on screen",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "10:36",
+    "quote": "on the next day, we had another great move. Now you have a choice. You can either take another 30% exit here",
+    "what_is_shown": "Second day's price action and potential exit level on chart",
+    "why_needed": "The specific candle/price level for the second potential exit must be seen",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "11:06",
+    "quote": "with this candle, you are supposed to take one more exit of 30%",
+    "what_is_shown": "Third candle with exit point marked on chart",
+    "why_needed": "The specific candle formation requires visual reference to identify the exit trigger",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "11:06",
+    "quote": "The stock made a decent pull back. respecting the 20 DMA, comes back up, makes a move",
+    "what_is_shown": "Pullback to 20 DMA and subsequent price action on chart",
+    "why_needed": "The visual interaction between price and the 20 DMA is necessary to understand the trade management decision",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "11:36",
+    "quote": "Now this is a significant candle because the stock opened here, went all the way up here and closed back down",
+    "what_is_shown": "Specific candle with high wick and lower close highlighted on chart",
+    "why_needed": "The candle structure and its significance require visual observation to understand why it triggers the final exit",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  },
+  {
+    "timestamp": "11:36",
+    "quote": "So I'll use the low of the day for my final exit. And here we have the final exit here",
+    "what_is_shown": "Final exit level marked on chart",
+    "why_needed": "The specific price level for the final 40% exit is only visible on the chart display",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q"
+  }
+]

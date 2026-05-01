@@ -8,13 +8,23 @@
  */
 
 import type { Bar, CVDPoint, SymbolMeta, CVDConfig } from "../types";
-import { connect, type TVSocket, type FetchResult } from "./websocket";
+import { connect, type TVSocket, type FetchResult, type PanelConfig, type CompositeResult } from "./websocket";
 import { getAuthToken, getCVDInputs, hasAuth } from "./auth";
 import { AsyncQueue } from "./queue";
+
+export interface BatchConfig {
+  timeframe: string;
+  count: number;
+  cvdConfig: CVDConfig;
+}
 
 export interface ConnectionManager {
   getBars(symbol: string, timeframe: string, count: number): Promise<FetchResult>;
   getBarsWithCVD(symbol: string, timeframe: string, count: number, cvdConfig?: CVDConfig): Promise<FetchResult>;
+  /** Setup batch mode: persistent series+studies. Call once, then fetchNext per symbol. */
+  setupBatch(panelConfigs: BatchConfig[]): Promise<void>;
+  /** Fetch one symbol in batch mode. Call after setupBatch. */
+  fetchNext(symbol: string): Promise<CompositeResult>;
   close(): void;
 }
 
@@ -56,6 +66,24 @@ export function createConnectionManager(): ConnectionManager {
     });
   }
 
+  async function setupBatch(panelConfigs: BatchConfig[]): Promise<void> {
+    if (!hasAuth()) {
+      throw new Error("TV_SESSION_ID required for batch CVD. Set env vars.");
+    }
+    const sock = await ensureAuthSocket();
+    const panels: PanelConfig[] = [];
+    for (const pc of panelConfigs) {
+      const cvdInputs = await getCVDInputs(pc.cvdConfig);
+      panels.push({ timeframe: pc.timeframe, count: pc.count, cvdInputs });
+    }
+    await sock.setupBatch(panels);
+  }
+
+  async function fetchNext(symbol: string): Promise<CompositeResult> {
+    const sock = await ensureAuthSocket();
+    return sock.fetchNext(symbol);
+  }
+
   function close() {
     socket?.close();
     authSocket?.close();
@@ -63,7 +91,7 @@ export function createConnectionManager(): ConnectionManager {
     authSocket = null;
   }
 
-  return { getBars, getBarsWithCVD, close };
+  return { getBars, getBarsWithCVD, setupBatch, fetchNext, close };
 }
 
 // --- Standalone test ---

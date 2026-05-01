@@ -1,0 +1,830 @@
+[
+  {
+    "timestamp": "11:00",
+    "quote": "let's say this is your trigger level. So in standard style, you would even wait for confirmation and let the price move above trigger level sufficiently before taking in a trade. Whereas in case of active swing trading, you cannot wait longer. You have to buy as near to the trigger level as possible.",
+    "what_is_shown": "Chart with trigger level marked, price action showing how close to trigger level to enter",
+    "visual_description": "The screen displays a presentation slide titled \"ENTRY\" with three bullet points of trading advice. In the upper-middle section, a hand-drawn candlestick pattern shows a horizontal line labeled \"TL\" (Trigger Level). The speaker uses the cursor to first draw a short line above the TL, illustrating a standard entry, and then draws another line directly on the TL to demonstrate an \"active swing trading\" entry point. The slide remains static throughout the clip.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_660s.mp4"
+  },
+  {
+    "timestamp": "00:30",
+    "quote": "Stop loss has to be lower than the TRP",
+    "what_is_shown": "Chart showing trigger level with stop loss placement below it",
+    "visual_description": "This clip shows a presentation slide titled \"ACTIVE TRADING\" with a white background. The slide lists two ways to do active trading, initially showing only \"Quicker Exits\". A second sub-bullet point, \"Quicker Exits + Tighter SL\", then animates onto the screen, and a cursor moves from left to right over this new text. The screen contains no stock charts, prices, or indicators.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_30s.mp4"
+  },
+  {
+    "timestamp": "01:00",
+    "quote": "let's say this is your trigger level. And then the stock broke the trigger level, okay? But closed back down like this. It closed back down below the trigger level on the day of entry.",
+    "what_is_shown": "Chart showing trigger level break and close back below trigger level candle pattern",
+    "visual_description": "The screen shows a static presentation slide with the title \"ACTIVE TRADING\". Below the title, bullet points explain that active trading means more trades and lists two methods: \"Quicker Exits\" and \"Quicker Exits + Tighter SL\". No stock chart, price levels, drawn patterns, or cursor movements are visible in the clip; only the static slide is shown. A logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is in the bottom right corner.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_60s.mp4"
+  },
+  {
+    "timestamp": "01:30",
+    "quote": "if you have bought the stock here, the stop loss will be maybe somewhere here. So the stock has may have already come near your stop loss.",
+    "what_is_shown": "Chart with entry point marked, stop loss level marked, and price proximity illustration",
+    "visual_description": "The screen shows a static presentation slide titled \"CONSIDERATIONS\" with a bulleted list containing \"Time and Effort\" and \"Skill\". In the bottom-right corner, a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is displayed. Despite the speaker's narration about buying a stock and setting a stop loss, no stock chart, price levels, or trading annotations are visible on screen.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_90s.mp4"
+  },
+  {
+    "timestamp": "02:00",
+    "quote": "if the stock has made a move of let's say 1.5 to 2R, if it has made a good green candle, okay, immediately trail the stock to cost.",
+    "what_is_shown": "Chart showing entry point with price moved up 1.5-2R and green candle formation",
+    "visual_description": "The screen displays a static presentation slide with a white background. In the top-left corner, the title \"CONSIDERATIONS\" is written in bold, black text, followed by a bulleted list with the items \"Time and Effort,\" \"Skill,\" and \"Scalability.\" A logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is visible in the bottom-right corner, but no stock charts, prices, indicators, or cursor movements are shown.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_120s.mp4"
+  },
+  {
+    "timestamp": "03:30",
+    "quote": "your goal is to capture just this swing",
+    "what_is_shown": "Chart showing a breakout followed by a specific upswing labeled as the target swing to capture",
+    "visual_description": "On a Microsoft Excel spreadsheet, a table compares \"Standard\" and \"Active\" trading styles. The cursor is initially in cell C7, where the user calculates a loss percentage, which first shows as \"200%\" before being manually changed to \"2%\". After the entry, the cursor briefly moves down before selecting cell C5, which shows an \"Active\" exit price of \"-98\".",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_210s.mp4"
+  },
+  {
+    "timestamp": "03:30",
+    "quote": "Or just one swing or maybe a second swing",
+    "what_is_shown": "Visual distinction between first and second swings on the price chart",
+    "visual_description": "The screen displays a Microsoft Excel spreadsheet comparing \"Standard\" and \"Active\" trading styles. The user is in cell C7 under the \"Active\" column and calculates the \"Loss\" by entering a formula based on an entry of 100 and an exit of 98, resulting in 2%. After the calculation, the cursor moves to highlight the Active Exit price of 98 in cell C5. The \"Standard\" column shows a Loss of 1.25% for comparison.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_210s.mp4"
+  },
+  {
+    "timestamp": "04:00",
+    "quote": "Exit on close here. Exit on close rather than waiting for the low of the day",
+    "what_is_shown": "Chart candle showing close price versus low of day price level",
+    "visual_description": "This clip displays a presentation slide with a white background and black text. The slide is titled \"CONSIDERATIONS\" and features a bulleted list with items such as \"Time and Effort,\" \"Skill,\" \"Holding Period,\" and \"Win Rate.\" A white arrow cursor is static on the right side of the screen, and a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is visible in the bottom right corner.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_240s.mp4"
+  },
+  {
+    "timestamp": "07:00-07:30",
+    "quote": "the stock has transitioned into a stage two with this great breakout on the weekly chart. And this is a base",
+    "what_is_shown": "NIIT Limited weekly chart showing the breakout and base formation",
+    "visual_description": "The screen shows a Microsoft Excel spreadsheet used to calculate trading performance metrics. The user first changes the \"No. of Trades\" value from 16 to 160. They then enter a \"Win Rate\" of 35%, which causes formulas to automatically calculate the \"Winning Trades\" as 56 and \"Losing Trades\" as 104. The return percentage cells continue to display a \"#DIV/0!\" error.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_420s.mp4"
+  },
+  {
+    "timestamp": "07:30",
+    "quote": "you can see that the volume go down and the price is really, really contracting, squeezing between both the averages",
+    "what_is_shown": "Daily chart with 20 DMA and 50 DMA, showing price squeezing between them with volume contraction",
+    "visual_description": "The provided quote does not match the on-screen content. The clip displays a Microsoft Excel spreadsheet with a table of trading performance metrics, not a stock chart. The key values, highlighted in yellow and orange, are \"Risk per trade %\" at 0.50%, \"ARR\" at 3, \"No. of Trades\" at 160, and \"Win Rate\" at 35%. The cursor moves from near cell B2, points to cell C4, then moves down to C6 and B7, highlighting the data as the speaker discusses performance goals.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_450s.mp4"
+  },
+  {
+    "timestamp": "08:00",
+    "quote": "you drew your trigger level something like this and on this candle, so you can see slightly the price touched the trigger level line",
+    "what_is_shown": "Drawn trigger line on the chart with price touching it",
+    "visual_description": "The provided transcript does not match the on-screen content. The video shows a Microsoft Excel spreadsheet with a table of trading performance metrics, not a stock chart. The table lists \"Risk per trade %\" at 0.50%, \"ARR\" at 3, \"No. of Trades\" at 220, and a \"Win Rate\" of 38%, with these cells highlighted in yellow and orange. The cursor is stationary in the middle of the screen.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_480s.mp4"
+  },
+  {
+    "timestamp": "08:30",
+    "quote": "The stop loss has to be lower than the TRP. The TRP is 4.8%",
+    "what_is_shown": "Chart with measured TRP distance marked and stop loss placement indicated",
+    "visual_description": "The screen displays a Microsoft Excel spreadsheet titled \"Performance goals\" which lists several trading metrics. The key values shown are a \"Risk per trade %\" of 0.50%, an \"ARR\" of 3, and a \"Return % (month)\" of 4.8%. The cells containing the primary input metrics are highlighted in yellow and orange, and the cursor remains static over the empty cell C2.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_510s.mp4"
+  },
+  {
+    "timestamp": "09:00",
+    "quote": "Now let's plot our risk reward tool. Your entry price here, your stop loss is here",
+    "what_is_shown": "Risk-reward tool plotted on chart with entry and stop loss marked",
+    "visual_description": "The screen shows a Microsoft Excel spreadsheet calculating trading performance metrics. Key inputs, including \"Risk per trade %\" (0.50%), \"ARR\" (4.5), \"No. of Trades\" (220), and \"Win Rate\" (30%), are highlighted with yellow and orange cell backgrounds. The cursor briefly hovers over cell B4, which contains the \"ARR\" value of 4.5. The sheet displays calculated results, such as \"Winning Trades\" (66) and \"Return % (annual)\" (100.3%).",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_540s.mp4"
+  },
+  {
+    "timestamp": "09:30",
+    "quote": "on the very next day you had almost 6R form here. Okay? And it was again a very big candle",
+    "what_is_shown": "Specific candle formation showing 6R reward level reached",
+    "visual_description": "A 1-day candlestick chart for HINDALCO shows a long position setup with an entry at 443.40 and a stop loss at 434.75. An annotation tool highlights a target with a risk/reward ratio of 6.28. The cursor moves to a large green candlestick that formed the day after the entry candle, which the speaker notes represents an almost 6R gain.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_570s.mp4"
+  },
+  {
+    "timestamp": "09:30",
+    "quote": "You can see a difference in the way we are exiting the stock here. Wait, hold. Hold. You just made an exit. You have one more PPC.",
+    "what_is_shown": "Multiple PPCs (Perfect Price Candles) marked on the chart with exit points indicated",
+    "visual_description": "The screen is a static, white title card for the entire clip. In the top-left corner, the word \"ENTRY\" is displayed in bold, black text. A logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is visible in the bottom-right corner. There are no stock charts, price data, indicators, or cursor movements shown on screen.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_570s.mp4"
+  },
+  {
+    "timestamp": "10:00",
+    "quote": "You already made one. Should we exit here? The answer would be no. Just wait for more",
+    "what_is_shown": "Second PPC candle on the chart showing where the second exit should occur",
+    "visual_description": "On a white slide titled \"ENTRY,\" a hand-drawn line chart illustrates an uptrend with higher lows and highs. The price is shown consolidating into a small, hand-drawn flag pattern at the peak, which is annotated with \"P4\". The cursor moves above this flag pattern while the speaker discusses whether to exit the trade. The slide also features the instruction, \"Buy as near as possible from the TL.\"",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_600s.mp4"
+  },
+  {
+    "timestamp": "10:30",
+    "quote": "So now the final exit came at around 24R. So you can the potential look at the potential of R multiple that you can generate here because the stop loss was very tight",
+    "what_is_shown": "Final exit candle marked on chart showing 24R achieved",
+    "visual_description": "The screen displays a presentation slide with the title \"ENTRY\" and three bullet points outlining rules for entering a trade. To the right of the text, the speaker uses the cursor to draw a simple figure. The cursor first draws a horizontal line and then adds two short vertical lines dropping down from it, one near each end. No stock charts, price levels, or technical indicators are visible on the slide.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_630s.mp4"
+  },
+  {
+    "timestamp": "10:30",
+    "quote": "It formed made a pullback and made a base and then broke out again",
+    "what_is_shown": "Post-exit price action showing pullback, base formation, and subsequent breakout",
+    "visual_description": "On a white presentation slide titled \"ENTRY,\" the speaker uses a drawing tool to illustrate a stock price pattern. The cursor draws a small downward line representing a \"pullback,\" followed by a horizontal line to form a \"base.\" Finally, an upward line is drawn breaking through the right side of the base, visually depicting the \"broke out again\" action described.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_630s.mp4"
+  },
+  {
+    "timestamp": "10:30",
+    "quote": "Now what if you did not exit the final one here? In that case, you should have exited here using the low of the day",
+    "what_is_shown": "Low of day level marked on a specific candle showing alternative exit point",
+    "visual_description": "This clip shows a presentation slide titled \"ENTRY\" with bullet points outlining trading rules. On the right side of the slide, the speaker uses a drawing tool to illustrate a concept. They first draw a horizontal line with a small vertical tick pointing down from the right end, and then add a similar tick to the left end, likely representing two daily price bars. The cursor moves from the second drawn bar to the first, illustrating the speaker's point about an alternative exit based on the \"low of the day.\"",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_630s.mp4"
+  },
+  {
+    "timestamp": "00:00",
+    "quote": "the stock has broken out of the stage one structure and transitioned into a stage two and this is the base",
+    "what_is_shown": "COLPAL weekly chart showing stage one structure breakdown and stage two base formation",
+    "visual_description": "The screen displays a static title card with the text \"AFZAL LOKHANDWALA\" and, below it, \"CHAMPIONS CLUB\" inside a blue banner graphic, all on a white background. Contrary to the speaker's description of a stock chart, no stock information, prices, indicators, or patterns are visible. A small, static turquoise cursor appears to the right of the text.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_0s.mp4"
+  },
+  {
+    "timestamp": "00:15",
+    "quote": "the stock is making a very nice rounding baby structure. Nice base, clean PPCs",
+    "what_is_shown": "COLPAL daily chart with rounding base pattern and price point confirmations",
+    "visual_description": "The video displays a presentation slide titled \"ACTIVE TRADING\" with bullet points defining the term, which contradicts the audio's description of a stock chart. There are no stocks, prices, or drawn patterns shown on screen. A logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is in the bottom-right corner, and a light blue circular cursor hovers over the slide's white background as a new bullet point appears.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_15s.mp4"
+  },
+  {
+    "timestamp": "00:29",
+    "quote": "this candle and slightly the trigger level was broken",
+    "what_is_shown": "Specific candle on daily chart breaking trigger level",
+    "visual_description": "The screen displays a presentation slide titled \"ACTIVE TRADING,\" which defines the concept and lists \"Quicker Exits\" as one method. Although the speaker refers to a \"candle\" and a \"trigger level,\" no stock chart or trading data is visible. In the bottom-right corner is the \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" logo, and a blue cursor appears briefly near the end of the clip.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_29s.mp4"
+  },
+  {
+    "timestamp": "00:40",
+    "quote": "The first time it broke was here. And you can see that it broke by a good margin",
+    "what_is_shown": "10-minute chart showing first break attempt of trigger level",
+    "visual_description": "This clip displays a daily candlestick chart for the stock SBIN (State Bank of India). A horizontal blue support line is drawn near the 320 price level, and a red Super Trend indicator line is also present on the chart. The speaker's cursor points to a bearish candle from early 2019 that has broken significantly below the red Super Trend line, illustrating the first time the trend broke.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_40s.mp4"
+  },
+  {
+    "timestamp": "00:52",
+    "quote": "the second break was meaningful, it went up a little bit and also maybe have sustained for some really good a few minutes at least above the trigger level",
+    "what_is_shown": "10-minute chart showing second meaningful break above trigger level with price sustained above it",
+    "visual_description": "A static presentation slide titled \"ACTIVE TRADING\" is shown. The slide defines active trading as involving more trades and lists two methods for it: \"Quicker Exits\" and \"Quicker Exits + Tighter SL.\" No stock chart, price levels, indicators, or cursor movements are visible. A logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is displayed in the bottom-right corner.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_52s.mp4"
+  },
+  {
+    "timestamp": "01:02",
+    "quote": "you would have taken an entry here. Okay? So if you would have taken an entry here, your stop loss maybe somewhere here",
+    "what_is_shown": "10-minute chart with marked entry point and stop loss level",
+    "visual_description": "The screen displays a static presentation slide titled \"ACTIVE TRADING\" in the top-left corner. The slide lists two methods for active trading: \"Quicker Exits\" and \"Quicker Exits + Tighter SL\". Although the speaker refers to a specific entry and stop-loss on a chart, the screen only shows this text-based slide with no stock chart, price levels, indicators, or cursor movement. A logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is visible in the bottom-right corner.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_62s.mp4"
+  },
+  {
+    "timestamp": "01:33",
+    "quote": "the stock comfortably broke about the trigger level. Let's go to the lower time frame. And on the next day we saw this candle",
+    "what_is_shown": "Daily chart showing breakout, then 10-minute chart with next day's first candle",
+    "visual_description": "The screen transitions from a presentation slide to a 15-minute candlestick chart for the stock ZEEL on the TradingView platform. The chart shows a large green candle breaking significantly above a horizontal \"trigger level\" line drawn at the 256.65 price level. The cursor is positioned directly over this large green breakout candle.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_93s.mp4"
+  },
+  {
+    "timestamp": "01:43",
+    "quote": "you are going to take your entry somewhere here at this candle and then you place your stop loss to be somewhere here. If you measure the move of stop loss, it would be around 0.9%",
+    "what_is_shown": "10-minute chart with entry and stop loss marked, showing the distance between them",
+    "visual_description": "On a 15-minute candlestick chart for the stock M&M (Mahindra & Mahindra), the cursor demonstrates a trade setup. It moves from an entry point on a large green candle (above the 968.35 trigger level) down to the low of the previous red candle, which is the stop loss level. The \"Price Range\" tool is then used to draw a red box between these points, measuring the stop loss and displaying it as a -0.90% move.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_103s.mp4"
+  },
+  {
+    "timestamp": "01:53",
+    "quote": "Let's measure, uh let's plot the entry. This is your entry price, this is your stop loss. And this is how your trade looks like",
+    "what_is_shown": "10-minute chart with plotted entry and stop loss levels creating a trade setup visualization",
+    "visual_description": "The screen displays a static presentation slide with a white background. It is titled \"CONSIDERATIONS\" in bold, black text at the top left, with a bulleted list below it reading \"Time and Effort,\" \"Skill,\" and \"Scalability.\" In the bottom right corner, a logo for \"AFZAL LOKHANDWALA CHAMPIONS CLUB\" is present. Despite the audio narration about plotting a trade, no charts, price levels, or annotations related to a trade are visible on the screen.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_113s.mp4"
+  },
+  {
+    "timestamp": "02:03",
+    "quote": "So you have taken an entry here. This is how the day closed. The next day the stock made a good fine positive candle",
+    "what_is_shown": "Daily chart showing entry point, close, and next day's positive candle",
+    "visual_description": "The screen shows a daily candlestick chart for the stock IRCTC on a trading platform. A \"Long Position\" tool is active, indicating an entry price of 651.90 and an initial stop-loss at 640.10. The cursor, a crosshair, moves from the entry candle to highlight the next day's small green candle, which formed after the trade was initiated.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_123s.mp4"
+  },
+  {
+    "timestamp": "02:20",
+    "quote": "bring your stop loss to the cost immediately",
+    "what_is_shown": "Daily chart showing stop loss being adjusted to cost basis level",
+    "visual_description": "This clip displays a presentation slide with the title \"CONSIDERATIONS\" and three initial bullet points: \"Time and Effort,\" \"Skill,\" and \"Scalability.\" A cursor appears on the screen, and a fourth bullet point, \"Importance of Execution,\" is typed onto the slide. No stock charts, price levels, or technical indicators are visible, only the text and a logo in the bottom right corner.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_140s.mp4"
+  },
+  {
+    "timestamp": "02:37",
+    "quote": "the stock has come very, very near to the six R multiple and also made a small breakout attempt here",
+    "what_is_shown": "Daily chart showing price approach to 6R level and breakout attempt",
+    "visual_description": "The screen shows a candlestick chart for the stock MAZDA with a \"Long Position\" risk/reward tool applied, indicating an entry around 1673. The price has risen significantly, coming very close to the marked 6R (risk/reward multiple) level at 1774.2. The cursor moves to point at the latest green candlestick, which is pushing slightly above the previous two candles' highs, illustrating the \"small breakout attempt\" mentioned by the speaker.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_157s.mp4"
+  },
+  {
+    "timestamp": "03:10",
+    "quote": "the stock is still forming a very good structure. You see, it's a nice structure, it pulled back here and then there was a nice congestion here. There's a nice congestion here and then this candle seems to have broken out",
+    "what_is_shown": "Daily chart showing pullback, multiple congestion zones, and breakout candle",
+    "visual_description": "This clip displays a daily candlestick chart for the stock BRITANNIA on a trading platform. The speaker has drawn two yellow rectangular boxes on the chart to highlight periods of price congestion, with the most recent one occurring between approximately 4500 and 4600 from mid-October to early November. The cursor first points to an earlier congestion box, then moves to the more recent one, and finally highlights a large green \"breakout\" candle that has moved above the second box and the 4600 price level.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_190s.mp4"
+  },
+  {
+    "timestamp": "03:30",
+    "quote": "on this candle, on 31st of October here, the entry was possible because it was a nice breakout",
+    "what_is_shown": "10-minute chart showing October 31st candle with breakout pattern",
+    "visual_description": "The screen shows a daily candlestick chart for the stock HINDALCO. The cursor and a yellow circle highlight a large green candle on 31st October 2023, which represents a \"nice breakout\" as described by the speaker. This candle is shown breaking decisively above a horizontal blue resistance line drawn around the 469.00 price level. Below the chart, the volume indicator shows a significant spike for that day, and the RSI indicator is at approximately 59.84.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_210s.mp4"
+  },
+  {
+    "timestamp": "03:41",
+    "quote": "You took a trade here, it hit your trailing stop loss, you got out of the trade. Now you enter the trade again. Let's plot the entry and the exit price",
+    "what_is_shown": "Daily chart showing first trade exit and re-entry point marked",
+    "visual_description": "The video displays a Microsoft Excel spreadsheet comparing \"Standard\" and \"Active\" trading scenarios, showing hypothetical values for Entry (100), SL (96 vs. 99), and Exit (95 vs. 98). The cursor highlights the \"Active\" exit price of 98 in cell C5. The scene then transitions to a presentation slide titled \"CONSIDERATIONS,\" which lists points like \"Time and Effort\" and \"Stop Loss & Related Risk.\" No specific stock or chart is shown.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_221s.mp4"
+  },
+  {
+    "timestamp": "03:50",
+    "quote": "So this is where you take you took your entry. So let's say you bought the stock here, your stop loss will be here, the swing low on the lower time frame",
+    "what_is_shown": "10-minute chart with entry marked and swing low identified for stop loss",
+    "visual_description": "The screen displays a static presentation slide titled \"CONSIDERATIONS\" with a bulleted list of topics including \"Skill,\" \"Scalability,\" and \"Stop Loss & Related Risk.\" A small, circular teal cursor appears and moves slightly in the center of the white slide. Despite the speaker's narration about a stock trade, no chart, stock name, price levels, or trading indicators are shown.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_230s.mp4"
+  },
+  {
+    "timestamp": "04:14",
+    "quote": "use the low of the day and start trailing it. Low of the day, low of the day, low of the day, low of the day, low of the day, and you exit here",
+    "what_is_shown": "Daily chart showing multiple daily lows as trailing stops and final exit point",
+    "visual_description": "On a 5-minute candlestick chart for RELIANCE, a circular cursor demonstrates a trailing stop-loss strategy. The cursor moves up, sequentially pointing to the low of five consecutive green candles, starting from a price just below 2470 and ending near 2495. This action illustrates the speaker's advice to \"use the low of the day and start trailing it,\" culminating in an indicated exit point where the price pattern would have broken this upward-moving low.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_254s.mp4"
+  },
+  {
+    "timestamp": "04:50",
+    "quote": "now again two PPCs. I would take a final exit here. 40%",
+    "what_is_shown": "Daily chart showing two PPC patterns and final exit level",
+    "visual_description": "On a daily candlestick chart for BHARATFORG, the price is shown testing a horizontal resistance line at approximately 940. The speaker refers to the last two candles at this level—a green one followed by a red one—as \"two PPCs\" and suggests taking a final exit. As he speaks, the chart moves forward one day, and a large green candle forms, breaking decisively above the 940 resistance and rallying towards 970. The cursor briefly points to the red candle before the chart advances.",
+    "status": "critical",
+    "_file": "at-1.txt",
+    "_vid_id": "OGG05N2K-os",
+    "clip_file": "OGG05N2K-os_290s.mp4"
+  },
+  {
+    "timestamp": "00:00",
+    "quote": "The stock was into a stage four and then here it confirmed on the charts that it is a stage one now. And if you plot this level, this becomes a breakout level for the stage one structure.",
+    "what_is_shown": "Birlasoft weekly chart showing stage four to stage one transition with marked breakout level",
+    "visual_description": "This is a weekly candlestick chart for Birlasoft Ltd (NSE: BSOFT), with the price at 342.45. Two moving averages are visible on the chart, with the price having recently crossed above them after a long downtrend. The cursor first hovers over the basing pattern in early 2023, which the speaker calls \"stage one,\" before moving left to point at the preceding downtrend from mid-2022, referred to as \"stage four.\"",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_0s.mp4"
+  },
+  {
+    "timestamp": "00:00",
+    "quote": "We have a very nice base form along the 20 DMA. It's a fast base, small tight base. And now here we have a very nice congestion. You can see this nice structure and then a pull back and a congestion.",
+    "what_is_shown": "Birlasoft daily chart showing base formation, 20 DMA, congestion pattern, pullback structure",
+    "visual_description": "The video displays a stock chart for BIRLASOFT LTD (BSOFT), which switches from a weekly to a daily timeframe where the price is 326.95. On the daily chart, candlestick prices are shown with two moving average lines and a volume indicator below. The cursor initially highlights the most recent price consolidation in late June/early July 2023, then moves left to point out a prior congestion area in May. It then traces the subsequent rally, pullback, and current base formation being discussed.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_0s.mp4"
+  },
+  {
+    "timestamp": "00:30",
+    "quote": "Here you can see that on the lower time frame, this is where the entry got triggered.",
+    "what_is_shown": "Birlasoft lower timeframe chart with entry trigger point marked",
+    "visual_description": "The view transitions from a daily candlestick chart of Birlasoft Ltd (BSOFT) to a 10-minute intraday chart. On the daily chart, a horizontal line is drawn near the 288 price level, and the price is consolidating around 354. After switching to the 10-minute view, the cursor moves to highlight a large green candle on July 13th that is breaking above a moving average and a new horizontal line at 349.15, illustrating the trade entry point. The chart includes moving averages and a volume indicator.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_30s.mp4"
+  },
+  {
+    "timestamp": "00:30",
+    "quote": "logical stop is here, but then the distance is huge. So maybe the low of this candle or maybe this particular previous high, these are some logical stops.",
+    "what_is_shown": "Lower timeframe chart with multiple stop loss level options visually marked",
+    "visual_description": "This clip shows a Birlasoft Ltd (BSOFT) stock chart, which switches from a daily to a 10-minute timeframe. On the 10-minute chart, a horizontal line is visible at 349.95. The cursor first points to the low of a large green candle that gapped up, which the speaker identifies as a potential stop loss. The cursor then moves left to highlight a previous swing high as another logical stop location.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_30s.mp4"
+  },
+  {
+    "timestamp": "01:00",
+    "quote": "Let's plot the uh entry and the stop loss. This is the entry price, this is the stop loss.",
+    "what_is_shown": "Daily chart with entry price and stop loss levels plotted and labeled",
+    "visual_description": "On a daily candlestick chart for BIRLASOFT LTD on the NSE, the speaker uses a price range tool to plot a long trade. They click to set an entry price at 355.70, just above a large green candle. The cursor is then moved down to place a stop loss at 347.80, below the low of the same candle, which creates a red and green box on the chart visualizing the trade's risk.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_60s.mp4"
+  },
+  {
+    "timestamp": "01:00",
+    "quote": "On the very next day, we had a good PPC. On this PPC, exit 30%. Okay. Trail it to the cost, trail the stop loss to the cost",
+    "what_is_shown": "Daily chart showing first PPC (Post Pullback Candle) where 30% exit occurs",
+    "visual_description": "On the daily candlestick chart for BIRLASOFT LTD (NSE), a new candle appears for July 19th, showing a price gap up. The cursor points to the high of the previous day's large green candle (July 18th), which has a \"PPC\" annotation pointing to it. Horizontal lines are drawn on the chart marking key price levels at 352.55 and 347.10.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_60s.mp4"
+  },
+  {
+    "timestamp": "01:30",
+    "quote": "Okay, three good PPCs. Obviously, on the third PPC, now you should take one more exit. That's a 30% more.",
+    "what_is_shown": "Daily chart showing three consecutive PPCs with exit points marked",
+    "visual_description": "The daily candlestick chart for BIRLASOFT LTD (BSOFT) displays a strong uptrend with the price around ₹453. As the speaker mentions \"three good PPCs\" (powerful price candles), the cursor moves from left to right over the last three consecutive green candles. The chart is marked with moving averages and several annotations above specific candles, including profit percentages like \"30\" and \"45\".",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_90s.mp4"
+  },
+  {
+    "timestamp": "01:30",
+    "quote": "Now the stock seems to be getting extended with small, small candles and we do not want to lose all the gains all of a sudden. So what you can do is you can use the low of the day to keep on trailing the stock. So use the low of the day on all these candles.",
+    "what_is_shown": "Daily chart showing extended move with small candles and low-of-day trailing levels",
+    "visual_description": "This clip displays a daily candlestick chart for BIRLASOFT LTD (NSE) in a sustained uptrend, with the price trading around ₹413. The chart includes moving average lines, a volume indicator, and numeric annotations such as \"11\", \"30\", \"23\", and \"45\" above specific candles. As the speaker discusses the small recent candles, the cursor moves over to the last three candles on the right, pointing to them to illustrate the strategy of using the low of the day for a trailing stop-loss.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_90s.mp4"
+  },
+  {
+    "timestamp": "01:30",
+    "quote": "And yeah, here, here is where you make your final exit. That's your final 40% exit.",
+    "what_is_shown": "Daily chart indicating specific candle where final 40% exit is taken",
+    "visual_description": "This clip shows a daily candlestick chart for BIRLASOFT LTD (NSE) in a sustained uptrend, with price action above several moving averages. The chart has numerous annotations marking specific candles, including numbers like \"30\", \"11\", \"23\", and \"45\". As the speaker discusses the final exit, the cursor moves to point at a small red candlestick near the top of the trend, around the 420 price level, identifying it as the signal for the final 40% exit.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_90s.mp4"
+  },
+  {
+    "timestamp": "02:21",
+    "quote": "we are on the weekly chart of GICRE. Big base here and then breaks out of this huge base on a larger scale. Transitioned into a stage two clearly and this is the base.",
+    "what_is_shown": "GICRE weekly chart showing large base and breakout into stage two",
+    "visual_description": "This clip displays a daily candlestick chart for GICRE (General Ins Corp of India) on the TradingView platform. The price is shown consolidating in a sideways pattern (\"base\") around the ₹219 level, just above a white moving average line, following a prior uptrend. Indicators on the screen include an \"MA Ribbon,\" a volume chart, and a \"Champion Trader Indicator,\" while the cursor moves along the recent price consolidation area.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_141s.mp4"
+  },
+  {
+    "timestamp": "02:51",
+    "quote": "We see that this is a base in formation and we see some good volume variations. We see some good PPCs along the base. Most importantly, we see that earnings have been announced here on this day. And after that the stock produced a very nice contraction, a squeeze along the 20 and the 50 day moving average.",
+    "what_is_shown": "GICRE daily chart showing base formation, volume variations, PPCs, earnings announcement point, and contraction/squeeze between 20 and 50 DMA",
+    "visual_description": "This clip shows a 10-minute candlestick chart for GICRE (General Ins Corp of India) on the TradingView platform. The price is shown consolidating in a base pattern between roughly 216 and 224, with the cursor hovering near the top of this range. As the chart updates, a new, large green candle appears, indicating a sharp breakout to the 232.20 level, which is mirrored by a significant volume spike on the indicator below.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_171s.mp4"
+  },
+  {
+    "timestamp": "02:51",
+    "quote": "this becomes a trigger level for our entry.",
+    "what_is_shown": "GICRE daily chart with trigger level marked at contraction zone",
+    "visual_description": "On the daily candlestick chart for GICRE (General Insurance Corporation of India), the speaker analyzes a price consolidation pattern. The cursor moves to a recent resistance peak, and a dotted horizontal line is drawn across the screen at approximately the 222.00 price level. This line is established as a \"trigger level\" for a potential trade entry as the current price candle breaks above it.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_171s.mp4"
+  },
+  {
+    "timestamp": "02:51",
+    "quote": "So this is the lower time frame. 10 minute chart. And you can see that this is the large structure and it broke out on this day, on the next day.",
+    "what_is_shown": "GICRE 10-minute chart showing large structure and breakout point",
+    "visual_description": "This clip displays a 10-minute candlestick chart for General Ins Corp of India (GICRE). A horizontal resistance line is drawn at ₹220.35, marking the top of a sideways price consolidation, which the speaker refers to as the \"large structure\". As the speaker talks, the cursor moves to the far right of the chart, pointing to a strong breakout with a large green candle that occurred on the \"next day\" (March 16th), pushing the price above the resistance level.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_171s.mp4"
+  },
+  {
+    "timestamp": "03:21",
+    "quote": "Now as it broke out, that's where you will take your entry. So let's mark our entries. Let's say you entered here.",
+    "what_is_shown": "GICRE 10-minute chart with entry point marked at breakout",
+    "visual_description": "On the daily candlestick chart for GICRE (General Insurance Corp of India), the price is shown breaking out above a drawn resistance level at 234.30. As the speaker says \"let's mark our entries,\" the cursor moves down over the large green breakout candle to a point just above this line. The speaker then clicks, which places a blue \"Buy\" arrow and a corresponding dashed horizontal line on the chart to signify the hypothetical trade entry.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_201s.mp4"
+  },
+  {
+    "timestamp": "03:21",
+    "quote": "Your stop loss is, you can place a stop loss here as well at the low of this area. Or you can place a tighter one here. Let's say this is the stop loss and this is your entry price.",
+    "what_is_shown": "10-minute chart showing two stop loss options and marked entry price",
+    "visual_description": "On a daily candlestick chart for GICRE (General Ins Corp of India Ltd), the cursor first indicates a potential stop loss at the low of a consolidation area near 216.35. As the speaker suggests a tighter alternative, a red horizontal line labeled \"Stop\" is drawn higher up at approximately 223.80. Finally, a green line labeled \"Entry\" is drawn at the breakout level of 229.40 to define the trade parameters.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_201s.mp4"
+  },
+  {
+    "timestamp": "03:51",
+    "quote": "On the next day, this is how the move came. Okay? That's what we did in the lower time frame. This is the move.",
+    "what_is_shown": "GICRE daily chart showing the move that occurred from lower timeframe entry",
+    "visual_description": "This clip shows a daily candlestick chart for General Insurance Corporation of India (GICRE) on TradingView. Using the replay feature, the user clicks forward to reveal the next day's candle, which is a very large green candle indicating a significant upward price move from around 250 to over 265. The cursor then moves to point at the consolidation area just before this breakout, which is marked with a \"3D\" annotation and a dashed horizontal line at the 257.60 price level.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_231s.mp4"
+  },
+  {
+    "timestamp": "03:51",
+    "quote": "So on the first day itself, we have this great move. So huge candle. Use this to make a 30% exit immediately and trail it to cost.",
+    "what_is_shown": "GICRE daily chart showing large first-day candle for 30% exit",
+    "visual_description": "On the daily candlestick chart for GICRE (General Insurance Corp of India), the replay feature advances the chart, forming a massive green breakout candle that surges from around 245 to close near 261.95. This candle breaks above a dashed horizontal line annotated with \"30\" at the 247.90 price level. After the candle forms, the cursor moves to point at its upper body, highlighting the significant price move.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_231s.mp4"
+  },
+  {
+    "timestamp": "04:21",
+    "quote": "Again, very big candle on the next day. So now you can make another exit here or you can trail it tightly because you just made a you just made an exit here, right?",
+    "what_is_shown": "GICRE daily chart showing second large candle with exit options",
+    "visual_description": "This clip displays a daily candlestick chart for General Ins Corp of India (GICRE) on the TradingView platform, showing a strong uptrend. A very large green candle is annotated with \"30%\" and \"70%\" to mark potential exit points, with the current price at 302.35. The cursor hovers near the top of this candle, right below a dotted line at the 312.85 price level, before the screen cuts to black.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_261s.mp4"
+  },
+  {
+    "timestamp": "04:21",
+    "quote": "So this is your trailing stop loss. Okay, this is how you can think of it. Again, it moved up. Low of the day, you can use the low of the day.",
+    "what_is_shown": "Daily chart showing trailing stop loss level marked",
+    "visual_description": "This clip shows a daily candlestick chart for General Ins Corp of India (GICRE) on TradingView in a strong uptrend. The screen displays multiple moving averages, a volume chart, and several annotations marking profit-taking levels, including \"30%\" near 223.00 and a dotted line at the recent high of 313.55. As the speaker discusses a trailing stop loss, the cursor moves from the top of the most recent large green candle down to its low, highlighting the \"low of the day\" around the 260.00 price level.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_261s.mp4"
+  },
+  {
+    "timestamp": "04:21",
+    "quote": "Now back to back three positive candles. So now you can either continue to use the low of the day, you can keep on using the low of the day or you can think that okay, now it's too much. back to back four candle, back to back one, two, three, four, five positive candles.",
+    "what_is_shown": "Daily chart showing sequence of back-to-back positive candles",
+    "visual_description": "This is a daily candlestick chart for General Insurance Corp of India (GICRE), showing a strong uptrend with the price at 300.35. The view is focused on a recent surge of five large, consecutive green candles in November 2023. Annotations marking \"30%\" and \"70%\" are drawn on these candles, and the cursor moves across the top of the last three candles to highlight the successive daily gains.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_261s.mp4"
+  },
+  {
+    "timestamp": "04:51",
+    "quote": "And then again a huge move. Now here definitely this is almost a 20% candle. So you will take the final exit here. Huge candle, you can see, you can take the final exit here.",
+    "what_is_shown": "Daily chart showing large 20% candle for final exit",
+    "visual_description": "On the daily candlestick chart for SKIPPER LTD (NSE), the cursor moves left from the current price in May 2023 to a very large green candle in early December 2022. The speaker identifies this specific candle, which represents a significant price jump from approximately 85 to over 100, as an almost \"20% candle\" and a signal for a \"final exit\". The chart also displays moving average ribbons and a volume indicator at the bottom.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_291s.mp4"
+  },
+  {
+    "timestamp": "05:21",
+    "quote": "Okay, you look at the chart. This is a crazy swing. Okay, so get out of the swing.",
+    "what_is_shown": "GICRE daily chart showing overall swing movement from entry to exit",
+    "visual_description": "On a 1-day candlestick chart for Skipper Ltd (NSE: SKIPPER), the price is in a strong uptrend around the 114.30 level. The cursor moves from a recent high down to the low of a large green candle that occurred on June 5th. This action activates the measurement tool, briefly displaying a red box that quantifies the intraday price swing for that day as \"-1.30 (-1.15%)\". The price is shown trading above two moving averages and a dashed horizontal line indicating a recent breakout level.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_321s.mp4"
+  },
+  {
+    "timestamp": "05:42",
+    "quote": "we are on the weekly chart of Skipper Limited. Zooming out the chart, the stock is in a stage two now and it's forming this a little longer base on the weekly chart you can see.",
+    "what_is_shown": "Skipper Limited weekly chart zoomed out showing stage two and longer base formation",
+    "visual_description": "This clip displays a daily candlestick chart for Skipper Ltd (SKIPPER) on TradingView, with the price around ₹141.60. The chart includes moving averages, a volume indicator, and Fibonacci retracement levels drawn from a swing low near ₹103 to a high near ₹138. The cursor hovers over the most recent candles before moving down to the replay panel and clicking the \"previous bar\" button.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_342s.mp4"
+  },
+  {
+    "timestamp": "05:42",
+    "quote": "On the daily chart we see a nice V-rounding structure. The stock made a mini base breakout here after the earnings and then pulled back down and down towards the 50 DMA and then makes a nice contraction here. Look at this contraction plus condition.",
+    "what_is_shown": "Skipper Limited daily chart showing V-rounding structure, mini base breakout, pullback to 50 DMA, and contraction",
+    "visual_description": "This clip displays a daily candlestick chart for SKIPPER LTD on the NSE, with the price at 141.50. The chart is marked with several moving averages, including the 50 DMA (white line), and an annotation of a horizontal line near the 130 price level. The cursor moves to highlight a \"V-rounding\" pattern from late April, then indicates a pullback to the 50 DMA in early June, and finally circles the recent tight price contraction just below the 140 level.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_342s.mp4"
+  },
+  {
+    "timestamp": "05:42",
+    "quote": "So this becomes my trigger level.",
+    "what_is_shown": "Skipper Limited daily chart with trigger level marked at contraction",
+    "visual_description": "On a daily candlestick chart for Skipper Ltd (BSE), the cursor moves down from the current candle to a horizontal line drawn at the 130.90 price level. The speaker identifies this level as the \"trigger level,\" which corresponds to the low of a large, preceding green candle. The chart also features moving average ribbons and other horizontal lines indicating potential support or resistance.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_342s.mp4"
+  },
+  {
+    "timestamp": "06:12",
+    "quote": "This is the 10 minute chart. On the 10 minute chart, this is how the structure looked like before it broke out. Okay. So on the next day, the stock broke out here of this structure on the lower time frame, broke about the trigger level.",
+    "what_is_shown": "Skipper Limited 10-minute chart showing structure before breakout and breakout point",
+    "visual_description": "This clip displays a daily candlestick chart for Skipper Ltd (SKIPPER) on the TradingView platform, showing a stock in a clear uptrend. Several annotations mark consolidation periods, including one labeled \"30\" above a series of candles. During the clip, the cursor hovers over a white moving average line near the 123.80 price level, indicating where the price recently pulled back before continuing its upward move.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_372s.mp4"
+  },
+  {
+    "timestamp": "06:12",
+    "quote": "That's where you can take your trade. Let's say this is your entry price. Where can you place your stop loss? This previous low is a good level. Okay. So you can place your stop loss to that previous low and then this is how your trade looks like.",
+    "what_is_shown": "10-minute chart with entry price and stop loss at previous low marked",
+    "visual_description": "This clip displays the daily candlestick chart for SKIPPER LTD, with the price around ₹164.50. The cursor points to a previous swing low near the ₹123.80 price level, which is also close to a white moving average line. A \"Long Position\" tool is then activated, showing a hypothetical entry at a recent high, with the red stop-loss area being dragged down to this identified low to illustrate the trade setup.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_372s.mp4"
+  },
+  {
+    "timestamp": "06:42",
+    "quote": "First day, it's a good candle but not good enough to take any exit. You can just trail the stop loss to the cost and make the trade risk free now. On the second day, definitely, it's a huge candle and this is where you should take a 30% exit.",
+    "what_is_shown": "Skipper Limited daily chart showing first day candle and large second day candle",
+    "visual_description": "A daily candlestick chart for SKIPPER LTD (NSE) shows a strong uptrend and a significant recent price surge. The view focuses on two large green daily candles, with the chart annotated with the numbers \"30\" and \"50\" to mark stages of the upward move. The cursor remains near the \"50\" annotation and the most recent candle, which has a high of 177.00 and is trading around 168.80.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_402s.mp4"
+  },
+  {
+    "timestamp": "07:12",
+    "quote": "Now it's a very significant candle. It's a 20% move, upper circuit for the stock. And look at this chart now. This is clearly a very, very extended move now.",
+    "what_is_shown": "Daily chart showing significant 20% upper circuit candle in extended move",
+    "visual_description": "The screen displays a daily candlestick chart for SKIPPER LTD, which is being advanced using a replay tool. Initially showing consolidation around the 165-172 price level, the chart suddenly reveals a massive green \"upper circuit\" candle, jumping the price to 195.30. This significant upward move is accompanied by a large volume spike, labeled as \"9.4M\" in the volume pane below the chart. The chart also features several moving averages and horizontal dashed lines indicating price levels.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_432s.mp4"
+  },
+  {
+    "timestamp": "07:12",
+    "quote": "So here, you can take 50% exit, at least 30% but since it's a huge move, you can go ahead and take 50% exit.",
+    "what_is_shown": "Daily chart showing the point to take 50% exit on the significant candle",
+    "visual_description": "This clip displays a daily candlestick chart for SKIPPER LTD on a trading platform, advancing in replay mode from late July to early August. A large green candle forms, signifying a significant upward price move to a new high around 190.00. This candle moves past a dotted horizontal line annotated with the number \"50\", while another annotation \"30\" is visible at a lower price level from mid-June. The chart also features several moving averages and a volume indicator at the bottom.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_432s.mp4"
+  },
+  {
+    "timestamp": "07:42",
+    "quote": "Again a gap up and a good candle but close negative. And the next candle is like this.",
+    "what_is_shown": "Daily chart showing gap-up candle and following candle with negative close",
+    "visual_description": "This clip displays a daily candlestick chart for SKIPPER LTD on the BSE, featuring moving average ribbons and volume indicators. The cursor first points to a large green candle from late June 2023. As the speaker describes a \"gap up\" and a \"negative close,\" the cursor then moves to the very next candle, which is a small-bodied red candle with a long upper wick, visually representing the described price action.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_462s.mp4"
+  },
+  {
+    "timestamp": "07:42",
+    "quote": "You are left with the final 20% quantity. You are left with 20% quantity and 20 DMA is your ultimate weakness level.",
+    "what_is_shown": "Daily chart showing 20 DMA level marked as ultimate weakness",
+    "visual_description": "The screen displays a daily candlestick chart for SKIPPER LTD, which includes two moving average lines (one white, one purple) and a volume indicator. As the speaker discusses the \"20 DMA\" (20-day moving average), the cursor moves to the chart area around June 2023. It then points directly to and traces along the white moving average line, visually identifying it as the key weakness level being discussed.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_462s.mp4"
+  },
+  {
+    "timestamp": "08:12",
+    "quote": "Because we do not want to hold the stock for so long and wait for it to break the 20 DMA because the gap between this and the 20 DMA is wide. It's a wide gap.",
+    "what_is_shown": "Daily chart showing the gap between current price level and 20 DMA",
+    "visual_description": "A 10-minute candlestick chart for SKIPPER LTD is displayed, with the price action shown from January 24th to 31st. The cursor moves from a red candle near the 233.84 price level up towards a large green candle's low around 240.30. A blue dotted vertical line with arrows is drawn to illustrate the \"wide gap\" between the candle's low (approx. 240) and the white 20-day moving average indicator line below it (approx. 234).",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_492s.mp4"
+  },
+  {
+    "timestamp": "08:42",
+    "quote": "Now you see the stock is floating about the 20 DMA. It has not broken the 20 DMA decisively. And then it decided to go up. Okay. But you see it ultimately went up, it did not break the 20 DMA.",
+    "what_is_shown": "Daily chart showing stock price action around 20 DMA after exit",
+    "visual_description": "A daily candlestick chart for SKIPPER LTD (NSE) is displayed, showing the price with 20-day (white) and 50-day (purple) moving averages. The cursor first points to a period in late January where the price consolidates and tests the 20 DMA around the ₹242.85 level. It then moves up to a large green breakout candle, illustrating the speaker's point that the price bounced off the 20 DMA and proceeded to move higher.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_522s.mp4"
+  },
+  {
+    "timestamp": "09:36",
+    "quote": "this particular setup here",
+    "what_is_shown": "Previous video's setup on the chart (specific price action pattern or trade setup)",
+    "visual_description": "A daily candlestick chart for the stock M&MFIN shows a price consolidation pattern highlighted by a white box and a large, white upward-pointing arrow. The cursor sweeps across this highlighted area, which has support and resistance lines drawn at 235.00 (red) and 251.60 (green), respectively. The cursor then stops on the large green breakout candle that has just occurred, while a momentum indicator at the bottom displays a bullish crossover.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_576s.mp4"
+  },
+  {
+    "timestamp": "09:36",
+    "quote": "the stock produced a good base here, took out but could not follow through. Then again formed another base here",
+    "what_is_shown": "Base formations and breakout attempt visible on chart",
+    "visual_description": "This clip displays a daily candlestick chart for the stock ADANIPOWER, with the RSI(14) indicator visible below. A light blue rectangle highlights a price consolidation \"base\" from late August to late September, with a red horizontal resistance line drawn at 287.00. The cursor first points to this highlighted base, then to a candlestick that briefly broke above the resistance line. Finally, the cursor moves to the right and circles a more recent area of price consolidation from October to November, which the speaker identifies as \"another base\".",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_576s.mp4"
+  },
+  {
+    "timestamp": "09:36",
+    "quote": "squeezed along the 20 and the 50, you can see here, a very clear squeeze",
+    "what_is_shown": "Price action squeezed between 20 and 50 moving averages on chart",
+    "visual_description": "This clip displays a daily candlestick chart for Adani Enterprises (ADANIENT) on a trading platform. The cursor circles an area of price consolidation from late 2022 into early 2023, where the price action is shown to be \"squeezed\" between the 20-period (green line) and 50-period (red line) moving averages. A yellow horizontal resistance line is drawn across the chart near the 1800 price level.",
+    "status": "critical",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_576s.mp4"
+  },
+  {
+    "timestamp": "10:06",
+    "quote": "the low of this candle, uh this one, the low of this candle can be a logical stop",
+    "what_is_shown": "Specific candle highlighted/identified on the 10-minute chart",
+    "visual_description": "",
+    "status": "error",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_606s.mp4",
+    "error": "Clip extraction failed"
+  },
+  {
+    "timestamp": "10:06",
+    "quote": "This becomes your entry price. This is your stop loss. This is how the trade looks like",
+    "what_is_shown": "Entry and stop loss levels marked on chart",
+    "visual_description": "",
+    "status": "error",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_606s.mp4",
+    "error": "Clip extraction failed"
+  },
+  {
+    "timestamp": "10:36",
+    "quote": "you have to take 30% exit here on this move",
+    "what_is_shown": "First exit point marked on the chart after the initial move",
+    "visual_description": "",
+    "status": "error",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_636s.mp4",
+    "error": "Clip extraction failed"
+  },
+  {
+    "timestamp": "10:36",
+    "quote": "on the next day, we had another great move. Now you have a choice. You can either take another 30% exit here",
+    "what_is_shown": "Second day's price action and potential exit level on chart",
+    "visual_description": "",
+    "status": "error",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_636s.mp4",
+    "error": "Clip extraction failed"
+  },
+  {
+    "timestamp": "11:06",
+    "quote": "with this candle, you are supposed to take one more exit of 30%",
+    "what_is_shown": "Third candle with exit point marked on chart",
+    "visual_description": "",
+    "status": "error",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_666s.mp4",
+    "error": "Clip extraction failed"
+  },
+  {
+    "timestamp": "11:06",
+    "quote": "The stock made a decent pull back. respecting the 20 DMA, comes back up, makes a move",
+    "what_is_shown": "Pullback to 20 DMA and subsequent price action on chart",
+    "visual_description": "",
+    "status": "error",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_666s.mp4",
+    "error": "Clip extraction failed"
+  },
+  {
+    "timestamp": "11:36",
+    "quote": "Now this is a significant candle because the stock opened here, went all the way up here and closed back down",
+    "what_is_shown": "Specific candle with high wick and lower close highlighted on chart",
+    "visual_description": "",
+    "status": "error",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_696s.mp4",
+    "error": "Clip extraction failed"
+  },
+  {
+    "timestamp": "11:36",
+    "quote": "So I'll use the low of the day for my final exit. And here we have the final exit here",
+    "what_is_shown": "Final exit level marked on chart",
+    "visual_description": "",
+    "status": "error",
+    "_file": "at-2.txt",
+    "_vid_id": "uP-MO7aow1Q",
+    "clip_file": "uP-MO7aow1Q_696s.mp4",
+    "error": "Clip extraction failed"
+  }
+]

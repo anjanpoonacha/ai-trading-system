@@ -1,0 +1,20 @@
+{
+  "symbol": "PATELENG",
+  "date": null,
+  "timeframe": "weekly",
+  "label": "good_base",
+  "sub_label": "shallow_short",
+  "confidence": "strong",
+  "notes": "Stage 4→1→failed 2→4→2 (large volume spike). Daily: 35-day shallow base above 20 DMA → trigger at contraction high. TRP 5.4.",
+  "trp_pct": 5.4,
+  "base_candles": 35,
+  "outcome": "worked",
+  "outcome_pct": 85,
+  "outcome_duration_days": 77,
+  "outcome_notes": "Three upper circuits → 20% exit | Six circuits total, 44% move → 40% exit | Break below 20 DMA after 90+ days → final 40%. Total: 85% in 77 days.",
+  "source": "course_example",
+  "image_quality": "course_clip",
+  "needs_fresh_screenshot": true,
+  "video_id": "aTv2pNEEN_Q",
+  "clip_file": "aTv2pNEEN_Q_1000.mp4"
+}

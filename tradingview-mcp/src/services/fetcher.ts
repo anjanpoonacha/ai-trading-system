@@ -8,7 +8,8 @@
  */
 
 import type { Bar, ScanResult, CVDPoint, SymbolMeta, CVDConfig } from "../types";
-import { createConnectionManager, type ConnectionManager } from "../connection/manager";
+import { createConnectionManager, type ConnectionManager, type BatchConfig } from "../connection/manager";
+import type { CompositeResult } from "../connection/websocket";
 
 const SCANNER_URL = "https://scanner.tradingview.com/india/scan";
 const SCANNER_HEADERS = {
@@ -21,6 +22,10 @@ const SCANNER_HEADERS = {
 export interface Fetcher {
   getBars(symbol: string, timeframe: string, count: number): Promise<{ bars: Bar[]; meta: SymbolMeta | null }>;
   getBarsWithCVD(symbol: string, timeframe: string, count: number, cvdConfig?: CVDConfig): Promise<{ bars: Bar[]; meta: SymbolMeta | null; cvd: CVDPoint[] }>;
+  /** Setup batch: persistent series+studies for multiple panels. */
+  setupBatch(panels: BatchConfig[]): Promise<void>;
+  /** Fetch one symbol in batch mode. */
+  fetchNext(symbol: string): Promise<CompositeResult>;
   scan(symbols: string[], columns: string[]): Promise<ScanResult[]>;
   close(): void;
 }
@@ -70,7 +75,15 @@ export function createFetcher(): Fetcher {
     });
   }
 
-  return { getBars, getBarsWithCVD, scan, close: () => mgr.close() };
+  async function setupBatch(panels: BatchConfig[]) {
+    await mgr.setupBatch(panels);
+  }
+
+  async function fetchNext(symbol: string): Promise<CompositeResult> {
+    return mgr.fetchNext(normalizeSymbol(symbol));
+  }
+
+  return { getBars, getBarsWithCVD, setupBatch, fetchNext, scan, close: () => mgr.close() };
 }
 
 // --- Standalone test ---

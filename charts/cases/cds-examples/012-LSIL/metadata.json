@@ -1,0 +1,20 @@
+{
+  "symbol": "LSIL",
+  "date": null,
+  "timeframe": "weekly",
+  "label": "good_base",
+  "sub_label": "stage_2a",
+  "confidence": "strong",
+  "notes": "Stage 2A: base 4-5 bars after Stage 2 breakout. Wake-up call: range breakout with volume spike. Multiple trigger bars during drift down.",
+  "trp_pct": null,
+  "base_candles": null,
+  "outcome": "worked",
+  "outcome_pct": null,
+  "outcome_duration_days": null,
+  "outcome_notes": "First extension exit at ~11R. Second extension exit at ~20R (complete exit for swing trading).",
+  "source": "course_example",
+  "image_quality": "course_clip",
+  "needs_fresh_screenshot": true,
+  "video_id": "Jva74FVG3M4",
+  "clip_file": "Jva74FVG3M4_0030.mp4"
+}

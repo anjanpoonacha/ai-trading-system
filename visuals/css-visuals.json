@@ -1,0 +1,592 @@
+{
+  "css-1.txt": [
+    {
+      "timestamp": "07:44",
+      "quote": "first is the 10 and the 20day moving average should be sloping down... there should be a pullback of the index towards the 10 or the day moving average",
+      "what_is_shown": "Index chart showing 10-day and 20-day moving averages with their slopes and pullback patterns",
+      "why_needed": "Speaker is describing visual patterns on a chart without naming specific index levels or dates - viewer must see the actual moving average lines and their slopes to understand what 'sloping down' and 'pullback' look like"
+    },
+    {
+      "timestamp": "08:15",
+      "quote": "let's say this is your 10day moving average and this is your 20-day moving average and the index you know it's trading like this... then suddenly there is this fall in this index like this",
+      "what_is_shown": "Hand-drawn or illustrated diagram showing the relationship between 10-day MA, 20-day MA, and index price movement with a fall",
+      "why_needed": "Speaker is drawing or pointing to visual elements ('this is your 10day', 'like this', 'something like this') without describing specific price levels or dates - the spatial relationship between the lines is being demonstrated visually"
+    },
+    {
+      "timestamp": "08:46",
+      "quote": "after this point here the 10 and the 20 both the moving averages are sloping down... right now the index is here... we have to wait for the index to pull back like this",
+      "what_is_shown": "Specific point on chart being indicated, current index position, and anticipated pullback trajectory toward moving averages",
+      "why_needed": "Multiple uses of demonstrative pronouns ('this point here', 'here', 'like this') indicate speaker is pointing to specific locations on screen without verbally describing their coordinates or values"
+    },
+    {
+      "timestamp": "09:48",
+      "quote": "let's say this is the stock accumulation break out goes to a stage two makes a bas a couple of bay and moves like this in the stage two and then suddenly you see something like this",
+      "what_is_shown": "Stock chart showing stage progression from accumulation through stage 2, with specific price movement patterns and distribution characteristics",
+      "why_needed": "Speaker uses 'like this' and 'something like this' repeatedly while describing chart patterns without naming the stock or specific price levels - visual demonstration of stage analysis is essential"
+    },
+    {
+      "timestamp": "10:50",
+      "quote": "let's say this is your 50-day moving average... this is how your 50-day moving average is and then 50-day moving average goes down like this and then the stock is making a pullback towards the 50-day moving average",
+      "what_is_shown": "Chart showing 50-day moving average line, its downward trajectory, and stock price pulling back toward it",
+      "why_needed": "Speaker is drawing or pointing to visual elements ('this is', 'like this', 'goes down like this') without stating specific price levels or stock name - the spatial relationship and pullback pattern must be seen"
+    },
+    {
+      "timestamp": "11:22",
+      "quote": "when the stock is coming very near to the 50-day moving average... whatever is the candle let's say this is how the candle looks like so on the next day if the low of this candle is broken down",
+      "what_is_shown": "Specific candle formation near 50-day MA, showing the candle's low level and subsequent breakdown",
+      "why_needed": "Speaker references 'this is how the candle looks like' and 'this candle' without describing the candle's specific characteristics, price levels, or which stock is being shown"
+    },
+    {
+      "timestamp": "11:54",
+      "quote": "the stop loss can be either at the trp level... or you can use a technical level which can generally be the High the previous High like this the swing high",
+      "what_is_shown": "Chart showing TRP level placement and swing high level for stop loss positioning",
+      "why_needed": "Speaker says 'like this' when indicating where the swing high stop loss would be placed, without stating the specific price level or distance from entry"
+    },
+    {
+      "timestamp": "12:57",
+      "quote": "but then when the they start falling This Is How They Fall okay so you see that the pullbacks these are pullbacks okay these are pullbacks these pullbacks are often very sharp",
+      "what_is_shown": "Chart showing downward price movement with sharp pullback patterns being pointed to",
+      "why_needed": "Speaker uses demonstrative language ('This Is How', 'these are pullbacks') without describing the specific pattern characteristics or naming what stock/timeframe is being shown"
+    },
+    {
+      "timestamp": "13:58",
+      "quote": "let's say this is how the index is and it's falling down so whenever there is a down swing like this okay this is a down swing and it gets extended on the downside",
+      "what_is_shown": "Index chart showing a downswing pattern and what 'extended on the downside' looks like visually",
+      "why_needed": "Speaker uses vague demonstrative language ('like this', 'this is a down swing') without describing the specific price levels, angle, or characteristics of the downswing"
+    },
+    {
+      "timestamp": "16:34",
+      "quote": "you see for most part of the time the index has been sloping up and recently the index clearly broke below the averages and then you can see the averages also cross over the 10 crossed below the 20 and then we have a small pullback",
+      "what_is_shown": "Nifty 500 daily chart showing the upward slope, breakdown below moving averages, the 10/20 MA crossover, and the pullback location",
+      "why_needed": "While speaker describes the pattern, the specific timing, price levels, and visual identification of 'recently' and where the pullback occurs requires seeing the chart"
+    },
+    {
+      "timestamp": "17:07",
+      "quote": "we are not supposed to be taking short trades here or here no we are supposed to be waiting for a pull back okay",
+      "what_is_shown": "Specific locations on the chart being pointed to where trades should NOT be taken versus where to wait",
+      "why_needed": "Speaker uses 'here or here' without identifying what dates, price levels, or chart features define these incorrect entry points"
+    },
+    {
+      "timestamp": "18:39",
+      "quote": "this is the chart of gmr airports I look at the chart let me Zoom it out this is the daily chart the stock had been into a stage two and here the stock formed the topping structure this is a topping structure a sort of a topping structure you can see some good NPCs as well",
+      "what_is_shown": "GMR Airports daily chart showing the stage 2 advance, the specific topping structure formation, and the NPC (negative price candles) locations",
+      "why_needed": "Speaker uses demonstrative 'here' and 'this is a topping structure' without describing the shape, duration, or specific characteristics of the topping pattern"
+    },
+    {
+      "timestamp": "19:10",
+      "quote": "and then you saw a breakdown of this structure with these candles confirming that this was a distribution after the breakdown the stock pulled back up okay ideally we want to pull back towards the 50 dma or the 200 dma in this case it was the case with where the stock has recently transition into a stage three or a stage four so we using the 200 day moving average here the stock broke down and pulls back up slightly about the 200 day moving average makes this NPC sorry makes this uh rejection candle so Mark the low this becomes the low",
+      "what_is_shown": "The breakdown candles, the pullback movement toward the 200 DMA, the rejection candle, and the specific low that becomes the trigger level",
+      "why_needed": "Multiple demonstrative references ('this structure', 'these candles', 'this rejection candle', 'Mark the low') without stating specific dates or price levels"
+    },
+    {
+      "timestamp": "19:42",
+      "quote": "it becomes your trigger level for a short trade on the next day if the low breaks you take a short trade here you have two options to play stop loss the first is the TR P so maybe if you shot here the trp is 3 it's 3% so the trp comes somewhere here so it coincides with a technical level so this becomes a good stop from both perspective",
+      "what_is_shown": "The trigger level location, entry point, and where the 3% TRP stop loss level sits relative to technical levels on the chart",
+      "why_needed": "Speaker uses 'here' and 'somewhere here' without stating the actual price levels for entry or stop loss"
+    },
+    {
+      "timestamp": "20:12",
+      "quote": "hold it hold it I think this candle now this is a four bar down swing this is a large candle definitely you can use this candle to take some gains off",
+      "what_is_shown": "The specific large candle and four-bar downswing pattern being referenced for the exit point",
+      "why_needed": "Speaker uses 'this candle' and 'this is a four bar down swing' without identifying which specific date or price level"
+    },
+    {
+      "timestamp": "21:15",
+      "quote": "hold it and then after this on this day earnings came okay no need to exit it because there is a cushion after the earnings again the stock gap down and went till here so you can hold it for one more and this is how the stock behaves so you can use this candle and make a full exit here because this is another swing this is the first swing and then a small pullback and this is another swing",
+      "what_is_shown": "The earnings date location, the gap down movement, the first swing, the pullback, and the second swing with the exit candle",
+      "why_needed": "Multiple demonstrative references ('on this day', 'till here', 'this candle', 'here', 'this is the first swing', 'this is another swing') without specific dates or price levels"
+    },
+    {
+      "timestamp": "21:48",
+      "quote": "let's just measure it let's say you short you took a short trade here your stop loss was here and you made two exits like this so it was a 3.6R multiple trade",
+      "what_is_shown": "Visual measurement tool showing the entry point, stop loss level, and two exit points to calculate the 3.6R",
+      "why_needed": "Speaker uses 'here' multiple times and 'like this' without stating the actual price levels used in the R-multiple calculation"
+    },
+    {
+      "timestamp": "23:24",
+      "quote": "once you see that the index is going down like this this has made it's made a nice down swing so use these opportunities to take exits okay use these opportunities to take exit so when you see that the index has gone down like this till here use this as an exit point",
+      "what_is_shown": "The index downswing pattern and the specific point identified as the exit opportunity",
+      "why_needed": "Speaker uses 'like this', 'till here', and 'this as an exit point' without describing the specific index level or date"
+    },
+    {
+      "timestamp": "23:55",
+      "quote": "now again just for clarity here again as this pullback has come so this Zone here becomes again an opportunity opportunity for us to take short trades if at all there are setups so we have to wait for setups here not not not during this fall okay not doing this fall you have to take a setup when the index pulls back up",
+      "what_is_shown": "The pullback zone on the index chart and the distinction between the fall period (where not to trade) versus the pullback zone (where to look for setups)",
+      "why_needed": "Speaker uses 'here', 'this Zone here', 'during this fall', and 'this fall' without identifying specific index levels or dates"
+    },
+    {
+      "timestamp": "26:01",
+      "quote": "this becomes an ideal location now we are supposed to be waiting for a pullback and the pullback comes here towards the 50-day moving average you can see this so this this both of these candles are valid candles to take a short trade because they have come very near to the 50-day moving average but you can see that the lows have never been broken",
+      "what_is_shown": "The specific pullback location, the two valid entry candles near the 50 DMA, and which lows were not broken",
+      "why_needed": "Speaker uses 'here', 'this', and 'both of these candles' without identifying the specific dates or price levels of the valid entry candles"
+    },
+    {
+      "timestamp": "26:33",
+      "quote": "and on this next day the setup got triggered you took a short trade as I said the stoploss technical level can be here slightly above the previous highs that can be your technical level and the trp of the stock is 3% so from this entry price you can measure 3% it may come to somewhere here",
+      "what_is_shown": "The trigger day, entry point, the previous highs level for stop loss, and where the 3% TRP level sits on the chart",
+      "why_needed": "Speaker uses 'on this next day', 'here', 'this entry price', and 'somewhere here' without stating specific dates or price levels"
+    },
+    {
+      "timestamp": "27:06",
+      "quote": "this is the stop loss and maybe entry price will be slightly below this maybe you wait for a low a little more confirmation on the lower time frame so you got your entry price somewhere here",
+      "what_is_shown": "Specific price levels being marked on a stock chart - the stop loss level and entry price location",
+      "why_needed": "The speaker uses 'this' and 'here' without stating actual price values or the stock name, making it impossible to know what levels are being referenced"
+    },
+    {
+      "timestamp": "27:38",
+      "quote": "this is the index chart now and on the index chart as well from this level that was one one negative candle and then a halt and then two negative candles so from this swing High there was a nice down move",
+      "what_is_shown": "Index chart showing specific swing high, sequence of candles, and the 4% down move with the large NPC",
+      "why_needed": "Multiple references to 'this level', 'this swing High' without stating which index or specific price levels - viewer must see the chart to identify these points"
+    },
+    {
+      "timestamp": "28:45",
+      "quote": "you also observe this level this becomes your support okay just have this level in the mind this is your previous CL this is your support",
+      "what_is_shown": "Support level being marked on the stock chart, identified as previous close",
+      "why_needed": "Speaker says 'this level' multiple times without stating the actual price value or clearly describing how to identify it"
+    },
+    {
+      "timestamp": "29:16",
+      "quote": "this is a NE positive candle now so let's Trail a stop loss this becomes a trailing stop loss okay this previous exit as well as this uh previous high of this canand that can just a tentative trailing stop loss",
+      "what_is_shown": "Specific candle being identified and trailing stop loss level being marked based on previous high",
+      "why_needed": "Uses 'this candle', 'this previous high' without describing which candle or stating the price level"
+    },
+    {
+      "timestamp": "30:18",
+      "quote": "look at uja cement daily chart if I zoom out the chart you can see that the stock went into a stage two here but then immediately you see the stage two did not last much and the stock went into a distribution it was a clean rounding top pattern you can see the rounding top nature of this pattern",
+      "what_is_shown": "Ujja Cement chart displaying the rounding top pattern formation and stage transitions",
+      "why_needed": "While the stock is named, the rounding top pattern's specific shape and the areas marking stage transitions require visual confirmation"
+    },
+    {
+      "timestamp": "30:48",
+      "quote": "you can see this area the stock broke down of that area after the breakdown the stock made a clear down move",
+      "what_is_shown": "Specific area/level on Ujja Cement chart where breakdown occurred",
+      "why_needed": "Says 'this area' and 'that area' without stating price levels or timeframe of the breakdown"
+    },
+    {
+      "timestamp": "31:19",
+      "quote": "look at the pullback very nice three bar pullback look at this congestion plus contraction so it was extremely good okay so this becomes a good opportunity to take a short trade here Mark the low of this candle",
+      "what_is_shown": "Three-bar pullback pattern with congestion/contraction, and specific candle whose low needs to be marked",
+      "why_needed": "References 'this congestion', 'this candle' without describing which specific candle or the price level of its low"
+    },
+    {
+      "timestamp": "31:51",
+      "quote": "this is your entry price this becomes your stop loss so this is how your Trading let's finish the trade hold it hold it hold it hold it okay now the stock is hitting the support here you can see this is the support level",
+      "what_is_shown": "Entry price and stop loss being marked using short position tool, plus support level being identified",
+      "why_needed": "Uses 'this' and 'here' repeatedly without stating actual price values for entry, stop loss, or support"
+    },
+    {
+      "timestamp": "32:22",
+      "quote": "look at this there was a great fall in index so this down swing seems to have been exhausted now... so this becomes a logical like three look at the last 3 to 4 days and just identify a good level to Trail your stop loss so this becomes my trailing stop loss",
+      "what_is_shown": "Index chart showing the exhausted down swing and specific level being identified for trailing stop loss",
+      "why_needed": "Says 'look at this', 'this becomes' without stating which index, what price level, or how to identify the trailing stop loss level"
+    },
+    {
+      "timestamp": "34:27",
+      "quote": "look at this particular pattern here it's a distribution pattern breakdown okay and then we had another breakdown here as well there were two break back toback breakdowns of this uh topping structure",
+      "what_is_shown": "Bat Force chart showing distribution pattern and two consecutive breakdown levels",
+      "why_needed": "Uses 'this particular pattern', 'here', 'this topping structure' without describing the pattern characteristics or breakdown price levels"
+    },
+    {
+      "timestamp": "34:57",
+      "quote": "you can mark the low of this day and then take a short trade however if this candle would have been a larger negative pivotal candle then definitely the a trade would have been missed... you can consider attempting a trade below the low of this candle",
+      "what_is_shown": "Specific candle being referenced for marking its low as entry trigger",
+      "why_needed": "Says 'this day', 'this candle' multiple times without identifying which specific candle or its low price"
+    },
+    {
+      "timestamp": "35:29",
+      "quote": "let's mark the entry price let's mark the stop loss would have been somewhere here I'm talking about the average stop loss okay based on the trp and the technical level it can be somewhere here",
+      "what_is_shown": "Entry price and stop loss levels being marked on the chart",
+      "why_needed": "Uses 'here' and 'somewhere here' without stating actual price values"
+    },
+    {
+      "timestamp": "35:59",
+      "quote": "here you see the index clearly went uh much away from the 10day moving average here as well you can see the index went much away from the 10day moving average but here it's not the case",
+      "what_is_shown": "Index chart showing different instances where price moved far from 10-day MA versus current position",
+      "why_needed": "Multiple uses of 'here' to reference different time periods on the chart without stating dates or describing how to identify these periods"
+    },
+    {
+      "timestamp": "36:31",
+      "quote": "1 2 3 let's say this candle three last three candles you can see this candle is a good trailing Stop Plus to be let's now Trail it okay now we are having multiple levels form here so multiple days from here so this can be your new trailing stoploss",
+      "what_is_shown": "Specific candles being counted and trailing stop loss level being identified and marked",
+      "why_needed": "Says 'this candle', 'here', 'this can be your new trailing stoploss' without stating which candle or what price level"
+    },
+    {
+      "timestamp": "37:34",
+      "quote": "let's say instead of this candle if we would have gotten a candle like this then I would say that we are out of the pullback Zone it's made a down swing okay then we should not be attempting a short trade tomorrow or if let's say tomorrow we see another candle that forms like this again",
+      "what_is_shown": "Current candle on index chart and hypothetical candle scenarios being illustrated",
+      "why_needed": "Uses 'this candle', 'like this', 'like this again' to describe candle formations without verbally describing their characteristics"
+    },
+    {
+      "timestamp": "38:07",
+      "quote": "we are on the chart of G Gil if if I zoom out the chart you see the daily chart it had been in a stage two and then you see here the stock broke down of this topping structure a clear clear topping structure broke down",
+      "what_is_shown": "G Gil chart showing stage two period and topping structure breakdown",
+      "why_needed": "Says 'here' and 'this topping structure' without describing the structure's characteristics or the breakdown price level"
+    },
+    {
+      "timestamp": "38:38",
+      "quote": "below the 200 day moving average and now pulls back up to the 200 day moving average crosses the 200 day moving average slightly good part is the earnings came up here and earnings led to this uh uh bounce back which is good and then you mark the low of this candle",
+      "what_is_shown": "A specific stock chart showing price action relative to the 200-day moving average, an earnings event marker, and a specific candle whose low needs to be marked as the short trade trigger",
+      "why_needed": "The speaker references 'this candle' and 'here' multiple times without naming the stock or stating the specific price level of the candle low that becomes the trigger point"
+    },
+    {
+      "timestamp": "39:09",
+      "quote": "you at this particular previous low so definitely some exit needs to be taken you can just have a look at the index chart and confirm like how does the index chart look at this point in time",
+      "what_is_shown": "A specific previous low level on the stock chart that serves as an exit point, plus the corresponding index chart view at that same time period",
+      "why_needed": "The speaker refers to 'this particular previous low' without stating the price level, and asks viewers to look at the index chart without describing what they should see"
+    },
+    {
+      "timestamp": "39:40",
+      "quote": "on the next day we see one more down move in the index chart now in the index chart is clearly extended extended on the downside so definitely this should be taken some this should be taken into consideration",
+      "what_is_shown": "The index chart showing an extended downside move with specific candles and price levels that indicate overextension",
+      "why_needed": "The speaker describes the index as 'clearly extended' but doesn't specify what price levels or percentage moves define this extension visually"
+    },
+    {
+      "timestamp": "40:11",
+      "quote": "so obviously you can bring down your trailing stop loss to this this becomes your trailing stop loss for the remaining quantity and here you you should be out okay your trailing stop loss is it either on this candle or on this candle",
+      "what_is_shown": "Specific candles on the chart where trailing stop losses should be placed, with visual indicators of which candle highs become the stop loss levels",
+      "why_needed": "The speaker says 'this' and 'this candle or on this candle' multiple times without stating the actual price levels or dates of these candles"
+    },
+    {
+      "timestamp": "40:46",
+      "quote": "in the last few videos we talked about this particular period we we identified a few setups during this particular period okay then what we saw here was something interesting there was a change in character of the market you see this PPC here",
+      "what_is_shown": "A specific time period on the Nifty 500 chart with a PPC (Pocket Pivot Candle) marked, showing the change in market character",
+      "why_needed": "The speaker references 'this particular period' and 'this PPC here' without stating dates or describing the PPC characteristics verbally"
+    },
+    {
+      "timestamp": "41:17",
+      "quote": "and then you saw a gap up here there was a gap created and then a gap up and a close above the 20-day moving average this changed the character of the market",
+      "what_is_shown": "A specific gap up candle on the index chart showing the gap size and close above the 20-day moving average",
+      "why_needed": "The speaker says 'here' and 'this' without stating the date or the size of the gap that signaled the character change"
+    },
+    {
+      "timestamp": "41:48",
+      "quote": "and then the market relied upside and again there was this halt here now during this halt will I attempt a short trade",
+      "what_is_shown": "A specific consolidation or halt pattern on the index chart at a particular price level and time period",
+      "why_needed": "The speaker refers to 'this halt here' without describing when it occurred or what price levels defined the halt"
+    },
+    {
+      "timestamp": "42:19",
+      "quote": "it took a halt and then made a pullback pullback came towards the 20day moving average and then you have this small NPC",
+      "what_is_shown": "A specific pullback pattern on the index chart showing price action relative to the 20-day moving average and a small NPC (Negative Pivot Candle)",
+      "why_needed": "The speaker references 'this small NPC' without describing its characteristics or stating when it occurred"
+    },
+    {
+      "timestamp": "42:50",
+      "quote": "you see this is a daily chart and it was in a stage two then you had a distribution pattern here you see a breakout failure here the stock attempted a breakout it failed and then the stock made a breakdown of this particular area okay this is a short of topping structure",
+      "what_is_shown": "Motherson's chart showing a stage two pattern, distribution, breakout failure, and a topping structure with specific price levels and zones",
+      "why_needed": "The speaker says 'here' and 'this particular area' multiple times without stating the price levels that define these zones"
+    },
+    {
+      "timestamp": "43:21",
+      "quote": "and what's interesting is this small candle so I like these sorts of trigger bars very small contracted candle and the next day if the stock breaks a low you can go for a short trade and there you go the short trade get get gets activated you take a trade here",
+      "what_is_shown": "A specific small contracted candle on Motherson's chart and the subsequent candle that breaks its low to trigger the trade",
+      "why_needed": "The speaker refers to 'this small candle' and 'here' without stating the date or price level of the trigger"
+    },
+    {
+      "timestamp": "43:52",
+      "quote": "on the next two days we have this fall here so either on let's look at the index chart first what happens on the index chart you can see now we are clearly extended",
+      "what_is_shown": "Specific candles showing a fall on both the stock and index charts, with visual indicators of overextension",
+      "why_needed": "The speaker says 'this fall here' and asks viewers to see the extension without describing the specific price action or percentage moves"
+    },
+    {
+      "timestamp": "44:23",
+      "quote": "again there is a this negative candle let's look at the index now the index gets seriously extended okay there's a gap down here okay with this one I'll definitely take a full exit here",
+      "what_is_shown": "A specific negative candle and gap down on the index chart that signals serious overextension and exit point",
+      "why_needed": "The speaker references 'this negative candle' and 'here' multiple times without stating dates or price levels"
+    },
+    {
+      "timestamp": "44:55",
+      "quote": "you can Trail it using let's say this particular level here this becomes your stop loss trailing stop loss and that trailing stop loss also gets taken out here with this one you see the bounce back",
+      "what_is_shown": "A specific price level for trailing stop loss placement and the candle where it gets triggered",
+      "why_needed": "The speaker says 'this particular level here' and 'here with this one' without stating the actual price level or date"
+    },
+    {
+      "timestamp": "45:27",
+      "quote": "just an observation like here also there was one setup okay this is a setup this one because the stock is at the 20day and look at how it's Contracting at the 20-day so if the lows if these are the lows of these candles so if the lows are broken on this day that's a setup also correlated with the index chart we are here at the index",
+      "what_is_shown": "A specific setup on the stock chart showing contraction at the 20-day moving average, with corresponding index chart position",
+      "why_needed": "The speaker says 'here', 'this is a setup', 'these candles', and 'on this day' without stating dates or price levels"
+    },
+    {
+      "timestamp": "46:27",
+      "quote": "it was in a stage two for long you can see this and then what happened is that the stock went into a distribution phase okay how could we know that it is a distribution phase because you see the stock broke below this level for once and on top of that what's more interesting is that we are observing a head and shoulders form here and this can be the right shoulder",
+      "what_is_shown": "BEL's chart showing stage two, distribution phase, a specific level that was broken, and a head and shoulders pattern with the right shoulder marked",
+      "why_needed": "The speaker references 'this level' and 'here' for the head and shoulders pattern without stating price levels or describing the pattern dimensions"
+    },
+    {
+      "timestamp": "46:59",
+      "quote": "and this low becomes your uh trigger level to take a short trade on the next day the low gets triggered and you are into a short trade",
+      "what_is_shown": "A specific candle low on BEL's chart that serves as the trigger level, and the subsequent candle that breaks it",
+      "why_needed": "The speaker says 'this low' without stating the price level or date of the trigger candle"
+    },
+    {
+      "timestamp": "47:30",
+      "quote": "again we have a negative candle let's look at the index chart months on the index also we see some Gap we see a gap down and an extension on the index chart on the downside use this opportunity to exit another 40 50%",
+      "what_is_shown": "A specific negative candle on the stock chart and corresponding gap down on the index chart showing extension",
+      "why_needed": "The speaker references 'this opportunity' and the gap without stating when it occurred or the size of the gap"
+    },
+    {
+      "timestamp": "48:01",
+      "quote": "and with this you ra raise your trailing stop loss here this becomes your trailing stop loss let's hold and see what happens next again we have a negative candle keep on holding and with this candle you should be out fully",
+      "what_is_shown": "Specific candles where trailing stop loss is raised and where final exit occurs",
+      "why_needed": "The speaker says 'here' and 'with this candle' multiple times without stating price levels or dates"
+    },
+    {
+      "timestamp": "48:32",
+      "quote": "see how the pullback was even sharper crazy pullback and earnings came up before this day which led to this Gap up as well and now the stock is towards the 50-day moving average",
+      "what_is_shown": "A sharp pullback pattern on BEL's chart with an earnings-related gap up and current position relative to the 50-day moving average",
+      "why_needed": "The speaker references 'this day' and 'this Gap up' without stating when the earnings occurred or the size of the gap"
+    },
+    {
+      "timestamp": "49:02",
+      "quote": "why because the stock opened here went all the way up and from this level it went all the way down to trigger the setup now if you think about it in terms of the Swing it's a huge swing from the top to the bottom like this",
+      "what_is_shown": "Intraday price action showing where the stock opened, the high it reached, and the low where it triggered, with visual representation of the swing size",
+      "why_needed": "The speaker says 'here', 'this level', and 'like this' while describing a large intraday swing without stating the actual price levels or percentage move"
+    },
+    {
+      "timestamp": "49:34",
+      "quote": "however if if it was something like this if on the next day we saw a small candle form like this and then on the next day we see that the stock is triggering on the downside breaking the previous day's low",
+      "what_is_shown": "A hypothetical scenario being drawn or illustrated on the chart showing an alternative setup pattern",
+      "why_needed": "The speaker says 'like this' twice, suggesting visual demonstration of an alternative pattern that isn't described verbally"
+    },
+    {
+      "timestamp": "50:04",
+      "quote": "now the stock is again pulling back up and towards the 50 and the 200 and this is a small candle now so you can definitely now Mark the low of this candle to take a short trade",
+      "what_is_shown": "A specific small candle on BEL's chart near the 50 and 200-day moving averages whose low becomes the trigger",
+      "why_needed": "The speaker says 'this is a small candle' and 'this candle' without stating the date or price level of the trigger"
+    },
+    {
+      "timestamp": "50:36",
+      "quote": "whereas in the previous case here what happened was there was this PPC and then came a gap up this was a big gap created and then the index went about the 20 and the 10 so this was a different case where the market action told us that there is a change in character whereas the current casee case there is no strong bullish price action",
+      "what_is_shown": "Comparison between two different periods on the index chart - one showing a PPC with a large gap up, and the current period showing weaker price action",
+      "why_needed": "The speaker says 'here', 'this PPC', 'this was a big gap' without stating when these occurred or the size of the gap that defined the character change"
+    },
+    {
+      "timestamp": "51:08",
+      "quote": "during this fall as well you can see multiple of many of those form okay so there are not significant ones however now see if from this level if from this level the index moves like this again and then it takes a pause here",
+      "what_is_shown": "Specific price levels on an index chart where the speaker is pointing to a fall, multiple formations, and hypothetical future price movement with a pause zone",
+      "why_needed": "The speaker uses 'this level' and 'like this' multiple times without stating actual price values or timeframes, and references visual formations that aren't described"
+    },
+    {
+      "timestamp": "51:39",
+      "quote": "but at the current level here the index has not clearly changed the character so you can still attempt short trades at this level so let's go to the stock chart and see the trade gets triggered here you take a short trade you take one exit here let's see yeah you take one exit here let's say 30% exit here",
+      "what_is_shown": "Specific entry point on a stock chart where trade triggers, and exact exit points being marked for partial position exits",
+      "why_needed": "Multiple uses of 'here' and 'this level' without naming the stock or stating price levels; the speaker is pointing to specific candles/prices on screen for entry and exit points"
+    },
+    {
+      "timestamp": "52:09",
+      "quote": "and the stock hits the previous low you take you can take a full exit here i' would say it's it's already the bottom of the swing or if you're still wishing to hold some okay if you're still wishing to hold final 230% you can hold it with our trailing stop loss or with this candle you should definitely exit",
+      "what_is_shown": "The previous low level on the chart, the swing bottom, and a specific candle where final exit should occur",
+      "why_needed": "References 'previous low', 'bottom of the swing', and 'this candle' without stating the stock name or price levels; viewer must see which specific candle and price level is being discussed"
+    }
+  ],
+  "css-2.txt": [
+    {
+      "timestamp": "05:44",
+      "quote": "there are around 200 stocks available in the Futures segment... you can do short trading in these 200 100 stocks only",
+      "what_is_shown": "Likely showing a list or screen of futures segment stocks, or demonstrating where to find this information on a trading platform",
+      "why_needed": "The speaker is explaining where futures stocks are located but doesn't verbally describe how to access or view this list - viewers need to see the actual interface or list being referenced"
+    },
+    {
+      "timestamp": "06:16",
+      "quote": "you can simply go to Google and search zero thear City go to this one first one and then go to the fourth chapter",
+      "what_is_shown": "Demonstrating the actual search process, clicking on results, and navigating to the specific chapter",
+      "why_needed": "The speaker uses demonstrative words 'this one' and 'go to' without naming the exact URL or describing the visual layout - viewers must see which search result to click and how to navigate the site"
+    }
+  ],
+  "css-3.txt": [
+    {
+      "timestamp": "00:00",
+      "quote": "we are on the weekly chart of burger paints and if you look at the stock the stock has you know transitioned into a stage four now on the weekly charts and let's look at the daily chart here we are on the daily chart you see the stock is here giving a confirmation candle",
+      "what_is_shown": "TradingView chart of Burger Paints showing weekly timeframe transitioning to stage four, then switching to daily chart showing a specific confirmation candle",
+      "why_needed": "Speaker references 'this' stock and 'here' without naming specific price levels or dates. The viewer must see which candle is the confirmation candle and what stage four looks like on this specific chart"
+    },
+    {
+      "timestamp": "00:31",
+      "quote": "the stock is also making rounding pattern here and then we have a confirmation candle here you look at the candle we do not see a a volume expansion here but we do see a range a trp expansion",
+      "what_is_shown": "Specific rounding pattern formation on the chart and the exact confirmation candle being referenced, along with volume and TRP indicators",
+      "why_needed": "Multiple uses of 'here' and 'this' without stating which candle or what the rounding pattern looks like. Visual is required to identify the specific candle and pattern shape"
+    },
+    {
+      "timestamp": "00:31",
+      "quote": "look at the location of the setup if you draw a line here it is a resistance here and if you also observe the stock is you know forming rounding top kind of a structure you see this",
+      "what_is_shown": "Drawing a horizontal line at a resistance level and the rounding top structure formation",
+      "why_needed": "Speaker says 'draw a line here' and 'you see this' without stating the price level of resistance or describing the exact shape of the rounding top"
+    },
+    {
+      "timestamp": "01:02",
+      "quote": "the stock Consolidated here okay tried to break out of the consolidation on the upside and immediately shot back down so this was a good quality setup a trade could have been taken here",
+      "what_is_shown": "Specific consolidation zone, the breakout attempt, and the exact entry point for the trade",
+      "why_needed": "Uses 'here' multiple times without stating price levels or dates. Viewer must see where consolidation occurred and the exact entry candle"
+    },
+    {
+      "timestamp": "01:32",
+      "quote": "after this the stock fell down for the next two bars but still one hour was not hit I would decide to hold it again it Consolidated and then the stock fell further with this big negative candle and that's where I was getting two R",
+      "what_is_shown": "The two bars after entry, the consolidation period, and the specific big negative candle where 2R was achieved",
+      "why_needed": "References 'this big negative candle' and 'that's where' without identifying which specific candle or the price level of the 2R exit"
+    },
+    {
+      "timestamp": "01:32",
+      "quote": "I identified a support here there is a previous low so the stock has come very near to the support",
+      "what_is_shown": "The support level drawn on the chart and the previous low being referenced",
+      "why_needed": "Says 'here' and 'previous low' without stating the price level of the support"
+    },
+    {
+      "timestamp": "03:04",
+      "quote": "on the daily chart we see this this was a gap down that transitioned the stock into you know again a stage three and then the stock fell hard to this support bounced and again broke down the support look at how the breakdown was fierce",
+      "what_is_shown": "The gap down candle, the support level, the bounce, and the fierce breakdown candle",
+      "why_needed": "Uses 'this' gap down and 'this support' without stating dates or price levels. The 'fierce' breakdown must be seen to understand the pattern"
+    },
+    {
+      "timestamp": "03:35",
+      "quote": "then the stock shot back up coming at the same level of you know resistance here and then for 5 6 days it is consolidating and then it is giving a negative candle which is a confirmation candle",
+      "what_is_shown": "The resistance level, the 5-6 day consolidation pattern, and the specific confirmation candle",
+      "why_needed": "Says 'here' for resistance and 'this' confirmation candle without stating price levels or which specific candle is the entry"
+    },
+    {
+      "timestamp": "04:05",
+      "quote": "once the trade would have been taken here you see back to back 1 2 3 candle fell down the third candle was big one 1.5 hour at this candle so definitely I would be exiting here",
+      "what_is_shown": "The three consecutive down candles and the specific third candle where 1.5R exit occurs",
+      "why_needed": "References 'this candle' and 'here' without identifying which specific candle or the price level"
+    },
+    {
+      "timestamp": "04:38",
+      "quote": "here is the daily chart and on the daily chart we see that the stock formed a rounding top rounding kind of a pattern on the top and again it is forming another round here you see again it is forming another round here",
+      "what_is_shown": "Two separate rounding patterns on the chart - one completed and one forming",
+      "why_needed": "Says 'here' and 'you see' multiple times without describing the location or shape of these rounding patterns verbally"
+    },
+    {
+      "timestamp": "04:38",
+      "quote": "you see there was an upswing here at the end and with after the upswing immediately we saw this down candle",
+      "what_is_shown": "The upswing movement and the specific down candle that follows",
+      "why_needed": "Uses 'here' and 'this down candle' without stating which candle or price levels"
+    },
+    {
+      "timestamp": "05:09",
+      "quote": "in this case uh there was this first red candle where not even 1 hour was hit so I'd be waiting and then the next candle and this this was a big red candle fell back till this particular level and shot back up here",
+      "what_is_shown": "The first red candle, the big red candle, the specific price level it fell to, and where it shot back up",
+      "why_needed": "Multiple uses of 'this' without identifying which candles or stating the price level it fell to"
+    },
+    {
+      "timestamp": "05:40",
+      "quote": "after that the stock Consolidated for a few days and again gave another big candle here that's where I was getting 2.6 R where I would be exiting maybe fully now here I also see a support here",
+      "what_is_shown": "The consolidation period, the big candle at 2.6R, and the support level",
+      "why_needed": "Uses 'here' multiple times without stating which candle provides the 2.6R exit or the price level of support"
+    },
+    {
+      "timestamp": "06:42",
+      "quote": "on the daily chart we see that the stock broke down off the stage three transition into stage four short back up hitting the same resistance consolidating for a few days look at this beautiful consolidation for a few days and then we have this confirmation candle here",
+      "what_is_shown": "The breakdown, the pullback to resistance, the consolidation pattern, and the specific confirmation candle",
+      "why_needed": "Says 'look at this' consolidation and 'this confirmation candle here' without describing the pattern or identifying which candle"
+    },
+    {
+      "timestamp": "06:42",
+      "quote": "volume has expanded 1.3 1.6x you can see this just because this this is a little dis disigned so you'll not be able to see a clear volume popup here because here there was a big volume bar okay but if you zoom it in",
+      "what_is_shown": "Volume indicator showing 1.3-1.6x expansion and a previous big volume bar that distorts the scale",
+      "why_needed": "References 'you can see this' and 'here there was a big volume bar' - the volume visualization is essential to understand the scaling issue being described"
+    },
+    {
+      "timestamp": "07:14",
+      "quote": "now if you have taken a trade here we have got 1.2 here where I would be taking my first exit and then back to back many many negative candles here I'm getting 2.2 R",
+      "what_is_shown": "The entry point, the 1.2R exit point, and the series of negative candles leading to 2.2R",
+      "why_needed": "Uses 'here' three times without stating which candles or price levels correspond to these exits"
+    },
+    {
+      "timestamp": "07:47",
+      "quote": "on the daily chart you see that the stock is forming a rounding top structure or I would say a Head and Shoulder structure you can see this a broad Head and Shoulder structure and this is the right shoulder and within the right should shoulder you see another rounding kind of a structure you see this",
+      "what_is_shown": "The Head and Shoulders pattern with left shoulder, head, and right shoulder clearly marked, plus a rounding structure within the right shoulder",
+      "why_needed": "Says 'you can see this' and 'you see this' without describing where the head, shoulders are located or the shape of the rounding structure"
+    },
+    {
+      "timestamp": "07:47",
+      "quote": "and here you see three bar of consolidation and then we have a small gap down and then we have a confirmation candle",
+      "what_is_shown": "Three specific consolidation bars, a gap down, and the confirmation candle",
+      "why_needed": "Uses 'here' without identifying which three bars or which candle is the confirmation"
+    },
+    {
+      "timestamp": "08:17",
+      "quote": "at the support I was getting 1.5 R there was a big candle that's where I would have taken my first exit and then we have another of fall with another candle a big candle again expansion that's where I'm getting 2.5r",
+      "what_is_shown": "The support level, the big candle at 1.5R, and the big candle at 2.5R",
+      "why_needed": "Says 'that's where' twice without identifying which specific candles or the price levels"
+    },
+    {
+      "timestamp": "08:47",
+      "quote": "we are on the daily chart we see this support here getting broken down here with many many negative red candles then the stock shed back up and we see many many days of consolidation and then a break down of this consolidation",
+      "what_is_shown": "The support level, the breakdown candles, the pullback, the consolidation period, and the breakdown of consolidation",
+      "why_needed": "Uses 'this support here' and 'this consolidation' without stating price levels or identifying the specific candles"
+    },
+    {
+      "timestamp": "08:47",
+      "quote": "after this candle we had another red candle but that's where I was not even getting one hour so I would be holding it and then the stock simply you know drifted down but not moving significantly a good candle came here with this one and that's where I'm getting two R",
+      "what_is_shown": "The entry candle, the next red candle, the drift down period, and the specific candle at 2R",
+      "why_needed": "Multiple uses of 'this candle', 'here', and 'that's where' without identifying which specific candles"
+    },
+    {
+      "timestamp": "09:49",
+      "quote": "here the stock you see has broken down of this structure which we saw on the weekly chart as well after the breakdown it was this first pullback",
+      "what_is_shown": "The structure breakdown and the first pullback movement",
+      "why_needed": "Says 'this structure' and 'this first pullback' without describing the structure or identifying where the pullback occurs"
+    },
+    {
+      "timestamp": "09:49",
+      "quote": "then the stock fell back down and we had a second pullback look at this second pullback and with second pullback we have three four bars of consolidation as well and then the stock breaks down of this consolidation",
+      "what_is_shown": "The second pullback, the 3-4 bars of consolidation, and the breakdown candle",
+      "why_needed": "Says 'look at this second pullback' and 'this consolidation' without describing the pattern or identifying which bars"
+    },
+    {
+      "timestamp": "10:19",
+      "quote": "and here we also have a support here the previous low and here we got 1 R here back to back four negative candles so I would be exiting some part of my position at 1 R here and at 1.5 I would be exiting some more",
+      "what_is_shown": "The support level/previous low, the four consecutive negative candles, and the exit points at 1R and 1.5R",
+      "why_needed": "Uses 'here' five times without stating the price level of support or identifying which specific candles correspond to the exits"
+    },
+    {
+      "timestamp": "10:50",
+      "quote": "here is the daily chart there was a clean breakdown of the structure but before the breakdown we saw that the stock G an upswing you see",
+      "what_is_shown": "The structure, the breakdown candle, and the upswing that preceded it",
+      "why_needed": "Says 'you see' without describing where the upswing is or which candle represents the breakdown"
+    },
+    {
+      "timestamp": "11:22",
+      "quote": "this upswing a consolidation and a slight upswing and then it broke down with this big candle which was a confirmation candle",
+      "what_is_shown": "A specific stock chart showing the sequence: upswing \u2192 consolidation \u2192 slight upswing \u2192 breakdown candle",
+      "why_needed": "The speaker uses demonstrative pronouns ('this upswing', 'this big candle') without naming the stock or describing the pattern's specific characteristics (timeframe, price levels, candle sizes)"
+    },
+    {
+      "timestamp": "11:30",
+      "quote": "in this case I'm getting 1.3 r with this candle here so I would take my first exit here and at two hour I take my second exit",
+      "what_is_shown": "Chart with entry point, stop loss level, and two exit targets marked at 1.3R and 2R",
+      "why_needed": "The speaker references 'this candle here' and 'here' for exits without stating the stock name or specific price levels where these exits occur"
+    },
+    {
+      "timestamp": "11:40",
+      "quote": "you see after that the stock continued to fall but maybe at this candle or the very next candle I would have exited my trade completely",
+      "what_is_shown": "Continuation of price movement after the exit points, showing specific candles where complete exit would occur",
+      "why_needed": "Uses 'this candle or the very next candle' without describing which candles or what price action/pattern triggered the complete exit decision"
+    }
+  ],
+  "css-4.txt": [
+    {
+      "timestamp": "00:31",
+      "quote": "just look at the previous swing high if if you see that the confirmation candle is substantially away from the previous swing high you can avoid that trade",
+      "what_is_shown": "A specific chart showing the distance between a previous swing high and a confirmation candle",
+      "why_needed": "The speaker references 'the previous swing high' and 'the confirmation candle' without naming the stock or stating specific price levels, requiring visual reference to understand what constitutes 'substantially away'"
+    },
+    {
+      "timestamp": "01:03",
+      "quote": "this is clearly extended okay from the previous swing high this was the previous swing High look at this 1 2 3 4 fifth negative candle",
+      "what_is_shown": "American States Water Company daily chart showing the previous swing high and five consecutive negative candles",
+      "why_needed": "While the stock is named, the speaker is counting specific candles ('1 2 3 4 fifth') and pointing to specific swing highs on the chart that must be seen to understand which candles constitute the extended move"
+    },
+    {
+      "timestamp": "01:34",
+      "quote": "the stock has clearly broke down sorry broken down of this particular support but the entry is extended if you look at the previous swing high after that we are having two big red candles",
+      "what_is_shown": "Intercontinental Exchange daily chart showing a specific support level breakdown and two large red candles from a swing high",
+      "why_needed": "The speaker references 'this particular support' and 'the previous swing high' with 'two big red candles' without stating price levels, requiring visual confirmation of which support level and which candles are being discussed"
+    },
+    {
+      "timestamp": "02:07",
+      "quote": "the stock has broken down of this support there is a change in character as well and and the stock is weak now but you see the entry is coming after 1 2 3 4 five red candles and look at the previous swing high from that high you see a lot you see a lot of move has already taken place",
+      "what_is_shown": "An unnamed stock's daily chart showing a support breakdown, five consecutive red candles, and the distance from a previous swing high",
+      "why_needed": "The stock is not named, and the speaker is counting specific candles and referencing 'this support' and 'the previous swing high' without any price levels or verbal description of the pattern's magnitude"
+    }
+  ]
+}

@@ -1,0 +1,806 @@
+{
+  "stage-1.txt": [
+    {
+      "timestamp": "00:32",
+      "quote": "let's roughly understand the price Behavior across different stock stages the first stage is accumulation where you see the stock is moving nowhere within this area it is neither moving down nor moving up it has stayed within this Zone maybe for many weeks or months then the stock broke out of this accumulation structure there was this breakout of this accumulation",
+      "what_is_shown": "A chart showing a horizontal price range (accumulation zone) followed by a breakout point where price moves above the range",
+      "why_needed": "The speaker uses 'this area', 'this Zone', 'this accumulation structure', and 'this breakout' without naming specific price levels or describing the visual pattern verbally. The viewer must see the chart to understand what accumulation looks like and where the breakout occurs."
+    },
+    {
+      "timestamp": "01:07",
+      "quote": "it kept on moving up and up ultimately at some point in time the trend has to come to an end and that's where distribution stage kicks in look at the distribution stage you can again see the stock is moving nowhere it remains within this range",
+      "what_is_shown": "The uptrend portion (stage 2) followed by another horizontal range at a higher price level (distribution zone)",
+      "why_needed": "Speaker says 'look at the distribution stage' and 'this range' without describing the specific price levels or the visual structure. The viewer needs to see where the uptrend ends and what the distribution pattern looks like."
+    },
+    {
+      "timestamp": "01:37",
+      "quote": "and ultimately it breaks down of the distribution structure and then stage four starts look at this break down here and afterwards you can see that the stock is continuously moving down",
+      "what_is_shown": "The breakdown point below the distribution range and the subsequent downtrend (stage 4)",
+      "why_needed": "Speaker says 'look at this break down here' and 'you can see' without verbally describing where the breakdown occurs or the characteristics of the decline. Visual reference is required."
+    },
+    {
+      "timestamp": "03:43",
+      "quote": "you saw in this accumulation phase it was not moving up nor it was moving down with conviction right there was no sustainable move it just stayed within this particular zone for many months or years",
+      "what_is_shown": "The accumulation zone on the chart being referenced again",
+      "why_needed": "Speaker refers to 'this accumulation phase' and 'this particular zone' as something already shown, expecting viewer to see the visual example on screen."
+    },
+    {
+      "timestamp": "05:46",
+      "quote": "look at this here look at this initially maybe during the initial phase of accumulation the big players may be buying slowly but then on the right side here you see you may see that the big players will now start to be aggressive",
+      "what_is_shown": "The accumulation zone with emphasis on the left side (early accumulation) versus the right side (aggressive buying before breakout)",
+      "why_needed": "Speaker says 'look at this here', 'on the right side here', and 'you see' while pointing to specific parts of the chart. The distinction between left and right portions of accumulation cannot be understood without seeing the visual."
+    },
+    {
+      "timestamp": "06:16",
+      "quote": "then this will lift the price higher and break out of the accumulation structure and then the stock will maybe transition into the stage two that is the growth stage",
+      "what_is_shown": "The breakout point and transition from stage 1 to stage 2 on the chart",
+      "why_needed": "Speaker references 'this' breakout and the transition without describing specific price action or levels verbally."
+    },
+    {
+      "timestamp": "06:47",
+      "quote": "you see how the stock is moving up for it to move up like this there has to be a continuous demand",
+      "what_is_shown": "The upward price movement in stage 2 (growth phase)",
+      "why_needed": "Speaker says 'you see' and 'like this' referring to the visual uptrend pattern without describing the specific price action verbally."
+    },
+    {
+      "timestamp": "07:49",
+      "quote": "it means that when the stock has actually broken out here I do not see any good news coming in it means that when it has broken out and it has started moving what this means is is that the prize reflects information which is not available to the public now you may ask why can this how does this happen I mean why can this happen actually the reason is simple",
+      "what_is_shown": "The breakout point being referenced with 'here'",
+      "why_needed": "Speaker says 'broken out here' pointing to a specific location on the chart without stating the price level or timeframe."
+    },
+    {
+      "timestamp": "10:26",
+      "quote": "if you look at the growth stage you look at the lows you see the stock is making higher lows look at the lows broadly you will see that the lows are getting higher and higher right similarly if you look at the highs you see the highest points of the swings they are making higher and higher broadly you will see this right sometimes it may also make lower highs like this",
+      "what_is_shown": "The swing lows and swing highs in the uptrend, with visual demonstration of higher lows and higher highs pattern, and an example of an occasional lower high",
+      "why_needed": "Speaker says 'look at the lows', 'you see', 'look at the highs', 'you will see this', and 'like this' while pointing to specific swing points on the chart. Understanding which specific price points constitute the higher highs and higher lows requires seeing the visual."
+    },
+    {
+      "timestamp": "13:32",
+      "quote": "just look at the diagram once again the stock was in this accumulation where it was moving nowhere the big players started to buy aggressively and made the stock to break out of this accumulation structure and then the stock started to charge higher and then it went into this growth phase",
+      "what_is_shown": "The complete four-stage diagram showing accumulation, breakout, and growth phase",
+      "why_needed": "Speaker instructs to 'look at the diagram' and uses 'this accumulation', 'this accumulation structure', and 'this growth phase' referring to visual elements without describing them verbally."
+    },
+    {
+      "timestamp": "16:07",
+      "quote": "look at this big selling that you can make out from the chart",
+      "what_is_shown": "Specific candles or volume bars on a TradingView chart showing heavy selling activity during the distribution stage",
+      "why_needed": "The speaker references visible selling patterns on the chart without describing which specific candles, time periods, or volume characteristics demonstrate this selling. The viewer must see the chart to identify what constitutes 'big selling' in this example."
+    },
+    {
+      "timestamp": "16:39",
+      "quote": "the stock will finally break down of this support of this distribution structure",
+      "what_is_shown": "A support level or zone on the chart marking the bottom of the distribution structure, and the breakdown point where price breaks below it",
+      "why_needed": "The speaker refers to 'this support' and 'this distribution structure' without stating the specific price level or describing the structure's characteristics. The viewer must see the chart to identify where the support is located and what the distribution structure looks like."
+    }
+  ],
+  "stage-2.txt": [
+    {
+      "timestamp": "00:00",
+      "quote": "as you can see here",
+      "what_is_shown": "Chart showing stage 4 decline with lower lows and lower highs pattern",
+      "why_needed": "Speaker references visual pattern without naming the stock or describing the specific price levels"
+    },
+    {
+      "timestamp": "00:30",
+      "quote": "look at this lower lows these are called Lower lows the stock is making lower lows like this and also the stock is making lower highs broadly you can see this",
+      "what_is_shown": "Chart with visual markers or annotations pointing to specific lower lows and lower highs in the downtrend",
+      "why_needed": "Speaker uses demonstrative pronouns ('this', 'like this') to point to specific chart features without verbally describing exact price points or dates"
+    },
+    {
+      "timestamp": "02:08",
+      "quote": "for example let's say that the stock has broken down here and and is moving down and is somewhere here till till now",
+      "what_is_shown": "Chart showing a specific breakdown point and current price location being pointed to",
+      "why_needed": "Speaker uses 'here' multiple times to reference specific locations on chart without stating stock name, price levels, or timeframes"
+    },
+    {
+      "timestamp": "08:58",
+      "quote": "so we are on the weekly chart of previous Specialty Chemicals limited and you see a clear stage to here let me Mark it out",
+      "what_is_shown": "Weekly chart of Privi Speciality Chemicals with stage 2 growth phase being marked/drawn on screen",
+      "why_needed": "Speaker is actively drawing or marking on the chart in real-time ('let me Mark it out'), which is a visual demonstration"
+    },
+    {
+      "timestamp": "09:29",
+      "quote": "as you can see through the entire journey of its up move the stock has been sustaining above the 200 day moving average",
+      "what_is_shown": "Privi Speciality Chemicals chart showing price action relative to 200-day moving average line",
+      "why_needed": "Demonstrating the relationship between price and moving average requires seeing the chart; no specific price levels or dates mentioned"
+    },
+    {
+      "timestamp": "10:00",
+      "quote": "throughout this journey throughout this stage two you have seen that the 50-day moving average has stayed above the 200 day moving average the white line has stayed above the 200 day moving average",
+      "what_is_shown": "Chart showing the relationship between 50-day (white line) and 200-day moving averages during the stage 2 move",
+      "why_needed": "Requires visual confirmation of moving average positioning; references 'white line' which is only visible on screen"
+    },
+    {
+      "timestamp": "11:04",
+      "quote": "if I zoom out a bit and if I draw this this big structure I would say that this is an accumulation structure there's a big accumulation the entire structure is an accumulation structure and then here here the stock broke out",
+      "what_is_shown": "Chart being zoomed out and accumulation structure being drawn/marked, with breakout point indicated",
+      "why_needed": "Speaker is actively manipulating the chart view and drawing structures in real-time; uses 'here' without specific dates or prices"
+    },
+    {
+      "timestamp": "11:34",
+      "quote": "compare this large volumes with with the earlier volumes you can clearly see an expansion in the volumes",
+      "what_is_shown": "Volume bars on chart showing comparison between earlier period and current period volumes",
+      "why_needed": "Visual comparison of volume bars requires seeing the chart; no specific volume numbers or dates provided"
+    },
+    {
+      "timestamp": "12:06",
+      "quote": "now these these breaks are called bases I'm marking those bases with the help of a rectangle again it took a break here made a base and broke out again it made a small base here and it broke out",
+      "what_is_shown": "Chart with rectangles being drawn to mark base formations, with specific breakout points indicated",
+      "why_needed": "Speaker is actively drawing rectangles on chart and pointing to specific bases using 'here' without stating dates or price levels"
+    },
+    {
+      "timestamp": "13:10",
+      "quote": "so whenever you see red candles the stock is moving down you'll see that coming with non unsignificant volume insignificant volume... so you can also see the colors of the volume bars here",
+      "what_is_shown": "Chart showing red candles with corresponding volume bars, demonstrating volume-price relationship",
+      "why_needed": "Requires seeing the color-coded volume bars and their relationship to price candles; references 'here' for visual elements"
+    },
+    {
+      "timestamp": "14:43",
+      "quote": "immediately the stock went into a stage two it simply went into this uptrend and you can see this uptrend going on for long",
+      "what_is_shown": "Specific stock chart showing the transition into stage two uptrend with visible price movement pattern",
+      "why_needed": "Speaker doesn't name the stock or describe the specific price levels/timeframe of the uptrend - viewer must see the chart to understand which stock and what the uptrend looks like"
+    },
+    {
+      "timestamp": "15:16",
+      "quote": "you can also look at small small bases getting formed and getting broken out the bases are getting formed and getting broken out",
+      "what_is_shown": "Multiple base formations and breakout points visible on the chart",
+      "why_needed": "Speaker doesn't specify where these bases are located, their price levels, or how many there are - visual is required to see the actual base patterns"
+    },
+    {
+      "timestamp": "15:48",
+      "quote": "you see here the stock broke down of the 200 day moving average you can see with a negative pivotal candle... you can also look at this support here which got broken down",
+      "what_is_shown": "Specific candle breaking below 200 DMA and a support level being breached",
+      "why_needed": "Speaker uses 'here' and 'this' without stating the date, price level, or identifying characteristics of the candle or support level"
+    },
+    {
+      "timestamp": "17:21",
+      "quote": "then broke out again of this major resistance with this big candle and you see lots of volume coming in with the breakout",
+      "what_is_shown": "Specific breakout candle with high volume bar at a resistance level",
+      "why_needed": "Speaker doesn't specify which resistance level, what price, or when this occurred - must see the chart to identify the candle and volume"
+    },
+    {
+      "timestamp": "17:56",
+      "quote": "in the stage two you can see base and a breakout b in a Breakout and you can also see some positive pivotal candles",
+      "what_is_shown": "Multiple bases labeled or pointed to, with their corresponding breakouts and specific positive pivotal candles",
+      "why_needed": "Speaker doesn't describe where these bases are, their characteristics, or which candles are the positive pivotal ones"
+    },
+    {
+      "timestamp": "19:00",
+      "quote": "the stock is even not breaking down further if the stock you know goes below this comfortably",
+      "what_is_shown": "Specific support level that the stock is holding above",
+      "why_needed": "Speaker says 'this' without stating what price level or support zone is being referenced"
+    },
+    {
+      "timestamp": "19:33",
+      "quote": "if I Mark out this resistance okay you see the stock has broken out of this resistance with this candle with this breakout candle",
+      "what_is_shown": "Speaker drawing or marking a resistance line on the chart, then showing the specific breakout candle",
+      "why_needed": "Speaker is actively drawing on the chart and pointing to a specific candle without describing the price level or date"
+    },
+    {
+      "timestamp": "19:33",
+      "quote": "if I zoom out you can observe this uh pattern here this rounding pattern",
+      "what_is_shown": "Zoomed out view showing a rounding bottom pattern formation",
+      "why_needed": "Speaker changes zoom level and references 'this pattern here' without describing its timeframe, depth, or specific characteristics"
+    },
+    {
+      "timestamp": "20:04",
+      "quote": "we looking at a base and a breakout again a base and a break out you can also look at retests here many retests",
+      "what_is_shown": "Multiple bases, breakouts, and retest points visible on the chart",
+      "why_needed": "Speaker doesn't specify where these bases, breakouts, and retests are located or how many there are"
+    },
+    {
+      "timestamp": "20:36",
+      "quote": "you can just observe this move and then you can observe this move right and with this move you can also see a big red volume bar coming",
+      "what_is_shown": "Two specific price moves and a large red volume bar",
+      "why_needed": "Speaker references 'this move' and 'this move' without describing what the moves are, their magnitude, or when they occurred"
+    },
+    {
+      "timestamp": "21:39",
+      "quote": "see the growth stage looked clearly like this this is how the growth stage looks this is a growth stage but now this is not a growth stage",
+      "what_is_shown": "Visual comparison between earlier clean growth stage section and current messy price action",
+      "why_needed": "Speaker is contrasting two different sections of the chart using 'this' and 'this' without describing the timeframes or specific differences"
+    },
+    {
+      "timestamp": "22:10",
+      "quote": "if you look at this particular candle this is a strong breakout candle which broke out of the accumulation structure very clearly",
+      "what_is_shown": "Specific strong breakout candle at the end of accumulation phase",
+      "why_needed": "Speaker references 'this particular candle' without stating when it occurred or what made it strong (size, volume, etc.)"
+    },
+    {
+      "timestamp": "22:40",
+      "quote": "here we have a big base stock attempted to break out but the breakout could not sustain the stock corrected a little bit and again is attempting a breakout",
+      "what_is_shown": "Large base formation with failed breakout attempt and current breakout attempt",
+      "why_needed": "Speaker says 'here' without specifying the location, timeframe, or characteristics of the base and breakout attempts"
+    },
+    {
+      "timestamp": "24:14",
+      "quote": "if the stock is something like this you say it is in a clean stage too right if the stock is something looking something like this again you say that okay it is in a clean stage too looking at the move it is moving up again if you look at something like this you can say that okay the St stock is in a clean stage too if you look at something like this you can again see that the stock is in a clean stage two",
+      "what_is_shown": "Multiple example chart patterns showing different variations of clean stage two setups",
+      "why_needed": "Speaker repeatedly says 'like this' and 'something like this' while presumably showing different chart examples, but doesn't verbally describe what makes each one a clean stage two"
+    },
+    {
+      "timestamp": "25:20",
+      "quote": "we are on the weekly chart of Amara Raja batteries and we can see that the stock is in a stage two right right now let's see what happens next and here we have some problem look at this big red candle",
+      "what_is_shown": "Amara Raja batteries weekly chart showing stage two, then a specific large red candle",
+      "why_needed": "While stock is named, speaker says 'here' and 'this big red candle' without stating when it occurred or its specific characteristics"
+    },
+    {
+      "timestamp": "25:50",
+      "quote": "if you look at the structure the structure has changed... even if you look at this support which has been broken the big low if you look at the daily chart you may see a good support here which is broken also look at this rounding structure on the top",
+      "what_is_shown": "Structural change in price action, broken support level, and rounding top formation",
+      "why_needed": "Speaker references 'this support', 'here', and 'this rounding structure' without specifying price levels or timeframes"
+    },
+    {
+      "timestamp": "26:53",
+      "quote": "let's see the stock keeps on moving down and look at this negative peal candle big with big volume",
+      "what_is_shown": "Specific large negative pivotal candle with high volume bar",
+      "why_needed": "Speaker says 'this negative pivotal candle' without stating when it occurred or what price level"
+    },
+    {
+      "timestamp": "28:28",
+      "quote": "look at look at this beautiful move and then there was some problem on this candle look at this candle negative posit negative pivotal candle big volume coming in and this broke down of this support there was a support here which got broken down with this candle",
+      "what_is_shown": "Yes Bank chart showing a strong upward move, then a specific negative pivotal candle breaking a support level",
+      "why_needed": "Speaker repeatedly uses 'this' and 'here' without describing which move, which candle, what support level, or when these events occurred"
+    },
+    {
+      "timestamp": "28:58",
+      "quote": "that I will not look at yes bank because this is clearly not a stage to feature it has clearly violated stage two",
+      "what_is_shown": "Yes Bank chart showing the violation of stage two pattern",
+      "why_needed": "Speaker references 'this' chart without naming the stock initially or describing what specific violation is visible"
+    },
+    {
+      "timestamp": "29:30",
+      "quote": "this was an accumulation this was an accumulation stage one and the stock broke out of the stage one and transitioned into a stage two kept on moving up it made small Corrections pullbacks you can call this as a wide base made some made a big base here and then again resumed its Trend up again made a base here look at this base",
+      "what_is_shown": "Yes Bank chart showing multiple bases, pullbacks, and the transition from stage one to stage two with specific price levels and formations",
+      "why_needed": "Multiple references to 'this base' and 'here' without stating specific price levels or timeframes; viewer must see the exact formations being pointed to"
+    },
+    {
+      "timestamp": "30:01",
+      "quote": "look at this here we had a very big negative portal candle with an extra large negative volume and the stock closed below the 200 day moving average",
+      "what_is_shown": "Specific candle on Yes Bank chart showing large negative volume bar and price closing below 200 DMA",
+      "why_needed": "References 'this' and 'here' without stating the date or price level of the specific candle"
+    },
+    {
+      "timestamp": "30:33",
+      "quote": "the stock goes sideways clearly stage two is violated look at this big sideways movement right... it tried breakout here but the breakout was also not very healthy look at this breakout here",
+      "what_is_shown": "Yes Bank chart showing sideways consolidation range and failed breakout attempt with volume characteristics",
+      "why_needed": "Multiple 'look at this' and 'here' references without describing the price range, duration, or specific characteristics of the sideways movement and breakout"
+    },
+    {
+      "timestamp": "31:06",
+      "quote": "look at the big volumes here look at this so clearly the stock is now in big trouble... and then we had this big red candle look at this it broke down of this support broke down of this support",
+      "what_is_shown": "Yes Bank chart showing specific volume bars, red candle, and support level being broken",
+      "why_needed": "References 'this' support level and 'this' candle without stating the price level or date"
+    },
+    {
+      "timestamp": "31:37",
+      "quote": "we can say that okay this was a distribution this was a distribution... and the stock remains again see look at this the stock remains in this range again for many many months",
+      "what_is_shown": "Yes Bank chart showing distribution pattern and specific price range where stock traded",
+      "why_needed": "Points to 'this' distribution pattern and 'this range' without describing the price boundaries or pattern characteristics"
+    },
+    {
+      "timestamp": "32:07",
+      "quote": "look at this look at this here it was somewhere at 300 rupees and then it went to around 10 Rupees right in a matter of few months",
+      "what_is_shown": "Yes Bank chart showing the dramatic price decline from 300 to 10 rupees with timeframe visible",
+      "why_needed": "While price levels are mentioned, 'look at this' suggests specific visual elements of the decline pattern that need to be seen"
+    },
+    {
+      "timestamp": "32:39",
+      "quote": "decline stage look at the moving averages once again the 200 day moving averages has started to slope down the 50-day moving average went below the 200 day moving average",
+      "what_is_shown": "Yes Bank chart showing 50 DMA crossing below 200 DMA and both sloping downward",
+      "why_needed": "While the concept is described, 'look at the moving averages' suggests viewer must see the actual visual slope and crossover"
+    },
+    {
+      "timestamp": "34:12",
+      "quote": "we are on the weekly chart of feda limited you can clearly see that the stock is currently in a decline stage the stock is moving down the moving averages are sloping down",
+      "what_is_shown": "Feda Limited weekly chart showing decline stage with downward sloping moving averages",
+      "why_needed": "Transition to new stock chart - viewer must see the Feda chart to follow along with the analysis"
+    },
+    {
+      "timestamp": "34:44",
+      "quote": "look at this and then we have something called as a breakout here and then the stock charged up and moved into a stage two so now we can say that okay this was this was our accumulation this was our accumulation structure",
+      "what_is_shown": "Feda chart showing specific breakout point and accumulation structure boundaries",
+      "why_needed": "References 'this' accumulation and 'here' breakout without stating price levels or dates"
+    },
+    {
+      "timestamp": "35:15",
+      "quote": "you can see Bas is getting formed and getting broken out the stock continued its move you can see it is moving up and up because it is a stage two here we start to see that the trend is getting exhausted",
+      "what_is_shown": "Feda chart showing multiple base formations, breakouts, and signs of trend exhaustion",
+      "why_needed": "References 'here' for trend exhaustion without describing specific price action or indicators visible"
+    },
+    {
+      "timestamp": "35:45",
+      "quote": "the stock is coming nearer and nearer to the 200 day moving average and you can also see some red candles with some pretty good volumes here right",
+      "what_is_shown": "Feda chart showing price approaching 200 DMA with specific red volume bars",
+      "why_needed": "References 'here' and 'some red candles' without identifying which specific candles or the price level"
+    },
+    {
+      "timestamp": "36:16",
+      "quote": "look at this we have a breakdown with a negative pivotal candle the stock has gone below the 200 day moving average and also below the support with big volumes... look at these red volumes",
+      "what_is_shown": "Feda chart showing breakdown candle, support level break, and specific red volume bars",
+      "why_needed": "Multiple 'look at this' references without stating the support level price or date of breakdown"
+    },
+    {
+      "timestamp": "36:46",
+      "quote": "look at these red volumes the stock is in a decline stage look at this once again in the decline stage you will see this very often the supports will be broken again and again you see the stock keeps on falling down big support got broken here look at how the stock fell from 150 to 40",
+      "what_is_shown": "Feda chart showing multiple support breaks, red volume bars, and price decline from 150 to 40",
+      "why_needed": "Multiple 'look at this' and 'here' references; while price levels mentioned, viewer must see the specific support breaks and volume patterns"
+    },
+    {
+      "timestamp": "37:18",
+      "quote": "you see some change in the trend right you see some change in the trend but I cannot yet confirm whether this is a stage two or not... and I also saw that we have a big two negative pivotal candles... I also find a resistance here right and then ultimately this resistance got broken down got broken out",
+      "what_is_shown": "Feda chart showing trend change, two negative pivotal candles, resistance level, and breakout",
+      "why_needed": "References 'here' for resistance and 'two negative pivotal candles' without stating price levels or dates"
+    },
+    {
+      "timestamp": "37:50",
+      "quote": "this previous high was also broken out and the breakouts came with big volumes big positive volum volumes... you can also say that this is a accumulation structure right this is an accumulation structure",
+      "what_is_shown": "Feda chart showing previous high level, breakout with volume, and accumulation structure boundaries",
+      "why_needed": "References 'this previous high' and 'this accumulation structure' without stating specific price levels"
+    },
+    {
+      "timestamp": "38:22",
+      "quote": "look at this big candle here negative pivotal candle whenever you get these candles you should pay attention... but not always sometimes you can just see a negative positive candle sorry a negative pivotal candle and it may have no impact let's see what happens",
+      "what_is_shown": "Feda chart showing specific large negative pivotal candle",
+      "why_needed": "References 'this big candle here' without stating the date or price level"
+    },
+    {
+      "timestamp": "38:53",
+      "quote": "you see here there is a problem this big candle is a problem we have not seen such a big candle anywhere in this growth phase except this except the earlier one right so even though the candle is coming with a very not so great volume a rising volume no doubt but yet I would pay attention to this wide range candle",
+      "what_is_shown": "Feda chart showing specific wide range candle with volume characteristics compared to earlier candles",
+      "why_needed": "Multiple references to 'this big candle' and 'here' without stating which specific candle or date"
+    },
+    {
+      "timestamp": "39:24",
+      "quote": "the stock goes below the 200 day moving average it also breaks down of this support which you can Mark here and possibly we can say that the stock is in a decline phase",
+      "what_is_shown": "Feda chart showing price breaking below 200 DMA and specific support level",
+      "why_needed": "References 'this support' and 'here' without stating the support price level"
+    },
+    {
+      "timestamp": "39:58",
+      "quote": "now we are on the chart of India Bulls Housing Finance weekly chart and the stock uh got listed here right immediately went into this accumulation then broke out stage two",
+      "what_is_shown": "India Bulls Housing Finance weekly chart showing listing point, accumulation structure, and stage two breakout",
+      "why_needed": "New stock chart transition; references 'here' and 'this accumulation' without describing the structure or price levels"
+    },
+    {
+      "timestamp": "40:28",
+      "quote": "break out of the base again now here on this particular weekly candle we saw a big selling volume coming though the candle was not that big right it was not very big but it was uh an average size a slightly higher than the average size range candle with a very big selling volume",
+      "what_is_shown": "India Bulls chart showing specific weekly candle with large selling volume bar",
+      "why_needed": "References 'this particular weekly candle' and 'here' without stating the date or price level"
+    },
+    {
+      "timestamp": "41:00",
+      "quote": "look at this after this particular candle the stock could never move up for many many months... and then ultimately if you look at this particular candle here we could sense we could see that this support was broken down and the 200 day also got broken down",
+      "what_is_shown": "India Bulls chart showing specific candle, subsequent price action, support break, and 200 DMA break",
+      "why_needed": "Multiple references to 'this particular candle' and 'this support' without stating dates or price levels"
+    },
+    {
+      "timestamp": "41:30",
+      "quote": "we can just a possibility that this can pretty well be an accumulation structure again which is a possibility but not yet uh confirmed stage two okay let's move ahead ultimately the stock broke out of this structure here with some decent volumes",
+      "what_is_shown": "India Bulls chart showing potential accumulation structure and breakout point with volume",
+      "why_needed": "References 'this structure' and 'here' without describing the structure boundaries or breakout price level"
+    },
+    {
+      "timestamp": "42:01",
+      "quote": "it again fell back hard with big volumes again the stage two cannot be confirmed here... and then let's see okay then we have a breakout here look at this then we have a breakout here",
+      "what_is_shown": "India Bulls chart showing failed breakout with volume and subsequent breakout attempt",
+      "why_needed": "Multiple 'here' references and 'look at this' without stating specific price levels or dates"
+    },
+    {
+      "timestamp": "42:33",
+      "quote": "we can also say that the entire thing this entire figure can be an accumulation because after this the stock went into a stage two stock moves higher and higher creates bases and breaks out of them this breakout failed here",
+      "what_is_shown": "India Bulls chart showing entire accumulation structure, stage two advance, multiple bases, and failed breakout",
+      "why_needed": "References 'this entire figure' and 'this breakout failed here' without describing the structure boundaries or specific breakout location"
+    },
+    {
+      "timestamp": "43:08",
+      "quote": "it created a base but the breakout failed and you can see the trend is again getting exhausted the intensity is now gone and we are seeing some pretty good selling volumes as well you can see the red candles here red volume bars pretty good... and then we have this breakdown of the previous lows here",
+      "what_is_shown": "India Bulls chart showing failed base breakout, trend exhaustion signs, red volume bars, and breakdown of previous lows",
+      "why_needed": "References 'here' for red candles/volumes and 'this breakdown' without stating specific price levels or dates"
+    },
+    {
+      "timestamp": "43:38",
+      "quote": "we have a decent amount of change in structure with some negative pivotal candles as well and again we see some buying but again it fails to break out this fails to break out",
+      "what_is_shown": "Specific candles showing failed breakout attempts and negative pivotal patterns on the chart",
+      "why_needed": "Speaker references 'this' and 'these' multiple times without naming specific price levels or dates where the failed breakouts occurred"
+    },
+    {
+      "timestamp": "44:09",
+      "quote": "look at this what happened this big support got broken down with big volume look at these two candles something astonishing happened here",
+      "what_is_shown": "Two specific high-volume candles breaking below a major support level",
+      "why_needed": "Speaker says 'look at this' and 'these two candles' without stating which candles, what price level was broken, or what the volume spike looked like"
+    },
+    {
+      "timestamp": "44:40",
+      "quote": "many Brokers were still recommending to buy the stock here at these levels like 700 and 800 and these levels right",
+      "what_is_shown": "Specific price zones around 700-800 on the chart where brokers were recommending buys",
+      "why_needed": "While price levels are mentioned, 'here' and 'these levels' suggest pointing to specific areas on the chart that correspond to those prices"
+    },
+    {
+      "timestamp": "45:10",
+      "quote": "look at what happened to the stock in the future the supports were getting broken down and look at this right from around 800 900 the stock went all the way to 80",
+      "what_is_shown": "The complete price decline from 800-900 levels down to 80, showing multiple support breaks along the way",
+      "why_needed": "Speaker says 'look at this' and 'look at what happened' while describing the decline, suggesting visual demonstration of the support breaks and price action is being shown"
+    }
+  ],
+  "stage-3.txt": [
+    {
+      "timestamp": "00:00",
+      "quote": "and then it again breaks out here let us try to classify whether the stock is in stage two or not we are on the weekly chart of AMD Industries",
+      "what_is_shown": "TradingView chart of AMD Industries showing specific breakout point and current stage two pattern",
+      "why_needed": "Speaker references 'here' for breakout location without stating the price level or date, requiring visual to see the exact breakout point"
+    },
+    {
+      "timestamp": "00:30",
+      "quote": "you can also observe that we had a resistance here which got broken out here then the stock pulled back",
+      "what_is_shown": "Specific resistance level on AMD Industries chart with breakout point and pullback area marked",
+      "why_needed": "Multiple uses of 'here' without stating price levels or dates - viewer must see chart to identify resistance level, breakout point, and pullback location"
+    },
+    {
+      "timestamp": "01:03",
+      "quote": "this was the decline stage then we had the accumulation stage and then we had the stage two",
+      "what_is_shown": "AMD Industries chart with three distinct stages visually marked or pointed to",
+      "why_needed": "Speaker uses 'this' to reference specific periods on chart without providing timeframes or price ranges"
+    },
+    {
+      "timestamp": "01:37",
+      "quote": "look at the stock bag chemicals clearly the stock is in a stage two beautiful bases again and again",
+      "what_is_shown": "TradingView chart of Bag Chemicals showing multiple base formations and breakouts",
+      "why_needed": "Speaker switches to new stock and references 'beautiful bases' without describing their location, size, or characteristics"
+    },
+    {
+      "timestamp": "02:07",
+      "quote": "if you look at this particular top let me Mark out yeah this particular top and connect a resistance right away then we have a breakout here",
+      "what_is_shown": "Speaker drawing resistance line on Bag Chemicals chart connecting specific top, with breakout point visible",
+      "why_needed": "Speaker is actively drawing on chart in real-time using 'this' and 'here' without stating price levels"
+    },
+    {
+      "timestamp": "02:39",
+      "quote": "look at the stock chalot hotels the stock is also in a stage two",
+      "what_is_shown": "TradingView chart of Chalot Hotels displaying stage two pattern",
+      "why_needed": "New stock introduced without describing specific pattern characteristics visible on screen"
+    },
+    {
+      "timestamp": "03:11",
+      "quote": "look at this control print the stock is also in a stage two let me Mark out an accumulation stage here sorry so this here is an accumulation",
+      "what_is_shown": "Control Print chart with speaker marking/drawing accumulation zone in real-time",
+      "why_needed": "Speaker actively marking chart using 'this' and 'here' without stating timeframes or price levels"
+    },
+    {
+      "timestamp": "03:43",
+      "quote": "what do you have to say about this stock is this in a stage two the answer is no because if you look at the structure here",
+      "what_is_shown": "Unnamed stock chart showing distribution pattern structure",
+      "why_needed": "Stock not named, speaker references 'this stock' and 'structure here' requiring visual identification"
+    },
+    {
+      "timestamp": "04:14",
+      "quote": "because once the stock breaks down of this support breaks down of this support it can very well go into a decline",
+      "what_is_shown": "Support level visible on current unnamed stock chart",
+      "why_needed": "Speaker references 'this support' twice without stating the price level"
+    },
+    {
+      "timestamp": "04:48",
+      "quote": "let's look at this stock Dr ready again the stock is not in a stage two look at this structure here which got broken down here on this candle",
+      "what_is_shown": "Dr Reddy chart showing specific structure and breakdown candle",
+      "why_needed": "Multiple uses of 'this' and 'here' pointing to specific structure and candle without stating dates or price levels"
+    },
+    {
+      "timestamp": "05:20",
+      "quote": "look at this beautiful stock beautiful stage two if you carefully look at this chart we see that the stock was coming from a decline stage",
+      "what_is_shown": "Unnamed stock chart transitioning from decline to accumulation to stage two",
+      "why_needed": "Stock not named, speaker references 'this beautiful stock' and 'this chart' requiring visual to identify which stock"
+    },
+    {
+      "timestamp": "05:51",
+      "quote": "we had a resistance here the stock broke out here and then the stock went into a very nice stage two",
+      "what_is_shown": "Resistance line and breakout point marked on current stock chart",
+      "why_needed": "Speaker marking resistance and breakout using 'here' without stating price levels or dates"
+    },
+    {
+      "timestamp": "06:22",
+      "quote": "let's look at this one Federal Bank the stock is healthy no doubt but not super healthy right because you see the stock is making big bases here there was a big base here",
+      "what_is_shown": "Federal Bank chart showing multiple large base formations",
+      "why_needed": "Speaker references 'big bases here' and 'big base here' without describing timeframes or price ranges"
+    },
+    {
+      "timestamp": "06:55",
+      "quote": "then it made another box here for many many months and then it again breaks out here",
+      "what_is_shown": "Federal Bank chart showing consolidation box and subsequent breakout point",
+      "why_needed": "Uses 'here' twice to reference box location and breakout point without stating price levels"
+    },
+    {
+      "timestamp": "07:26",
+      "quote": "look at another chart look at this stock what do you think about this clearly the stock is not in a stage two",
+      "what_is_shown": "New unnamed stock chart showing breakdown pattern",
+      "why_needed": "Stock not named, speaker references 'this stock' and 'this' requiring visual identification"
+    },
+    {
+      "timestamp": "07:57",
+      "quote": "and maybe this is a distribution if this is a distribution stock has broken down",
+      "what_is_shown": "Distribution pattern and breakdown visible on current unnamed stock chart",
+      "why_needed": "Speaker references 'this' distribution pattern without naming stock or describing pattern characteristics"
+    },
+    {
+      "timestamp": "08:30",
+      "quote": "but let's look at what the stock had done in the past there was this big accumulation where the stock was trendless for many many years",
+      "what_is_shown": "Historical view of same stock showing multi-year accumulation zone",
+      "why_needed": "Speaker references 'this big accumulation' on unnamed stock without stating timeframe or price range"
+    },
+    {
+      "timestamp": "09:02",
+      "quote": "this particular resistance which is a mini base breakout right this resistance got broken out here so we call this a mini Bas breakout",
+      "what_is_shown": "Mini base resistance level and breakout point marked on chart",
+      "why_needed": "Multiple uses of 'this' and 'here' referencing specific resistance and breakout without stating price level"
+    },
+    {
+      "timestamp": "09:49",
+      "quote": "Gujarat gas weekly chart what do you think about this stock is it in a stage two",
+      "what_is_shown": "Gujarat Gas weekly chart showing breakdown pattern",
+      "why_needed": "While stock is named, speaker asks about 'this stock' pattern requiring visual to see the structure"
+    },
+    {
+      "timestamp": "10:20",
+      "quote": "the stock has broken down of this support with big negative pivotal candles and that gives us a judgment that this particular area was a distribution",
+      "what_is_shown": "Gujarat Gas chart showing support breakdown with specific negative candles and distribution zone",
+      "why_needed": "Speaker references 'this support' and 'this particular area' without stating price levels, plus points to specific candles"
+    },
+    {
+      "timestamp": "10:51",
+      "quote": "look at the moving averages and everything clearly the stock is not in a stage two yes if you look at this particular period the stock was in a very good stage too",
+      "what_is_shown": "Gujarat Gas chart showing moving averages and historical stage two period",
+      "why_needed": "Speaker references 'this particular period' without stating timeframe for the historical stage two"
+    },
+    {
+      "timestamp": "11:21",
+      "quote": "look at this stock Inger sol Rand the stock is clearly in a stage two",
+      "what_is_shown": "Ingersoll Rand chart displaying stage two pattern with bases and breakouts",
+      "why_needed": "While stock is named, speaker says 'look at this stock' requiring visual to see the pattern being discussed"
+    },
+    {
+      "timestamp": "11:53",
+      "quote": "if you look at it carefully before the stage two we had a big accumulation this was a big accumulation that we had look at this this entire area",
+      "what_is_shown": "Ingersoll Rand chart showing multi-year accumulation zone",
+      "why_needed": "Speaker references 'this big accumulation' and 'this entire area' without stating timeframe or price range"
+    },
+    {
+      "timestamp": "12:25",
+      "quote": "look at this stock Inox Leisure the stock was in a stage two for a very small amount of time look at this an average stage two",
+      "what_is_shown": "Inox Leisure chart showing brief stage two period followed by COVID crash and recovery",
+      "why_needed": "Speaker references 'look at this' twice without describing specific pattern characteristics or timeframes"
+    },
+    {
+      "timestamp": "12:58",
+      "quote": "what do you think about this chart clearly the stock is in a stage four decline",
+      "what_is_shown": "Unnamed stock chart showing stage four decline pattern",
+      "why_needed": "Stock not named, speaker references 'this chart' requiring visual identification"
+    },
+    {
+      "timestamp": "13:29",
+      "quote": "what do you think about this stock for around one and a half years the stock is staying within the range",
+      "what_is_shown": "Unnamed stock chart showing 1.5 year consolidation range",
+      "why_needed": "Stock not named, speaker references 'this stock' requiring visual to identify which stock and see the range"
+    },
+    {
+      "timestamp": "14:08",
+      "quote": "let's analyze the chart of jumar infra project on the weekly time frame what do you think about this yes the stock is in a growth stage",
+      "what_is_shown": "Jumar Infra Project weekly chart showing growth stage pattern",
+      "why_needed": "While stock is named, speaker asks 'what do you think about this' requiring visual to see the pattern"
+    },
+    {
+      "timestamp": "14:40",
+      "quote": "let's look at the history of this stock see here we saw that the stock was stock transitioned into a decline stage and it went into this box",
+      "what_is_shown": "Historical view of Jumar Infra showing decline stage and consolidation box",
+      "why_needed": "Speaker references 'here' and 'this box' without stating timeframes or price levels"
+    },
+    {
+      "timestamp": "15:11",
+      "quote": "then it made a bottom here then you see the stock started to move up making higher highs and higher lows",
+      "what_is_shown": "Bottom formation and subsequent uptrend on Jumar Infra chart",
+      "why_needed": "Speaker references 'bottom here' without stating price level or date"
+    },
+    {
+      "timestamp": "15:42",
+      "quote": "but then this breakout here it failed it was a fake breakout we call it a fake breakout because after this the break out could not sustain",
+      "what_is_shown": "Failed breakout point on Jumar Infra chart showing fake breakout pattern",
+      "why_needed": "Speaker references 'this breakout here' and 'after this' without stating price level or date of the failed breakout"
+    },
+    {
+      "timestamp": "16:13",
+      "quote": "has given a big breakdown but then the decline stage did not continue further the stock did not fall further rather the stock went sideways into another box this one",
+      "what_is_shown": "Specific stock chart showing a breakdown followed by a sideways consolidation box pattern",
+      "why_needed": "Speaker references 'this one' and 'this box' without naming the stock or describing the exact price levels or timeframe of the consolidation"
+    },
+    {
+      "timestamp": "16:44",
+      "quote": "you can see from many years the stock is in a Range it is not moving anywhere there is no Trend in the stock",
+      "what_is_shown": "Multi-year chart showing prolonged sideways price action within a defined range",
+      "why_needed": "The stock being analyzed is not named, and the specific range boundaries and duration are only visible on screen"
+    },
+    {
+      "timestamp": "17:15",
+      "quote": "if we carefully look at the stock you can see that there is this rounding structure",
+      "what_is_shown": "Chart displaying a rounding bottom pattern formation",
+      "why_needed": "Speaker references 'this rounding structure' without describing its dimensions, timeframe, or the specific stock being shown"
+    },
+    {
+      "timestamp": "17:45",
+      "quote": "you can look at some volume spikes coming in positive pivotal candles look at this",
+      "what_is_shown": "Specific candles with corresponding volume spikes highlighted on the chart",
+      "why_needed": "Speaker says 'look at this' pointing to specific candles and volume bars without stating dates or price levels"
+    },
+    {
+      "timestamp": "18:47",
+      "quote": "what do you think about this stock seems a little bit tricky right but this stock is in a stage two",
+      "what_is_shown": "New stock chart being introduced for analysis",
+      "why_needed": "Speaker transitions to analyzing a different stock without naming it"
+    },
+    {
+      "timestamp": "19:18",
+      "quote": "you can see a big candles positive pivotal candles coming in Bas is getting formed and breakouts happening also look at some big volume spikes within the stage two",
+      "what_is_shown": "Specific large bullish candles with volume spikes and base formations with breakout points marked",
+      "why_needed": "Multiple visual elements referenced ('big candles', 'volume spikes', 'base', 'breakouts') without stating specific dates or price levels"
+    },
+    {
+      "timestamp": "19:48",
+      "quote": "the stock broke down of the support there was a big support here which got broken down",
+      "what_is_shown": "Support level line on chart with breakdown point visible",
+      "why_needed": "Speaker references 'here' for support level location without stating the price level or date"
+    },
+    {
+      "timestamp": "20:18",
+      "quote": "stock again shot back up had a big positive pivotal candle again another positive pivotal candle but look at the volume with this candle huge volume huge volume",
+      "what_is_shown": "Specific candles with corresponding volume bars showing unusually high volume",
+      "why_needed": "Speaker points to specific candles and their volume bars saying 'this candle' and 'look at the volume' without stating dates"
+    },
+    {
+      "timestamp": "20:51",
+      "quote": "then it again gave a breakout here of this minor resistance look at this breakout right this was a breakout it broke Above This resistance",
+      "what_is_shown": "Minor resistance level with breakout candle marked on chart",
+      "why_needed": "Speaker uses 'here', 'this', and 'This resistance' multiple times without stating the price level or date of breakout"
+    },
+    {
+      "timestamp": "21:22",
+      "quote": "this particular box here this particular box here may be a small accumulation",
+      "what_is_shown": "Rectangular box drawn on chart marking accumulation zone",
+      "why_needed": "Speaker references 'this particular box here' twice without describing its price range or duration"
+    },
+    {
+      "timestamp": "22:30",
+      "quote": "stock has been a good performer and with this breakout we also saw some good volumes weekly chart of United Spirits",
+      "what_is_shown": "United Spirits weekly chart showing recent breakout with volume",
+      "why_needed": "Speaker references 'this breakout' before naming the stock, pointing to specific breakout on screen"
+    },
+    {
+      "timestamp": "23:02",
+      "quote": "look at this stock Monte Carlo very beautiful stock it is in a clear stage two if you want to spot the accumulation structure here you can see a very small accumulation structure here",
+      "what_is_shown": "Monte Carlo chart with small accumulation structure marked",
+      "why_needed": "Speaker uses 'here' twice to point to specific accumulation zone without describing its price range or timeframe"
+    },
+    {
+      "timestamp": "23:35",
+      "quote": "if you look at this stop resistance it was also broken out and again made another base broke out and then it here it made a very big base But ultimately it broke out look at the volumes",
+      "what_is_shown": "Multiple resistance levels, bases, and breakout points with volume bars on Monte Carlo chart",
+      "why_needed": "Speaker references multiple visual elements ('this stop resistance', 'here', 'look at the volumes') without stating specific price levels or dates"
+    },
+    {
+      "timestamp": "24:08",
+      "quote": "look at this stock what stage it is in",
+      "what_is_shown": "New stock chart being introduced for stage analysis",
+      "why_needed": "Speaker transitions to new stock without naming it initially"
+    },
+    {
+      "timestamp": "24:40",
+      "quote": "we have marked two supports if if these supports get broken down on the downside",
+      "what_is_shown": "Two support lines drawn on chart",
+      "why_needed": "Speaker references 'two supports' that are marked/drawn on screen without stating the price levels"
+    },
+    {
+      "timestamp": "25:11",
+      "quote": "look at this for from 2021 till September 2022 the stock had given a continuous up move fantastic move and if you mark out an accumulation structure May maybe this was a big accumulation",
+      "what_is_shown": "NDTV chart showing uptrend from 2021-2022 with accumulation structure marked",
+      "why_needed": "Speaker references 'this' accumulation structure without describing its price range or exact boundaries"
+    },
+    {
+      "timestamp": "25:41",
+      "quote": "what about this porock limited again the intensity of this stage two has slowed down does not seem like a healthy stage two right now you see from many many months the stock is at the same level the level it was here the same level it is right right now",
+      "what_is_shown": "Polyplex/Porock chart showing slowing momentum and sideways price action with specific level marked",
+      "why_needed": "Speaker uses 'here' and 'right now' to reference specific price levels on chart without stating the actual price"
+    },
+    {
+      "timestamp": "26:13",
+      "quote": "look at this stock PT engineering the stock stock is clearly in a stage two right now if you look at this it had a big accumulation structure which got broken down sorry which got broken out here",
+      "what_is_shown": "PTC Engineering chart with accumulation structure and breakout point marked",
+      "why_needed": "Speaker uses 'this' and 'here' to reference accumulation and breakout without describing price levels or timeframe"
+    },
+    {
+      "timestamp": "26:45",
+      "quote": "look at the gap between 50-day moving average and the price",
+      "what_is_shown": "Chart showing 50-day moving average line with visible gap between it and current price",
+      "why_needed": "Visual demonstration of the gap size between moving average and price is needed to assess trend strength"
+    },
+    {
+      "timestamp": "27:16",
+      "quote": "what about this one clearly it is not in a stage two it may be a stage four because the stock has clearly broken down of this distribution structure",
+      "what_is_shown": "New stock chart showing distribution structure with breakdown",
+      "why_needed": "Speaker transitions to new unnamed stock and references 'this distribution structure' visible on screen"
+    },
+    {
+      "timestamp": "27:47",
+      "quote": "what about this stock let's look at the entire structure the stock got listed maybe somewhere here and then we had a big accumulation",
+      "what_is_shown": "Full historical chart from IPO listing showing accumulation phase",
+      "why_needed": "Speaker uses 'somewhere here' to point to listing point and references accumulation structure without naming stock or describing specifics"
+    },
+    {
+      "timestamp": "28:17",
+      "quote": "we can Mark a support here which got broken down here right when if we would have been somewhere here I would have said that okay the stock is clearly not in a stage two",
+      "what_is_shown": "Support level marked on chart with breakdown point indicated",
+      "why_needed": "Speaker uses 'here' three times and 'somewhere here' to reference specific points on chart without stating price levels or dates"
+    },
+    {
+      "timestamp": "28:48",
+      "quote": "then if we draw a resistance here we get a breakout here so we can say that this structure this structure was an accumulation structure",
+      "what_is_shown": "Resistance line drawn on chart with breakout point and accumulation structure highlighted",
+      "why_needed": "Speaker uses 'here' twice and 'this structure' twice while drawing/pointing to specific chart elements"
+    },
+    {
+      "timestamp": "29:19",
+      "quote": "what about this one scaff India clearly in a stage two uh in this case you can see that the trend the actual the minor uh the mini base breakout happened here",
+      "what_is_shown": "Schaeffler India chart with mini base breakout point marked",
+      "why_needed": "Speaker uses 'here' to point to specific breakout location without stating date or price level"
+    },
+    {
+      "timestamp": "29:51",
+      "quote": "this was the accumulation structure okay but then we also had another resistance here this was another resistance and then it got broken out here with a very big volume",
+      "what_is_shown": "Accumulation structure and resistance level marked on Schaeffler chart with breakout point and volume spike",
+      "why_needed": "Speaker uses 'here' three times to reference specific chart locations and structures without stating price levels"
+    },
+    {
+      "timestamp": "30:22",
+      "quote": "in this case if you want to Mark out the accumulation structure it can be somewhat somewhere this much okay then the stock broke out of this",
+      "what_is_shown": "Shriram Transport/Shriram chart with accumulation zone being marked/drawn",
+      "why_needed": "Speaker is actively marking or pointing to accumulation boundaries saying 'this much' and 'this' without stating price range"
+    },
+    {
+      "timestamp": "30:54",
+      "quote": "you look at the volumes that have started to come up earlier you see this period decline phase there were no substantial volumes but when the stock transitioned look at the volume volumes big volumes coming in",
+      "what_is_shown": "Volume bars comparison between decline phase and transition phase showing increase",
+      "why_needed": "Speaker references 'this period' and says 'look at the volume' comparing different sections of volume bars without stating timeframes"
+    },
+    {
+      "timestamp": "31:28",
+      "quote": "this entire period was accumulation this was an accumulation period and then the stock had a fantastic breakout here with big candles and big volumes",
+      "what_is_shown": "Solar Industries chart with accumulation period marked and breakout point with volume indicated",
+      "why_needed": "Speaker uses 'this entire period', 'this was', and 'here' to reference specific chart sections without describing duration or price levels"
+    },
+    {
+      "timestamp": "31:58",
+      "quote": "SRI Ral laima SRI Rima weekly chart what about this clearly it is in a stage two",
+      "what_is_shown": "Weekly chart of SRI Rima stock showing stage two pattern with big volumes",
+      "why_needed": "Speaker says 'what about this' and 'clearly it is in a stage two' without verbally describing the specific chart pattern or price levels - viewer must see the chart to understand what makes it 'clearly' stage two"
+    },
+    {
+      "timestamp": "32:28",
+      "quote": "the last one was a larger base this base was large but ultimately got broken out the other bases were you see it was small bases",
+      "what_is_shown": "Tube Investments chart showing multiple bases of different sizes and breakout points",
+      "why_needed": "Speaker references 'this base' and 'the other bases' using demonstrative pronouns without describing their specific characteristics, timeframes, or price levels - requires visual to distinguish between the 'larger' and 'small' bases"
+    },
+    {
+      "timestamp": "33:32",
+      "quote": "here if you look at the weekly chart you can see that okay uh this is uh stage four then the stock went into a stage one then the stock broke out",
+      "what_is_shown": "ABB weekly chart showing progression through stages four, one, and two",
+      "what_is_needed": "Speaker uses 'this is' and 'here' to point to specific sections of the chart without describing the timeframes or price characteristics that define each stage transition"
+    },
+    {
+      "timestamp": "34:04",
+      "quote": "look at this it was a very very long stage two okay then here there was maybe a small stage four",
+      "what_is_shown": "ABB chart showing extended stage two period followed by brief stage four",
+      "why_needed": "Speaker says 'look at this' and 'here' to reference specific chart sections without stating the duration or price range of the 'very very long stage two' or the 'small stage four'"
+    },
+    {
+      "timestamp": "34:35",
+      "quote": "I'm sorry I made a mistake here there was a small stage three I'm sorry okay distribution and then then it transition into a stage four",
+      "what_is_shown": "ABB chart showing correction - a small stage three distribution pattern before stage four",
+      "why_needed": "Speaker uses 'here' to point to a specific location on the chart where the stage three pattern appears, without describing its characteristics or timeframe"
+    }
+  ]
+}

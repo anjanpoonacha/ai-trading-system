@@ -15,6 +15,7 @@ import { createInterface } from "readline";
 import type { CompositeRequest } from "./types";
 
 const MAX_RENDERS = 200;
+const DIAG_MODE = !!process.env.DIAG_MODE;
 let renderCount = 0;
 
 // Signal ready to parent
@@ -42,6 +43,18 @@ rl.on("line", async (line: string) => {
     process.stdout.write(png);
 
     renderCount++;
+
+    if (DIAG_MODE) {
+      const mem = process.memoryUsage();
+      process.stderr.write(
+        `chart-worker:render #${renderCount} | rss=${(mem.rss / 1024 / 1024).toFixed(0)}MB heap=${(mem.heapUsed / 1024 / 1024).toFixed(0)}/${(mem.heapTotal / 1024 / 1024).toFixed(0)}MB ext=${(mem.external / 1024 / 1024).toFixed(0)}MB\n`
+      );
+      // Attempt manual GC if available
+      if (typeof globalThis.gc === "function") {
+        globalThis.gc();
+      }
+    }
+
     if (renderCount >= MAX_RENDERS) {
       process.stderr.write(`chart-worker:exit (${MAX_RENDERS} renders reached)\n`);
       process.exit(0);

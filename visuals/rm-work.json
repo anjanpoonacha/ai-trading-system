@@ -1,0 +1,194 @@
+[
+  {
+    "timestamp": "09:30",
+    "quote": "Now let's look at this particular sheet where we understood that if you have a combination of your ARR and win rate as such where your ARR is one and the win rate is 50%, then you are at break even.",
+    "what_is_shown": "Excel/calculation table showing ARR=1, Win Rate=50%, Result=Break Even with 120 trades example",
+    "why_needed": "Specific numerical table with calculations is referenced but not verbally described in detail",
+    "_file": "rm-1.txt",
+    "_vid_id": "eCZkzzbY8dk"
+  },
+  {
+    "timestamp": "03:00-03:30",
+    "quote": "Now let me show you an interesting table. Look at this table. If your average, this is your average loss, this column is your average gain, this represents your ARR... And this column represents the win rate which is required to break even.",
+    "what_is_shown": "Reference table with columns: Average Loss, Average Gain, ARR, Break-Even Win Rate, with multiple rows showing different ARR values (1, 2, 0.5, etc.) and corresponding break-even win rates",
+    "why_needed": "Speaker references specific table structure and row data (marked yellow) that must be visible to understand the relationship between ARR and win rate requirements",
+    "_file": "rm-1.txt",
+    "_vid_id": "eCZkzzbY8dk"
+  },
+  {
+    "timestamp": "05:00-06:30",
+    "quote": "Let's say this is trade number one and this is trade number two. Now you see in trade number one, the entry price is 100, stop loss is 95 and the target is 105. The second trade, the entry price is 100, stop loss is 95, but the target is now 200.",
+    "what_is_shown": "Visual comparison of two trades with entry at 100, stop loss at 95, and targets at 105 vs 200 respectively",
+    "why_needed": "Specific price levels and comparison visualization needed to demonstrate why higher risk-reward ratios have lower win rates",
+    "_file": "rm-1.txt",
+    "_vid_id": "eCZkzzbY8dk"
+  },
+  {
+    "timestamp": "12:00-12:30",
+    "quote": "I have marked orange the intensity metrics, which is RPT percent and the number of trades. So these are the intensity metrics. The yellow marked are the expectancy metrics.",
+    "what_is_shown": "A table with orange-highlighted intensity metrics (RPT percent, number of trades) and yellow-highlighted expectancy metrics",
+    "why_needed": "Specific visual organization of table columns/metrics cannot be understood from description alone; color-coding is essential to follow the framework",
+    "_file": "rm-1.txt",
+    "_vid_id": "eCZkzzbY8dk"
+  },
+  {
+    "timestamp": "12:30-01:00",
+    "quote": "if let's say RPT percent, let's say from 1% if I make it 1.5%, you see now I'm making a return of 36% which has increased",
+    "what_is_shown": "Table cells showing RPT percent values changing from 1% to 1.5% with corresponding return values updating to 36%",
+    "why_needed": "Viewer must see the actual numbers change in real-time in the table to understand the relationship between RPT percent and returns",
+    "_file": "rm-1.txt",
+    "_vid_id": "eCZkzzbY8dk"
+  },
+  {
+    "timestamp": "01:00-01:30",
+    "quote": "At 120 trades, I'm making a return of 24%. If I increase the number of trades, you see if I make it 140, the returns go up to 28%",
+    "what_is_shown": "Table cells showing number of trades changing from 120 to 140 with return values updating from 24% to 28%",
+    "why_needed": "Dynamic table updates demonstrating the impact of trade quantity changes on returns must be visually observed",
+    "_file": "rm-1.txt",
+    "_vid_id": "eCZkzzbY8dk"
+  },
+  {
+    "timestamp": "01:30-02:00",
+    "quote": "if you increase your RPT from 1% to let's say 1.5%, you see the losses have magnified from 24% to 36%",
+    "what_is_shown": "Table showing RPT percent increasing from 1% to 1.5% with loss values changing from 24% to 36% in negative expectancy scenario",
+    "why_needed": "Viewer must see the specific numerical changes in the table to understand how intensity metrics amplify losses in negative expectancy",
+    "_file": "rm-1.txt",
+    "_vid_id": "eCZkzzbY8dk"
+  },
+  {
+    "timestamp": "02:00-02:30",
+    "quote": "if I increase my number of trades from 120 to 150, now the return goes the the loss is increased from 25% to 30%",
+    "what_is_shown": "Table cells showing number of trades changing from 120 to 150 with loss percentage increasing from 25% to 30%",
+    "why_needed": "Live table modification showing how increasing trade count worsens losses in negative expectancy requires visual confirmation",
+    "_file": "rm-1.txt",
+    "_vid_id": "eCZkzzbY8dk"
+  },
+  {
+    "timestamp": "10:00-10:30",
+    "quote": "Here is how the OR matrix looks for a trader with moderate risk appetite. This is an OR matrix with a trader with moderate risk appetite.",
+    "what_is_shown": "OR matrix table/chart showing market stance categories and corresponding MOR percentages",
+    "why_needed": "The speaker references a specific visual table/matrix that defines risk parameters by market conditions; the actual numbers and structure cannot be understood from words alone",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc"
+  },
+  {
+    "timestamp": "10:30",
+    "quote": "Now, we should classify the market conditions into market stance. Very strong, strong, moderate or weak.",
+    "what_is_shown": "OR matrix with market stance columns (Very strong, strong, moderate, weak) and corresponding MOR values",
+    "why_needed": "The matrix structure and how risk parameters correspond to each market stance category is shown visually and cannot be fully comprehended from verbal description alone",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc"
+  },
+  {
+    "timestamp": "11:00",
+    "quote": "For example, let's say today the market stance is strong. As on today, the market conditions are such or the market conditions have been strong. So I would say that the market stance is strong and my MOR is 4%.",
+    "what_is_shown": "OR matrix row showing 'strong' market stance with MOR value of 4%",
+    "why_needed": "Viewer needs to see how the 4% MOR value is positioned in the matrix relative to other market stances to understand the framework",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc"
+  },
+  {
+    "timestamp": "05:00",
+    "quote": "Here is the OR matrix for conservative appetite and aggressive appetite",
+    "what_is_shown": "OR matrix table with conservative and aggressive risk appetite rows/columns showing specific numbers for different market conditions",
+    "why_needed": "The speaker references a specific matrix with numerical values that must be visible on screen to understand the different risk parameters for each appetite level",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc"
+  },
+  {
+    "timestamp": "06:30",
+    "quote": "I've gone into the website called thecalculatorsite.com. I've gone into finance and clicked on compound interest calculator. Now here it is.",
+    "what_is_shown": "Browser window showing thecalculatorsite.com compound interest calculator interface",
+    "why_needed": "Viewer needs to see the actual calculator tool and website being demonstrated to understand the workflow",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc"
+  },
+  {
+    "timestamp": "07:30",
+    "quote": "Now let's look at the table. So your initial capital was 10 lakhs. In the first year, you made a profit of 2 lakh. And then your capital at the end of one year becomes 12 lakhs",
+    "what_is_shown": "Compound interest calculation table showing year-by-year breakdown with initial capital, profit, and ending capital columns",
+    "why_needed": "The table with specific numerical values and progression is essential to understand how compounding works; verbal description alone is insufficient",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc"
+  },
+  {
+    "timestamp": "09:00",
+    "quote": "You can pause the video and have a look at the calculation",
+    "what_is_shown": "Full compound interest calculation table/results from the calculator",
+    "why_needed": "Speaker explicitly directs viewer to reference the calculation visible on screen",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc"
+  },
+  {
+    "timestamp": "01:32",
+    "quote": "Let me show you. It will be more than 36%.",
+    "what_is_shown": "Table showing 3% monthly compounding calculation for 12 months with running capital amounts",
+    "why_needed": "Speaker references a specific table with numerical calculations that cannot be understood from audio alone",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc"
+  },
+  {
+    "timestamp": "02:05",
+    "quote": "Now have a look at this particular table. Now let's look at this particular column.",
+    "what_is_shown": "Comparison table showing compounding vs non-compounding returns at different percentages (6% quarterly = 24% vs 26%, 22% quarterly = 88% vs 122%)",
+    "why_needed": "Speaker points to specific columns and figures in a table that must be visible to understand the comparison",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc"
+  },
+  {
+    "timestamp": "03:41",
+    "quote": "Here is another table to just uh show you the power of compounding in the long term.",
+    "what_is_shown": "Table showing CAGR scenarios (20% and 26%) with capital growth multiples over 10 and 20 year periods",
+    "why_needed": "Speaker references specific table data with figures (6x, 38x, 10x, 100x) that require visual reference",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc"
+  },
+  {
+    "timestamp": "07:04",
+    "quote": "This is the formula.",
+    "what_is_shown": "Position size calculation formula for determining trade quantity",
+    "why_needed": "Speaker states 'this is the formula' without reading it aloud; formula must be visible on screen",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc"
+  },
+  {
+    "timestamp": "10:27",
+    "quote": "So here is the table. Now let me put in the minimum figures that we just uh talked about.",
+    "what_is_shown": "Table with minimum metrics (RPT 0.5%, ARR 3, 120 trades/year, 35% win rate) and calculated 31% yearly return",
+    "why_needed": "Speaker references specific metrics table with calculations that cannot be followed from audio",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc"
+  },
+  {
+    "timestamp": "11:05",
+    "quote": "Now with four quarters, okay, with four quarters, uh with compounding, the return annual return comes to 31.1% and not 28%",
+    "what_is_shown": "Quarterly calculation breakdown showing 7% quarterly return compounding to 31.1% annual return",
+    "why_needed": "Specific numerical calculations and comparisons (31.1% vs 28%) require visible table reference",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc"
+  },
+  {
+    "timestamp": "11:40",
+    "quote": "For example, let's start with this... Your return comes to 36%... Your return comes to 57.4%... Now you are making 94% return.",
+    "what_is_shown": "Table showing progressive metrics adjustments with corresponding ROI changes (36%, 57.4%, 94%, 136%)",
+    "why_needed": "Multiple specific return figures and metric progressions must be shown in table format to track changes",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc"
+  },
+  {
+    "timestamp": "01:00",
+    "quote": "So it's all about about this mathematics, how you put on your risk management metrics... you're making 460% returns.",
+    "what_is_shown": "Table showing aggressive trading scenario with 45 trades/quarter, 45% win rate, 0.9% RPT, ARR 4 yielding 460% returns",
+    "why_needed": "Complex metrics combination and final return figure (460%) must be visible in calculation table",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc"
+  },
+  {
+    "timestamp": "01:30",
+    "quote": "So this is trader number A who is trading with a with an ARR of one and a win rate of 50%.",
+    "what_is_shown": "Comparison table showing Trader A (ARR=1, Win rate=50%, 0% return) vs Trader B (ARR=3, Win rate=25%, 0% return)",
+    "why_needed": "Specific side-by-side trader comparison with metrics and breakeven results requires visual table display",
+    "_file": "rm-2.txt",
+    "_vid_id": "E9HsDhA6Fqc"
+  }
+]

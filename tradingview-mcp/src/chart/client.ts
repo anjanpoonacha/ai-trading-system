@@ -93,13 +93,23 @@ export function createChartClient(opts?: {
     proc.stdin.write(reqBuf);
     proc.stdin.flush();
 
-    // Read response with timeout
-    const result = await Promise.race([
-      readResponse(),
-      timeoutReject(),
-    ]);
+    // Read response with timeout (clear timeout on success or failure)
+    let timer: ReturnType<typeof setTimeout>;
+    const timeoutPromise = new Promise<never>((_, reject) => {
+      timer = setTimeout(() => {
+        proc?.kill();
+        proc = null;
+        ready = false;
+        reject(new Error(`Chart render timed out after ${timeout}ms`));
+      }, timeout);
+    });
 
-    return result;
+    try {
+      const result = await Promise.race([readResponse(), timeoutPromise]);
+      return result;
+    } finally {
+      clearTimeout(timer!);
+    }
   }
 
   async function readResponse(): Promise<Buffer> {
@@ -143,17 +153,7 @@ export function createChartClient(opts?: {
     }
   }
 
-  function timeoutReject(): Promise<never> {
-    return new Promise((_, reject) => {
-      setTimeout(() => {
-        // Kill the worker on timeout
-        proc?.kill();
-        proc = null;
-        ready = false;
-        reject(new Error(`Chart render timed out after ${timeout}ms`));
-      }, timeout);
-    });
-  }
+
 
   // Serialize renders (one at a time)
   function render(req: ChartRequest): Promise<Buffer> {

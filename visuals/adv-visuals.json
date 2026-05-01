@@ -1,0 +1,439 @@
+{
+  "adv-1.txt": [
+    {
+      "timestamp": "04:10",
+      "quote": "we are on the chart of Tata investment... the stock is in a stage two it's forming a good base here good volume features as well and here in the base it's a good structure we see a sort of a mini wakeup call here then we see a good Red Bar and then the stock starts to form these two trigger bars",
+      "what_is_shown": "TradingView chart of Tata Investment showing the stage 2 uptrend, base formation, mini wakeup call pattern, red bar, and two trigger bars with contracted volume",
+      "why_needed": "Speaker references multiple specific chart features ('this base', 'here', 'these two trigger bars') without naming price levels or dates, making it impossible to identify which candles/patterns are being discussed without seeing the screen"
+    },
+    {
+      "timestamp": "04:40",
+      "quote": "so I'm just marking I'm just drawing a line like this okay on these two bars okay let me go to the 15 minute chart now",
+      "what_is_shown": "The act of drawing the line and which exact bars it's placed on, plus the transition to 15-minute chart view",
+      "why_needed": "The speaker is performing a visual action ('drawing a line like this') without describing where exactly the line is placed or at what price level"
+    },
+    {
+      "timestamp": "05:12",
+      "quote": "on the 15minute chart I have drawn this line the same line look at the structure here it's a good structure right look at the volume features of the structure gives us confidence okay and then on 15th of September the there was a breakout of this structure which triggered our entry so maybe you entered here at this place okay",
+      "what_is_shown": "15-minute chart showing the structure, volume bars, the drawn line, and the specific breakout point on September 15th where entry was triggered",
+      "why_needed": "Speaker references 'this line', 'this structure', 'here', and 'this place' without stating the price level or describing the structure's characteristics verbally"
+    },
+    {
+      "timestamp": "05:45",
+      "quote": "so right now I've put up 0.5% risk so I'll just mark this my entry here's my SL okay one more thing... this is the swing low right this is the swing low so this can be used as your stop loss then the next swing low is here",
+      "what_is_shown": "Chart with marked entry point, stop loss level, and two swing low points being indicated",
+      "why_needed": "Speaker points to specific locations ('here's my SL', 'this is the swing low', 'here') without stating the actual price levels"
+    },
+    {
+      "timestamp": "07:54",
+      "quote": "let's see uh let's let's plan the entry here so it comes here okay it comes as this so let's say I play my stop somewhere at this level that's a good level 2% 2447 okay fine",
+      "what_is_shown": "Chart showing entry point placement and stop loss level being marked at 2447",
+      "why_needed": "Speaker says 'here', 'here', 'this', and 'this level' multiple times before finally stating the price 2447, but the visual placement is being demonstrated throughout"
+    },
+    {
+      "timestamp": "08:24",
+      "quote": "now let's see what happens next after this the stock went down okay and then look at this let's just go to the daily chart once this is the daily chart here we triggered the half entry and then this was again a trigger bar and on this day we have this big move",
+      "what_is_shown": "Chart progression showing the stock moving down, then switching to daily chart view showing the half entry point, trigger bar, and the big move day",
+      "why_needed": "Speaker uses 'this', 'here', 'this', and 'this day' to reference specific candles and price action without describing which specific bars or dates"
+    },
+    {
+      "timestamp": "08:55",
+      "quote": "let's go to the 15-minute chart and this is the move so as the stock shows this strength starts to go above the previous High here you can this is your pyramiding opportunity because the stock is showing strength once again so what I'll do is I have two options either I can simply raise my stop my stop loss was this so maybe I can tighten my stop here",
+      "what_is_shown": "15-minute chart showing the upward move, previous high level, pyramiding entry point, and original stop loss location with new tightened stop loss level",
+      "why_needed": "Speaker references 'this move', 'here', 'this', and 'here' without stating price levels or describing exactly where these points are located"
+    },
+    {
+      "timestamp": "09:29",
+      "quote": "and then let's say I also want to tighten my stop I want to make my stop loss somewhere here let's say this is my new stop loss 2 455",
+      "what_is_shown": "Chart showing the new stop loss level being marked at 2455",
+      "why_needed": "Speaker says 'somewhere here' and 'this is my new stop loss' while visually placing it before stating the price"
+    },
+    {
+      "timestamp": "09:29",
+      "quote": "now let's go to the pyramid calculator so this is the pyramid calculator",
+      "what_is_shown": "Screen switches from TradingView chart to a pyramid calculator spreadsheet/tool",
+      "why_needed": "Speaker is demonstrating a specific tool interface that must be seen to understand the subsequent calculations and data entry"
+    },
+    {
+      "timestamp": "09:59",
+      "quote": "here we focus on this column because this is the long trade that we are discussing",
+      "what_is_shown": "Specific column in the pyramid calculator being highlighted or referenced",
+      "why_needed": "Speaker says 'this column' and 'this is the long trade' without naming which column or describing the calculator layout"
+    },
+    {
+      "timestamp": "13:05",
+      "quote": "we are on the chart of Punjab National Bank... look at the strong chart it's in a stage two it's forming this base here right here you can see the mini base breakout a mini base breakout and then the stock pulls back drifts down here look at this this area very good area right at the 10 right at the 20 and the 50 and you see these two bars lot of volume contraction so this becomes your setup here okay this is the trigger bar",
+      "what_is_shown": "Chart of Punjab National Bank showing stage 2 uptrend, base formation, mini base breakout, pullback area at the 10/20/50 moving averages, two specific bars with volume contraction, and the trigger bar",
+      "why_needed": "Speaker uses 'this base', 'here', 'here', 'this area', 'these two bars', and 'this is the trigger bar' without stating specific price levels or dates"
+    },
+    {
+      "timestamp": "13:37",
+      "quote": "now here again you can find this area here you can find this resistance area here if you go to the 15-minute chart you can see this right this is the area that I'm talking about and then the stock breaks out of that area again with a lot of volumes",
+      "what_is_shown": "Daily chart showing resistance area, then switching to 15-minute chart showing the same resistance area and the breakout with volume",
+      "why_needed": "Speaker says 'here', 'here', 'this', and 'this is the area' while switching between timeframes without describing the price level or specific location"
+    },
+    {
+      "timestamp": "14:10",
+      "quote": "let's say this is your first entry and uh you placed your stop loss here fine and this becomes your second entry pyramid opportunity as the stock breaks out with clear confirmation now here you can raise your stop loss and make it somewhere here right",
+      "what_is_shown": "Chart showing first entry point, initial stop loss location, second pyramid entry point at breakout, and new raised stop loss level",
+      "why_needed": "Speaker uses 'this', 'here', 'this', 'here', and 'somewhere here' to reference multiple specific points on the chart without stating any price levels"
+    },
+    {
+      "timestamp": "15:11",
+      "quote": "let's say after your first entry the stock simply shoots up like this it does not mean that you just simply pyramid somewhere in the middle of it no you have to wait for proper location",
+      "what_is_shown": "Chart showing a stock shooting up after first entry, with speaker indicating where NOT to pyramid (middle of the move)",
+      "why_needed": "Speaker uses 'like this' and 'somewhere in the middle' without describing the specific price action or location - viewer must see the chart to understand what type of move to avoid pyramiding into"
+    },
+    {
+      "timestamp": "15:11",
+      "quote": "you should wait for another setup itself so here is the setup and here is another setup",
+      "what_is_shown": "Two distinct setups marked on the chart showing proper pyramiding locations",
+      "why_needed": "Speaker says 'here is the setup and here is another setup' using demonstrative language without describing what makes each a valid setup or their specific locations"
+    },
+    {
+      "timestamp": "15:43",
+      "quote": "there's this wake up call here drifts down there's a bpc here again two bars of contraction stock is still near the 20 and then there is this trigger",
+      "what_is_shown": "Specific chart pattern showing wake up call, drift down, BPC (base of price contraction), two contraction bars near 20-period moving average, and trigger bar",
+      "why_needed": "Speaker uses 'here' multiple times and 'this trigger' without stating specific dates, price levels, or which candles constitute each element - viewer must see the exact candles being referenced"
+    },
+    {
+      "timestamp": "16:47",
+      "quote": "so here is the 15-minute chart and this is the trigger bar and yeah on this date you can see that the stock uh I mean multiple times it breached the trigger bars high and yeah the entry could have been taken here",
+      "what_is_shown": "15-minute chart with specific trigger bar and multiple breach points marked, showing where entry could be taken",
+      "why_needed": "Speaker says 'this is the trigger bar', 'on this date', 'multiple times', and 'here' without stating the specific time, price level, or which candles show the breaches"
+    },
+    {
+      "timestamp": "17:20",
+      "quote": "from the 15-minute chart we can get a stop loss to somewhere here... if the entry price is here",
+      "what_is_shown": "15-minute chart with entry price level and stop loss level marked",
+      "why_needed": "Speaker uses 'somewhere here' and 'here' twice without stating actual price levels for entry or stop loss"
+    },
+    {
+      "timestamp": "17:20",
+      "quote": "and then on 6th of December you have this breakout so here is your pyramid opportunity... you can bring your stop loss a little bit higher to somewhere here",
+      "what_is_shown": "Breakout candle on December 6th with pyramid entry point and new stop loss level marked",
+      "why_needed": "While date is mentioned, speaker uses 'this breakout', 'here is your pyramid opportunity', and 'somewhere here' without describing the breakout characteristics or stating the new stop loss price level"
+    },
+    {
+      "timestamp": "17:51",
+      "quote": "look at this second candle here on the 15-minute chart this this one another pyramiding opportunity then you can still bring your stop loss up",
+      "what_is_shown": "Specific second candle on 15-minute chart marked as pyramiding opportunity with updated stop loss level",
+      "why_needed": "Speaker says 'this second candle', 'this one' without identifying which specific candle or time, and 'bring your stop loss up' without stating the new level"
+    },
+    {
+      "timestamp": "18:22",
+      "quote": "if you go to the daily chart these are the candles that we are talking about so all these candles are good trigger bars... you can keep on pyramiding at all these locations these are good locations so here we had it and then once more look at this once more this was another opportunity",
+      "what_is_shown": "Daily chart with multiple candles marked as trigger bars and pyramiding locations",
+      "why_needed": "Speaker uses 'these are the candles', 'all these candles', 'all these locations', 'here', 'look at this', and 'this was another opportunity' without identifying specific dates or describing what makes each a valid trigger bar"
+    },
+    {
+      "timestamp": "18:53",
+      "quote": "so maybe your entry price would have been around 21 and the stop loss is uh is somewhere at 20",
+      "what_is_shown": "Chart showing entry price around 21 and stop loss at 20 marked on the price axis",
+      "why_needed": "While approximate prices are mentioned, speaker says 'somewhere at 20' indicating the exact level must be seen on the chart for proper placement"
+    }
+  ],
+  "adv-2.txt": [
+    {
+      "timestamp": "03:42",
+      "quote": "so here is how I trade in a strong Market in a bull run so what I do is I take trades",
+      "what_is_shown": "Likely showing a chart or portfolio view demonstrating multiple open positions during a bull market",
+      "why_needed": "The speaker says 'here is how I trade' suggesting a visual demonstration, but doesn't verbally describe the specific stocks, positions, or chart setup being shown"
+    },
+    {
+      "timestamp": "05:14",
+      "quote": "go to your Journal go to the position manager modify your stop loss and bring it to the cost you will see that that the open risk of that trade will become zero in your Journal you'll see that happening live",
+      "what_is_shown": "Screen recording of the trading journal interface, specifically the position manager page, showing how to modify stop loss and the resulting change in open risk calculation",
+      "why_needed": "This is a software workflow demonstration where the speaker is showing specific UI elements and actions within the journal tool that cannot be understood from words alone"
+    },
+    {
+      "timestamp": "16:49",
+      "quote": "you can use the 15-minute time frame to find good structures and have tight stop losses we'll talk about that when we discuss a few examples on how to use the 15- minute time frame to identify good structures and good entry points and also identify and set tight tighter stop- losses",
+      "what_is_shown": "Examples of 15-minute chart structures showing good entry points and tight stop-loss placements",
+      "why_needed": "The speaker references specific examples that will be shown but doesn't describe what constitutes a 'good structure' or where exactly to place stops on the 15-minute timeframe"
+    },
+    {
+      "timestamp": "19:25",
+      "quote": "live entries allow you to place tighter stops I'll teach you how to use the 15-minute time frame and then with the lower time frame you can identify and place tighter stop losses",
+      "what_is_shown": "Demonstration on 15-minute charts showing how to identify and place tighter stop-loss levels compared to daily timeframe stops",
+      "why_needed": "The speaker promises to teach a visual technique for placing stops using the 15-minute chart but doesn't verbally explain the methodology or specific price levels/structures to use"
+    }
+  ],
+  "adv-3.txt": [
+    {
+      "timestamp": "03:40",
+      "quote": "we are on the chart of data power this is the daily chart first let's go to the weekly chart so here is the weekly chart and on the weekly chart we see that the stock was in a stage one here seems to have broken out of the stage one and probably this is the base that it's making",
+      "what_is_shown": "Weekly chart of Data Power stock showing stage one consolidation, breakout point, and base formation",
+      "why_needed": "Speaker references 'this' stage one, 'here' for breakout location, and 'this' base without verbally describing the specific price levels, timeframe, or visual characteristics of these chart patterns"
+    },
+    {
+      "timestamp": "04:11",
+      "quote": "on the daily chart we have this sort of Base here now here we see that the stock has turned around okay the earnings have been announced here and there is a small minor breakout of this particular previous low which caused the turnaround you can mark this level here as well",
+      "what_is_shown": "Daily chart showing base formation, earnings announcement point, previous low level, and turnaround location with specific price levels to mark",
+      "why_needed": "Multiple uses of 'here' and 'this' without stating actual price levels or dates; viewer must see where earnings occurred, what the 'previous low' level is, and where to mark the breakout level"
+    },
+    {
+      "timestamp": "04:42",
+      "quote": "let's have a look at this so this is how the lower time frame was appearing on that day this is how it was appearing and I think the day the day closed here okay this is how it was appearing nothing interesting",
+      "what_is_shown": "Intraday/lower timeframe chart of Data Power showing specific day's price action and closing location",
+      "why_needed": "Speaker says 'this is how it was appearing' and 'closed here' without describing the actual price pattern, candle formation, or closing price visible on screen"
+    },
+    {
+      "timestamp": "05:14",
+      "quote": "and this happens now we are able to see something interesting we are able to spot a clean breakout area like this you can spot a clean resistance like this",
+      "what_is_shown": "Lower timeframe chart showing specific breakout area and resistance level being drawn or highlighted",
+      "why_needed": "Speaker says 'this happens', 'like this', and 'like this' without verbally describing what the breakout area looks like or stating the resistance price level"
+    },
+    {
+      "timestamp": "05:47",
+      "quote": "so on this candle at the close was a good confirmation from the lower time frame... so I just marked this entry here this is your entry point here let's just see the next candle how it was so this was the next candle",
+      "what_is_shown": "Specific candle on lower timeframe chart with entry point marked, followed by the subsequent candle",
+      "why_needed": "Speaker references 'this candle', 'here', and 'this was the next candle' without stating the time, price level, or describing the candle characteristics that made it a confirmation"
+    },
+    {
+      "timestamp": "06:17",
+      "quote": "this was the lower time frame chart you can see a long breakout area Okay and then it broke out and there was this fantastic move that followed",
+      "what_is_shown": "Lower timeframe chart showing the breakout area and subsequent price movement",
+      "why_needed": "Speaker says 'this was' and 'this fantastic move' without describing the magnitude of the move, price targets reached, or timeframe of the movement"
+    },
+    {
+      "timestamp": "07:18",
+      "quote": "then here it nicely produces this contraction plus congestion so you could simply Mark the high of this as your trigger level on this day the high got broken but let's see the lower time frame here",
+      "what_is_shown": "Daily chart of Policy Bazaar showing contraction/congestion pattern with specific high point to mark as trigger level",
+      "why_needed": "Speaker says 'here', 'this contraction', 'the high of this', and 'this day' without stating the actual price level of the high or describing what the contraction pattern looks like"
+    },
+    {
+      "timestamp": "07:48",
+      "quote": "so on on this day you can see the lower time frame what happened was this so this was not a meaningful confirmation right on the 10-minute chart this is just the first candle of the day on 1st of June this is how the stock moved",
+      "what_is_shown": "10-minute chart showing first candle of June 1st and subsequent price movement pattern",
+      "why_needed": "Speaker says 'what happened was this', 'this was not', and 'this is how the stock moved' without describing the actual price action, candle type, or movement pattern visible"
+    },
+    {
+      "timestamp": "08:21",
+      "quote": "it goes down as we saw on the daily chart comes back down let me extend this line and now here you see huge volume expansion huge huge volume expansion stock attempts a breakout comes back down",
+      "what_is_shown": "Lower timeframe chart with line being drawn/extended, showing volume bars and breakout attempt",
+      "why_needed": "Speaker is actively drawing on screen ('let me extend this line') and pointing to volume bars ('here you see') without stating the actual volume numbers or price levels of the breakout attempt"
+    },
+    {
+      "timestamp": "08:51",
+      "quote": "now if you see this forms a structure here the stock is now seen to pull back pulling back pulling back now you can see some congestion happening contraction happening contraction contraction and this candle this is a strong green candle",
+      "what_is_shown": "Lower timeframe chart showing structure formation, pullback pattern, congestion area, and specific strong green candle",
+      "why_needed": "Speaker says 'this forms a structure here', 'you can see', and 'this candle' without describing what the structure looks like, the price range of congestion, or characteristics of the green candle"
+    },
+    {
+      "timestamp": "09:21",
+      "quote": "you can see the structure and everything it it is almost identical to our uh to our pattern that we trade with the setup so this is a pre breakout entry if you buy here an early entry using the lower time frame this is where you can call that you made a discretionary buy",
+      "what_is_shown": "Lower timeframe chart showing structure pattern and specific pre-breakout entry point location",
+      "why_needed": "Speaker says 'you can see the structure', 'if you buy here', and 'this is where' without describing what makes the structure identical to their pattern or stating the specific entry price level"
+    },
+    {
+      "timestamp": "09:52",
+      "quote": "so instead of taking an entry maybe somewhere here or here you could manage to take an entry here or you can even do a 50/50 you can buy some here and then some here reducing your low uh average entry price",
+      "what_is_shown": "Chart showing multiple potential entry points being pointed to at different price levels",
+      "why_needed": "Multiple uses of 'here' and 'here' without stating the actual price levels for each entry point or the resulting average entry price calculation"
+    },
+    {
+      "timestamp": "13:33",
+      "quote": "if you can look at the period of uh July August 2023 you will see a lot of PSU banking stocks forming large VV structures forming great setups clean moves okay so you can see the charts of stocks like Yuko Bank Union Bank Central Bank Jammu and Kashmir Bank iob all these stocks were having similar structures you can just do your homework and just see that",
+      "what_is_shown": "TradingView charts showing VV (double-V) structures on multiple PSU banking stocks from July-August 2023, including Yuco Bank, Union Bank, Central Bank, J&K Bank, and IOB",
+      "why_needed": "The speaker references specific chart patterns ('VV structures') and multiple stock charts that the viewer needs to see to understand what these setups look like and verify the similarity across the banking sector"
+    },
+    {
+      "timestamp": "14:03",
+      "quote": "when it comes to the US market you will see in the month of October November 2024 lot of banking stocks were setting up the very same way all the charts were very very identical so again that indicates that the banks May Fire okay and then the banks rightfully fired",
+      "what_is_shown": "TradingView charts of US banking stocks from October-November 2024 showing identical setup patterns",
+      "why_needed": "The speaker references specific chart patterns across multiple US banking stocks without naming them or describing the pattern verbally - the viewer must see the charts to understand what 'identical' setups look like"
+    },
+    {
+      "timestamp": "19:48",
+      "quote": "let's say the stock is making this base and you could buy a stock here let's say you bought a stock here with this move here okay now when the stock breaks out you are not supposed to think about pyramiding after it has broken out of the base however you can pyramid within the base if the stock again produces another setup here if it if it makes a pullback and a contraction here and produces another move here starts moving up here like this then you can pamit here",
+      "what_is_shown": "A chart diagram being drawn showing a base pattern, initial entry point, breakout level, pullback/contraction area, and valid pyramiding entry point within the base structure",
+      "why_needed": "The speaker uses demonstrative words 'here', 'this', 'like this' repeatedly while drawing or pointing to specific locations on a chart without stating price levels or exact pattern characteristics - the visual is essential to understand where pyramiding is and isn't allowed"
+    },
+    {
+      "timestamp": "20:48",
+      "quote": "let's say you bought a stock here you bought a stock here and the stock moves like this and again you are getting opportunity now suppose let's say the stock got extended here and you made an exit here you made a partial exit here okay and now here the stock is making another opportunity to enter by making this nice setup and a good show of strength so you can pyamid here as well",
+      "what_is_shown": "A chart diagram showing: initial entry point, upward price movement, extension point where partial exit occurs, subsequent pullback creating a new setup, and the valid pyramiding entry point after the partial exit",
+      "why_needed": "The speaker uses 'here' six times to reference different points on a chart without describing price levels, pattern characteristics, or the relationship between these points - the viewer must see the visual diagram to understand the pyramiding-after-partial-exit concept"
+    },
+    {
+      "timestamp": "22:52",
+      "quote": "suppose you bought your stock here okay and then stock mod like this and again comes back here almost at the same level again makes a congestion trigger level again breaks and again you have this opportunity to buy here now you decide to Pyramid so first buy your stop loss was somewhere here and second byy is also very very near to your first buy so again the stop loss you will not have this option to raise your stop loss",
+      "what_is_shown": "A hand-drawn diagram showing a stock chart with first entry point, price movement, pullback to near entry level, second entry point, and stop loss placement that cannot be raised due to proximity",
+      "why_needed": "The speaker uses 'here', 'like this', and 'somewhere here' repeatedly without stating specific price levels or describing the pattern verbally. The visual diagram is essential to understand the spatial relationship between entry points and why the stop loss cannot be raised."
+    },
+    {
+      "timestamp": "23:22",
+      "quote": "let's say you've got a nice deeper structure and and let's say this is your this is where you are buying it for the first time and this is your base here okay sorry make it like this now you got this breakout attempt and once more you got this nice pull back and a contraction and you are giving this opportunity here once again so this is your pyramiding opportunity",
+      "what_is_shown": "A second hand-drawn diagram showing a deeper base structure with first entry point, breakout, pullback with contraction, and second pyramiding opportunity at a higher level with room to raise stop loss",
+      "why_needed": "The speaker draws while saying 'this is your', 'make it like this', 'here' without verbally describing the structure's depth, the distance between entries, or specific levels. The contrast with the previous diagram (close vs. distant pyramiding) requires visual comparison."
+    },
+    {
+      "timestamp": "24:54",
+      "quote": "If You observe this chart if I zoom it out you can see that the stock was clearly in a stage two it broke below the 50 DM just for a few days here but it then never broke below it for the whole stage to move and then the stock suddenly breaks below and sustains below the 50 D that represents the change in character",
+      "what_is_shown": "TradingView chart of Klin Point stock showing stage 2 uptrend, brief dip below 50 DMA, sustained break below 50 DMA, and interaction with 200 DMA",
+      "why_needed": "The speaker references 'this chart', 'here', 'this area' without naming specific dates or price levels. Understanding the stage change and moving average interactions requires seeing the actual chart pattern and timeline."
+    },
+    {
+      "timestamp": "25:25",
+      "quote": "this becomes your breakout mini base breakout level and the stock broke out of mini base stock also turned around and now we are ready now we ready for the stock in most cases when there is this deeper structure the stock may form double bottoms it means with one pullback the stock may not the first pullback may not be enough",
+      "what_is_shown": "Chart showing the mini base formation at the 200 DMA bounce, breakout level, and subsequent pullback structure",
+      "why_needed": "The speaker says 'this becomes', 'this deeper structure' without describing the base dimensions or identifying which candles form the structure. The visual is needed to see what constitutes the 'mini base' and 'deeper structure'."
+    },
+    {
+      "timestamp": "25:55",
+      "quote": "then the stock hits the 20 DM but again there's no proper contraction oranization and then the stock produces PPC here now sometimes Traders can even buy the stock here as it breaks above this particular chanle is possible",
+      "what_is_shown": "Chart showing stock touching 20 DMA, lack of contraction, PPC (pivot point confirmation) formation, and a specific channel that could be used as entry trigger",
+      "why_needed": "The speaker references 'here', 'this particular channel' without describing the channel's boundaries or the PPC pattern characteristics. The viewer must see the chart to identify these specific technical elements."
+    },
+    {
+      "timestamp": "26:26",
+      "quote": "then on the very next day you have this beautiful candle that triggers your entry so I'll mark this candle as your entry point maybe your average entry price will be somewhere here 1477 let me Mark it this is your average ENT price",
+      "what_is_shown": "Specific entry candle being marked on the chart with a line drawn at 1477 price level",
+      "why_needed": "While the speaker does state the price (1477), they say 'this beautiful candle', 'this candle', 'somewhere here' while drawing on screen. The visual is needed to see which specific candle and bar pattern triggered the entry."
+    },
+    {
+      "timestamp": "26:58",
+      "quote": "and uh the stop loss may be somewhere here this may be a stop loss now let's see what happens next the stock again pulls back goes strong okay I think it is it is now breaking out it's now breaking out you can see this it's breaking out and then it's pulled back earnings have come up after this day",
+      "what_is_shown": "Stop loss level being marked on chart, subsequent price action showing pullback, breakout attempt, and timing of earnings announcement relative to specific candles",
+      "why_needed": "The speaker says 'somewhere here', 'this', 'you can see this' without stating the stop loss price level or describing which candles show the breakout. The timing of earnings relative to chart action requires visual reference."
+    },
+    {
+      "timestamp": "27:29",
+      "quote": "and then the earnings reaction look at this reaction it seems a good flush right it seems a good flush and then we have this candle and then we have this candle now in this case you have made your first entry here",
+      "what_is_shown": "Earnings reaction candles showing a flush pattern, followed by specific recovery candles, with reference back to the original entry point",
+      "why_needed": "The speaker says 'look at this reaction', 'this candle and then we have this candle', 'here' without describing the flush pattern's characteristics or identifying which specific candles. The visual is essential to see the earnings reaction pattern."
+    },
+    {
+      "timestamp": "28:02",
+      "quote": "with this candle with this candle you have a gap up and the stock gets to move up so now when the stock is gapping up I am ready I will not take a trade right there okay I'll wait and I'll wait for more confirmation as I said you want super strong confirmation so as the stock after Gap up the stock is sustaining and starting to move up I I'll be I'll be patient waiting and wait wait for wait to pay more price and maybe I'll get into the stock pyramid the stock here",
+      "what_is_shown": "Specific gap-up candle, price action after the gap showing sustained movement, and the exact location where pyramiding entry would occur",
+      "why_needed": "The speaker repeatedly says 'this candle', 'right there', 'here' without describing the gap size, the price level for pyramiding, or the pattern of post-gap price action. The visual is needed to see where 'here' is for the pyramid entry."
+    },
+    {
+      "timestamp": "28:33",
+      "quote": "now when you're pyramiding here when it comes to stop loss do you have an option to raise the stop loss here absolutely the earlier your stop loss was here now if you have this swing low so now you have this option to place your stop loss here at this swing low so from here you could raise your stop loss to this level",
+      "what_is_shown": "Original stop loss level, new pyramiding entry point, swing low formation, and new raised stop loss level being marked on chart",
+      "why_needed": "The speaker uses 'here' six times without stating any price levels or describing the swing low's location. The visual is essential to see the spatial relationship between old stop, new entry, swing low, and new stop level."
+    },
+    {
+      "timestamp": "31:38",
+      "quote": "let's look at the exit price so this is the trade let's see how it moved okay no matter how it move let's just uh let's just think that uh this was your average exit price for the stock you managed to exit the entire stock at this average price",
+      "what_is_shown": "The speaker says 'this was your average exit price', 'at this average price' while marking the chart, but the viewer needs to see the price action between entry and exit to understand the trade's progression and where 2033 falls on the chart."
+    },
+    {
+      "timestamp": "32:38",
+      "quote": "you see the quantity becomes 440 so you are supposed to buy 440 quantities of new trade so now this is how the metrix will look see now position size total position size comes to 25.4%",
+      "what_is_shown": "Excel calculator showing quantity calculation changing to 440 and position size metrics updating to 25.4%",
+      "why_needed": "Speaker references specific calculated values appearing on screen without stating the input parameters that produced them"
+    },
+    {
+      "timestamp": "33:09",
+      "quote": "so I'll just keep the manual quantity zero here and there you go so you made a profit of this much 22240",
+      "what_is_shown": "Excel calculator with manual quantity field being changed to zero and profit calculation updating to 22240",
+      "why_needed": "Speaker demonstrates changing a field and references the resulting calculation without describing the complete calculation logic"
+    },
+    {
+      "timestamp": "34:11",
+      "quote": "not the white figures just a clarification what do you mean by manual quantity manual quantity means if this is the auto calculation",
+      "what_is_shown": "Excel calculator highlighting yellow vs white cells, showing which fields are editable vs calculated",
+      "why_needed": "Speaker references color-coded cells on screen to explain which fields users should edit, requiring visual distinction"
+    },
+    {
+      "timestamp": "35:45",
+      "quote": "coming back to the stock this is the stock you can see this this is the base and this is how we Pam it",
+      "what_is_shown": "TradingView chart showing specific stock with base formation and pyramiding entry points marked",
+      "why_needed": "Speaker uses 'this' repeatedly without naming the stock or describing the base structure verbally"
+    },
+    {
+      "timestamp": "36:16",
+      "quote": "you will you not have to Pam it out of the base if it is near to the breakout level somewhere here it's okay but once the stock breaks out and moves about substantially you're not supposed to Pyramid somewhere here",
+      "what_is_shown": "Chart with cursor pointing to specific price levels showing acceptable vs unacceptable pyramiding zones relative to breakout",
+      "why_needed": "Speaker uses 'here' and 'somewhere here' to reference specific chart locations without stating price levels or distance from breakout"
+    },
+    {
+      "timestamp": "36:48",
+      "quote": "this candle came which was the first uh signal to buy the stock after that the stock moved up like this very nicely",
+      "what_is_shown": "Specific candle on chart being highlighted as entry signal, followed by subsequent price movement",
+      "why_needed": "Speaker references 'this candle' and 'like this' without describing the candle characteristics or the specific price movement pattern"
+    },
+    {
+      "timestamp": "37:20",
+      "quote": "now again you have to think very logically when I say you don't have to Pyramid so what is the reason now let me just get a little more uh detail into this let's say you bought this stock here with a 0.5% risk and this is your stop loss okay",
+      "what_is_shown": "Chart with entry point and stop loss level marked at specific locations",
+      "why_needed": "Speaker uses 'here' and 'this' to reference specific entry and stop loss points without stating the price levels"
+    },
+    {
+      "timestamp": "37:50",
+      "quote": "you can title the stop loss here okay you can title the stop loss here because it's a swing low however this is again an aggressive approach of raising a stop loss too tight ideally I would want to give it some more room maybe somewhere here",
+      "what_is_shown": "Chart showing swing low location and two different potential stop loss placements being compared",
+      "why_needed": "Speaker references multiple 'here' locations for stop loss placement without stating the specific price levels or distance relationships"
+    },
+    {
+      "timestamp": "38:53",
+      "quote": "so that's why to avoid that we want to wait for a better confirmation so in that case I would wait for this candle okay this candle when this came I would buy the stock maybe somewhere here or maybe even after the breakout slightly above the breakout level",
+      "what_is_shown": "Specific candle being highlighted as the confirmation signal, with potential entry points marked on chart",
+      "why_needed": "Speaker references 'this candle' and multiple 'here' locations without describing the candle pattern or stating the price levels"
+    },
+    {
+      "timestamp": "39:23",
+      "quote": "you see after the breakout move the stock again pulled back and hit the 50 moving average again made a big candle so now as this candle started to come and it started to form and this is a huge candle huge volume started to come Inay again this was another opportunity to Pyramid",
+      "what_is_shown": "Chart showing pullback to 50 MA and specific large volume candle forming as pyramiding opportunity",
+      "why_needed": "Speaker references 'this candle' and the visual formation process without describing the specific candle characteristics or volume levels"
+    },
+    {
+      "timestamp": "39:55",
+      "quote": "you bought the stock here and then again with this candle you have the pami opportunity okay so now when you pyramid here you do not have the option to raise your stops much maybe if you would have placed a stop here earlier now maybe you would have placing stop here",
+      "what_is_shown": "Chart showing initial entry point, pyramiding candle, and two different stop loss locations being compared",
+      "why_needed": "Speaker uses multiple instances of 'here' and 'this candle' to reference specific chart locations without stating price levels or describing the stop loss adjustment logic"
+    },
+    {
+      "timestamp": "40:26",
+      "quote": "even it's okay to wait for the close okay it's absolutely okay to wait for the close and pyramid at the close 100% confirmation that the stock is producing a strong candle okay it's okay so that's this is again a discretionary topic",
+      "what_is_shown": "Chart showing the specific candle close level being referenced as pyramiding entry point",
+      "why_needed": "Speaker references 'the close' and 'this' in context of a specific candle on screen without stating which candle or price level"
+    },
+    {
+      "timestamp": "42:37",
+      "quote": "let's say you into a trade you have bought a stock okay you bought a stock here the stock finally broke out of this base it's moving like this and then suddenly it gets extended and it gets extended very crazy okay and after this a lot of extension like this again the stock is making this big big green candle crazy big candle big PPC",
+      "what_is_shown": "A chart showing a stock breakout from a base, followed by an extended move with a large green candle (PPC - Pocket Pivot Candle)",
+      "why_needed": "The speaker uses 'here', 'this', and 'like this' repeatedly without naming the stock or describing the specific price levels, pattern structure, or the degree of extension. The viewer must see the chart to understand what constitutes 'extended very crazy' and where the 'big PPC' occurs."
+    },
+    {
+      "timestamp": "43:08",
+      "quote": "so now as for the rules you are supposed to Trail it using the midpoint okay because this is a huge PPC but out of your experience you understood that this would be the top for the stock this is the maximum extension this stock can produce and there are very low chances that the stock can again give another move on the upside and you decide to make an exit right at the close without waiting for the next day to come here",
+      "what_is_shown": "The same chart showing the midpoint of the large PPC candle and the specific exit point at the close",
+      "why_needed": "The speaker references 'this would be the top', 'this is the maximum extension', and 'exit right at the close without waiting for the next day to come here' using demonstrative pronouns without stating actual price levels or the visual characteristics that indicate extreme extension."
+    },
+    {
+      "timestamp": "43:39",
+      "quote": "What if after this another there is another there's no space on my screen what is What if after this C there's another big PPC okay then you would be left with regrets",
+      "what_is_shown": "The speaker is drawing or pointing to a hypothetical additional PPC candle on the chart beyond the visible area",
+      "why_needed": "The speaker explicitly mentions running out of screen space and refers to 'after this' and 'another big PPC' without describing where or what this hypothetical scenario would look like in terms of price action."
+    },
+    {
+      "timestamp": "44:10",
+      "quote": "let's say the market conditions are weak and you traded a stock okay and the stock you bought here and then the stock made a good move here and uh now the stock is coming back to the cost price",
+      "what_is_shown": "A chart showing an entry point, a subsequent upward move, and the price returning to the entry level",
+      "why_needed": "The speaker uses 'here' twice and 'coming back to the cost price' without naming the stock, stating price levels, or describing the pattern structure. The viewer must see the visual to understand the entry point, the extent of the 'good move', and the retracement."
+    },
+    {
+      "timestamp": "45:13",
+      "quote": "let's say you're trading with a low trp of 0.1 or 0.2 or 0.3 whatever is your low trp and uh stock makes a move and it gives you an opportunity to make a partial exit here now you can make 100% exit here instead of making a 20 30%",
+      "what_is_shown": "A chart showing a stock move with a specific exit opportunity point marked",
+      "why_needed": "The speaker says 'here' twice to indicate the exit point without describing what price level or pattern characteristic creates this 'opportunity to make a partial exit'. The visual context is required to understand where this exit point occurs."
+    },
+    {
+      "timestamp": "45:43",
+      "quote": "sometimes you buy a stock there's a setup and you buy a stock let's see you bought a stock here and then with all the move you have already exited let's say 60% over this period okay you already exited 60% and now the stock is getting extended it's a great extension so you have to exit 40% right on a great extension",
+      "what_is_shown": "A chart showing an entry point, a move with multiple partial exit points totaling 60%, and a final extension point for the remaining 40% exit",
+      "why_needed": "The speaker uses 'here', 'over this period', and 'now the stock is getting extended' without naming the stock, describing the timeframe, or stating what constitutes 'great extension'. The viewer must see the chart to understand the entry, the progression of exits, and the extension pattern."
+    },
+    {
+      "timestamp": "46:44",
+      "quote": "let's say this is a setup and you buy a stock here it makes a move you make a you make a partial exit here on extension now the stock is coming back to your entry price okay this is your let's say this is your entry price and this is your stop loss so the stock is coming back to the entry price",
+      "what_is_shown": "A chart showing an entry point, a partial exit on extension, the entry price level, stop loss level, and the price retracing back to the entry",
+      "why_needed": "The speaker uses 'here' multiple times and 'this is your entry price and this is your stop loss' while apparently pointing to or drawing on the chart without stating actual price levels or describing the pattern structure. The visual is essential to understand the spatial relationship between entry, stop, and the retracement."
+    }
+  ]
+}

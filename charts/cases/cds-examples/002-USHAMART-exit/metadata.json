@@ -1,0 +1,20 @@
+{
+  "symbol": "USHAMART",
+  "date": null,
+  "timeframe": "weekly",
+  "label": "good_base",
+  "sub_label": "exit_management",
+  "confidence": "strong",
+  "notes": "Exit management example. Trailing stop methodology on USHAMART position.",
+  "trp_pct": null,
+  "base_candles": null,
+  "outcome": "worked",
+  "outcome_pct": null,
+  "outcome_duration_days": null,
+  "outcome_notes": "Demonstrated exit via trailing stops",
+  "source": "course_example",
+  "image_quality": "course_clip",
+  "needs_fresh_screenshot": true,
+  "video_id": "F0njKJGioZA",
+  "clip_file": "F0njKJGioZA_0000.mp4"
+}
