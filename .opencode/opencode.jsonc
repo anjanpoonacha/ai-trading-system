@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "tradingview": {
+      "type": "local",
+      "command": [
+        "bun",
+        "run",
+        "/Users/i548399/SAPDevelop/github.com/nse-trading-system/tradingview-mcp/src/server.ts"
+      ],
+      "enabled": true,
+      "environment": {
+        "TV_SESSION_ID": "6clb9v0eb0syr7tmynrmtzk3jeeh3046",
+        "TV_SESSION_SIGN": "v3:++zfhfgmGZqjIG6OmTj4noxtVsCL6w0wEF2ZntbN48s=",
+        "PATH": "/Users/i548399/.bun/bin:/Users/i548399/.nodenv/shims:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
+      }
+    }
+  }
+}
