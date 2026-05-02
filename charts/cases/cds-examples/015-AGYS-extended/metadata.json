@@ -5,16 +5,16 @@
   "label": "avoid",
   "sub_label": "extended_entry",
   "confidence": "strong",
-  "notes": "7 consecutive green candles from $78 to $92. Breakout at $87 = extended entry. Never buy after large upswing (6-7+ consecutive green candles). Chart shows as AFGRY (US ADR ticker for Agilysys).",
+  "notes": "Agilysys (Nasdaq). Broke out of base/resistance on daily chart. From previous swing low, 6-7 consecutive positive candles moving straight up. Speaker: 'This is an extended entry. Many consecutive positive candles, I will not prefer to buy here.' Chart shows price at $21.32, MAs at $19.94 and $17.26.",
   "trp_pct": null,
   "base_candles": null,
   "outcome": "avoid_confirmed",
   "outcome_pct": null,
   "outcome_duration_days": null,
-  "outcome_notes": "Extended entry example — buying after 7 consecutive green candles is too late.",
+  "outcome_notes": "Avoid. Extended entry — stock moved straight up from swing low with 6-7 consecutive green candles.",
   "source": "course_example",
   "image_quality": "course_clip",
   "needs_fresh_screenshot": true,
   "video_id": "esy8HetQgrk",
-  "clip_file": "esy8HetQgrk_2640.mp4"
+  "clip_file": "esy8HetQgrk_2651.mp4"
 }
