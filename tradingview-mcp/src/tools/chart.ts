@@ -112,6 +112,35 @@ function resolveSavePath(folder: string | undefined, symbol: string, timeframe: 
   return resolve(dir, filename);
 }
 
+/**
+ * Auto-escalate CVD resolution for historical dates where fine-grained
+ * data (30S) may not be available.
+ *
+ * Uses the oldest data point we'll fetch (not just toDate) to determine
+ * whether fine-grained tick data is likely available.
+ */
+function getHistoricalCvdResolution(toDate: string | undefined, defaultResolution: string, desiredBars: number, timeframe: string): string {
+  if (!toDate) return defaultResolution;
+
+  // The oldest bar we need is: toDate minus (desiredBars * bar duration)
+  const targetTs = new Date(toDate).getTime();
+  const minutes = parseInt(timeframe) || 375; // intraday minutes, default to 1D equivalent
+  const tradingMinutesPerDay = 375;
+  const barsPerDay = tradingMinutesPerDay / minutes;
+  const tradingDaysNeeded = desiredBars / barsPerDay;
+  const calendarDaysNeeded = tradingDaysNeeded * 7 / 5; // convert to calendar days
+  const oldestDataTs = targetTs - calendarDaysNeeded * 24 * 60 * 60 * 1000;
+
+  const now = new Date();
+  const monthsFromNow = (now.getFullYear() * 12 + now.getMonth()) - (new Date(oldestDataTs).getFullYear() * 12 + new Date(oldestDataTs).getMonth());
+
+  if (monthsFromNow < 3) return defaultResolution;
+  if (monthsFromNow < 6) return "1";    // 1 minute
+  if (monthsFromNow < 12) return "5";   // 5 minutes
+  if (monthsFromNow < 60) return "10";  // 10 minutes
+  return "15";
+}
+
 function filterSentinels(cvd: { t: number; o: number; h: number; l: number; c: number }[]): CVDBar[] {
   return cvd
     .filter((d) => Math.abs(d.c) < 1e50 && Math.abs(d.o) < 1e50)
@@ -158,6 +187,9 @@ export async function handleChart(fetcher: Fetcher, input: ChartToolInput): Prom
   const fetchBars1 = toDate ? barsNeededForDate(toDate, timeframe, barCount) : barCount;
   const fetchBars2 = toDate ? barsNeededForDate(toDate, cvdTimeframe, cvdBars) : cvdBars;
 
+  // Auto-escalate CVD resolution for historical dates
+  const effectiveCvdResolution = getHistoricalCvdResolution(toDate, cvdResolution, cvdBars, cvdTimeframe);
+
   const chart = getChartClient();
   const results: ChartResult[] = [];
   const t0 = performance.now();
@@ -165,7 +197,7 @@ export async function handleChart(fetcher: Fetcher, input: ChartToolInput): Prom
   // Setup batch: dual sessions with persistent studies
   await fetcher.setupBatch([
     { timeframe, count: fetchBars1, cvdConfig: { anchorPeriod: cvdAnchor, useCustomTimeframe: false } },
-    { timeframe: cvdTimeframe, count: fetchBars2, cvdConfig: { anchorPeriod: cvdAnchor, useCustomTimeframe: cvdCustomTF ?? true, timeframe: cvdResolution } },
+    { timeframe: cvdTimeframe, count: fetchBars2, cvdConfig: { anchorPeriod: cvdAnchor, useCustomTimeframe: cvdCustomTF ?? true, timeframe: effectiveCvdResolution } },
   ]);
 
   // Ensure output dir exists
@@ -184,14 +216,20 @@ export async function handleChart(fetcher: Fetcher, input: ChartToolInput): Prom
 
       // Trim to toDate if specified
       if (toDate) {
+        // Remove bars AFTER toDate (right trim only)
         trimBarsToDate(bars1, toDate);
         trimBarsToDate(bars2, toDate);
         trimBarsToDate(cvd1, toDate);
         trimBarsToDate(cvd2, toDate);
-        // Keep only last N bars (the chart window)
+        // Keep only last N bars (the chart window) — left trim
         if (bars1.length > barCount) bars1.splice(0, bars1.length - barCount);
         if (bars2.length > cvdBars) bars2.splice(0, bars2.length - cvdBars);
         if (cvd1.length > barCount) cvd1 = cvd1.slice(-barCount);
+        // Align cvd2 to bars2 time range (not independently trimmed)
+        if (bars2.length > 0) {
+          const startTs = bars2[0].t;
+          cvd2 = cvd2.filter((d) => d.t >= startTs);
+        }
         if (cvd2.length > cvdBars) cvd2 = cvd2.slice(-cvdBars);
       }
 
