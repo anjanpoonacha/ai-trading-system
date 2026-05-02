@@ -89,8 +89,10 @@ server.tool(
     width: z.number().optional().describe("Image width in px. Default: 1200"),
     height: z.number().optional().describe("Image height in px. Default: 1000"),
     theme: z.enum(["dark", "light"]).optional().describe("Color theme. Default: 'dark'"),
-    paneRatios: z.tuple([z.number(), z.number(), z.number()]).optional().describe("Top chart pane ratios [candles, volume, cvd]. Default: [0.65, 0.14, 0.21]"),
-    panelWeights: z.tuple([z.number(), z.number()]).optional().describe("Panel weight ratio [top, bottom]. Default: [76, 24]"),
+    // IMPORTANT: Do NOT use z.tuple() here. Claude's API rejects `prefixItems` (JSON Schema draft 2020-12).
+    // Use z.array().min().max() instead to produce compatible `minItems`/`maxItems` schema.
+    paneRatios: z.array(z.number()).min(3).max(3).optional().describe("Top chart pane ratios [candles, volume, cvd]. Default: [0.65, 0.14, 0.21]"),
+    panelWeights: z.array(z.number()).min(2).max(2).optional().describe("Panel weight ratio [top, bottom]. Default: [76, 24]"),
   },
   async (input) => {
     try {
