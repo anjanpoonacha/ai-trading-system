@@ -46,7 +46,7 @@ export interface ChartOptions {
 export type Layer =
   | { type: "candlestick"; data: ChartBar[]; pane?: number }
   | { type: "line"; data: (number | null)[]; color?: string; title?: string; pane?: number; lineWidth?: number }
-  | { type: "volume"; data: ChartBar[]; pane?: number }
+  | { type: "volume"; data: ChartBar[]; pane?: number; maperiod?: number }
   | { type: "cvd"; data: CVDBar[]; color?: { up: string; down: string }; pane?: number };
 
 export interface PanelSpec {
@@ -65,6 +65,7 @@ export interface PanelRequest {
   cvd?: CVDBar[];
   sma?: (number | null)[];
   volume?: boolean;         // default true
+  volumeMA?: number;        // default 30 (0 to disable)
   smaPeriod?: number;
   cvdColor?: { up: string; down: string };
   timeframeLabel?: string;  // e.g. "1D", "188min" — shown in panel header

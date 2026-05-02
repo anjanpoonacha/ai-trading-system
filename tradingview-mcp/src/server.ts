@@ -79,6 +79,7 @@ server.tool(
     timeframe: z.string().optional().describe("Top chart timeframe. Default: '1D'"),
     bars: z.number().optional().describe("Number of bars. Default: 188"),
     sma: z.number().optional().describe("SMA period (0 to disable). Default: 20"),
+    volumeMA: z.number().optional().describe("Volume MA period (0 to disable). Default: 30"),
     cvdTimeframe: z.string().optional().describe("Bottom CVD chart timeframe in minutes. Default: '188'"),
     cvdBars: z.number().optional().describe("Bottom CVD bar count. Default: 188"),
     cvdAnchor: z.string().optional().describe("CVD anchor/reset period. Default: '12M'"),

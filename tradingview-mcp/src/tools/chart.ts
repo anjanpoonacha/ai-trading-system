@@ -24,6 +24,7 @@ export interface ChartToolInput {
   timeframe?: string;         // default "1D"
   bars?: number;              // default 188
   sma?: number;               // default 20 (0 to disable)
+  volumeMA?: number;          // default 30 (0 to disable)
 
   // Panel 2 (bottom CVD chart) settings
   cvdTimeframe?: string;      // default "188" (188 minutes)
@@ -138,6 +139,7 @@ export async function handleChart(fetcher: Fetcher, input: ChartToolInput): Prom
     timeframe = "1D",
     bars: barCount = 188,
     sma = 20,
+    volumeMA = 30,
     cvdTimeframe = "188",
     cvdBars = 188,
     cvdAnchor = "12M",
@@ -197,6 +199,7 @@ export async function handleChart(fetcher: Fetcher, input: ChartToolInput): Prom
         bars: bars1,
         cvd: cvd1,
         volume: true,
+        volumeMA,
         cvdColor: { up: "#26a69a", down: "#ef5350" },
         timeframeLabel: timeframe,
       };

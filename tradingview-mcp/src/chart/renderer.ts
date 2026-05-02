@@ -164,6 +164,25 @@ export async function renderPanel(spec: PanelSpec): Promise<Buffer> {
           value: b.v,
           color: b.c >= b.o ? "rgba(38, 166, 154, 0.6)" : "rgba(239, 83, 80, 0.6)",
         })));
+        // Volume MA overlay
+        const maPeriod = layer.maperiod ?? 30;
+        if (maPeriod > 0 && layer.data.length > maPeriod) {
+          const maSeries = chart.addSeries(LineSeries, {
+            color: "#ffab00",
+            lineWidth: 1,
+            crosshairMarkerVisible: false,
+            priceScaleId: "volume",
+            title: "",
+          }, pane);
+          const maData = layer.data
+            .map((_, i) => {
+              if (i < maPeriod - 1) return null;
+              const slice = layer.data.slice(i - maPeriod + 1, i + 1);
+              return { time: toChartTime(layer.data[i].t, daily), value: slice.reduce((s, b) => s + b.v, 0) / maPeriod };
+            })
+            .filter(Boolean) as Array<{ time: string | number; value: number }>;
+          maSeries.setData(maData);
+        }
         break;
       }
       case "cvd": {
@@ -218,7 +237,7 @@ export async function renderChart(req: ChartRequest): Promise<Buffer> {
   if (sma && sma.some((v) => v !== null)) {
     layers.push({ type: "line", data: sma, color: "#26a69a", title: smaPeriod ? `SMA${smaPeriod}` : "SMA", pane: 0 });
   }
-  layers.push({ type: "volume", data: bars, pane: 1 });
+  layers.push({ type: "volume", data: bars, pane: 1, maperiod: 30 });
   if (cvd && cvd.length > 0) {
     layers.push({ type: "cvd", data: cvd, color: cvdColor, pane: 2 });
   }
@@ -254,7 +273,7 @@ export async function renderComposite(req: CompositeRequest): Promise<Buffer> {
       if (panel.sma && panel.sma.some((v) => v !== null)) {
         layers.push({ type: "line", data: panel.sma, color: "#26a69a", title: panel.smaPeriod ? `SMA${panel.smaPeriod}` : "SMA", pane: 0 });
       }
-      layers.push({ type: "volume", data: panel.bars, pane: 1 });
+      layers.push({ type: "volume", data: panel.bars, pane: 1, maperiod: panel.volumeMA ?? 30 });
       if (panel.cvd && panel.cvd.length > 0) {
         layers.push({ type: "cvd", data: panel.cvd, color: panel.cvdColor, pane: 2 });
       }
