@@ -59,10 +59,11 @@ server.tool(
     timeframe: z.enum(["1", "5", "15", "30", "60", "1D", "1W", "1M"]).optional().describe("Chart timeframe. Default: 1D"),
     count: z.number().optional().describe("Number of bars to fetch. Default: 300. Use 500+ for accurate EMA200."),
     cvd: z.boolean().optional().describe("Include CVD indicator (requires TV_SESSION_ID env). Default: false"),
+    toDate: z.string().optional().describe("End date (YYYY-MM-DD). Returns bars ending on this date. Fetches enough history to reach back. Default: latest available."),
   },
-  async ({ symbol, timeframe, count, cvd }) => {
+  async ({ symbol, timeframe, count, cvd, toDate }) => {
     try {
-      const result = await handleData(fetcher, { symbol, timeframe, count, cvd });
+      const result = await handleData(fetcher, { symbol, timeframe, count, cvd, toDate });
       return { content: [{ type: "text", text: JSON.stringify(result, null, 2) }] };
     } catch (err: any) {
       return { content: [{ type: "text", text: `Error: ${err.message}` }], isError: true };
