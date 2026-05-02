@@ -353,8 +353,8 @@
 - First extension exit at ~11R
 - Second extension exit at ~20R (complete exit for swing trading)
 
-### KPRMILL
-- After rally from ₹480 to ₹750, massive volume spike (21.433M) at ₹750 = buying climax
+### CDSL
+- After steep rally, massive volume spike at peak = buying climax
 - Post-climax: volatile/choppy → Stage 3 distribution
 
 ### RVLV
