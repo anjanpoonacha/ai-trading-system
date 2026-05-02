@@ -1,0 +1,21 @@
+{
+  "symbol": "CDSL",
+  "date": null,
+  "timeframe": "weekly",
+  "label": "avoid",
+  "sub_label": "buying_climax",
+  "confidence": "strong",
+  "notes": "CDSL Limited (Central Depository). After rally from ₹480 to ₹750, massive volume spike (21.433M) at ₹750 = buying climax. Post-climax: volatile/choppy → Stage 3 distribution. Do NOT buy at climax.",
+  "trp_pct": null,
+  "base_candles": null,
+  "outcome": "avoid_confirmed",
+  "outcome_pct": null,
+  "outcome_duration_days": null,
+  "outcome_notes": "Buying climax confirmed. Stock became volatile/choppy, entered Stage 3 distribution.",
+  "source": "course_example",
+  "image_quality": "course_clip",
+  "needs_fresh_screenshot": true,
+  "video_id": "SKa9B0bXnHA",
+  "clip_file": null,
+  "_note": "Previously misidentified as KPRMILL by Gemini visual analysis (misread ticker). Corrected to CDSL per audio transcript: speaker says 'we are on the weekly chart of CDSL Limited' at 00:00 of video SKa9B0bXnHA (cds-ex-8)."
+}

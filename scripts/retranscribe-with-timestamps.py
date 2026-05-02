@@ -1,7 +1,11 @@
 """
-Re-transcribe files that are missing [MM:SS] timestamps.
-Downloads audio, splits into 10-min chunks, sends to Gemini with strict timestamp format.
-Processes videos in parallel (3 concurrent to avoid rate limits).
+Re-transcribe videos with fine-grained (5-second) timestamps.
+Downloads M4A audio, sends whole file (if <10min) or 10-min chunks to Gemini 2.5 Flash.
+Processes videos in parallel (5 concurrent workers).
+
+Usage:
+  python3 scripts/retranscribe-with-timestamps.py          # all videos
+  python3 scripts/retranscribe-with-timestamps.py cds-ex-12  # single file
 """
 
 import sys, json, os, base64, urllib.request, subprocess, time
@@ -9,25 +13,27 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 LITELLM_URL = "http://localhost:6655/litellm/v1/chat/completions"
 LITELLM_KEY = "1cd5c4a5-9490-4e72-a351-4e4e37d9b9da"
-MODEL = "gemini-2.5-pro"
-MAX_WORKERS = 3
+MODEL = "gemini-2.5-flash"
+MAX_WORKERS = 5
+CHUNK_SECONDS = 600  # 10-min chunks — fewer seams = fewer timestamp resets
 
 TRANSCRIPT_DIR = "/Users/i548399/SAPDevelop/github.com/nse-trading-system/transcripts"
 TMP_DIR = "/tmp/retranscribe_audio"
 
-SYSTEM_PROMPT = """You are transcribing a stock trading course video (Indian market, NSE).
+SYSTEM_PROMPT = """You are transcribing a stock trading course video (Indian market NSE + US market).
 
 CRITICAL FORMAT RULES:
-1. Output MUST be in 30-second blocks
-2. Each block MUST start on a new line with the timestamp: [MM:SS]
+1. Output MUST be in 5-SECOND segments
+2. Each segment MUST start on a new line with the timestamp: [MM:SS]
 3. Timestamps are cumulative from the start of the audio segment
 4. Transcribe EVERY word exactly as spoken
-5. Preserve technical terms: TRP, CDS, CSS, PPC, DMA, ARR, RPT, MBB, BA, S1B, S2, NPC, LOD, ADT
+5. Preserve technical terms exactly: TRP, CDS, CSS, PPC, DMA, ARR, RPT, MBB, BA, S1B, S2, NPC, LOD, ADT, V-bottom, buying climax, extended entry, stage 2, breakout, consolidation
 
 Example output format:
 [00:00] Hi traders, today we will look at...
-[00:30] Now if you see this particular stock, the stage analysis shows...
-[01:00] The volume contraction here indicates that...
+[00:05] a few examples of extended entries and why we should avoid them.
+[00:10] So let us start with this stock. Look at this chart...
+[00:15] the stock gave a beautiful breakout here at this level...
 
 NEVER output paragraphs without [MM:SS] prefixes. EVERY line of output must start with [MM:SS]."""
 
@@ -84,28 +90,36 @@ def get_audio_duration(path):
         return 600  # default 10 min
 
 
-def split_audio(audio_path, chunk_seconds=600):
-    """Split audio into WAV chunks. Returns list of (chunk_path, start_seconds)."""
+def split_audio(audio_path, chunk_seconds=None):
+    """Split audio into M4A chunks (or return whole file if short enough).
+    Returns list of (chunk_path, start_seconds, mime_type)."""
+    if chunk_seconds is None:
+        chunk_seconds = CHUNK_SECONDS
     duration = get_audio_duration(audio_path)
     vid_id = os.path.splitext(os.path.basename(audio_path))[0]
-    chunks = []
 
+    # If video fits in one chunk, send the whole M4A directly
+    if duration <= chunk_seconds:
+        return [(audio_path, 0, "audio/mp4")]
+
+    # Otherwise split into M4A chunks
+    chunks = []
     for start in range(0, duration, chunk_seconds):
-        chunk_path = f"{TMP_DIR}/{vid_id}_ts_{start}.wav"
+        chunk_path = f"{TMP_DIR}/{vid_id}_chunk_{start}.m4a"
         if not os.path.exists(chunk_path) or os.path.getsize(chunk_path) < 1000:
             subprocess.run(
                 ["ffmpeg", "-y", "-i", audio_path, "-ss", str(start),
-                 "-t", str(chunk_seconds), "-vn", "-acodec", "pcm_s16le",
-                 "-ar", "16000", "-ac", "1", chunk_path],
+                 "-t", str(chunk_seconds), "-vn", "-acodec", "aac",
+                 "-b:a", "64k", chunk_path],
                 capture_output=True
             )
         if os.path.exists(chunk_path) and os.path.getsize(chunk_path) > 1000:
-            chunks.append((chunk_path, start))
+            chunks.append((chunk_path, start, "audio/mp4"))
 
     return chunks
 
 
-def transcribe_chunk(chunk_path, start_offset_seconds, title):
+def transcribe_chunk(chunk_path, start_offset_seconds, title, mime_type="audio/mp4"):
     """Transcribe a single audio chunk via Gemini."""
     with open(chunk_path, 'rb') as f:
         audio_b64 = base64.b64encode(f.read()).decode('utf-8')
@@ -115,19 +129,22 @@ def transcribe_chunk(chunk_path, start_offset_seconds, title):
 
     user_msg = (
         f"Transcribe this audio segment from '{title}'. "
-        f"This chunk starts at [{offset_min:02d}:{offset_sec:02d}] in the full video. "
-        f"Start your timestamps from [{offset_min:02d}:{offset_sec:02d}] and increment by ~30 seconds. "
-        f"Every line MUST start with [MM:SS] format."
+        f"This is a CONTINUATION — the audio you are hearing starts at [{offset_min:02d}:{offset_sec:02d}] in the full video. "
+        f"Your FIRST timestamp MUST be [{offset_min:02d}:{offset_sec:02d}]. "
+        f"Increment by ~5 seconds from there. "
+        f"NEVER output [00:00] unless this is genuinely the start of the video. "
+        f"Every line MUST start with [MM:SS] format. Timestamps must be monotonically increasing."
     )
 
     payload = {
         "model": MODEL,
-        "temperature": 0.1,
+        "temperature": 0.0,
+        "max_tokens": 65536,
         "thinking": {"type": "disabled"},
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": [
-                {"type": "image_url", "image_url": {"url": f"data:audio/wav;base64,{audio_b64}"}},
+                {"type": "image_url", "image_url": {"url": f"data:{mime_type};base64,{audio_b64}"}},
                 {"type": "text", "text": user_msg}
             ]}
         ]
@@ -164,40 +181,52 @@ def process_video(filename, vid_id):
     # Download
     audio_path = download_audio(vid_id)
 
-    # Split into chunks
+    # Split into chunks (or send whole file if short)
     chunks = split_audio(audio_path)
 
     # Transcribe each chunk
     transcript_parts = []
-    for chunk_path, start_sec in chunks:
+    for chunk_path, start_sec, mime_type in chunks:
         try:
-            text = transcribe_chunk(chunk_path, start_sec, title)
+            text = transcribe_chunk(chunk_path, start_sec, title, mime_type)
             transcript_parts.append(text)
         except Exception as e:
             transcript_parts.append(f"[ERROR at offset {start_sec}s: {e}]")
-        time.sleep(1)  # rate limit between chunks
+        time.sleep(0.5)  # rate limit between chunks
 
     # Assemble
     header = (
         f"# {title}\n"
         f"# Video ID: {vid_id}\n"
-        f"# URL: https://www.youtube.com/watch?v={vid_id}\n\n"
+        f"# URL: https://www.youtube.com/watch?v={vid_id}\n"
+        f"# Granularity: 5-second segments\n\n"
     )
     full_text = header + '\n'.join(transcript_parts)
 
-    # Save (overwrite)
-    output_path = f"{TRANSCRIPT_DIR}/{filename}"
+    # Save as -fine.txt (preserves original 30s transcript)
+    base = filename.replace('.txt', '')
+    output_path = f"{TRANSCRIPT_DIR}/{base}-fine.txt"
     with open(output_path, 'w') as f:
         f.write(full_text)
 
-    return filename, len(full_text)
+    return f"{base}-fine.txt", len(full_text)
 
 
 def main():
     os.makedirs(TMP_DIR, exist_ok=True)
 
-    print(f"Re-transcribing {len(VIDEOS_TO_REDO)} files with {MAX_WORKERS} parallel workers")
-    print(f"Model: {MODEL} | Enforcing [MM:SS] timestamp format\n")
+    # Allow filtering by prefix: python3 script.py cds-ex-12
+    filter_prefix = sys.argv[1] if len(sys.argv) > 1 else None
+
+    videos = VIDEOS_TO_REDO
+    if filter_prefix:
+        videos = {k: v for k, v in VIDEOS_TO_REDO.items() if filter_prefix in k}
+        if not videos:
+            print(f"No match for '{filter_prefix}'. Available: {list(VIDEOS_TO_REDO.keys())}")
+            sys.exit(1)
+
+    print(f"Re-transcribing {len(videos)} files with {MAX_WORKERS} parallel workers")
+    print(f"Model: {MODEL} | 5-second granularity | {CHUNK_SECONDS}s chunks\n")
 
     results = {}
     completed = 0
@@ -205,7 +234,7 @@ def main():
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = {
             executor.submit(process_video, filename, vid_id): filename
-            for filename, vid_id in VIDEOS_TO_REDO.items()
+            for filename, vid_id in videos.items()
         }
 
         for future in as_completed(futures):
@@ -214,12 +243,12 @@ def main():
             try:
                 fname, size = future.result()
                 results[fname] = size
-                print(f"  [{completed}/{len(VIDEOS_TO_REDO)}] {fname}: {size} chars ✓")
+                print(f"  [{completed}/{len(videos)}] {fname}: {size} chars")
             except Exception as e:
                 results[filename] = f"ERROR: {e}"
-                print(f"  [{completed}/{len(VIDEOS_TO_REDO)}] {filename}: ERROR - {e}")
+                print(f"  [{completed}/{len(videos)}] {filename}: ERROR - {e}")
 
-    print(f"\nDone. {sum(1 for v in results.values() if isinstance(v, int))} files re-transcribed.")
+    print(f"\nDone. {sum(1 for v in results.values() if isinstance(v, int))}/{len(videos)} files transcribed.")
 
 
 if __name__ == "__main__":
