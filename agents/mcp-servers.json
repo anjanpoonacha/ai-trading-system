@@ -1,0 +1,7 @@
+{
+  "tradingview": {
+    "command": "bun",
+    "args": ["src/server.ts"],
+    "cwd": "../tradingview-mcp"
+  }
+}

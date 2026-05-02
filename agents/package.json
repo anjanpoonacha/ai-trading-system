@@ -1,0 +1,23 @@
+{
+  "name": "nse-agents",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:parser": "bun test-parser.ts",
+    "test:mcp": "bun test-mcp.ts",
+    "test:llm": "bun test-llm.ts",
+    "test:loop": "bun test-loop.ts",
+    "cli": "bun runtime/cli.ts"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.8.5",
+    "@openai/agents-extensions": "^0.8.5",
+    "@ai-sdk/anthropic": "^1.2.12",
+    "@ai-sdk/openai": "^1.3.22",
+    "ai": "^4.3.16",
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
