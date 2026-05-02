@@ -41,8 +41,24 @@ export interface ChartOptions {
   paneRatios?: [number, number, number];
 }
 
+// --- Layer-based panel config ---
+
+export type Layer =
+  | { type: "candlestick"; data: ChartBar[]; pane?: number }
+  | { type: "line"; data: (number | null)[]; color?: string; title?: string; pane?: number; lineWidth?: number }
+  | { type: "volume"; data: ChartBar[]; pane?: number }
+  | { type: "cvd"; data: CVDBar[]; color?: { up: string; down: string }; pane?: number };
+
+export interface PanelSpec {
+  layers: Layer[];
+  width?: number;
+  height?: number;
+  theme?: "dark" | "light";
+  timeframeLabel?: string;
+}
+
 /**
- * A single panel in a composite chart.
+ * A single panel in a composite chart (legacy compat — maps to PanelSpec internally).
  */
 export interface PanelRequest {
   bars: ChartBar[];

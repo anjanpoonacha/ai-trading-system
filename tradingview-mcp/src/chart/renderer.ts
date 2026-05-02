@@ -11,7 +11,7 @@
  */
 
 import { JSDOM } from "jsdom";
-import type { ChartRequest, ChartBar, CVDBar, CompositeRequest, PanelRequest } from "./types";
+import type { ChartRequest, ChartBar, CVDBar, CompositeRequest, PanelRequest, PanelSpec, Layer } from "./types";
 
 // --- jsdom global setup (once per process) ---
 
@@ -84,197 +84,153 @@ function toChartTime(t: number, daily: boolean): string | number {
   return daily ? toUTCDate(t) : t;
 }
 
-// --- Main export ---
+// --- Core render function: layer-based panel ---
 
-export async function renderChart(req: ChartRequest): Promise<Buffer> {
-  const { bars, cvd, sma, options = {} } = req;
-  const {
-    width = 800,
-    height = 600,
-    title,
-    theme = "dark",
-    smaPeriod,
-    watermark,
-    cvdColor,
-    paneRatios,
-  } = options;
-  const daily = isDaily(bars);
-  const [candleRatio, volumeRatio, cvdRatio] = paneRatios ?? [0.6, 0.15, 0.25];
+export async function renderPanel(spec: PanelSpec): Promise<Buffer> {
+  const { layers, width = 800, height = 600, theme = "dark" } = spec;
+  if (layers.length === 0) throw new Error("Panel must have at least one layer");
 
-  // Create a fresh container
-  const container = win.document.createElement("div");
-  container.style.width = `${width}px`;
-  container.style.height = `${height}px`;
-  win.document.body.appendChild(container);
+  // Detect daily vs intraday from first data-bearing layer
+  const firstData = layers.find((l) => l.type === "candlestick" || l.type === "volume" || l.type === "cvd");
+  const daily = firstData
+    ? isDaily("data" in firstData ? (firstData as any).data : [])
+    : true;
 
   const isDark = theme === "dark";
   const bgColor = isDark ? "#1a1a2e" : "#ffffff";
   const textColor = isDark ? "#d1d4dc" : "#191919";
   const gridColor = isDark ? "#2a2a4a" : "#e0e0e0";
 
+  const container = win.document.createElement("div");
+  container.style.width = `${width}px`;
+  container.style.height = `${height}px`;
+  win.document.body.appendChild(container);
+
   const chart = createChart(container, {
     width,
     height,
-    layout: {
-      background: { type: ColorType.Solid, color: bgColor },
-      textColor,
-    },
-    grid: {
-      vertLines: { color: gridColor },
-      horzLines: { color: gridColor },
-    },
+    layout: { background: { type: ColorType.Solid, color: bgColor }, textColor },
+    grid: { vertLines: { color: gridColor }, horzLines: { color: gridColor } },
     rightPriceScale: { borderColor: gridColor },
-    timeScale: {
-      borderColor: gridColor,
-      timeVisible: false,
-    },
-    crosshair: { mode: 2 }, // Hidden
+    timeScale: { borderColor: gridColor, timeVisible: !daily },
+    crosshair: { mode: 2 },
     localization: { locale: "en-US" },
-    ...(watermark ? {
-      watermark: {
-        visible: true,
-        text: watermark,
-        color: isDark ? "rgba(255,255,255,0.04)" : "rgba(0,0,0,0.04)",
-        fontSize: 48,
-      },
-    } : {}),
   });
 
-  // Pane 0: Candlestick price series
-  const priceSeries = chart.addSeries(CandlestickSeries, {
-    upColor: "#26a69a",
-    downColor: "#ef5350",
-    wickUpColor: "#26a69a",
-    wickDownColor: "#ef5350",
-    borderUpColor: "#26a69a",
-    borderDownColor: "#ef5350",
-  });
+  // Add each layer
+  for (const layer of layers) {
+    const pane = layer.pane ?? 0;
 
-  priceSeries.setData(
-    bars.map((b) => ({
-      time: toChartTime(b.t, daily),
-      open: b.o,
-      high: b.h,
-      low: b.l,
-      close: b.c,
-    })),
-  );
+    switch (layer.type) {
+      case "candlestick": {
+        const series = chart.addSeries(CandlestickSeries, {
+          upColor: "#26a69a", downColor: "#ef5350",
+          wickUpColor: "#26a69a", wickDownColor: "#ef5350",
+          borderUpColor: "#26a69a", borderDownColor: "#ef5350",
+        }, pane);
+        series.setData(layer.data.map((b) => ({
+          time: toChartTime(b.t, daily), open: b.o, high: b.h, low: b.l, close: b.c,
+        })));
+        break;
+      }
+      case "line": {
+        // Need a reference time axis — use timestamps from candlestick layer
+        const candleLayer = layers.find((l) => l.type === "candlestick") as { data: ChartBar[] } | undefined;
+        const volLayer = layers.find((l) => l.type === "volume") as { data: ChartBar[] } | undefined;
+        const refBars = candleLayer?.data ?? volLayer?.data;
+        if (!refBars) break;
 
-  // Pane 0: SMA overlay (if provided)
-  if (sma && sma.length > 0) {
-    const smaSeries = chart.addSeries(LineSeries, {
-      color: "#26a69a",
-      lineWidth: 2,
-      crosshairMarkerVisible: false,
-      title: smaPeriod ? `SMA${smaPeriod}` : "SMA",
-    });
+        const series = chart.addSeries(LineSeries, {
+          color: layer.color ?? "#26a69a",
+          lineWidth: layer.lineWidth ?? 2,
+          crosshairMarkerVisible: false,
+          title: layer.title ?? "",
+        }, pane);
 
-    const smaData = bars
-      .map((b, i) => ({
-        time: toChartTime(b.t, daily),
-        value: sma[i],
-      }))
-      .filter((d) => d.value !== null && d.value !== undefined) as Array<{
-      time: string;
-      value: number;
-    }>;
-
-    smaSeries.setData(smaData);
+        const lineData = refBars
+          .map((b, i) => ({ time: toChartTime(b.t, daily), value: layer.data[i] }))
+          .filter((d) => d.value !== null && d.value !== undefined) as Array<{ time: string | number; value: number }>;
+        series.setData(lineData);
+        break;
+      }
+      case "volume": {
+        const series = chart.addSeries(HistogramSeries, {
+          priceFormat: { type: "volume" },
+          priceScaleId: "volume",
+        }, pane);
+        series.priceScale().applyOptions({ scaleMargins: { top: 0.1, bottom: 0 } });
+        series.setData(layer.data.map((b) => ({
+          time: toChartTime(b.t, daily),
+          value: b.v,
+          color: b.c >= b.o ? "rgba(38, 166, 154, 0.6)" : "rgba(239, 83, 80, 0.6)",
+        })));
+        break;
+      }
+      case "cvd": {
+        const up = layer.color?.up ?? "#26a69a";
+        const down = layer.color?.down ?? "#ef5350";
+        const series = chart.addSeries(CandlestickSeries, {
+          upColor: up, downColor: down,
+          wickUpColor: up, wickDownColor: down,
+          borderUpColor: up, borderDownColor: down,
+          title: "CVD",
+          priceFormat: { type: "custom", formatter: formatLargeNumber },
+        }, pane);
+        series.setData(layer.data.map((d) => ({
+          time: toChartTime(d.t, daily), open: d.o, high: d.h, low: d.l, close: d.c,
+        })));
+        break;
+      }
+    }
   }
 
-  // Pane 1: Volume histogram
-  const volumeSeries = chart.addSeries(
-    HistogramSeries,
-    {
-      priceFormat: { type: "volume" },
-      priceScaleId: "volume",
-    },
-    1, // pane index 1
-  );
-
-  volumeSeries.priceScale().applyOptions({
-    scaleMargins: { top: 0.1, bottom: 0 },
-  });
-
-  volumeSeries.setData(
-    bars.map((b) => ({
-      time: toChartTime(b.t, daily),
-      value: b.v,
-      color: b.c >= b.o
-        ? "rgba(38, 166, 154, 0.6)"
-        : "rgba(239, 83, 80, 0.6)",
-    })),
-  );
-
-  // Pane 2: CVD (if provided)
-  if (cvd && cvd.length > 0) {
-    const cvdUp = cvdColor?.up ?? "#26a69a";
-    const cvdDown = cvdColor?.down ?? "#ef5350";
-    const cvdSeries = chart.addSeries(
-      CandlestickSeries,
-      {
-        upColor: cvdUp,
-        downColor: cvdDown,
-        wickUpColor: cvdUp,
-        wickDownColor: cvdDown,
-        borderUpColor: cvdUp,
-        borderDownColor: cvdDown,
-        title: "CVD",
-        priceFormat: {
-          type: "custom",
-          formatter: formatLargeNumber,
-        },
-      },
-      2, // pane index 2
-    );
-
-    cvdSeries.setData(
-      cvd.map((d) => ({
-        time: toChartTime(d.t, daily),
-        open: d.o,
-        high: d.h,
-        low: d.l,
-        close: d.c,
-      })),
-    );
-  }
-
-  // Set pane height ratios
+  // Set pane stretch factors based on number of panes
   const panes = chart.panes();
-  if (panes.length >= 3) {
-    panes[0].setStretchFactor(candleRatio);
-    panes[1].setStretchFactor(volumeRatio);
-    panes[2].setStretchFactor(cvdRatio);
+  if (panes.length === 3) {
+    panes[0].setStretchFactor(0.65);
+    panes[1].setStretchFactor(0.14);
+    panes[2].setStretchFactor(0.21);
   } else if (panes.length === 2) {
-    panes[0].setStretchFactor(candleRatio + cvdRatio);
-    panes[1].setStretchFactor(volumeRatio);
+    panes[0].setStretchFactor(0.75);
+    panes[1].setStretchFactor(0.25);
   }
 
-  // Fit content
   chart.timeScale().fitContent();
 
-  // Take screenshot
   const canvas = chart.takeScreenshot();
   const dataUrl = canvas.toDataURL("image/png");
-  const base64 = dataUrl.replace(/^data:image\/png;base64,/, "");
-  const png = Buffer.from(base64, "base64");
+  const png = Buffer.from(dataUrl.replace(/^data:image\/png;base64,/, ""), "base64");
 
-  // Cleanup
   chart.remove();
   container.remove();
-
   return png;
+}
+
+// --- Legacy compat: renderChart delegates to renderPanel ---
+
+export async function renderChart(req: ChartRequest): Promise<Buffer> {
+  const { bars, cvd, sma, options = {} } = req;
+  const { width, height, theme, smaPeriod, cvdColor, paneRatios } = options;
+
+  const layers: Layer[] = [
+    { type: "candlestick", data: bars, pane: 0 },
+  ];
+  if (sma && sma.some((v) => v !== null)) {
+    layers.push({ type: "line", data: sma, color: "#26a69a", title: smaPeriod ? `SMA${smaPeriod}` : "SMA", pane: 0 });
+  }
+  layers.push({ type: "volume", data: bars, pane: 1 });
+  if (cvd && cvd.length > 0) {
+    layers.push({ type: "cvd", data: cvd, color: cvdColor, pane: 2 });
+  }
+
+  return renderPanel({ layers, width, height, theme });
 }
 
 // --- Composite chart (multiple panels stitched with header) ---
 
 export async function renderComposite(req: CompositeRequest): Promise<Buffer> {
   const { symbol, description, exchange, panels, weights, options = {} } = req;
-  const {
-    width = 1200,
-    height = 1000,
-    theme = "dark",
-  } = options;
+  const { width = 1200, height = 1000, theme = "dark", paneRatios } = options;
 
   const isDark = theme === "dark";
   const bgColor = isDark ? "#1a1a2e" : "#ffffff";
@@ -282,49 +238,45 @@ export async function renderComposite(req: CompositeRequest): Promise<Buffer> {
   const separatorHeight = 4;
   const totalChartHeight = height - headerHeight - separatorHeight * (panels.length - 1);
 
-  // Calculate panel heights from weights
   const w = weights ?? panels.map((_, i) => i === 0 ? 7 : 3);
   const totalWeight = w.reduce((a, b) => a + b, 0);
   const panelHeights = w.map((wt) => Math.round((wt / totalWeight) * totalChartHeight));
 
-  // Render each panel individually
+  // Convert PanelRequests to PanelSpecs and render
   const panelImages: Buffer[] = [];
   for (let i = 0; i < panels.length; i++) {
     const panel = panels[i];
     const panelH = panelHeights[i];
 
-    const chartReq: ChartRequest = {
-      bars: panel.bars,
-      cvd: panel.cvd,
-      sma: panel.sma,
-      options: {
-        width,
-        height: panelH,
-        theme,
-        smaPeriod: panel.smaPeriod,
-        cvdColor: panel.cvdColor,
-        paneRatios: options.paneRatios,
-      },
-    };
-
-    // For panels without price data (CVD-only), render just CVD
-    if (panel.volume === false) {
-      panelImages.push(await renderCVDOnly(panel, width, panelH, theme));
+    const layers: Layer[] = [];
+    if (panel.volume !== false) {
+      layers.push({ type: "candlestick", data: panel.bars, pane: 0 });
+      if (panel.sma && panel.sma.some((v) => v !== null)) {
+        layers.push({ type: "line", data: panel.sma, color: "#26a69a", title: panel.smaPeriod ? `SMA${panel.smaPeriod}` : "SMA", pane: 0 });
+      }
+      layers.push({ type: "volume", data: panel.bars, pane: 1 });
+      if (panel.cvd && panel.cvd.length > 0) {
+        layers.push({ type: "cvd", data: panel.cvd, color: panel.cvdColor, pane: 2 });
+      }
     } else {
-      panelImages.push(await renderChart(chartReq));
+      // CVD-only panel
+      if (panel.cvd && panel.cvd.length > 0) {
+        layers.push({ type: "cvd", data: panel.cvd, color: panel.cvdColor, pane: 0 });
+      }
     }
+
+    panelImages.push(await renderPanel({ layers, width, height: panelH, theme }));
   }
 
-  // Stitch panels together with header using canvas
+  // Stitch panels together with header
   const { createCanvas, loadImage } = await import("canvas");
   const finalCanvas = createCanvas(width, height);
   const ctx = finalCanvas.getContext("2d");
 
-  // Background
   ctx.fillStyle = bgColor;
   ctx.fillRect(0, 0, width, height);
 
-  // Header: "RELIANCE · Reliance Industries Limited · 1D · NSE"
+  // Header
   ctx.fillStyle = isDark ? "#d1d4dc" : "#191919";
   ctx.font = "bold 14px -apple-system, sans-serif";
   const headerParts = [symbol];
@@ -333,14 +285,12 @@ export async function renderComposite(req: CompositeRequest): Promise<Buffer> {
   if (exchange) headerParts.push(exchange);
   ctx.fillText(headerParts.join(" · "), 12, 22);
 
-  // Draw each panel image
+  // Draw panels
   let yOffset = headerHeight;
   for (let i = 0; i < panelImages.length; i++) {
     const img = await loadImage(panelImages[i]);
     ctx.drawImage(img, 0, yOffset);
     yOffset += panelHeights[i];
-
-    // Separator line between panels
     if (i < panels.length - 1) {
       ctx.fillStyle = isDark ? "#3a3a5a" : "#cccccc";
       ctx.fillRect(0, yOffset, width, separatorHeight);
@@ -349,86 +299,6 @@ export async function renderComposite(req: CompositeRequest): Promise<Buffer> {
   }
 
   return Buffer.from(finalCanvas.toBuffer("image/png"));
-}
-
-/**
- * Render a CVD-only panel (no price candles, no volume — just CVD candles).
- */
-async function renderCVDOnly(
-  panel: PanelRequest,
-  width: number,
-  height: number,
-  theme: string = "dark",
-): Promise<Buffer> {
-  const isDark = theme === "dark";
-  const bgColor = isDark ? "#1a1a2e" : "#ffffff";
-  const textColor = isDark ? "#d1d4dc" : "#191919";
-  const gridColor = isDark ? "#2a2a4a" : "#e0e0e0";
-
-  const daily = panel.cvd ? isDaily(panel.cvd) : isDaily(panel.bars);
-
-  const container = win.document.createElement("div");
-  container.style.width = `${width}px`;
-  container.style.height = `${height}px`;
-  win.document.body.appendChild(container);
-
-  const chart = createChart(container, {
-    width,
-    height,
-    layout: {
-      background: { type: ColorType.Solid, color: bgColor },
-      textColor,
-    },
-    grid: {
-      vertLines: { color: gridColor },
-      horzLines: { color: gridColor },
-    },
-    rightPriceScale: { borderColor: gridColor },
-    timeScale: { borderColor: gridColor, timeVisible: !daily },
-    crosshair: { mode: 2 },
-    localization: { locale: "en-US" },
-  });
-
-  // CVD candles as main series
-  if (panel.cvd && panel.cvd.length > 0) {
-    const cvdUp = panel.cvdColor?.up ?? "#26a69a";
-    const cvdDown = panel.cvdColor?.down ?? "#ef5350";
-    const cvdSeries = chart.addSeries(CandlestickSeries, {
-      upColor: cvdUp,
-      downColor: cvdDown,
-      wickUpColor: cvdUp,
-      wickDownColor: cvdDown,
-      borderUpColor: cvdUp,
-      borderDownColor: cvdDown,
-      title: `CVD ${panel.timeframeLabel || ""}`.trim(),
-      priceFormat: {
-        type: "custom",
-        formatter: formatLargeNumber,
-      },
-    });
-
-    cvdSeries.setData(
-      panel.cvd.map((d) => ({
-        time: toChartTime(d.t, daily),
-        open: d.o,
-        high: d.h,
-        low: d.l,
-        close: d.c,
-      })),
-    );
-  }
-
-  chart.timeScale().fitContent();
-
-  const canvas = chart.takeScreenshot();
-  const dataUrl = canvas.toDataURL("image/png");
-  const base64 = dataUrl.replace(/^data:image\/png;base64,/, "");
-  const png = Buffer.from(base64, "base64");
-
-  chart.remove();
-  container.remove();
-
-  return png;
 }
 
 // --- Standalone test ---
