@@ -4,7 +4,7 @@
  */
 import { run } from "@openai/agents";
 import { setTracingDisabled } from "@openai/agents-core";
-import { loadAgent } from "./registry.ts";
+import { loadAllAgents, wireDelegation } from "./registry.ts";
 
 // Disable OpenAI tracing (we don't have an OpenAI API key for it)
 setTracingDisabled(true);
@@ -21,9 +21,13 @@ if (!agentName || !task) {
 console.log(`Agent: ${agentName}`);
 console.log(`Task: ${task}\n`);
 
-const entry = await loadAgent(agentName);
+// Load all agents and wire delegation
+const registry = await loadAllAgents();
+wireDelegation(registry);
+
+const entry = registry.get(agentName);
 if (!entry) {
-  console.error(`Agent "${agentName}" not found. Available agents are in definitions/ folder.`);
+  console.error(`Agent "${agentName}" not found. Available: ${[...registry.keys()].join(", ")}`);
   process.exit(1);
 }
 

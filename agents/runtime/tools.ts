@@ -1,7 +1,10 @@
-import { tool } from "@openai/agents";
+import { tool, Agent, run } from "@openai/agents";
+import { setTracingDisabled } from "@openai/agents-core";
 import { z } from "zod";
 import { resolve, dirname } from "path";
 import { mkdirSync, existsSync, renameSync } from "fs";
+
+setTracingDisabled(true);
 
 /**
  * Native tools provided by the framework.
@@ -93,6 +96,53 @@ export const fileCopy = tool({
   },
 });
 
+export const viewImage = tool({
+  name: "view_image",
+  description: "View an image file for visual analysis. Returns the image so you can see and evaluate it.",
+  parameters: z.object({
+    path: z.string().describe("Path to the image file (PNG, JPG)"),
+  }),
+  async execute({ path: filePath }) {
+    if (!existsSync(filePath)) {
+      return `Error: Image not found: ${filePath}`;
+    }
+    const buf = await Bun.file(filePath).arrayBuffer();
+    const base64 = Buffer.from(buf).toString("base64");
+    // Return as image content for the LLM to see
+    return [
+      { type: "image" as const, image: { data: base64, mediaType: "image/png" } },
+      { type: "text" as const, text: `Image loaded: ${filePath} (${buf.byteLength} bytes)` },
+    ];
+  },
+});
+
+// Delegate tool requires lazy loading to avoid circular deps
+// It's wired up in registry.ts after agents are loaded
+export let delegateExecutor: ((agent: string, task: string) => Promise<string>) | null = null;
+
+export function setDelegateExecutor(fn: (agent: string, task: string) => Promise<string>) {
+  delegateExecutor = fn;
+}
+
+export const delegate = tool({
+  name: "delegate",
+  description: "Delegate a subtask to another specialized agent. The agent runs autonomously and returns its result.",
+  parameters: z.object({
+    agent: z.string().describe("Name of the agent to delegate to (e.g., 'chart-generator', 'chart-reviewer')"),
+    task: z.string().describe("Detailed task description for the sub-agent"),
+  }),
+  async execute({ agent, task }) {
+    if (!delegateExecutor) {
+      return "Error: Delegate executor not initialized. Make sure agents are loaded via registry.";
+    }
+    try {
+      return await delegateExecutor(agent, task);
+    } catch (err: any) {
+      return `Delegation to '${agent}' failed: ${err.message}`;
+    }
+  },
+});
+
 /**
  * Get all native tools as a record for agent registration.
  */
@@ -101,6 +151,8 @@ export const nativeTools = {
   file_write: fileWrite,
   file_move: fileMove,
   file_copy: fileCopy,
+  view_image: viewImage,
+  delegate: delegate,
 } as const;
 
 /**

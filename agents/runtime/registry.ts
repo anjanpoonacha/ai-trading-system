@@ -1,9 +1,9 @@
-import { Agent } from "@openai/agents";
+import { Agent, run } from "@openai/agents";
 import { resolve } from "path";
 import { readdirSync } from "fs";
 import { loadAgentFromFile, type ParsedAgent } from "./parser.ts";
 import { resolveModel } from "./models.ts";
-import { resolveNativeTools } from "./tools.ts";
+import { resolveNativeTools, setDelegateExecutor } from "./tools.ts";
 import { createMCPServer, loadMCPConfigs } from "./mcp.ts";
 import type { MCPServerStdio } from "@openai/agents";
 
@@ -65,4 +65,28 @@ export async function loadAllAgents(): Promise<Map<string, AgentEntry>> {
 export async function loadAgent(name: string): Promise<AgentEntry | undefined> {
   const all = await loadAllAgents();
   return all.get(name);
+}
+
+/**
+ * Wire up delegation: case-manager can call chart-generator, chart-reviewer, etc.
+ * Must be called after loadAllAgents() to have the registry populated.
+ */
+export function wireDelegation(registry: Map<string, AgentEntry>) {
+  setDelegateExecutor(async (agentName: string, task: string) => {
+    const entry = registry.get(agentName);
+    if (!entry) {
+      throw new Error(`Agent '${agentName}' not found in registry`);
+    }
+
+    // Connect MCP servers for the sub-agent if not already connected
+    for (const server of entry.mcpServers) {
+      try { await server.connect(); } catch { /* already connected */ }
+    }
+
+    const result = await run(entry.agent, task, {
+      maxTurns: entry.parsed.config.max_turns ?? 10,
+    });
+
+    return result.finalOutput;
+  });
 }
