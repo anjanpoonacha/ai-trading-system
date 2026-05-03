@@ -23,6 +23,13 @@ import { z } from "zod";
 import { createFetcher } from "./services/fetcher";
 import { handleScan } from "./tools/scan";
 import { handleStock, closeStock } from "./tools/stock";
+import { handleScreen } from "./tools/screen";
+
+// ─── Load screen config at startup (for dynamic description + enum) ──────────
+const screensConfig: Record<string, { url: string; description: string }> =
+  await Bun.file(import.meta.dir + "/../screens.json").json();
+const screenNames = Object.keys(screensConfig) as [string, ...string[]];
+const screenDescriptions = screenNames.map((k) => `${k}: ${screensConfig[k].description}`).join("; ");
 
 const fetcher = createFetcher();
 
@@ -93,6 +100,23 @@ server.tool(
       }
 
       return { content };
+    } catch (err: any) {
+      return { content: [{ type: "text", text: `Error: ${err.message}` }], isError: true };
+    }
+  },
+);
+
+// --- tv_screen tool (description + enum built from screens.json at startup) ---
+server.tool(
+  "tv_screen",
+  `Screen NSE stocks using MarketInOut scans. Available screens: ${screenDescriptions}. Returns deduplicated candidates sorted by number of scan hits.`,
+  {
+    screens: z.array(z.enum(screenNames)).optional().describe("Which screens to run. Default: all."),
+  },
+  async ({ screens }) => {
+    try {
+      const results = await handleScreen({ screens });
+      return { content: [{ type: "text", text: JSON.stringify(results, null, 2) }] };
     } catch (err: any) {
       return { content: [{ type: "text", text: `Error: ${err.message}` }], isError: true };
     }
