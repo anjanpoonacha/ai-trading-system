@@ -1,7 +1,7 @@
 /**
  * TradingView MCP Server
  *
- * Provides tv_scan and tv_data tools via MCP protocol (stdio transport).
+ * Provides tv_scan and tv_stock tools via MCP protocol (stdio transport).
  * Long-lived process — WebSocket connections persist between tool calls.
  *
  * Launch: bun src/server.ts
@@ -22,8 +22,6 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { z } from "zod";
 import { createFetcher } from "./services/fetcher";
 import { handleScan } from "./tools/scan";
-import { handleData } from "./tools/data";
-import { handleChart, closeChart } from "./tools/chart";
 import { handleStock, closeStock } from "./tools/stock";
 
 const fetcher = createFetcher();
@@ -51,91 +49,7 @@ server.tool(
   },
 );
 
-// --- tv_data tool (DEPRECATED — use tv_stock instead) ---
-server.tool(
-  "tv_data",
-  "[DEPRECATED: use tv_stock] Get historical OHLCV bars + computed indicators for a single NSE stock. Fetches from TradingView WebSocket (~90ms). Computes SMA, EMA, volume averages, slopes, volume contraction, base depth, TRP, ADT locally — all validated to match TradingView's values exactly. Use count >= 500 for accurate EMA200 (needs warmup). Optionally includes CVD (requires auth).",
-  {
-    symbol: z.string().describe("Stock symbol (e.g., 'RELIANCE' or 'NSE:RELIANCE')"),
-    timeframe: z.enum(["1", "5", "15", "30", "60", "1D", "1W", "1M"]).optional().describe("Chart timeframe. Default: 1D"),
-    count: z.number().optional().describe("Number of bars to fetch. Default: 300. Use 500+ for accurate EMA200."),
-    cvd: z.boolean().optional().describe("Include CVD indicator (requires TV_SESSION_ID env). Default: false"),
-    toDate: z.string().optional().describe("End date (YYYY-MM-DD). Returns bars ending on this date. Fetches enough history to reach back. Default: latest available."),
-  },
-  async ({ symbol, timeframe, count, cvd, toDate }) => {
-    try {
-      const result = await handleData(fetcher, { symbol, timeframe, count, cvd, toDate });
-      return { content: [{ type: "text", text: JSON.stringify(result, null, 2) }] };
-    } catch (err: any) {
-      return { content: [{ type: "text", text: `Error: ${err.message}` }], isError: true };
-    }
-  },
-);
-
-// --- tv_chart tool (DEPRECATED — use tv_stock instead) ---
-server.tool(
-  "tv_chart",
-  "[DEPRECATED: use tv_stock] Generate composite candlestick chart images for NSE stocks. Accepts one or many symbols. Produces multi-panel PNGs: top panel has candles + SMA20 + volume + CVD, bottom panel shows CVD at intraday resolution. Uses dual-session batch for efficient parallel processing. Requires TV_SESSION_ID for CVD.",
-  {
-    symbols: z.array(z.string()).describe("Stock symbols (e.g., ['RELIANCE', 'TCS', 'INFY'])"),
-    timeframe: z.string().optional().describe("Top chart timeframe. Default: '1D'"),
-    bars: z.number().optional().describe("Number of bars. Default: 188"),
-    sma: z.number().optional().describe("SMA period (0 to disable). Default: 20"),
-    volumeMA: z.number().optional().describe("Volume MA period (0 to disable). Default: 30"),
-    cvdTimeframe: z.string().optional().describe("Bottom CVD chart timeframe in minutes. Default: '188'"),
-    cvdBars: z.number().optional().describe("Bottom CVD bar count. Default: 188"),
-    cvdAnchor: z.string().optional().describe("CVD anchor/reset period. Default: '12M'"),
-    cvdCustomTF: z.boolean().optional().describe("Use custom timeframe for bottom CVD. Default: true"),
-    cvdResolution: z.string().optional().describe("CVD custom timeframe resolution. Default: '30S'"),
-    toDate: z.string().optional().describe("End date for chart (YYYY-MM-DD). Shows chart as of this date. Default: latest available."),
-    savePath: z.string().optional().describe("Save folder. Default: /tmp/charts/. Files named {SYMBOL}-{TF}-{YYYY-MM-DD}.png"),
-    width: z.number().optional().describe("Image width in px. Default: 1200"),
-    height: z.number().optional().describe("Image height in px. Default: 1000"),
-    theme: z.enum(["dark", "light"]).optional().describe("Color theme. Default: 'dark'"),
-    // IMPORTANT: Do NOT use z.tuple() here. Claude's API rejects `prefixItems` (JSON Schema draft 2020-12).
-    // Use z.array().min().max() instead to produce compatible `minItems`/`maxItems` schema.
-    paneRatios: z.array(z.number()).min(3).max(3).optional().describe("Top chart pane ratios [candles, volume, cvd]. Default: [0.65, 0.14, 0.21]"),
-    panelWeights: z.array(z.number()).min(2).max(2).optional().describe("Panel weight ratio [top, bottom]. Default: [76, 24]"),
-  },
-  async (input) => {
-    try {
-      const MAX_INLINE = 5;
-      const output = await handleChart(fetcher, input);
-      const okResults = output.results.filter((r) => r.ok);
-      const failedResults = output.results.filter((r) => !r.ok);
-
-      const content: Array<{ type: string; text?: string; data?: string; mimeType?: string }> = [];
-
-      // Summary text
-      const summary = [
-        `${output.stats.ok}/${output.stats.total} charts | ${(output.stats.totalMs / 1000).toFixed(1)}s | ${output.stats.avgMs}ms/chart`,
-        ...(failedResults.length > 0 ? [`Failed: ${failedResults.map((r) => `${r.symbol}: ${r.error}`).join(", ")}`] : []),
-      ].join("\n");
-      content.push({ type: "text", text: summary });
-
-      // Inline images: all if ≤5, otherwise just the first
-      const inlineCount = okResults.length <= MAX_INLINE ? okResults.length : 1;
-      for (let i = 0; i < inlineCount; i++) {
-        if (okResults[i].image) {
-          content.push({ type: "image", data: okResults[i].image!.toString("base64"), mimeType: "image/png" });
-        }
-      }
-
-      // File paths for the rest
-      if (okResults.length > MAX_INLINE) {
-        content.push({ type: "text", text: okResults.map((r) => r.path).join("\n") });
-      } else {
-        content.push({ type: "text", text: okResults.map((r) => r.path).join("\n") });
-      }
-
-      return { content };
-    } catch (err: any) {
-      return { content: [{ type: "text", text: `Error: ${err.message}` }], isError: true };
-    }
-  },
-);
-
-// --- tv_stock tool (unified) ---
+// --- tv_stock tool ---
 server.tool(
   "tv_stock",
   "Get historical OHLCV bars + computed indicators + composite chart for a single NSE stock. Single call fetches both CVD datasets (native + custom TF) via dual-session batch. Output param controls what's returned: data JSON, chart PNG, or both (default). Replaces separate tv_data + tv_chart calls. Requires TV_SESSION_ID for CVD.",
@@ -186,8 +100,8 @@ server.tool(
 );
 
 // --- Cleanup on exit ---
-process.on("SIGINT", () => { fetcher.close(); closeChart(); closeStock(); process.exit(0); });
-process.on("SIGTERM", () => { fetcher.close(); closeChart(); closeStock(); process.exit(0); });
+process.on("SIGINT", () => { fetcher.close(); closeStock(); process.exit(0); });
+process.on("SIGTERM", () => { fetcher.close(); closeStock(); process.exit(0); });
 
 // --- Start server ---
 const transport = new StdioServerTransport();
