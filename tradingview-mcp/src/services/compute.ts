@@ -6,7 +6,7 @@
  * Run standalone: bun src/services/compute.ts
  */
 
-import type { Bar } from "../types";
+import type { Bar, CVDPoint } from "../types";
 
 /** Simple Moving Average */
 export function sma(bars: Bar[], period: number, field: "c" | "v" = "c"): (number | null)[] {
@@ -153,6 +153,131 @@ export function computeAll(bars: Bar[]) {
     },
   };
 }
+
+// ─── CVD Analysis ───────────────────────────────────────────────────────────
+
+export interface CVDHealth {
+  /** Cum CVD close on the evaluation bar */
+  cumClose: number;
+  /** Highest cum CVD close in the lookback */
+  peakClose: number;
+  /** Deficit: cumClose - peakClose (negative = below peak) */
+  deficit: number;
+  /** How many bars since peak close was set */
+  barsSincePeak: number;
+  /** CVD retention: daily cvd close / daily cvd high on the last bar (0-1, negative = all buying absorbed) */
+  retention: number;
+  /** Average retention over last N thrust days (days where cvd.h > 0) */
+  avgRetention: number;
+  /** Whether cum CVD is accelerating (last close > prior close AND > close 3 bars ago) */
+  accelerating: boolean;
+  /** Signal: "confirmed" | "suspect" | "exhausted" */
+  signal: "confirmed" | "suspect" | "exhausted";
+}
+
+/**
+ * Evaluate CVD health for a CDS setup.
+ *
+ * Rules (derived from GRSE Nov 2025 failure analysis):
+ * - "confirmed": cum CVD close at peak OR peak within last 2 bars, retention > 0.7
+ * - "suspect": peak 3-6 bars ago OR deficit > 1x avg daily range OR retention 0.3-0.7
+ * - "exhausted": peak > 6 bars ago AND deficit > 1.5x avg daily range, OR retention < 0
+ *               OR 2+ consecutive bars where intraday high > prior close but close < prior close
+ */
+export function cvdHealth(cvd: CVDPoint[], lookback = 20): CVDHealth | null {
+  if (cvd.length < 3) return null;
+
+  const window = cvd.slice(-lookback);
+  const last = window[window.length - 1];
+
+  // Build cumulative closes
+  let cum = 0;
+  let peakCum = 0;
+  let peakIdx = 0;
+  const cumCloses: number[] = [];
+
+  for (let i = 0; i < window.length; i++) {
+    cum += window[i].c;
+    cumCloses.push(cum);
+    if (cum > peakCum) {
+      peakCum = cum;
+      peakIdx = i;
+    }
+  }
+
+  const cumClose = cumCloses[cumCloses.length - 1];
+  const deficit = cumClose - peakCum;
+  const barsSincePeak = window.length - 1 - peakIdx;
+
+  // Daily retention on last bar
+  const retention = last.h > 0 ? last.c / last.h : (last.c < 0 ? -1 : 0);
+
+  // Average retention over recent thrust days (cvd.h > 0)
+  const thrustDays = window.filter(d => d.h > 0).slice(-5);
+  const avgRetention = thrustDays.length > 0
+    ? thrustDays.reduce((s, d) => s + d.c / d.h, 0) / thrustDays.length
+    : 0;
+
+  // Average daily CVD range for deficit normalization
+  const avgRange = window.reduce((s, d) => s + (d.h - d.l), 0) / window.length;
+
+  // Acceleration: last cum close > prior AND > 3 bars ago
+  const acc = cumCloses.length >= 4 &&
+    cumCloses.at(-1)! > cumCloses.at(-2)! &&
+    cumCloses.at(-1)! > cumCloses.at(-4)!;
+
+  // Classify signal
+  let signal: CVDHealth["signal"];
+  const deficitRatio = avgRange > 0 ? Math.abs(deficit) / avgRange : 0;
+
+  if (retention < 0 || (barsSincePeak > 6 && deficitRatio > 1.5)) {
+    signal = "exhausted";
+  } else if (barsSincePeak <= 2 && retention >= 0.7 && deficitRatio < 0.5) {
+    signal = "confirmed";
+  } else {
+    signal = "suspect";
+  }
+
+  return { cumClose, peakClose: peakCum, deficit, barsSincePeak, retention, avgRetention, accelerating: acc, signal };
+}
+
+/**
+ * Reference case: GRSE Nov 2025 failure pattern.
+ *
+ * Dates: 2025-11-10 to 2025-12-02 (symbol NSE:GRSE)
+ *
+ * Phase 1 — Impulse (Nov 10-14):
+ *   Retention 85-100%, cum CVD at new ATH every bar. Pure demand.
+ *
+ * Phase 2 — Distribution (Nov 17-24):
+ *   Nov 17: retention 3% (473K high → 13K close). First signal.
+ *   Nov 20: new ATH close (27.10M) but retention only 55%.
+ *   Nov 21-24: cum CVD drops -897K from peak while price falls to SMA20.
+ *
+ * Phase 3 — Failed CDS (Nov 26-28):
+ *   Nov 26: CDS signal triggered (price at SMA20, vol contracted).
+ *   Cum CVD close: 26.53M — deficit of -570K from Nov 20 peak.
+ *   Nov 27: retention 64%, price hit 2867 but cum CVD close only 26.76M (still -341K below peak).
+ *   Nov 28: retention NEGATIVE (-20%), cum CVD close 26.71M (LOWER than Nov 27).
+ *   → cvdHealth would classify as "suspect" on Nov 26, "exhausted" by Nov 28.
+ *
+ * Outcome: Dec 1-2 crashed from 2793 → 2608 (-6.6%).
+ *
+ * Key lesson: "CVD at all-time highs" (absolute level) ≠ "CVD still accelerating" (trajectory).
+ * The correct check is cum CVD CLOSE vs its own recent peak, not the absolute number.
+ */
+export const CVD_REFERENCE_CASES = {
+  GRSE_NOV2025: {
+    symbol: "NSE:GRSE",
+    setupDate: "2025-11-26",
+    failureDate: "2025-12-01",
+    peakCumCvdClose: { value: 27.10e6, date: "2025-11-20" },
+    atSetup: { cumCvdClose: 26.53e6, deficit: -570e3, barsSincePeak: 4, retention: 0.93 },
+    atEntry: { cumCvdClose: 26.76e6, deficit: -341e3, barsSincePeak: 5, retention: 0.64, date: "2025-11-27" },
+    atFailure: { cumCvdClose: 26.71e6, deficit: -388e3, barsSincePeak: 6, retention: -0.20, date: "2025-11-28" },
+    lesson: "Peak cum CVD close was 6 bars before CDS entry. Deficit > 1x avg daily range. Retention degraded from 100% (impulse) to negative (distribution). Setup was 'suspect' at signal, 'exhausted' by next bar.",
+  },
+} as const;
 
 // --- Standalone test ---
 if (import.meta.main) {
