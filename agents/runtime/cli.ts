@@ -3,7 +3,11 @@
  * Usage: bun agents/runtime/cli.ts <agent-name> "<task description>"
  */
 import { run } from "@openai/agents";
+import { setTracingDisabled } from "@openai/agents-core";
 import { loadAgent } from "./registry.ts";
+
+// Disable OpenAI tracing (we don't have an OpenAI API key for it)
+setTracingDisabled(true);
 
 const [agentName, ...taskParts] = process.argv.slice(2);
 const task = taskParts.join(" ");

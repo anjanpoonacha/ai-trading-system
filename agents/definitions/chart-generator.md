@@ -78,36 +78,41 @@ Shows the full run from entry to exit:
 
 When calling `tv_chart`, format symbols correctly:
 - **NSE stocks** (Indian): Use `NSE:<SYMBOL>` — e.g., `NSE:RELIANCE`, `NSE:TATAMOTORS`, `NSE:LLOYDSENGG`
-- **NYSE/Nasdaq stocks** (US): Use plain symbol — e.g., `AMC`, `RVLV`, `AGYS`
+- **NYSE/Nasdaq stocks** (US): Use `NASDAQ:<SYMBOL>` or `NYSE:<SYMBOL>` — e.g., `NASDAQ:AGYS`, `NYSE:AMC`, `NASDAQ:RVLV`
 
-## tv_chart Parameters
+## tv_stock Parameters
 
-Always pass:
+The tool is called `tv_stock`. Always pass:
 ```json
 {
-  "symbols": ["NSE:SYMBOL"],
+  "symbol": "NSE:SYMBOL",
   "timeframe": "1D",
-  "bars": 120,
+  "count": 120,
   "toDate": "2023-07-19",
+  "output": ["chart"],
   "sma": 20,
   "width": 1200,
   "height": 1000,
-  "theme": "dark"
+  "theme": "dark",
+  "savePath": "/tmp/charts/"
 }
 ```
 
+- `symbol`: Single string (NOT an array). Include exchange prefix.
 - `timeframe`: Use `"1D"` for daily, `"1W"` for weekly (match metadata `timeframe` field)
-- `bars`: Number of candles visible
+- `count`: Number of candles visible
 - `toDate`: The right edge of the chart (YYYY-MM-DD format)
+- `output`: Always `["chart"]` — we only need the image
 - `sma`: Always 20
 - The tool also generates volume pane + CVD panel automatically
+- Response includes the saved file path as text (e.g., `/tmp/charts/NSE:RELIANCE-1D-2023-07-19.png`)
 
 ## Saving Charts
 
-IMPORTANT: Use `savePath` in tv_chart to save directly to a temp folder. Then use `file_copy` to place charts in the case folder. Do NOT try to pass base64 image data through file_write — it's too large.
+IMPORTANT: Use `savePath` in tv_stock to save directly to a temp folder. Then use `file_copy` to place charts in the case folder. Do NOT try to pass base64 image data through file_write — it's too large.
 
 Workflow:
-1. Call `tv_chart` with `savePath: "/tmp/charts/"` — it saves to `/tmp/charts/{SYMBOL}-{TF}-{DATE}.png`
+1. Call `tv_stock` with `savePath: "/tmp/charts/"` — it saves to `/tmp/charts/{SYMBOL}-{TF}-{DATE}.png`
 2. The response text tells you the file path (e.g., `/tmp/charts/NSE:LLOYDSENGG-1W-2023-06-19.png`)
 3. Move old image if it exists: `file_move` from `{case_folder}/chart.png` to `{case_folder}/reference/chart.png`
 4. Copy entry chart: `file_copy` from the tmp path to `{case_folder}/entry.png`
