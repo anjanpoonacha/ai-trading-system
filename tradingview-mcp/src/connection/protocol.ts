@@ -125,6 +125,32 @@ export function msgRemoveStudy(chartSession: string, studyId: string): object {
   return { m: "remove_study", p: [chartSession, studyId] };
 }
 
+// Footprint study (native, no Pine Script)
+export const FOOTPRINT_STUDY_TYPE = "Footprint@tv-volumebyprice-174!";
+export const FOOTPRINT_INPUTS = {
+  userProPlan: "",
+  volumeSidePreciseDetermination: true,
+  rowSize: "Auto",
+  atrLength: 14,
+  ticksPerRow: 100,
+  showVA: true,
+  vaPercent: 70,
+  imbalancePercent: 300,
+  calcStackedImbalance: false,
+  stackedImbalanceCount: 3,
+  ignore_zero_volume_for_imbalance_calc: false,
+  minimal_imbalance_volume: 0,
+  showBarStatistics: false,
+  showUnfinishedAuction: false,
+};
+
+export function msgCreateFootprintStudy(chartSession: string, studyId: string, seriesId: string): object {
+  return {
+    m: "create_study",
+    p: [chartSession, studyId, "st1", seriesId, FOOTPRINT_STUDY_TYPE, FOOTPRINT_INPUTS],
+  };
+}
+
 // --- Standalone test ---
 if (import.meta.main) {
   console.log("Protocol unit test\n");

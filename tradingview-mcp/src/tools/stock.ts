@@ -14,7 +14,8 @@ import type { Fetcher } from "../services/fetcher";
 import { computeAll } from "../services/compute";
 import { createChartClient, type ChartClient } from "../chart/client";
 import type { ChartBar, CVDBar, PanelRequest, CompositeRequest } from "../chart/types";
-import type { Bar, CVDPoint, CVDConfig } from "../types";
+import type { Bar, CVDPoint, CVDConfig, FootprintDaily } from "../types";
+import { footprintService } from "../services/footprint";
 
 const DEFAULT_CHART_DIR = "/tmp/charts";
 
@@ -30,6 +31,11 @@ export interface StockInput {
 
   /** End date (YYYY-MM-DD). Returns bars ending on this date. */
   toDate?: string;
+
+  /** Fetch Volume Footprint data (daily fp_buy_vol/fp_sell_vol). Requires TV_SESSION_ID. Default: false */
+  footprint?: boolean;
+  /** Number of 60-min bars to request for footprint (default 4000, max 4000). */
+  footprintBars?: number;
 
   // Chart-specific (ignored if output doesn't include "chart")
   sma?: number;               // default 20 (0 to disable)
@@ -68,6 +74,7 @@ export interface StockDataOutput {
   metrics: Record<string, number | null>;
   cvd: CVDPoint[] | null;
   cvdBottom: CVDPoint[] | null;
+  footprint: FootprintDaily[] | null;
 }
 
 export interface StockChartOutput {
@@ -179,6 +186,8 @@ export async function handleStock(fetcher: Fetcher, input: StockInput): Promise<
     count = 300,
     output = ["data", "chart"],
     toDate,
+    footprint = false,
+    footprintBars = 4000,
     sma = 20,
     volumeMA = 30,
     cvdTimeframe = "188",
@@ -204,13 +213,18 @@ export async function handleStock(fetcher: Fetcher, input: StockInput): Promise<
   // Auto-escalate CVD resolution for historical dates
   const effectiveCvdResolution = getHistoricalCvdResolution(toDate, cvdResolution, cvdBars, cvdTimeframe);
 
+  // ─── Kick off footprint fetch in parallel (via central service) ─────────────
+  const fpPromise = footprint
+    ? footprintService.fetchDaily(symbol, { bars: Math.min(footprintBars, 4000) })
+    : Promise.resolve(null);
+
   // ─── Single batch fetch: 2 panels, 1 WS call ───────────────────────────────
   await fetcher.setupBatch([
     { timeframe, count: fetchBars1, cvdConfig: { anchorPeriod: cvdAnchor, useCustomTimeframe: false } },
     { timeframe: cvdTimeframe, count: fetchBars2, cvdConfig: { anchorPeriod: cvdAnchor, useCustomTimeframe: cvdCustomTF ?? true, timeframe: effectiveCvdResolution } },
   ]);
 
-  const r = await fetcher.fetchNext(symbol);
+  const [r, fpResult] = await Promise.all([fetcher.fetchNext(symbol), fpPromise]);
 
   // ─── Extract raw data from both panels ──────────────────────────────────────
   let bars1: Bar[] = r.panels[0].bars;
@@ -245,6 +259,18 @@ export async function handleStock(fetcher: Fetcher, input: StockInput): Promise<
     const cvdTop: CVDPoint[] = cvd1.map((d) => ({ t: d.t, o: d.o, h: d.h, l: d.l, c: d.c }));
     const cvdBottom: CVDPoint[] = cvd2.map((d) => ({ t: d.t, o: d.o, h: d.h, l: d.l, c: d.c }));
 
+    // Filter footprint data to match the date range of bars1
+    let fpDaily: FootprintDaily[] | null = null;
+    if (fpResult && fpResult.length > 0) {
+      const fromDate = bars1[0] ? new Date(bars1[0].t * 1000).toISOString().split("T")[0] : null;
+      const toDateStr = bars1.at(-1) ? new Date(bars1.at(-1)!.t * 1000).toISOString().split("T")[0] : null;
+      if (fromDate && toDateStr) {
+        fpDaily = fpResult.filter(d => d.date >= fromDate && d.date <= toDateStr);
+      } else {
+        fpDaily = fpResult;
+      }
+    }
+
     result.data = {
       symbol: r.meta?.fullName || symbol,
       meta: r.meta ? {
@@ -263,6 +289,7 @@ export async function handleStock(fetcher: Fetcher, input: StockInput): Promise<
       metrics: computed.metrics,
       cvd: cvdTop.length > 0 ? cvdTop : null,
       cvdBottom: cvdBottom.length > 0 ? cvdBottom : null,
+      footprint: fpDaily && fpDaily.length > 0 ? fpDaily : null,
     };
   }
 

@@ -46,3 +46,31 @@ export interface CVDConfig {
   useCustomTimeframe?: boolean; // default false
   timeframe?: string;           // default "30S" (30 seconds), only active when useCustomTimeframe=true
 }
+
+// ─── Footprint types ─────────────────────────────────────────────────────────
+
+export interface FootprintLevel {
+  buyVolume: number;
+  sellVolume: number;
+  imbalance: string;  // "buy" | "sell" | ""
+  price: number;
+}
+
+export interface FootprintBar {
+  id: number;
+  tf: string;       // "S" = tick, "1" = 1min, "60" = 60min
+  index: number;
+  poc: number;
+  val: number;      // value area low
+  vah: number;      // value area high
+  levels: FootprintLevel[];
+}
+
+/** Daily aggregated footprint data */
+export interface FootprintDaily {
+  date: string;     // YYYY-MM-DD
+  fp_buy_vol: number;
+  fp_sell_vol: number;
+  fp_delta: number;       // buy - sell
+  fp_total_vol: number;   // buy + sell
+}

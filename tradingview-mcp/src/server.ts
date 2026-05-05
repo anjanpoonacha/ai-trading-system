@@ -66,6 +66,9 @@ server.tool(
     count: z.number().optional().describe("Number of bars to fetch. Default: 300. Use 500+ for accurate EMA200."),
     output: z.array(z.enum(["data", "chart"])).optional().describe("What to return. Default: ['data', 'chart']. Use ['data'] for just indicators, ['chart'] for just the image."),
     toDate: z.string().optional().describe("End date (YYYY-MM-DD). Returns bars ending on this date. Default: latest available."),
+    // Footprint params
+    footprint: z.boolean().optional().describe("Fetch Volume Footprint data (daily fp_buy_vol/fp_sell_vol). Requires TV_SESSION_ID. Default: false"),
+    footprintBars: z.number().optional().describe("Number of 60-min bars for footprint (max 4000). Default: 4000"),
     // Chart-specific params
     sma: z.number().optional().describe("SMA period for chart (0 to disable). Default: 20"),
     volumeMA: z.number().optional().describe("Volume MA period (0 to disable). Default: 30"),
