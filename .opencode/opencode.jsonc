@@ -6,13 +6,19 @@
       "command": [
         "bun",
         "run",
-        "/Users/i548399/SAPDevelop/github.com/nse-trading-system/tradingview-mcp/src/server.ts"
+        // Update this path to point to your local tradingview-mcp checkout
+        "/Users/I548399/SAPDevelop/github.com/personal/tradingview-mcp/src/server.ts"
       ],
       "enabled": true,
       "environment": {
-        "TV_SESSION_ID": "6clb9v0eb0syr7tmynrmtzk3jeeh3046",
-        "TV_SESSION_SIGN": "v3:++zfhfgmGZqjIG6OmTj4noxtVsCL6w0wEF2ZntbN48s=",
-        "PATH": "/Users/i548399/.bun/bin:/Users/i548399/.nodenv/shims:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
+        // Get these from your TradingView browser cookies (required for CVD).
+        // See tradingview-mcp/.env.example for instructions.
+        "TV_SESSION_ID": "your_sessionid_cookie",
+        "TV_SESSION_SIGN": "your_sessionid_sign_cookie",
+        // PATH must include BOTH node and bun.
+        // The chart renderer is a Node subprocess — node must be resolvable here.
+        // Adjust for your runtime manager (mise shown below; see README for nvm/homebrew).
+        "PATH": "/Users/I548399/.local/share/mise/installs/node/lts/bin:/Users/I548399/.local/share/mise/installs/bun/latest/bin:/Users/I548399/.bun/bin:/Users/I548399/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
       }
     }
   }
