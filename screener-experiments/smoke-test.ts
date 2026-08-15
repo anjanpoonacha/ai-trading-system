@@ -1,20 +1,28 @@
 /**
  * Pipeline smoke test: MIO → tv_scan (ADT) → tv_stock (SMA slope) → shortlist
  * Run: cd ../tradingview-mcp && bun ../nse-trading-system/screener-experiments/smoke-test.ts
- *
- * MIO stage is mocked with 8 labeled NSE cases from experiment 001.
- * TODO: add "mio_base_universe" to screens.json, replace mock with handleScreen().
  */
 
 import { createFetcher } from "./src/services/fetcher.js";
 import { handleScan } from "./src/tools/scan.js";
 import { handleStock } from "./src/tools/stock.js";
+import { handleScreen } from "./src/tools/screen.js";
 
-const MIO_MOCK = ["USHAMART", "SHYAMMETL", "OLECTRA", "PATELENG", "ANGELONE", "CDSL", "NEULANDLAB", "BAJAJHIND"];
 const ADT_MIN_CR = 7;
 const SLOPE_WINDOW = 5;
+const SLOPE_SAMPLE = 20; // ponytail: cap for smoke test; full run needs batch or tv_scan offset columns
 
 const fetcher = createFetcher();
+
+// ── Stage 1: MIO screen ───────────────────────────────────────────────────────
+
+async function stageMIO(): Promise<string[]> {
+  console.log("[stage 1] tv_screen — mio_base_universe");
+  const result = await handleScreen({ screens: ["mio_base_universe"] }) as any;
+  const symbols: string[] = result.candidates.map((c: any) => c.symbol);
+  console.log(`  → ${symbols.length} symbols from MIO`);
+  return symbols;
+}
 
 // ── Stage 2: ADT filter ───────────────────────────────────────────────────────
 
@@ -31,8 +39,6 @@ async function stageADT(symbols: string[]) {
     const sym = d.name || row.symbol || "?";
     const adt_cr = (d["Value.Traded"] ?? 0) / 1e7;
     const sma20 = d.SMA20;
-    const tag = adt_cr >= ADT_MIN_CR ? "PASS" : "FAIL";
-    console.log(`  ${sym.padEnd(12)} ADT=${adt_cr.toFixed(1).padStart(6)} Cr  SMA20=${String(sma20?.toFixed(1) ?? "n/a").padStart(8)}  [${tag}]`);
     if (adt_cr >= ADT_MIN_CR) passed.push({ symbol: sym, adt_cr, sma20 });
   }
   console.log(`  → ${passed.length}/${symbols.length} pass ADT filter`);
@@ -52,14 +58,9 @@ async function stageSlope(symbols: { symbol: string }[]) {
     const sma20: (number | null)[] = data?.indicators?.sma20 ?? [];
     const valid = sma20.filter((v): v is number => v != null);
 
-    if (valid.length < SLOPE_WINDOW + 1) {
-      console.log(`  ${symbol.padEnd(12)} SMA20 too short (${valid.length} values)  [SKIP]`);
-      continue;
-    }
+    if (valid.length < SLOPE_WINDOW + 1) continue;
 
     const slope = valid[valid.length - 1] - valid[valid.length - 1 - SLOPE_WINDOW];
-    const tag = slope > 0 ? "PASS" : "FAIL";
-    console.log(`  ${symbol.padEnd(12)} SMA20 slope=${slope.toFixed(2).padStart(8)} over ${SLOPE_WINDOW}d  [${tag}]`);
     if (slope > 0) passed.push(symbol);
   }
 
@@ -70,17 +71,19 @@ async function stageSlope(symbols: { symbol: string }[]) {
 // ── Main ──────────────────────────────────────────────────────────────────────
 
 console.log("=== Pipeline smoke test ===");
-console.log(`[stage 1] MIO mock — ${MIO_MOCK.length} symbols`);
-console.log("  (replace with handleScreen('mio_base_universe') once added to screens.json)");
 
-const adtPassed = await stageADT(MIO_MOCK);
-const shortlist = await stageSlope(adtPassed);
+const mioSymbols = await stageMIO();
+const adtPassed = await stageADT(mioSymbols);
+const sample = adtPassed.slice(0, SLOPE_SAMPLE);
+if (adtPassed.length > SLOPE_SAMPLE)
+  console.log(`\n  (slope stage capped at ${SLOPE_SAMPLE} for smoke test — full run needs bulk approach)`);
+const shortlist = await stageSlope(sample);
 
 console.log("\n=== SHORTLIST ===");
-shortlist.length
-  ? shortlist.forEach(s => console.log(`  ${s}`))
-  : console.log("  (none — all filtered out; check thresholds)");
+console.log(`  ${shortlist.length} stocks`);
+shortlist.forEach(s => console.log(`  ${s}`));
 
 const ok = adtPassed.length > 0;
 console.log(`\n=== ${ok ? "PASS" : "FAIL"} — pipeline ran end to end ===`);
 process.exit(ok ? 0 : 1);
+
