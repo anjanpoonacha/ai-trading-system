@@ -41,3 +41,16 @@
 ## Verdict
 
 ✓ TV MCP filter stage works. Two-stage filter (ADT + slope) correctly separates setups from pullbacks.
+
+## Update — Batch Slope via SMA20[1]
+
+Discovered `SMA20[1]` (yesterday's SMA20) works in tv_scan. Eliminated the slow serial `tv_stock` stage entirely.
+
+**Final pipeline — 2 batch calls, ~5 seconds:**
+
+| Stage | Tool | Input | Output |
+|-------|------|-------|--------|
+| MIO screen | tv_screen | — | 657 symbols |
+| ADT + slope | tv_scan | 657 | **404 shortlist** |
+
+Slope filter: `SMA20 > SMA20[1]` (1-bar, not 5-bar — only offset that works in TV Scanner).
