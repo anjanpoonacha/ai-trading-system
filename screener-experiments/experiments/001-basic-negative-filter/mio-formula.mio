@@ -1,0 +1,13 @@
+// Experiment 001 — Basic Negative Filter
+// Purpose: Eliminate clearly wrong stocks from NSE universe
+// Goal: pass stocks in consolidation/setup phase; reject clearly falling stocks
+//
+// advol = avg daily turnover in millions INR (crores × 10)
+// 5cr = 50, 10cr = 100, 15cr = 150
+//
+// count(sma(20) < sma(20)@1, 20) = how many of last 20 bars SMA(20) declined
+// < 10 means SMA declined on fewer than half the recent bars = not in clear downtrend
+
+exch(nse)
+and advol >= 50
+and count(sma(20) < sma(20)@1, 20) < 10

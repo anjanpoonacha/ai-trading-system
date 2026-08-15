@@ -1,106 +1,66 @@
+# CLAUDE.md
 
-Default to using Bun instead of Node.js.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-- Use `bun <file>` instead of `node <file>` or `ts-node <file>`
-- Use `bun test` instead of `jest` or `vitest`
-- Use `bun build <file.html|file.ts|file.css>` instead of `webpack` or `esbuild`
-- Use `bun install` instead of `npm install` or `yarn install` or `pnpm install`
-- Use `bun run <script>` instead of `npm run <script>` or `yarn run <script>` or `pnpm run <script>`
-- Use `bunx <package> <command>` instead of `npx <package> <command>`
-- Bun automatically loads .env, so don't use dotenv.
+## Runtime
 
-## APIs
+Use Bun throughout — `bun <file>`, `bun test`, `bun install`. Use `bun:sqlite`, `Bun.file`, `Bun.$`. No Node, no Express, no dotenv.
 
-- `Bun.serve()` supports WebSockets, HTTPS, and routes. Don't use `express`.
-- `bun:sqlite` for SQLite. Don't use `better-sqlite3`.
-- `Bun.redis` for Redis. Don't use `ioredis`.
-- `Bun.sql` for Postgres. Don't use `pg` or `postgres.js`.
-- `WebSocket` is built-in. Don't use `ws`.
-- Prefer `Bun.file` over `node:fs`'s readFile/writeFile
-- Bun.$`ls` instead of execa.
+## Commands
 
-## Testing
-
-Use `bun test` to run tests.
-
-```ts#index.test.ts
-import { test, expect } from "bun:test";
-
-test("hello world", () => {
-  expect(1).toBe(1);
-});
+```bash
+bun install
+bun scripts/seed-cases.ts       # seed data/cases.db with 17 course examples
+bun test                        # runs tests/store.test.ts (11 passing)
+bun agents/runtime/cli.ts <agent-name> "<task>"   # run an agent
 ```
 
-## Frontend
+## Architecture
 
-Use HTML imports with `Bun.serve()`. Don't use `vite`. HTML imports fully support React, CSS, Tailwind.
+**Inductive pipeline:** observe labeled chart cases → extract patterns → build screener → evaluate → trade.
 
-Server:
+**What's built:**
+- `src/store/` — SQLite case store (`schema.ts` + `cases.ts`), DB at `data/cases.db`
+- `agents/` — agent framework using `@openai/agents`, routed via local LLM proxy at `localhost:3030`. Three agents: `case-manager`, `chart-generator`, `chart-reviewer`
+- `agents/runtime/cli.ts` — entry point; loads agent `.md` definitions from `agents/definitions/`, wires MCP via `agents/mcp-servers.json`
+- `tradingview-mcp/` — separate Bun server providing `tv_scan`, `tv_stock`, `tv_screen` tools over MCP (run from `../tradingview-mcp`)
+- `docs/reference/` — 9 strategy docs distilled from course transcripts (source of truth for trading methodology)
+- `charts/cases/` — labeled chart images + `metadata.json` per case
 
-```ts#index.ts
-import index from "./index.html"
+**What's not built yet:** teaching interface, pattern extraction engine, screener, evaluator.
 
-Bun.serve({
-  routes: {
-    "/": index,
-    "/api/users/:id": {
-      GET: (req) => {
-        return new Response(JSON.stringify({ id: req.params.id }));
-      },
-    },
-  },
-  // optional websocket support
-  websocket: {
-    open: (ws) => {
-      ws.send("Hello, world!");
-    },
-    message: (ws, message) => {
-      ws.send(message);
-    },
-    close: (ws) => {
-      // handle close
-    }
-  },
-  development: {
-    hmr: true,
-    console: true,
-  }
-})
-```
+## Screener Experiments
 
-HTML files can import .tsx, .jsx or .js files directly and Bun's bundler will transpile & bundle automatically. `<link>` tags can point to stylesheets and Bun's CSS bundler will bundle.
+Track all MIO + TradingView MCP filter attempts in `screener-experiments/`. Every experiment gets its own numbered folder with the formula used, filters applied, result count, sample stocks, and verdict. Agents must read this history before proposing new filters.
 
-```html#index.html
-<html>
-  <body>
-    <h1>Hello, world!</h1>
-    <script type="module" src="./frontend.tsx"></script>
-  </body>
-</html>
-```
+## Stock Analysis Framework
 
-With the following `frontend.tsx`:
+When asked to analyse a stock's current position, always answer two questions:
 
-```tsx#frontend.tsx
-import React from "react";
-import { createRoot } from "react-dom/client";
+1. **Was there a tell before a prior significant move?** Go back into historical data and find it — CVD, volume, footprint, or their combination. Identify exactly what it was and when it appeared relative to the price move.
+2. **Is anything similar happening now?** Compare current data to that historical pattern. Yes / no / partial — be specific about what matches and what doesn't.
 
-// import .css files directly and it works
-import './index.css';
+Never analyse the present in isolation. The historical tell is the baseline.
 
-const root = createRoot(document.body);
+**How to find the tell:** Run `cvdAnchor` `"3M"` and `"6M"` together. The tell often appears on 3M while 6M still looks bearish — divergence between anchors is itself a signal. Also check: volume on key days (absorption vs distribution), footprint delta and buy/sell imbalances at support levels.
 
-export default function Frontend() {
-  return <h1>Hello, world!</h1>;
-}
+**CVD wicks — always read OHLC, not just close.** CVD has high/low intrabar. `tail` (close−low) = how much sellers pushed but buyers recovered. `wick` (high−close) = how much buyers pushed but sellers faded. `tail >> wick` on high volume = buyers in control = conviction. `wick >> tail` = demand surge sold into = distribution. The close alone misses who won the intrabar fight.
 
-root.render(<Frontend />);
-```
+**Anchor rule:** CVD values are only comparable within the same anchor window, never across a reset. A reset is visible as a sharp jump toward zero between two adjacent bars. Shorter anchor = earlier tell; longer anchor = trend confirmation.
 
-Then, run index.ts
+**Output order:** (1) historical tell — what, when, how many days before the move; (2) current state — same indicators, same anchors; (3) match/partial/no; (4) the price or CVD level that confirms or invalidates.
 
-```sh
-bun --hot ./index.ts
-```
+Full framework: `tradingview-mcp/docs/analysis-framework.md`
 
-For more information, read the Bun API docs in `node_modules/bun-types/docs/**.mdx`.
+## Trading Methodology
+
+See `docs/reference/` for the full strategy. Key current rules:
+- Trend filter: **20 SMA only** — 200 SMA and stage analysis are no longer part of the system
+- Screener approach: MIO for negative filtering (eliminate garbage) → TradingView MCP for computed filters → shortlist for manual chart review
+- Universe: NSE stocks, liquidity-filtered by ADT (crores)
+
+## Case Store Schema
+
+Labels: `good_base | bad_base | good_entry | failed_entry | breakout_real | breakout_fake | avoid | borderline | distribution | stage_4_trap`
+
+Key fields: `sma_20`, `volume_contraction_pct`, `base_depth_pct`, `trp_pct`, `adt_cr`, `outcome`, `outcome_pct`
